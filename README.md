@@ -1,5 +1,5 @@
 # CHS_LANG_Afterlife
-Afterlife Chinese Language 劫后余生中文汉化
+Afterlife Chinese Language 《劫后余生》中文汉化
 
 ## 《Afterlife（劫后余生）》 
 
