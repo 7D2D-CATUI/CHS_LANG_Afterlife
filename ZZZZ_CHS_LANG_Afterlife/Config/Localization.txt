@@ -1,0 +1,3375 @@
+Key,schinese
+
+zAfterlife,--------------------------------------------------------------------
+
+# General / Miscellaneous {{{
+AL_LK_BuildBlock,建造/升级方块
+AL_LK_Food,[(((ColourFood)))]食物[-]
+AL_LK_Water,[(((ColourWater)))]水[-]
+
+AL_LK_CraftingSkillPrefixRGB,[(((ColourModded)))]制造技能:[-]
+AL_LK_BookPrefixRGB,[(((ColourModded)))]书籍:[-]
+AL_LK_PerkPrefixRGB,[(((ColourModded)))]特性:[-]
+AL_LK_SkillPrefixRGB,[(((ColourModded)))]技能:[-]
+AL_LK_AttributePrefixRGB,[(((ColourModded)))]属性:[-]
+AL_LK_BookGroupPrefixRGB,[(((ColourModded)))]书籍组:[-]
+
+AL_LK_Buffs,增益效果
+AL_LK_Logging,伐木
+AL_LK_Mining,采矿
+AL_LK_Digging,挖掘
+AL_LK_Construction,建造与修理
+AL_LK_Salvage,拆解
+AL_LK_Healing,治疗
+
+AL_LK_RemoveBracketed,[(((ColourModded)))][移除][-]
+
+AL_LK_AlcoholismName,酒精依赖
+AL_LK_AlcoholismDesc,你喝得太多了……但你需要更多。
+
+AL_LK_EquipSlotLight,光源
+AL_LK_Survive,生存
+AL_LK_Unlocked,解锁
+AL_LK_Capacity,容量
+AL_LK_HealthRegen,[(((ColourLightCoral)))]生命值回复[-]
+
+AL_LK_StoneTools,石质工具
+AL_LK_ScrapTools,废料工具
+AL_LK_BronzeTools,[(((ColourDarkSalmon)))]青铜工具[-]
+AL_LK_IronTools,铁质工具
+AL_LK_SteelTools,钢质工具
+
+AL_LK_ElectronicsT1,电子设备一级
+AL_LK_ElectronicsT2,电子设备二级
+AL_LK_ElectronicsT3,电子设备三级
+
+AL_LK_CanBePickedUp,[(((ColourLightGreen)))]可以拾取[-]
+
+AL_LK_RainCatcher,雨水收集器
+AL_LK_EffectsColon,[(((ColourModded)))]效果:[-]
+
+AL_LK_TurnedPenalty,[(((ColourTomato)))]你转过身了。[-]
+
+AL_LK_RemoveTools,它里面还有工具。
+AL_LK_QueueNotEmpty,它还在制造中。
+AL_LK_FuelNotEmpty,它里面还有燃料。
+AL_LK_OutputNotEmpty,它的输出不是空的。
+AL_LK_ContainerNotEmpty,它不是空的。
+
+AL_LK_Heat,热量
+
+AL_LK_ReceivedWorkstationXP,你获得了 [(((ColourModded)))] 工作台 [-] 经验。
+AL_LK_MeleeWeapons,近战武器
+AL_LK_RangedWeapons,远程武器
+AL_LK_Ammo,弹药
+
+AL_LK_Workstation,工作台
+AL_LK_Tool,工具
+AL_LK_None,无
+AL_LK_RequiredWorkstation,所需工作台
+AL_LK_RequiredTool,所需工具
+
+AL_LK_Using,使用中
+AL_LK_UsingInf,使用
+AL_LK_Applying,应用中
+AL_LK_ApplyingInf,应用
+AL_LK_Eating,进食
+AL_LK_EatingInf,吃
+AL_LK_Drinking,喝水
+AL_LK_DrinkingInf,喝
+AL_LK_Taking,服用
+AL_LK_TakingInf,服用
+AL_LK_Reading,阅读
+AL_LK_ReadingInf,读
+AL_LK_Gathering,采集
+AL_LK_General,通用
+AL_LK_Class,类别
+AL_LK_ClassPerks,类别特性
+AL_LK_Vitality,生命力
+AL_LK_Combat,战斗
+AL_LK_Crafting,制造
+AL_LK_Survival,生存
+AL_LK_Mobility,移动能力
+AL_LK_ZombieKills,丧尸击杀数
+
+AL_LK_ContainerFull,容器已满。
+AL_LK_LiquidContainer,[77f4ff]液体容器[-]
+AL_LK_Weight,重量
+AL_LK_WeightLabel,(((AL_LK_Weight))):
+AL_LK_WeightKg,(((AL_LK_Weight))) (kg)
+AL_LK_IndividualWeightKg,单个重量 (kg)
+AL_LK_StackWeightKg,堆叠重量 (kg)
+AL_LK_Kg,Kg
+AL_LK_Sobering,清醒
+AL_LK_Supports,支持
+AL_LK_WetnessResistance,防湿性
+
+AL_LK_ZInfectionTestInfected,试剂盒的结果表明 [dd0000] 你已被感染 [-]。
+AL_LK_ZInfectionTestNotInfected,试剂盒的结果表明你 [00ff00] 未被感染 [-]。
+AL_LK_ZInfectionTestOtherInfected,试剂盒的结果表明 [dd0000] 他们已被感染 [-]。
+AL_LK_ZInfectionTestOtherNotInfected,试剂盒的结果表明他们 [00ff00] 未被感染 [-]。
+
+AL_LK_ZInfectionObvious,由于其严重程度，现在很明显 [dd0000] 你已被感染 [-]。
+
+AL_LK_SortByWeight,按重量排序 [bbbbbb]（降序）[-]
+
+AL_LK_Cleave,[(((ColourModded)))]劈砍[-]
+AL_LK_Backstab,[(((ColourModded)))]背刺[-]
+AL_LK_PowerAttack,[(((ColourModded)))]强力攻击[-]
+AL_LK_PushAttack,[(((ColourModded)))]推击[-]
+AL_LK_Weaken,[(((ColourModded)))]削弱[-]
+
+AL_LK_Unconscious,[(((ColourDarkGrey)))]昏迷[-]
+AL_LK_Yields,[(((ColourYields)))]产出[-]
+AL_LK_HarvestAction,[(((ColourModded)))][收获][-]
+# }}}
+
+# Craft Area to Block Name Translation {{{
+# NOTE TO LOCALISERS: Please enter the values shown here for your language.
+distillery,AL_Block_WorkstationDistillery
+advanced_furnace,AL_Block_WorkstationAdvancedFurnace
+mortar_and_pestle,AL_Block_WorkstationMortarAndPestle
+kiln,AL_Block_WorkstationKiln
+research_desk,AL_Block_WorkstationResearchDesk
+dye_tub,AL_Block_WorkstationDyeTub
+charcoal_kiln,AL_Block_WorkstationCharcoalKiln
+tablesaw,tableSaw
+# }}}
+
+# Item Stats Display {{{
+AL_LK_BronzeCraftingSpeed,青铜制造速度
+AL_LK_IronCraftingSpeed,铁质制造速度
+AL_LK_StoneBoulderBasher,石质巨石破坏者
+
+AL_LK_Knife,刀
+AL_LK_Spear,矛
+AL_LK_Club,棍棒
+AL_LK_Clubs,棍棒
+AL_LK_Sword,剑
+AL_LK_Sledgehammer,大锤
+AL_LK_Thrown,投掷物
+AL_LK_Fisticuffs,拳击
+
+AL_LK_Crossbows,弩
+AL_LK_Archery,弓箭
+
+AL_LK_Pickaxe,镐
+AL_LK_Axe,斧头
+AL_LK_Shovel,铲子
+
+AL_LK_Pickaxes,镐
+AL_LK_Axes,斧头
+AL_LK_Shovels,铲子
+
+AL_LK_Shotgun,霰弹枪
+AL_LK_Pistol,手枪
+AL_LK_Rifle,步枪
+AL_LK_SMG,冲锋枪
+AL_LK_LMG,轻机枪
+AL_LK_AssaultRifle,突击步枪
+
+AL_LK_Yes,是
+AL_LK_No,否
+# }}}
+
+# Tags {{{
+AL_Tag_CollapsedWorkstation,折叠的工作台
+
+AL_ItemType_Melee,近战武器
+AL_ItemType_Ranged,远程武器
+AL_ItemType_Thrown,投掷武器
+AL_ItemType_Pickaxes,镐
+AL_ItemType_Guns,枪械
+AL_ItemType_Axes,斧头
+AL_ItemType_Shovel,铲子
+AL_ItemType_Club,棍棒
+AL_ItemType_Baton,警棍
+AL_ItemType_Sledgehammer,大锤
+AL_ItemType_Knife,刀
+AL_ItemType_Sword,剑
+AL_ItemType_Polearm,长柄武器
+AL_ItemType_Spear,矛
+AL_ItemType_Knuckles,拳头武器
+AL_ItemType_Pickaxe,镐
+
+AL_ItemType_Pistol,手枪
+AL_ItemType_Magnum,左轮手枪
+AL_ItemType_Shotgun,霰弹枪
+AL_ItemType_Rifle,步枪
+AL_ItemType_SMG,冲锋枪
+AL_ItemType_LMG,轻机枪
+AL_ItemType_AssaultRifle,突击步枪
+
+AL_ItemType_Bow,弓
+AL_ItemType_Crossbow,弩
+
+AL_ItemType_ConstructionTool,建筑工具
+AL_ItemType_MiningTool,采矿工具
+AL_ItemType_DiggingTool,挖掘工具
+AL_ItemType_LoggingTool,伐木工具
+AL_ItemType_MotorTool,电动工具
+AL_ItemType_SalvageTool,拆解工具
+
+AL_Tag_BlockType_LoggingTarget,伐木目标
+AL_Tag_BlockType_MiningTarget,采矿目标
+AL_Tag_BlockType_DiggingTarget,挖掘目标
+AL_Tag_BlockType_ButcheringTarget,屠宰目标
+
+AL_AffectedByActionSkill_Butchering,刀刃对尸体
+AL_AffectedByActionSkill_ThrownWeapons,投掷武器
+AL_AffectedByActionSkill_Pickaxes,镐
+AL_AffectedByActionSkill_Guns,枪械
+AL_AffectedByActionSkill_Axes,斧头
+AL_AffectedByActionSkill_Shovels,铲子
+AL_AffectedByActionSkill_Clubbing,棍棒
+AL_AffectedByActionSkill_Sledgehammers,大锤
+AL_AffectedByActionSkill_Knives,刀
+AL_AffectedByActionSkill_Swordsmanship,剑术
+AL_AffectedByActionSkill_Polearms,长柄武器
+AL_AffectedByActionSkill_Spears,矛
+AL_AffectedByActionSkill_Fisticuffs,拳击
+AL_AffectedByActionSkill_Archery,弓箭
+AL_AffectedByActionSkill_Bows,弓
+AL_AffectedByActionSkill_Crossbows,弩
+
+AL_AffectedByActionSkill_Pistols,手枪
+AL_AffectedByActionSkill_Magnums,左轮手枪
+AL_AffectedByActionSkill_Shotguns,霰弹枪
+AL_AffectedByActionSkill_Rifles,步枪
+AL_AffectedByActionSkill_SMGs,冲锋枪
+AL_AffectedByActionSkill_LMGs,轻机枪
+AL_AffectedByActionSkill_AssaultRifles,突击步枪
+
+AL_AffectedByActionSkill_Logging,伐木工具
+AL_AffectedByActionSkill_Mining,采矿工具
+AL_AffectedByActionSkill_Digging,挖掘工具
+AL_AffectedByActionSkill_Salvaging,拆解工具
+AL_AffectedByActionSkill_ConstructionTools,建筑工具
+# }}}
+
+# Special Atacks {{{
+AL_LK_SpecialAttack,特殊攻击
+AL_LK_BackstabEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]背刺[-]\n尝试背刺可以通过次要攻击执行，在敌人看不到你的情况下命中时会额外造成伤害。可以通过 [(((ColourModded)))]刺客[-] 特性来提升。
+AL_LK_WeakenEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]削弱[-]\n削弱打击可以通过次要攻击执行，会减少目标当前的抗痛能力 10%。这使你能够更多地击打敌人而不使他们免疫眩晕。可以通过 [(((ColourModded)))]撕裂[-] 特性来提升。
+AL_LK_CleaveEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]劈砍[-]\n劈砍可以通过次要攻击执行，并会对范围内的所有目标造成伤害，就像分别击打每个目标一样。每增加一个目标都会增加攻击的耐力消耗，但这可以通过 [(((ColourModded)))]残忍动量[-] 特性来缓解。
+AL_LK_PushAttackEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]推击[-]\n推击可以通过次要攻击执行，并会将敌人推开一点距离。推的距离可以通过 [(((ColourModded)))]推挤[-] 特性来提升。
+AL_LK_PowerAttackEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]强力攻击[-]\n强力攻击可以通过次要攻击执行，并会发出较慢但更具杀伤力的攻击，相比其他武器的特殊攻击效果更强。可以通过 [(((ColourModded)))]超级攻击[-] 特性来增强。
+# }}}
+
+# Recipe List Categories {{{
+AL_LK_CategoryTools,工具
+AL_LK_CategoryTraps,陷阱
+AL_LK_CategoryAmmo,弹药
+AL_LK_CategoryWorkstations,工作台
+AL_LK_CategoryWoodworking,木工
+AL_LK_CategoryPerkBooks,特性书籍
+AL_LK_CategoryCraftingMagazines,制造杂志
+AL_LK_CategoryWriting,写作
+# }}}
+
+# Items {{{
+AL_Item_GoldNugget,金块
+AL_Item_GoldNuggetDesc,成为一块金块总比成为一块鸡肉块好。
+
+AL_Item_IronScraps,铁碎片
+AL_Item_IronScrapsDesc,各种小块的铁，除了熔炼外可能没什么用处。多么讽刺。
+
+AL_Item_SteelScraps,钢碎片
+AL_Item_SteelScrapsDesc,各种小块的钢。除了熔炼外可能没什么用处。
+
+AL_Item_BronzeScraps,青铜碎片
+AL_Item_BronzeScrapsDesc,各种小块的青铜。除了熔炼外可能没什么用处。
+
+AL_Item_TinScraps,锡碎片
+AL_Item_TinScrapsDesc,各种小块的锡。除了熔炼外可能没什么用处。
+
+AL_Item_CopperScraps,铜碎片
+AL_Item_CopperScrapsDesc,各种小块的铜。除了熔炼外可能没什么用处。
+
+AL_Item_BrassScraps,黄铜碎片
+AL_Item_BrassScrapsDesc,各种小块的黄铜。除了熔炼外可能没什么用处。
+
+AL_Item_ZincScraps,锌碎片
+AL_Item_ZincScrapsDesc,各种小块的锌。除了熔炼外可能没什么用处。
+
+AL_Item_DevBackpack,开发者背包
+AL_Item_DevBackpackDesc,你是个开发者吗，小子？！？！
+
+AL_Item_Kukri,弯刀
+AL_Item_KukriDesc,不知道它能不能像回飞镖一样用。\n\n(((AL_LK_BackstabEffect)))
+
+AL_Item_SolidStateDrive,固态硬盘
+AL_Item_SolidStateDriveDesc,一款超快的固态硬盘。可能存了一些色情资料。
+
+AL_Item_BronzeArrow,青铜箭
+AL_Item_BronzeArrowDesc,一支带有青铜箭头的箭。虽然不如铁或钢的好，但肯定比石头的好。
+
+AL_Item_BronzeBolt,青铜弩箭
+AL_Item_BronzeBoltDesc,一支带有青铜箭头的弩箭。虽然不如铁或钢的好，但肯定比石头的好。
+
+AL_Item_BronzeKnuckles,青铜指虎
+AL_Item_BronzeKnucklesDesc,没什么特别的，但它能打。\n\n(((AL_LK_WeakenEffect)))
+
+AL_Item_BronzeSledgehammer,青铜大锤
+AL_Item_BronzeSledgehammerDesc,就像公元前3300年的锤子时间！\n\n(((AL_LK_CleaveEffect)))
+
+AL_Item_BronzeWarhammer,青铜战锤
+AL_Item_BronzeWarhammerDesc,在不远的未来黑暗中，只有丧尸。\n\n(((AL_LK_PowerAttackEffect)))
+
+AL_Item_BronzeKnife,青铜刀
+AL_Item_BronzeKnifeDesc,你的日常实用青铜刀。\n\n(((AL_LK_BackstabEffect)))
+
+AL_Item_BronzeSpear,青铜矛
+AL_Item_BronzeSpearDesc,一根相当长的青铜矛，适合用来戳东西，而不是让东西戳回来。\n\n(((AL_LK_PushAttack)))
+
+AL_Item_BronzeArrowhead,青铜箭头
+AL_Item_BronzeArrowheadDesc,一个青铜箭头，可以用来制作箭或弩箭。
+
+AL_Item_BronzeAnvil,青铜砧
+AL_Item_BronzeAnvilDesc,可以在锻造台上安装以进行青铜锻造。
+
+AL_Item_AdvancedCrucible,高级熔炉
+AL_Item_AdvancedCrucibleDesc,高级熔炉是高级熔炼的关键部分，可以将需要极高温度液化的超合金铸造成型。可以在锻造台上安装。
+
+AL_Item_RaincoatJacket,雨衣夹克
+AL_Item_RaincoatJacketDesc,这件拼接的雨衣夹克不能完全防水，但会有一定帮助。
+
+AL_Item_RaincoatHood,雨衣帽子
+AL_Item_RaincoatHoodDesc,这件拼接的雨衣帽子可能会弄乱你的头发，但可以保持干燥。
+
+AL_Item_FryingPan,煎锅
+AL_Item_FryingPanDesc,砰！
+
+AL_Item_ScrapSpear,废料矛
+AL_Item_ScrapSpearDesc,它是一种远距离尖端工具。\n\n(((AL_LK_PushAttackEffect)))
+
+AL_Item_ScrapKnuckles,废料指虎
+AL_Item_ScrapKnucklesDesc,现在它们被搞定了！\n\n(((AL_LK_WeakenEffect)))
+
+AL_Item_WoodenBucketEmpty,木桶
+AL_Item_WoodenBucketEmptyDesc,一个可以用来收集水并倒到别处的木桶。[bbbbbb]只支持污浊感染水。[-]
+
+AL_Item_WoodenBucketMid,装有污浊感染水的木桶
+AL_Item_WoodenBucketMidDesc,一个装满了非常糟糕的水的木桶。非常非常糟糕。可以说是最糟糕的水。
+
+AL_Item_WoodenBucketFull,装满污浊感染水的木桶
+AL_Item_WoodenBucketFullDesc,一个装满了非常糟糕的水的木桶。非常非常糟糕。可以说是最糟糕的水。
+
+AL_Item_BronzeBucketEmpty,青铜桶
+AL_Item_BronzeBucketEmptyDesc,一个可以用来收集水并倒到别处的青铜桶。[bbbbbb]只支持污浊感染水。[-]
+
+AL_Item_BronzeBucketMid,[(((ColourModded)))]青铜桶[-] [(((ColourDirtyWater)))](污浊感染水)[-]
+AL_Item_BronzeBucketMidDesc,一个装满了非常糟糕的水的青铜桶。非常非常糟糕。可以说是最糟糕的水。
+
+AL_Item_BronzeBucketFull,[(((ColourModded)))]装满污浊感染水的青铜桶[-]
+AL_Item_BronzeBucketFullDesc,一个装满了非常糟糕的水的青铜桶。非常非常糟糕。可以说是最糟糕的水。
+
+AL_Item_ScrapShovel,[(((ColourModded)))]废料铲[-]
+AL_Item_ScrapShovelDesc,一把由回收和废料零件组装的铲子。如果生锈没有侵蚀太多，它还能用。
+
+AL_Item_ScrapPickaxe,[(((ColourModded)))]废料镐[-]
+AL_Item_ScrapPickaxeDesc,它几乎要散架了，但在散架之前应该还能敲碎几块石头。
+
+AL_Item_ScrapSledgehammer,[(((ColourModded)))]废料大锤[-]
+AL_Item_ScrapSledgehammerDesc,几根管子、一些胶带和一堆杂七杂八的垃圾，你就有了一个大锤。\n\n(((AL_LK_CleaveEffect)))
+
+AL_Item_InconelKnife,[(((ColourModded)))]镍合金刀[-]
+AL_Item_InconelKnifeDesc,一把纯镍合金刀刃的小刀，带聚合物手柄。\n\n(((AL_LK_BackstabEffect)))
+
+AL_Item_InconelGreatHammer,[(((ColourModded)))]镍合金大锤[-]
+AL_Item_InconelGreatHammerDesc,一把用我们最好的超合金制成的重型双手锤。\n\n(((AL_LK_CleaveEffect)))
+
+AL_Item_InconelMace,[(((ColourModded)))]镍合金狼牙棒[-]
+AL_Item_InconelMaceDesc,一把看起来很现代的镍合金狼牙棒。\n\n(((AL_LK_PowerAttackEffect)))
+
+AL_Item_InconelSpear,[(((ColourModded)))]镍合金长矛[-]
+AL_Item_InconelSpearDesc,它很长且硬度惊人，但缺乏厚度。\n\n(((AL_LK_PushAttackEffect)))
+
+AL_Item_InconelKnuckles,[(((ColourModded)))]镍合金指虎[-]
+AL_Item_InconelKnucklesDesc,如果你曾经想用一种先进的超合金拳击丧尸的脸，那你来对了。\n\n(((AL_LK_Weaken)))
+
+AL_Item_InconelShovel,[(((ColourModded)))]镍合金铲[-]
+AL_Item_InconelShovelDesc,这是一种太空时代的超合金，所以这把铲子也成了地形改造工具。
+
+AL_Item_InconelAxe,[(((ColourModded)))]镍合金斧[-]
+AL_Item_InconelAxeDesc,待定
+
+AL_Item_InconelPickaxe,[(((ColourModded)))]镍合金镐[-]
+AL_Item_InconelPickaxeDesc,待定
+
+AL_Item_BronzeAxe,[(((ColourModded)))]青铜斧[-]
+AL_Item_BronzeAxeDesc,一把青铜斧，比石斧好，但不如铁斧。
+
+AL_Item_BronzePickaxe,[(((ColourModded)))]青铜镐[-]
+AL_Item_BronzePickaxeDesc,用青铜敲石头比用石头敲石头更好。
+
+AL_Item_BronzeShovel,[(((ColourModded)))]青铜铲[-]
+AL_Item_BronzeShovelDesc,一个后新石器时代前讽刺的挖洞工具。
+
+AL_Item_Shiv,[(((ColourModded)))]自制刀[-]
+AL_Item_ShivDesc,拿起一件尖锐的东西，像刀一样握着，你就有了一个自制刀。\n\n(((AL_LK_BackstabEffect)))
+
+AL_Item_ZVirusTestingKit,[(((ColourModded)))]Z病毒测试套件[-]
+AL_Item_ZVirusTestingKitDesc,这个可以用来检测你是否被感染，在症状变得太明显之前。
+
+AL_Item_Vodka,[(((ColourModded)))]伏特加[-]
+AL_Item_VodkaDesc,自土豆以来一直帮助俄罗斯人“感觉”更温暖。
+
+AL_Item_Trinkermeister,[(((ColourModded)))]饮酒大师[-]
+AL_Item_TrinkermeisterDesc,当所有人都昏倒时，你就是饮酒大师！
+
+AL_Item_Umbrella,[(((ColourModded)))]雨伞[-]
+AL_Item_UmbrellaDesc,当外面下着大雨，但室内丧尸数量已经超标时，用雨伞。
+
+AL_Item_BucketFull,[(((ColourModded)))]装满污浊感染水的桶[-]
+AL_Item_BucketFullDesc,一个装满了非常糟糕的水的桶。非常非常糟糕。可以说是最糟糕的水。
+
+AL_Item_JarFuel,[(((ColourModded)))]燃料[-]
+AL_Item_JarFuelDesc,一罐燃料即汽油。不要喝它。
+
+AL_Item_JerryCan,[(((ColourModded)))]油桶[-]
+AL_Item_JerryCanDesc,经典的油桶，末世中的标志性物品。\n\n[bbbbbb]装备并按住左键在一个燃料源上填充。\n装备并按住右键给车辆加油或倒入燃料容器。\n仅支持燃料。[-]
+
+AL_Item_JarEmpty,空罐子
+AL_Item_JarEmptyDesc,可以从自然水源或容器中收集液体。
+
+AL_Item_Schnapps,[(((ColourModded)))]斯纳普酒[-]
+AL_Item_SchnappsDesc,斯纳普酒。一种果味、草本、辛辣、糖浆状的利口酒。会让你醉倒。
+
+AL_Item_TestKnife,[ff00ff]测试刀[-]
+AL_Item_TestKnifeDesc,捅捅捅！
+
+AL_Item_FlatTireSmall,[(((ColourModded)))]小型瘪胎[-]
+AL_Item_FlatTireSmallDesc,待定
+
+AL_Item_FlatTireLarge,[(((ColourModded)))]大型瘪胎[-]
+AL_Item_FlatTireLargeDesc,待定
+
+AL_Item_Tarp,[(((ColourModded)))]油布[-]
+AL_Item_TarpDesc,这是一块油布！
+
+AL_Item_Sickle,[(((ColourModded)))]镰刀[-]
+AL_Item_SickleDesc,镰刀是一种用于更容易更快地收割草和作物的有用工具，比徒手要好。不过在战斗中不太实用。
+
+AL_Item_TailoringMagazine,[(((ColourModded)))]针线杂志[-]
+AL_Item_TailoringMagazineDesc,从头到脚，我们为你覆盖。每一期都专注于高质量的家庭缝纫设计。
+
+AL_Item_LeatherworkingMagazine,[(((ColourModded)))]皮革杂志[-]
+AL_Item_LeatherworkingMagazineDesc,皮革？我几乎不认识她！
+
+AL_Item_Shafts,[(((ColourModded)))]木杆[-]
+AL_Item_ShaftsDesc,细长的木条，主要用于制作箭和弩箭。
+
+drinkJarBoiledWater,[c0ff00]感染水[-]
+drinkJarBoiledWaterDesc,这些水取自受Z病毒感染的水源，这并不奇怪，因为几乎所有水源都是如此。据说这些水已经被煮沸过，虽然不会让你的胃不适，但饮用仍然不明智。
+
+drinkJarRiverWater,[c0ff00]污浊感染水[-]
+drinkJarRiverWaterDesc,浑浊肮脏的受感染废水。喝了会让你拉肚子，死得更快。
+
+AL_Item_Compass,[(((ColourModded)))]指南针[-]
+AL_Item_CompassDesc,这不是谷歌地图，但也能凑合用。
+
+AL_Item_Guidebook,[(((ColourModded)))]指南书[-]
+AL_Item_GuidebookDesc,这本书的封面异常干净，在这个充满锈迹和灰尘的世界里显得格外鲜艳。它要么是由一位工艺大师制作的，要么是由一台专门制造的复杂机器生产的。其表面呈现出多种凹凸纹理，使得这本书格外引人注目。这本书的存在和状态不合常理，但没有任何线索可以解释这一点。\n\n[bbbbbb]你可以分解这个物品以跳过教程任务线，并获得完成任务的所有奖励。[-]
+
+AL_Item_ExtremelySimpleLifeMagazine,[(((ColourModded)))]极其简单生活杂志[-]
+AL_Item_ExtremelySimpleLifeMagazineDesc,这本杂志与那本书一样异常干净和鲜艳，仿佛刚刚印刷出来。浏览了几页之后，你会发现里面详细介绍了如何使用野外容易找到的材料制作几种原始的生存工具。杂志包含制作[(((ColourModded)))]石斧[-][ffffff]、[(((ColourModded)))]石镐[-][ffffff]、[(((ColourModded)))]石铲[-][ffffff]、[(((ColourModded)))]木槌[-] 和 [(((ColourGrey)))]原始弓[-] 的说明。
+
+AL_Item_LiteratureFragments,[(((ColourModded)))]文献碎片[-]
+AL_Item_LiteratureFragmentsDesc,包含各种知识的文字和插图。也许可以通过整理这些碎片产生有用的信息。
+
+AL_Item_BikerHelmet,[(((ColourModded)))]摩托车头盔[-]
+AL_Item_BikerHelmetDesc,它是用来骑车的，还是用来打架的？为什么不两者兼用呢？
+
+AL_Item_CeramicCrucible,[(((ColourModded)))]陶瓷坩埚[-]
+AL_Item_CeramicCrucibleDesc,这个由泥土和火制成的简单坩埚可以忠实地容纳几乎所有的熔融金属。可以在熔炉中安装使用。
+
+AL_Item_LockpickSet,[(((ColourModded)))]开锁工具组[-]
+AL_Item_LockpickSetDesc,一个携带袋内装有一套开锁工具。当然，在现代社会，它们只被爱好者和竞技开锁者使用。一个人不应该打开不属于自己的锁。是的，就是这样……
+
+AL_Item_PatchUpKit,[(((ColourModded)))]修补包[-]
+AL_Item_PatchUpKitDesc,这种由易得材料制成的简易装置可以适度修复大多数物品，但也会减少修复物品的最大耐久度，直到进行一次完整的修复。
+
+AL_Item_FreedomDye,[(((ColourModded)))]自由染色剂（开发物品）[-]
+AL_Item_FreedomDyeDesc,一种由染色缸生产的染色剂。
+
+AL_Item_ManukaHoney,[(((ColourModded)))]麦卢卡蜂蜜[-]
+AL_Item_ManukaHoneyDesc,据许多人宣称，[(((ColourModded)))]麦卢卡蜂蜜[-]可以增强免疫系统。味道也不错。
+
+AL_Item_HeadLamp,[(((ColourModded)))]头灯[-]
+AL_Item_HeadLampDesc,当你需要在黑暗中看清楚东西，同时还需要用手做事情，并且不想占用装备槽位时，它相当有用。
+
+AL_Item_Brick,[(((ColourModded)))]砖块[-]
+AL_Item_BrickDesc,普通的粘土砖，经过窑烧制而成，即将出现在附近的建筑中。
+
+AL_Item_BrickMould,[(((ColourModded)))]砖模[-]
+AL_Item_BrickMouldDesc,这只是用一些木材拼凑而成的模具，用来制作砖块。每个模具安装在一个[(((ColourModded)))]窑[-]中都可以将生产一块砖所需的时间减半。
+
+AL_Item_SchematicWristwatch,[(((ColourModded)))]手表图纸[-]
+AL_Item_SchematicLockpick,开锁工具图纸
+AL_Item_SchematicCompass,指南针图纸
+
+AL_Item_Wristwatch,[(((ColourModded)))]手表[-]
+AL_Item_WristwatchDesc,很久以前，在一个愚蠢的时代，有人觉得一直抬头看太阳会伤眼睛，于是他们买了一块手表。
+
+AL_Item_BoneShards,[(((ColourModded)))]骨头碎片[-]
+AL_Item_BoneShardsDesc,从较大的完整骨头断裂和分裂出来的细小骨片。
+
+AL_Item_Wood,[(((ColourModded)))]木头[-]
+AL_Item_WoodDesc,这种[(((ColourModded)))]木头[-]经过加工成不同形状，用于制作各种产品。
+
+AL_Item_IronOre,[(((ColourModded)))]铁矿石[-]
+AL_Item_IronOreDesc,这是铁金属的唯一来源，并且数量惊人。看来旧世界的探矿者真的很无能。
+
+AL_Item_CassiteriteOre,[(((ColourModded)))]锡石矿石[-]
+AL_Item_CassiteriteOreDesc,锡金属的来源，也是制作青铜合金的关键成分。
+
+AL_Item_NitreOre,[(((ColourModded)))]硝石矿石[-]
+AL_Item_NitreOreDesc,这种颗粒状、白色且不起眼的东西实际上是爆炸性力量的来源。
+
+AL_Item_GoldOre,[(((ColourModded)))]金矿石[-]
+AL_Item_GoldOreDesc,我们发财了！
+
+AL_Item_SilverOre,[(((ColourModded)))]银矿石[-]
+AL_Item_SilverOreDesc,嗨哟，银子！
+
+AL_Item_BookRockHardBase,[(((ColourModded)))]岩石硬杂志基础版（开发物品）[-]
+AL_Item_BookRockHard1,[(((ColourModded)))]岩石硬杂志：第一卷[-]
+AL_Item_BookRockHard2,[(((ColourModded)))]岩石硬杂志：第二卷[-]
+AL_Item_BookRockHard3,[(((ColourModded)))]岩石硬杂志：第三卷[-]
+AL_Item_BookRockHard4,[(((ColourModded)))]岩石硬杂志：第四卷[-]
+AL_Item_BookRockHard5,[(((ColourModded)))]岩石硬杂志：第五卷[-]
+AL_Item_BookRockHard6,[(((ColourModded)))]岩石硬杂志：第六卷[-]
+AL_Item_BookRockHard7,[(((ColourModded)))]岩石硬杂志：第七卷[-]
+
+AL_Item_BookRockHard1Desc,包含一种适合矿工生活方式的特殊咖啡配方。
+AL_Item_BookRockHard2Desc,有时你的热情超过了判断力，天空之石落在你身上。本期介绍了一些如何让天空之石不那么疼的技巧。
+AL_Item_BookRockHard3Desc,今晚，你们这些人将会和你们的镐子一起睡觉。你会给你的镐子起个女孩的名字。[REDACTED] 你和这把镐子结婚了。这把由铁和木头制成的工具。你要忠诚！（关于维护）
+AL_Item_BookRockHard4Desc,似乎如果你不小心敲打矿石，可能会破坏有价值的矿石。本期介绍了如何避免这种情况。
+AL_Item_BookRockHard5Desc,这期似乎全是关于采矿头盔的内容，特别是带有头灯的头盔。如何制作、穿戴以及食用它们等等。安全第一！
+AL_Item_BookRockHard6Desc,详细介绍了工作中保持水分的重要性。他们说的没错。采矿是出汗的工作，尤其是在你只留下一个出口并且一群怪物跳进来的时候。
+AL_Item_BookRockHard7Desc,本期详细描述了在坚硬的东西末端加上更硬的东西的优点。
+AL_BookGroup_RockHardDesc,你是岩石硬核的采矿者吗？这是你的杂志。
+
+AL_Item_BookDakkaX4Vol1,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第一卷[-]
+AL_Item_BookDakkaX4Vol2,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第二卷[-]
+AL_Item_BookDakkaX4Vol3,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第三卷[-]
+AL_Item_BookDakkaX4Vol4,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第四卷[-]
+AL_Item_BookDakkaX4Vol5,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第五卷[-]
+AL_Item_BookDakkaX4Vol6,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第六卷[-]
+AL_Item_BookDakkaX4Vol7,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第七卷[-]
+AL_Item_BookDakkaX4Desc,哒咔哒咔哒咔哒咔哒咔\n哒咔哒咔哒咔哒咔哒咔\n哒咔哒咔哒咔哒咔哒咔\n哒咔哒咔哒咔哒咔哒咔\n哒咔哒咔哒咔哒咔哒咔
+
+AL_Item_BookWhiskeyPunchVol1,[(((ColourModded)))]酒吧拳击：第一卷[-]
+AL_Item_BookWhiskeyPunchVol2,[(((ColourModded)))]酒吧拳击：第二卷[-]
+AL_Item_BookWhiskeyPunchVol3,[(((ColourModded)))]酒吧拳击：第三卷[-]
+AL_Item_BookWhiskeyPunchVol4,[(((ColourModded)))]酒吧拳击：第四卷[-]
+AL_Item_BookWhiskeyPunchVol5,[(((ColourModded)))]酒吧拳击：第五卷[-]
+AL_Item_BookWhiskeyPunchVol6,[(((ColourModded)))]酒吧拳击：第六卷[-]
+AL_Item_BookWhiskeyPunchVol7,[(((ColourModded)))]酒吧拳击：第七卷[-]
+AL_Item_BookWhiskeyPunchDesc,你试图翻阅这本书，却发现书中满是难以辨认的涂鸦、受伤但笑容满面的男人的照片，以及太多酒精饮料的图像。
+
+AL_Item_BookHitItVol1,[(((ColourModded)))]来一发：第一卷[-]
+AL_Item_BookHitItVol2,[(((ColourModded)))]来一发：第二卷[-]
+AL_Item_BookHitItVol3,[(((ColourModded)))]来一发：第三卷[-]
+AL_Item_BookHitItVol4,[(((ColourModded)))]来一发：第四卷[-]
+AL_Item_BookHitItVol5,[(((ColourModded)))]来一发：第五卷[-]
+AL_Item_BookHitItVol6,[(((ColourModded)))]来一发：第六卷[-]
+AL_Item_BookHitItVol7,[(((ColourModded)))]来一发：第七卷[-]
+AL_Item_BookHitItDesc,你是否曾经看着某样东西或某个人，心里想着“该死……我真想来一发”。嗯，我们有本书正适合你。
+
+AL_Item_BookMagnuminousVol1,[(((ColourModded)))]大口径：第一卷[-]
+AL_Item_BookMagnuminousVol2,[(((ColourModded)))]大口径：第二卷[-]
+AL_Item_BookMagnuminousVol3,[(((ColourModded)))]大口径：第三卷[-]
+AL_Item_BookMagnuminousVol4,[(((ColourModded)))]大口径：第四卷[-]
+AL_Item_BookMagnuminousVol5,[(((ColourModded)))]大口径：第五卷[-]
+AL_Item_BookMagnuminousVol6,[(((ColourModded)))]大口径：第六卷[-]
+AL_Item_BookMagnuminousVol7,[(((ColourModded)))]大口径：第七卷[-]
+AL_Item_BookMagnuminousDesc,待定：此书内容
+
+AL_Item_BookYoinkVol1,[(((ColourModded)))]抢夺：第一卷[-]
+AL_Item_BookYoinkVol2,[(((ColourModded)))]抢夺：第二卷[-]
+AL_Item_BookYoinkVol3,[(((ColourModded)))]抢夺：第三卷[-]
+AL_Item_BookYoinkVol4,[(((ColourModded)))]抢夺：第四卷[-]
+AL_Item_BookYoinkVol5,[(((ColourModded)))]抢夺：第五卷[-]
+AL_Item_BookYoinkVol6,[(((ColourModded)))]抢夺：第六卷[-]
+AL_Item_BookYoinkVol7,[(((ColourModded)))]抢夺：第七卷[-]
+AL_Item_BookYoinkDesc,如果你像我（编辑）一样，喜欢抢夺，并且在每一个机会都说“抢夺”。这是一系列关于快速抢夺、频繁抢夺以及抢夺一切的书籍。
+
+AL_Item_BookWildThingVol1,[(((ColourModded)))]狂野事物：第一卷[-]
+AL_Item_BookWildThingVol2,[(((ColourModded)))]狂野事物：第二卷[-]
+AL_Item_BookWildThingVol3,[(((ColourModded)))]狂野事物：第三卷[-]
+AL_Item_BookWildThingVol4,[(((ColourModded)))]狂野事物：第四卷[-]
+AL_Item_BookWildThingVol5,[(((ColourModded)))]狂野事物：第五卷[-]
+AL_Item_BookWildThingVol6,[(((ColourModded)))]狂野事物：第六卷[-]
+AL_Item_BookWildThingVol7,[(((ColourModded)))]狂野事物：第七卷[-]
+AL_Item_BookWildThingDesc,待定：此书内容
+
+AL_Item_OldCoin,[(((ColourModded)))]旧硬币[-]
+AL_Item_OldCoinDesc,仔细一看，这枚变色且布满灰尘的旧硬币更像是赌场筹码而不是旧世界的零钱。现在它有什么用途呢？
+
+AL_Item_SyphiaSpore,[(((ColourModded)))]赛菲亚孢子[-]
+AL_Item_SyphiaSporeDesc,这株神秘的蘑菇似乎在白天时会自我遮蔽。如果必须在黑暗中寻找它们，只能希望它们具有值得冒夜晚危险的价值。
+
+AL_Item_SyphiaPaste,[(((ColourModded)))]赛菲亚糊[-]
+AL_Item_SyphiaPasteDesc,一些[(((ColourModded)))]赛菲亚孢子[-]蘑菇磨成的糊状物。看起来不太诱人……
+
+AL_Item_SyphiaSyrup,[(((ColourModded)))]赛菲亚糖浆[-]
+AL_Item_SyphiaSyrupDesc,金橙色的微光在这黏稠的液体中闪烁。它的香气和外观一样诱人，你有信心尽管它很浓稠，但它会成为一种清爽的饮料。
+
+AL_Item_SimpleToolbelt,[(((ColourModded)))]简易工具带[-]
+AL_Item_SimpleToolbeltDesc,快速访问？最佳访问。
+
+AL_Item_Radio,[(((ColourModded)))]收音机[-]
+AL_Item_RadioDesc,通过神奇的无线电波，这台[(((ColourModded)))]收音机[-]使你能够知道朋友们的位置，前提是他们也有收音机。
+
+AL_Item_GPS,[(((ColourModded)))]全球定位系统（GPS）[-]
+AL_Item_GPSDesc,令人惊讶的是，在这个末日世界里，[(((ColourModded)))]GPS[-]仍然有效，但不应质疑这份礼物马的嘴或类似奇怪的说法。待补充更多内容。
+
+AL_Item_SurvivalistMap,[(((ColourModded)))]生存地图[-]
+AL_Item_SurvivalistMapDesc,你需要知道去过哪里才能知道自己要去哪里。这本[(((ColourModded)))]生存地图[-]可以帮助你记录已探索的区域并标记重要的地点。
+
+AL_Item_ScrapMetal,[(((ColourModded)))]废金属[-]
+AL_Item_ScrapMetalDesc,一堆杂乱无章的、勉强可用的金属碎片。可以冶炼去除杂质，可能揭示出有用的东西。
+
+AL_Item_Slag,[(((ColourModded)))]炉渣[-]
+AL_Item_SlagDesc,当多种熔融金属混合时，就会得到炉渣。\n\n[bbbbbb]当[-] [(((ColourModded)))]废金属[-] [bbbbbb]由于温度不足而无法冶炼成特定金属时，会产生炉渣。炉渣可以再次冶炼，以产生足够的废金属来冶炼出一种特定金属。需要注意的是（虽然不太现实），每单位废金属在冶炼时的概率是随机的，因此重新冶炼炉渣并不是为了获取原先错过的金属，而是相当于重新冶炼一定量的废金属。[-]
+
+AL_Item_ScrapAxe,[(((ColourModded)))]废料斧[-]
+AL_Item_ScrapAxeDesc,这是一堆生锈的材料，但任何金属碎片都比石头锋利。大概吧。
+
+AL_Item_WholeRawChicken,[(((ColourModded)))]整只生鸡[-]
+AL_Item_WholeRawChickenDesc,一只完整的生鸡肉，来源于出色的屠宰工作。别这样吃。
+
+AL_Item_Kar98K,Kar98k
+AL_Item_Kar98KDesc,毛瑟Karabiner 1898 Kurz是一支发射7.62毫米弹药的栓动步枪。在二战期间，它是德军的标准步枪。他们输掉了战争。不过是一把好枪。
+
+AL_Item_StonePickaxe,[(((ColourModded)))]石镐[-]
+AL_Item_StonePickaxeDesc,这是一把手工制作的、本地采购的、尖端的石镐，由最高质量的有机木棍、石头和草制成。
+
+AL_Item_LargeStone,[(((ColourModded)))]大石头[-]
+AL_Item_LargeStoneDesc,这块石头很大。它可以推走小石头。
+
+AL_Item_LargeSharpStone,[(((ColourModded)))]大尖石[-]
+AL_Item_LargeSharpStoneDesc,一块沉重的带有尖锐边缘的石头。这是我们杰出的新石器时代思想家所发明的伟大技术创新之一。如果你用其他尖锐的石头削掉较大石头的一部分，就可以得到一块这样的石头。
+
+AL_Item_SmallSharpStone,[(((ColourModded)))]小尖石[-]
+AL_Item_SmallSharpStoneDesc,观察发现，尺寸窄的物体比宽的物体更容易分割物质。正是通过这一观察，人类发展出了小尖石。
+
+AL_Item_GarnieriteOre,[(((ColourModded)))]加尼埃石矿[-]
+AL_Item_GarnieriteOreDesc,[(((ColourModded)))]加尼埃石矿[-]经过提炼后可大量产出镍金属。
+
+AL_Item_GalenaOre,[(((ColourModded)))]方铅矿[-]
+AL_Item_GalenaOreDesc,这种奇特的矿石是这个世界中铅的主要来源。有时也可能产出一些银。
+
+AL_Item_ChromiteOre,[(((ColourModded)))]铬铁矿[-]
+AL_Item_ChromiteOreDesc,[(((ColourModded)))]铬铁矿[-]如蛇纹岩中的这种矿石可以提炼成铬金属。
+
+AL_Item_ChalcopyriteOre,[(((ColourModded)))]黄铜矿[-]
+AL_Item_ChalcopyriteOreDesc,[(((ColourModded)))]黄铜矿[-]如这种矿石是铜的重要来源。
+
+AL_Item_SphaleriteOre,[(((ColourModded)))]闪锌矿[-]
+AL_Item_SphaleriteOreDesc,[(((ColourModded)))]闪锌矿[-]是含锌的主要矿石。
+
+AL_Item_Anthracite,[(((ColourModded)))]无烟煤[-]
+AL_Item_AnthraciteDesc,这种碳质燃料将使你的熔炉温度飙升。
+
+AL_Item_DarkDaysLager,[(((ColourModded)))]黑暗时光拉格啤酒[-]
+AL_Item_DarkDaysLagerDesc,[(((ColourModded)))]黑暗时光拉格啤酒[-]……这是对丧尸来临前最黑暗时刻的致敬……那是美好的时光。
+
+AL_Item_DrinkSmallBeer,[(((ColourModded)))]淡啤酒[-]
+AL_Item_DrinkSmallBeerDesc,在中世纪，[(((ColourModded)))]淡啤酒[-]被农场工人大量饮用，因为它是一种提神且安全的方式，可以摄入所需的热量。通常含有不到1%的酒精含量，所以如果你想喝醉，这并不是一个好的选择。
+
+AL_Item_WoodenMallet,[(((ColourModded)))]木槌[-]
+AL_Item_WoodenMalletDesc,简单的[(((ColourModded)))]木槌[-]。一个用于敲击木块和其他有趣活动的好工具。
+
+AL_Item_StoneMallet,[(((ColourModded)))]石槌[-]
+AL_Item_StoneMalletDesc,与木槌相比，[(((ColourModded)))]石槌[-]在建造能力上略胜一筹，但更加耐用。
+
+AL_Item_BronzeMallet,[(((ColourModded)))]青铜槌[-]
+AL_Item_BronzeMalletDesc,第一个金属建筑工具，也是第一个可以有效地加工比木头和石头更强材料的工具。
+
+AL_Item_PlasticBottleEmpty,[(((ColourModded)))]空塑料瓶[-]
+AL_Item_PlasticBottleEmptyDesc,[(((ColourModded)))]空塑料瓶[-]。你会认为在一个像这里的第一世界国家里，人们应该能够从水龙头安全饮水，但实际上并非如此。大规模营销（也称为宣传）使得如今普通的塑料瓶变得无处不在。在末日前这是一种资源浪费，但在末日后却成了方便的容器。
+
+AL_Item_PlasticBottleLakewater,[(((ColourModded)))]湖水（塑料瓶装）[-]
+AL_Item_PlasticBottleLakewaterDesc,[(((ColourModded)))]装满湖水的塑料瓶[-]。品尝测试显示它是咸的，这有点奇怪，因为这是湖水。可能充满了恶心的微生物和丧尸病毒。
+
+AL_Item_PlasticBottleRiverwater,[(((ColourModded)))]河水（塑料瓶装）[-]
+AL_Item_PlasticBottleRiverwaterDesc,[(((ColourModded)))]装满河水的塑料瓶[-]。不像湖水，它是安全饮用的（不是咸的）。
+
+AL_Item_PlasticBottleBrine,[(((ColourModded)))]盐水（塑料瓶装）[-]
+AL_Item_PlasticBottleBrineDesc,[(((ColourModded)))]装满盐水的塑料瓶[-]。什么是盐水？你不知道吗？好吧。基本上就是非常咸的水。你可以喝它，但也可以不喝，那样会更好。
+
+AL_Item_Water,[(((ColourModded)))]水[-]
+AL_Item_WaterDesc,这种水可能是当今最干净、纯净和安全的。由于Z病毒存在于几乎所有的水体中，通常只有长期密封存储的水或通过蒸馏净化的水才会这么干净。
+
+AL_Item_Salt,[(((ColourModded)))]盐[-]
+AL_Item_SaltDesc,这是[(((ColourModded)))]盐[-]！显然，即使是极端环境下的丧尸病毒也无法在没有水的情况下存活，真是谢天谢地。
+
+AL_Item_FiberCordage,[(((ColourModded)))]纤维绳索[-]
+AL_Item_FiberCordageDesc,自从末日终结了那些雄心勃勃的基因工程计划——试图让胶带长在树上——现在只能使用简单的[(((ColourModded)))]纤维绳索[-]了。
+
+resourceYuccaFibers,植物纤维
+resourceYuccaFibersDesc,自从末日终结了那些雄心勃勃的基因工程计划——试图让胶带长在树上——现在只能使用植物纤维编织的绳索了。
+
+AL_Item_FiberSlingBag,[(((ColourModded)))]纤维单肩包[-]
+AL_Item_FiberSlingBagDesc,这款时尚单品采用异国情调的草织品，并且还带有一个单肩带。携带起来有些笨拙，肯定会影响行动[bbbbbb](-5%)[-]，但制作简单，至少基本能满足需求。
+
+AL_Item_FiberBackpack,[(((ColourModded)))]纤维背包[-]
+AL_Item_FiberBackpackDesc,这件精致的作品虽然是由草编织而成，但确实是一个真正的背包，因为它确实背在背上。虽然组装需要更多的时间，但在其他选择不可用的情况下，这是一个主要的选择。
+
+AL_Item_LeatherBackpack,[(((ColourModded)))]皮革背包[-]
+AL_Item_LeatherBackpackDesc,与[(((ColourModded)))]纤维单肩包[-]不同，这是一个真正的背包。虽然容量不多，但更实用。
+
+AL_Item_PaddedBackpack,[(((ColourModded)))]尼龙背包[-]
+AL_Item_PaddedBackpackDesc,在这个生活中，这可能是你能得到的最接近普通背包的东西了。
+
+AL_Item_ScrapPack,[(((ColourModded)))]废料背包[-]
+AL_Item_ScrapPackDesc,这仍然是一个背包，但装满了生锈的废金属板、螺丝钉、钉子、网片等。它实际上更像一件护甲，而不仅仅是背包。
+
+AL_Item_HikerBackpack,[(((ColourModded)))]徒步背包[-]
+AL_Item_HikerBackpackDesc,这种大型背包常用于徒步旅行者和背包客。它储存很多东西，但严重影响行动能力[bbbbbb](-20%)[-]。
+
+AL_Item_MilitaryAssaultPack,[(((ColourModded)))]军用突击背包[-]
+AL_Item_MilitaryAssaultPackDesc,这款先进的背包专为战斗中的步兵设计。它效率高，容量大，不影响行动能力。
+
+AL_Item_MilitaryRucksack,[(((ColourModded)))]军用背包[-]
+AL_Item_MilitaryRucksackDesc,这款先进的背包专为士兵部署所需的所有补给品设计。因此，它存储大量物品，但由于未特别设计用于行动能力[bbbbbb](-10%)[-]，会稍微减慢速度。
+
+AL_Item_Leather,[(((ColourModded)))]皮革[-]
+AL_Item_LeatherDesc,几块残破的、精心挑选的皮革条。
+
+AL_Item_ScrapWood,[(((ColourModded)))]废木材[-]
+AL_Item_ScrapWoodDesc,零碎的木材，勉强够做箭杆。可能对维持火堆有帮助。
+
+AL_Item_PrimitiveJavelin,[(((ColourModded)))]原始标枪[-]
+AL_Item_PrimitiveJavelinDesc,仅仅是一根棍子，但一端磨尖。如果投掷得快、用力且准确，或许可以作为武器。
+
+AL_Item_Stick,[(((ColourModded)))]棍子[-]
+AL_Item_StickDesc,一根棍子。
+
+AL_Item_Pitch,[(((ColourModded)))]松香[-]
+AL_Item_PitchDesc,像胶水。[i][(((ColourModded)))]松香[-]胶水[/i]。可能不如你期望的那么粘，但可能已经足够用了。它也很容易燃烧。
+
+AL_Item_Charcoal,[(((ColourModded)))]木炭[-]
+AL_Item_CharcoalDesc,当你需要比木材更多的热量时，这是一种易于获取的强大燃料。
+
+AL_Item_CharcoalPowder,[(((ColourModded)))]木炭粉[-]
+AL_Item_CharcoalPowderDesc,经过一番努力后得到的木炭粉。可用于制作原始胶水。
+
+AL_Item_Limestone,[(((ColourModded)))]石灰石[-]
+AL_Item_LimestoneDesc,美味。
+
+AL_Item_LimestonePowder,[(((ColourModded)))]石灰石粉[-]
+AL_Item_LimestonePowderDesc,如果你把它和水混合，你会得到绿色果冻。
+
+AL_Item_IngotWroughtIron,"[(((ColourIron)))]熟铁锭[-]"
+AL_Item_IngotBronze,"[(((ColourBronze)))]青铜锭[-]"
+AL_Item_IngotTin,"[(((ColourTin)))]锡锭[-]"
+AL_Item_IngotPigIron,"[(((ColourIron)))]生铁锭[-]"
+AL_Item_IngotBrass,"[(((ColourBrass)))]黄铜锭[-]"
+AL_Item_IngotLead,"[(((ColourLead)))]铅锭[-]"
+AL_Item_IngotCopper,"[(((ColourCopper)))]铜锭[-]"
+AL_Item_IngotChromium,"[(((ColourChromium)))]铬锭[-]"
+AL_Item_IngotSteel,"[(((ColourSteel)))]钢锭[-]"
+AL_Item_IngotSilver,"[(((ColourSilver)))]银锭[-]"
+AL_Item_IngotGold,"[(((ColourGold)))]金锭[-]"
+AL_Item_IngotNickel,"[(((ColourNickel)))]镍锭[-]"
+AL_Item_IngotZinc,"[(((ColourZinc)))]锌锭[-]"
+AL_Item_IngotInconel,"[(((ColourInconel)))]镍合金棒材[-]"
+AL_Item_IngotWroughtIronDesc,"这是铁，但它无法抗拒被锻造。多么讽刺。"
+AL_Item_IngotBronzeDesc,"一种由锡和铜制成的青铜合金锭。"
+AL_Item_IngotTinDesc,"一块纯锡金属，除了用于生产青铜外，并没有太多用途。"
+AL_Item_IngotPigIronDesc,"之所以被称为生铁是因为液态铁在传统模具中看起来像一群小猪崽。生铁具有高碳含量，在钢铁生产中是中间产物。"
+AL_Item_IngotLeadDesc,"这是铅。非常密集，非常重，并且适合制造子弹。别想着用它来造飞艇，好吗？"
+AL_Item_IngotCopperDesc,"就金属而言，铜相当柔软，但它是我们最早使用的金属之一，尤其是在青铜生产中。虽然在大多数用途上已被取代，但依然是我们历史的重要部分。"
+AL_Item_IngoChromiumDesc,"一种坚硬且耐腐蚀的金属，用于制造强大合金。"
+AL_Item_IngotSteelDesc,"现在我们是在谈论正事！"
+AL_Item_IngotSilverDesc,"一块纯银。这本来价值不菲……"
+AL_Item_IngotGoldDesc,"曾经极其珍贵，现在不过是个闪亮的弯曲砖块。"
+AL_Item_IngotNickelDesc,"超级合金的基础材料。"
+AL_Item_IngotZincDesc,"你知道锌在室温下会融化吗？好。其实并不会。"
+AL_Item_IngotInconelDesc,"一种令人难以置信的空间技术超级合金，能承受压力、高温和腐蚀，也许比任何其他金属或合金都好，而且我们在丧尸末日中居然能制造出来。真是惊人。"
+
+AL_Item_Resin,[(((ColourModded)))]树脂[-]
+AL_Item_ResinDesc,"[(((ColourModded)))]树脂[-]就是你在靠在树上时手上感觉到的那种黏糊糊的东西。如果需要的话，这种黏糊糊的树胶可以作为一种原始的粘合剂。"
+
+AL_Item_PrimitiveMortar,[(((ColourModded)))]原始灰浆[-]
+AL_Item_PrimitiveMortarDesc,"这个[(((ColourModded)))]原始灰浆[-]其实只是一些随手抓来的泥土混合物。它能粘住任何东西本身就有点令人惊讶。但它确实做到了。"
+
+AL_Item_Mortar,[(((ColourModded)))]灰浆[-]
+AL_Item_MortarDesc,"这个是用来建筑的，而不是用来射击的，尽管有个真正的迫击炮也不错。"
+
+AL_Item_PasteRed,"[ff4040]红色[-] 糊状物"
+AL_Item_PasteGreen,"[40ff40]绿色[-] 糊状物"
+AL_Item_PasteBlue,"[4040ff]蓝色[-] 糊状物"
+AL_Item_PasteWhite,"白色糊状物"
+AL_Item_PasteBlack,"[404040]黑色[-] 糊状物"
+
+AL_Item_PasteRedDesc,"客观上最好的颜色，可以在染缸中使用以增加红色。"
+AL_Item_PasteBlueDesc,"听我说，这儿有个故事，关于一个住在蓝色世界的小家伙……这个可以在染缸中使用以增加蓝色。"
+AL_Item_PasteGreenDesc,"如果你喜欢绿色，那你运气不错。自然界是绿色的，可以将其压碎成糊状物，然后在染缸中使用以增加绿色。"
+AL_Item_PasteBlackDesc,"比哥特/阴郁双修的心还要黑，可以在染缸中使用以加深颜色。"
+AL_Item_PasteWhiteDesc,"这个可以在染缸中使用以提亮/变浅颜色。"
+
+AL_Item_BoneClub,"[(((ColourModded)))]骨棒[-]"
+AL_Item_BoneClubDesc,"骨棒在战斗性能上与木棒没有太大区别，但如果你在扮演穴居人，那它真的很棒。"
+
+AL_Item_WhiteMeatRaw,"[(((ColourModded)))]白肉[-] [(((ColourMeatRaw)))](生)[肉]"
+AL_Item_WhiteMeatRawDesc,"一块不错的白肉，可能来自家禽。生的时候，它通常比红肉更不安全食用。"
+AL_Item_WhiteMeatCharred,"[(((ColourModded)))]白肉[-] [(((ColourMeatCharred)))](烧焦)[肉]"
+AL_Item_WhiteMeatCharredDesc,"一块不错的白肉，可能来自家禽。有人把它烤焦了，但至少应该可以安全食用。"
+AL_Item_WhiteMeatBoiled,"[(((ColourModded)))]白肉[-] [(((ColourMeatBoiled)))](煮熟)[肉]"
+AL_Item_WhiteMeatBoiledDesc,"一块不错的白肉，可能来自家禽。它已经被彻底煮熟，应该可以安全食用，但不太美味。"
+AL_Item_WhiteMeatGrilled,"[(((ColourModded)))]白肉[-] [(((ColourMeatGrilled)))](烤)[肉]"
+AL_Item_WhiteMeatGrilledDesc,"一块不错的白肉，可能来自家禽。它已被巧妙地烤制。干得好。"
+
+AL_Item_Shiraz,"[(((ColourModded)))]西拉子葡萄酒[-]"
+AL_Item_ShirazDesc,"非常深、非常红、非常干、非常葡萄酒。"
+
+AL_Item_ImprovisedLockpick,"[(((ColourModded)))]临时开锁器[-]"
+AL_Item_ImprovisedLockpickDesc,"它不过是用某种方式缠绕的一些电线，但可能会起作用。[bbbbbb]可以通过径向菜单在锁定的箱子上使用。效果显著低于常规开锁器。[-]"
+
+AL_Item_CounterfeitOldCash,"[(((ColourModded)))]伪造旧钞[-]"
+AL_Item_CounterfeitOldCashDesc,"那台可怜的自动售货机永远也不会知道发生了什么！"
+
+# Armours
+armorPrimitiveHelmet,部落兜帽
+armorPrimitiveHelmetDesc,一个诡异的巫毒兜帽，适合一个诡异的巫毒小子。
+
+armorPrimitiveOutfit,部落破布
+armorPrimitiveOutfitDesc,它会痒。它很脏。它不能保暖。但嘿，它有木头。
+
+armorPrimitiveGloves,手绑带
+armorPrimitiveGlovesDesc,当你想拿东西，但又不想完全拿的时候。
+
+armorPrimitiveBoots,凉鞋
+armorPrimitiveBootsDesc,有了这些，你可以相当确定你永远不会接触草地。
+
+armorLumberjackHelmet,毛线帽与护目镜
+armorLumberjackHelmetDesc,保持头部温暖，眼睛安全。
+
+armorLumberjackOutfit,伐木工服装
+armorLumberjackOutfitDesc,最适合在森林中漫步，斧头搭在一侧肩膀上。你有斧头，对吧？
+
+armorLumberjackGloves,工作手套
+armorLumberjackGlovesDesc,令人惊讶的是，这些手套适合工作。
+
+armorLumberjackBoots,运动鞋
+armorLumberjackBootsDesc,它们不会帮你偷袭。
+
+armorPreacherHelmet,礼帽与眼镜
+armorPreacherHelmetDesc,一个华丽的资产阶级风格。
+
+armorPreacherOutfit,牧师服装
+armorPreacherOutfitDesc,长袍、十字架和一本辛辣的书。阿门。
+
+armorPreacherGloves,衬垫手套
+armorPreacherGlovesDesc,它们很舒适，并且能保护你的手指。
+
+armorPreacherBoots,工作靴
+armorPreacherBootsDesc,当你想工作并且想穿靴子时，哦，天哪，这些靴子正是你需要的。
+
+armorRogueHelmet,兜帽与面罩
+armorRogueHelmetDesc,适用于我们之中的“潜行者”。
+
+armorRogueOutfit,衬垫装甲
+armorRogueOutfitDesc,舒适的衬垫装甲。提供保护，但不多。你知道他们怎么说过度保护！
+
+armorRogueGloves,露指布手套
+armorRogueGlovesDesc,保持手指灵活性并让你的手稍微暖和一些。相当实用。
+
+armorRogueBoots,皮靴
+armorRogueBootsDesc,它们是靴子。它们是皮革。它们是皮靴。
+
+armorAthleticHelmet,头巾帽
+armorAthleticHelmetDesc,实际上是头皮帽。
+
+armorAthleticOutfit,运动服装
+armorAthleticOutfitDesc,丧尸可能不在乎你对健美操的热爱，但有了这套服装，你可以让他们知道。
+
+armorAthleticGloves,露指皮手套
+armorAthleticGlovesDesc,保持手指灵活性。保护手。
+
+armorAthleticBoots,运动鞋
+armorAthleticBootsDesc,市场营销说它们适合跑步。一定是真的。
+
+armorEnforcerHelmet,太阳镜
+armorEnforcerHelmetDesc,1999年爆款，最适合一起搭配黑色皮衣和功夫。
+
+armorEnforcerOutfit,正装
+armorEnforcerOutfitDesc,第三季度预测表明，末日后的正装销售需求崩溃将持续至少一年，但投资者保持乐观。
+
+armorEnforcerGloves,皮手套
+armorEnforcerGlovesDesc,它们是皮革。它们是手套。它们是皮手套。
+
+armorEnforcerBoots,正装鞋
+armorEnforcerBootsDesc,毕竟，死亡是一件正式的事情。
+
+armorFarmerHelmet,遮阳帽
+armorFarmerHelmetDesc,如果阳光正好在合适的角度，非常实用。
+
+armorFarmerOutfit,破烂工装裤
+armorFarmerOutfitDesc,一个混乱的幻影。
+
+armorFarmerGloves,园艺手套
+armorFarmerGlovesDesc,所有告诉你去触摸草地的人都需要明白，该死的草地里有恶心的虫子！
+
+armorFarmerBoots,防砸靴
+armorFarmerBootsDesc,保护你的脚趾。可怜的小家伙们。
+
+armorBikerHelmet,钉刺头盔
+armorBikerHelmetDesc,是时候用脑袋撞人了！
+
+armorBikerOutfit,钉刺皮甲
+armorBikerOutfitDesc,你就像一只带刺的豪猪！
+
+armorBikerGloves,钉刺手套
+armorBikerGlovesDesc,非常适合酒吧斗殴。
+
+armorBikerBoots,钉刺靴
+armorBikerBootsDesc,踢还是不踢，这是个问题。
+
+armorScavengerHelmet,头巾帽与护目镜
+armorScavengerHelmetDesc,有一点赛博朋克的味道，如果你“觉得”的话。
+
+armorScavengerOutfit,游牧服装
+armorScavengerOutfitDesc,转啊转，四处转，我到处转。
+
+armorScavengerGloves,坚固手套
+armorScavengerGlovesDesc,比普通手套更坚固。
+
+armorScavengerBoots,扣带靴
+armorScavengerBootsDesc,你是小精灵吗？
+
+armorRangerHelmet,牛仔帽
+armorRangerHelmetDesc,你从不完全“哇哦”。
+
+armorRangerOutfit,皮甲
+armorRangerOutfitDesc,真正的皮甲。太棒了。
+
+armorRangerGloves,长皮手套
+armorRangerGlovesDesc,真正的皮甲。太棒了。
+
+armorRangerBoots,高皮靴
+armorRangerBootsDesc,真正的皮甲。太棒了。
+
+armorAssassinHelmet,全罩兜帽
+armorAssassinHelmetDesc,适合塔斯肯袭击者的Cosplay。
+
+armorAssassinOutfit,铁板装甲
+armorAssassinOutfitDesc,终于有一些真正的防护了。
+
+armorAssassinGloves,重型手套
+armorAssassinGlovesDesc,提供相当好的防护。这很方便。:)
+
+armorAssassinBoots,裹绑靴
+armorAssassinBootsDesc,修鞋很贵，好吧？
+
+armorMinerHelmet,安全帽
+armorMinerHelmetDesc,管理层非常重视你的职业健康和安全。
+
+armorMinerOutfit,重型工装裤
+armorMinerOutfitDesc,重型装备。
+
+armorMinerGloves,加固手套
+armorMinerGlovesDesc,看起来有点中世纪，不是吗？
+
+armorMinerBoots,装甲靴
+armorMinerBootsDesc,不是完全的钢靴，但这是一个很好的折衷方案。
+
+armorNomadHelmet,兜帽与呼吸面罩
+armorNomadHelmetDesc,有时候威胁不是弓箭，而是空气本身时。
+
+armorNomadOutfit,重型衬垫装甲
+armorNomadOutfitDesc,就像是…“重型轻”装甲，你知道的。
+
+armorNomadGloves,全布手套
+armorNomadGlovesDesc,它们覆盖了你的手，完全覆盖。
+
+armorNomadBoots,束带靴
+armorNomadBootsDesc,把束带放在靴子上有点奇怪，但你的靴子上有两条。讨厌的人总是讨厌。
+
+armorNerdHelmet,傻瓜帽
+armorNerdHelmetDesc,这种美学是对人类的冒犯，保证你会看起来像个傻瓜。
+
+armorNerdOutfit,无用服装
+armorNerdOutfitDesc,这套神话般的服饰，锻造于“蠢驴之山”的火焰之中，没有任何防护功能。
+
+armorNerdGloves,纽扣手套
+armorNerdGlovesDesc,对于手痒的人来说，这是福音。
+
+armorNerdBoots,不实用的鞋子
+armorNerdBootsDesc,跑得更快，跳得更高，理论上。
+
+armorRaiderHelmet,钢盔
+armorRaiderHelmetDesc,终于可以实现你成为铁罐的愿望了。
+
+armorRaiderOutfit,钢甲
+armorRaiderOutfitDesc,最重的装甲提供最重的防护给最重的人。
+
+armorRaiderGloves,钢手套
+armorRaiderGlovesDesc,有些人是重金属爱好者。你是…金属手…？
+
+armorRaiderBoots,钢靴
+armorRaiderBootsDesc,这些靴子不是用来走路的，但总有一天这些靴子会在你身上叮当作响。
+# }}}
+
+# Item Modifiers {{{
+AL_ItemMod_BatteryAAANonRechargeable,[(((ColourModded)))]AAA电池[-]（不可充电）
+AL_ItemMod_BatteryAAANonRechargeableDesc,一个[i]不可充电[/i]的AAA电池？多么不环保。可能还不是你需要的那种。
+
+AL_ItemMod_BatteryAAARechargeable,[(((ColourModded)))]AAA电池[-]（可充电）
+AL_ItemMod_BatteryAAARechargeableDesc,啊，是的……很好。一个可充电的AAA电池。对抗气候变化末日的斗争正在进行中。
+# }}}
+
+# Block Materials {{{
+materialAL_Material_Frames,[(((ColourModded)))]规划工具[-]
+materialAL_Material_WoodenLog,[(((ColourModded)))]原木[-]
+materialAL_Material_Wood,[(((ColourModded)))]原木[-]
+frameShapes:VariantHelper,[(((ColourModded)))]规划工具[-]
+# }}}
+
+# Forge Materials {{{
+lblwrought_iron,[(((ColourIron)))]铁[-]
+lbllead,[(((ColourLead)))]铅[-]
+lblbrass,[(((ColourBrass)))]黄铜[-]
+lblchromium,[(((ColourChromium)))]铬[-]
+lblcopper,[(((ColourCopper)))]铜[-]
+lblgold,[(((ColourGold)))]金[-]
+lblsilver,[(((ColourSilver)))]银[-]
+lblsteel,[(((ColourSteel)))]钢[-]
+lblnickel,[(((ColourNickel)))]镍[-]
+lblcarbon,[(((ColourCarbon)))]碳[-]
+lblbronze,[(((ColourBronze)))]青铜[-]
+lbltin,[(((ColourTin)))]锡[-]
+lblzinc,[(((ColourZinc)))]锌[-]
+lbldynamic,[(((ColourScrap)))]废料[-]
+lblinconel,[(((ColourInconel)))]镍合金[-]
+
+unit_wrought_iron,[(((ColourIron)))]铁 (克)[-]
+unit_lead,[(((ColourLead)))]铅 (克)[-]
+unit_brass,[(((ColourBrass)))]黄铜 (克)[-]
+unit_chromium,[(((ColourChromium)))]铬 (克)[-]
+unit_copper,[(((ColourCopper)))]铜 (克)[-]
+unit_gold,[(((ColourGold)))]金 (克)[-]
+unit_silver,[(((ColourSilver)))]银 (克)[-]
+unit_steel,[(((ColourSteel)))]钢 (克)[-]
+unit_nickel,[(((ColourNickel)))]镍 (克)[-]
+unit_carbon,[(((ColourCarbon)))]碳 (克)[-]
+unit_bronze,[(((ColourBronze)))]青铜 (克)[-]
+unit_tin,[(((ColourTin)))]锡 (克)[-]
+unit_zinc,[(((ColourZinc)))]锌 (克)[-]
+unit_dynamic,[(((ColourScrap)))]废料 (克)[-]
+unit_inconel,[(((ColourInconel)))]镍合金 (克)[-]
+
+unit_water,[(((ColourWater)))]水[-]
+unit_red_tea,[(((ColourRedTea)))]红茶[-]
+unit_goldenred_tea,[(((ColourGoldenrodTea)))]金盏花茶[-]
+unit_beer,[(((ColourAlcohol)))]酒精[-]
+
+unit_dirty_water,[(((ColourDirtyWater)))]脏水[-]
+unit_distilled_water,[(((ColourWater)))]蒸馏水[-]
+lbldirty_water,(((unit_dirty_water)))
+lbldistilled_water,(((unit_distilled_water)))
+
+lblbricks,[(((ColourBricks)))]砖块[-]
+lblwater,[(((ColourWater)))]水[-]
+lblclay,[(((ColourClay)))]黏土[-]
+
+lblred,[ff4040]红色[-]
+lblgreen,[40ff40]绿色[-]
+lblblue,[4040ff]蓝色[-]
+lblwhite,[ffffff]白色[-]
+lblblack,[404040]黑色[-]
+
+lblmash,麦芽
+lblbrine,盐水
+lblethanol,乙醇
+lblalcohol,酒精
+lblsalt,食盐
+
+unit_clay,[(((ColourClay)))]黏土 (克)[-]
+unit_mash,[(((ColourModded)))]克. 麦芽[-]
+unit_brine,[(((ColourModded)))]毫升. 盐水[-]
+unit_alcohol,[(((ColourAlcohol)))]酒精[-]
+unit_ethanol,[(((ColourModded)))]毫升. 乙醇[-]
+unit_salt,[(((ColourModded)))]克. 食盐[-]
+# }}}
+
+# Shapes {{{
+AL_Block_WoodenLog:VariantHelper,[(((ColourModded)))]原木[-]
+shapeAL_Shape_WoodenLogWall,[(((ColourModded)))]墙[-]
+shapeAL_Shape_WoodenLogWallOffset,[(((ColourModded)))]偏移墙[-]
+shapeAL_Shape_WoodenLogWallTop,[(((ColourModded)))]墙顶[-]
+shapeAL_Shape_WoodenLogWallHalf,[(((ColourModded)))]半墙[-]
+shapeAL_Shape_WoodenLogWallHalfOffset,[(((ColourModded)))]偏移半墙[-]
+shapeAL_Shape_WoodenLogCorner,[(((ColourModded)))]角落[-]
+shapeAL_Shape_WoodenLogCornerTop,[(((ColourModded)))]角落顶 #1[-]
+shapeAL_Shape_WoodenLogCornerTop2,[(((ColourModded)))]角落顶 #2[-]
+shapeAL_Shape_WoodenLogPillar,[(((ColourModded)))]柱子[-]
+shapeAL_Shape_WoodenLogPillarHalf,[(((ColourModded)))]半柱子[-]
+shapeAL_Shape_WoodenLogPillarCorner,[(((ColourModded)))]柱角[-]
+shapeAL_Shape_WoodenLogFullPillar,[(((ColourModded)))]完整柱子[-]
+shapeAL_Shape_WoodenLogFullPillarHalf,[(((ColourModded)))]半完整柱子[-]
+# }}}
+
+# Blocks {{{
+AL_Block_MilitaryBox1,[(((ColourModded)))]军用储物箱[-]
+AL_Block_MilitaryBox1Desc,"一种军事风格的木质储物箱，通常用于存放小型武器弹药。"
+
+AL_Block_TrainingDummy,[(((ColourModded)))]训练假人[-]
+AL_Block_TrainingDummyDesc,"一种用于模拟对打练习的装置，有助于提升技能而不会造成实际伤害。它也是在没有丧尸的情况下提升技能的好方法。"
+
+AL_Block_RainCatcher,[(((ColourModded)))]雨水收集器[-]
+AL_Block_RainCatcherDesc,"至少，它可以让雨水变得不那么糟糕。"
+
+AL_Block_WorkstationCharcoalKiln,[(((ColourModded)))]木炭窑[-]
+AL_Block_WorkstationCharcoalKilnDesc,"[(((ColourModded)))]木炭窑[-] 是一种更高效地将木材转化为木炭的方式，主要用于木炭的生产。它在你需要足够的热量来加工金属（如铜、锡和青铜）时非常有用，并且避免浪费宝贵的煤炭，因为你会在熔炼铁时需要用到煤炭。"
+
+AL_Block_WorkstationDukeExchange,"[(((ColourModded)))]公爵交易所[-]"
+AL_Block_WorkstationDukeExchangeDesc,"公爵交易所方块。"
+
+AL_Block_FancyGarbageCanEmpty,"[(((ColourModded)))]豪华垃圾桶[-] [(((ColourGrey)))](空)[-]"
+
+AL_Block_PileOfStuff,"[(((ColourModded)))]物品堆[-]"
+AL_Block_PileOfStuffDesc,"当你把一些东西随意放置在地上而不是扔掉时，就会形成... [i]物品堆[/i]。\n\n[(((ColourGrey)))]这种超原始的存储方式总是需要一些时间才能取用，并应该被适当的存储设施所取代以方便取用。[-]"
+
+AL_Block_PileOfFood,"[(((ColourModded)))]食物堆[-]"
+AL_Block_PileOfFoodDesc,"一些随意放置在地板上的食物。似乎不太卫生。\n\n[(((ColourGrey)))]这种超原始的存储方式总是需要一些时间才能取用，并应该被适当的存储设施所取代以方便取用。[-]"
+
+AL_Block_PileOfMeds,"[(((ColourModded)))]药品堆[-]"
+AL_Block_PileOfMedsDesc,"各种药品随意放置在这里。\n\n[(((ColourGrey)))]这种超原始的存储方式总是需要一些时间才能取用，并应该被适当的存储设施所取代以方便取用。[-]"
+
+AL_Block_PileOfWeaponry,"[(((ColourModded)))]武器堆[-]"
+AL_Block_PileOfWeaponryDesc,"一堆散落在地上的武器和弹药。\n\n[(((ColourGrey)))]这种超原始的存储方式总是需要一些时间才能取用，并应该被适当的存储设施所取代以方便取用。[-]"
+
+AL_Block_SecureStorageMedicalBox,"[(((ColourModded)))]医疗箱[-]"
+AL_Block_SecureStorageMedicalBoxDesc,"一个明确表示其用途的箱子。"
+
+AL_Block_WorkstationDyeTub,"[(((ColourModded)))]染色桶[-]"
+AL_Block_WorkstationDyeTubDesc,"终于可以自由地表达我是多么的‘棒’。"
+
+AL_Block_WorkstationMortarAndPestle,"[(((ColourModded)))]研钵和杵[-]"
+AL_Block_WorkstationMortarAndPestleDesc,"最初的研磨工具。"
+
+AL_Block_WorkstationAdvancedFurnace,"[(((ColourModded)))]高级熔炉[-]"
+AL_Block_WorkstationAdvancedFurnaceDesc,"这种先进的电动熔炉可以产生熔炼所需金属的高温，无需燃烧传统燃料即可生产超级合金。"
+
+AL_Block_WorkstationKiln,"[(((ColourModded)))]窑[-]"
+AL_Block_WorkstationKilnDesc,"一个粘土 [(((ColourModded)))]窑[-]。使用模具、大量的热量和时间，它可以生产出你需要的砖块来建造更坚固的基础。"
+
+AL_Block_WorkstationResearchDesk,"[(((ColourModded)))]研究桌[-]"
+AL_Block_WorkstationResearchDeskDesc,"一个可以让你搓下巴或捋胡须，同时若有所思地凝视房间的地方，显然这是为了从重复和不需要的文献中获取有价值的知识。"
+
+AL_Block_CartographyTable,"[(((ColourModded)))]制图桌[-]"
+AL_Block_CartographyTableDesc,"[(((ColourModded)))]制图桌[-] 是一个让你认真指着地图的地方，让你感觉自己像一位军事将领。或者，它是记录和分享你的地图探索进度的地方。"
+
+AL_Block_TerrGore,"[(((ColourModded)))]血肉方块[-] (开发者物品)"
+AL_Block_TerrGoreDesc,"恶心！"
+
+AL_Block_TerrOreLimestone,"[(((ColourModded)))]石灰石矿石方块[-] (开发者物品)"
+AL_Block_TerrOreLimestoneDesc,"石灰石矿石地形方块。"
+
+AL_Block_TerrOreGarnierite,"[(((ColourModded)))]红柱石矿石方块[-] (开发者物品)"
+AL_Block_TerrOreGarnieriteDesc,"镍的来源。"
+
+AL_Block_TerrOreChromite,"[(((ColourModded)))]铬铁矿石方块[-] (开发者物品)"
+AL_Block_TerrOreChromiteDesc,"铬的来源。"
+
+terrOreLead,"[(((ColourModded)))]方铅矿石方块[-] (开发者物品)"
+terrOreLeadDesc,"方铅矿石地形方块。"
+
+AL_Block_TerrOreChalcopyrite,"[(((ColourModded)))]黄铜矿石方块[-] (开发者物品)"
+AL_Block_TerrOreChalcopyriteDesc,"黄铜矿石地形方块。"
+
+AL_Block_TerrOreSphalerite,"[(((ColourModded)))]闪锌矿石方块[-] (开发者物品)"
+AL_Block_TerrOreSphaleriteDesc,"闪锌矿石地形方块。"
+
+AL_Block_TerrOreAnthracite,"[(((ColourModded)))]无烟煤矿石方块[-] (开发者物品)"
+AL_Block_TerrOreAnthraciteDesc,"无烟煤矿石地形方块。"
+
+AL_Block_TerrOreGold,"[(((ColourModded)))]金矿石方块[-] (开发者物品)"
+AL_Block_TerrOreGoldDesc,"金矿石地形方块。"
+
+AL_Block_TerrAnthracite,"[(((ColourModded)))]无烟煤方块[-] (开发者物品)"
+AL_Block_TerrAnthraciteDesc,"无烟煤巨石方块。标记无烟煤脉络。"
+
+AL_Block_GarnieriteBoulder,"[(((ColourModded)))]红柱石巨石[-] (开发者方块)"
+AL_Block_GarnieriteBoulderDesc,"镍的来源。"
+
+AL_Block_ChromiteBoulder,"[(((ColourModded)))]铬铁矿巨石[-] (开发者方块)"
+AL_Block_ChromiteBoulderDesc,"铬的来源。"
+
+AL_Block_ChalcopyriteBoulder,"[(((ColourModded)))]黄铜矿巨石[-] (开发者方块)"
+AL_Block_ChalcopyriteBoulderDesc,"铜的来源。"
+
+AL_Block_AnthraciteBoulder,"[(((ColourModded)))]无烟煤巨石[-] (开发者方块)"
+AL_Block_AnthraciteBoulderDesc,"标记无烟煤脉络。"
+
+AL_Block_CassiteriteBoulder,"[(((ColourModded)))]锡石巨石[-] (开发者方块)"
+AL_Block_CassiteriteBoulderDesc,"标记锡石脉络。"
+
+AL_Block_SphaleriteBoulder,"[(((ColourModded)))]闪锌矿巨石[-] (开发者方块)"
+AL_Block_SphaleriteBoulderDesc,"标记闪锌矿脉络。"
+
+AL_Block_TreeStumpNew,"[(((ColourModded)))]新树桩[-] (开发者方块)"
+AL_Block_StumpNewDesc,"新形成的树桩。几天后会成熟。"
+
+AL_Block_TreeStumpMatureHiveNo,"[(((ColourModded)))]成熟的树桩[-] (开发者方块)"
+AL_Block_TreeStumpMatureHiveNoDesc,"成熟的普通树桩。"
+
+AL_Block_TreeStumpMatureHiveYes,"[(((ColourModded)))]带有蜂巢的成熟树桩[-] (开发者方块)"
+AL_Block_TreeStumpMatureHiveYesDesc,"成熟的树桩，上面有一个蜂巢。"
+
+AL_Block_SyphiaSpore,"[(((ColourModded)))]赛菲亚孢子[-] (开发者方块)"
+AL_Block_SyphiaSporeDesc,"这种神秘的蘑菇似乎在白天会自行隐蔽。如果必须在夜晚寻找它们，只能希望它们值得冒险。"
+
+AL_Block_WoodenLog,"[(((ColourModded)))]原木[-]"
+AL_Block_WoodenLogDesc,"一根完整的 [(((ColourModded)))]原木[-]。它又大又重，但不知为何你能将很多根装进背包。[(((ColourModded)))]原木[-] 可以加工成 [(((ColourModded)))]木材[-] 用于一般的制造和建筑。"
+
+AL_Block_WorkstationDistillery,"[(((ColourModded)))]蒸馏器[-]"
+AL_Block_WorkstationDistilleryDesc,"一个功能性的 [(((ColourModded)))]蒸馏器[-] 是你在面对极端病毒时防止脱水的最佳武器，允许你生产干净的蒸馏水……还有酒，这也是不错的。"
+
+AL_Block_WorkstationBloomery,"[(((ColourModded)))]鼓风炉[-]"
+AL_Block_WorkstationBloomeryDesc,"一个原始但可用的 [(((ColourModded)))]鼓风炉[-]。"
+
+AL_Block_GunVendingMachine,"[(((ColourModded)))]枪械自动售货机[-]"
+# }}}
+
+# New Game {{{
+AL_LK_IntroText1,"旧世界已经逝去。"
+AL_LK_IntroText2,"我们过去的自我已死。"
+AL_LK_IntroText3,"这是我们的新世界。"
+AL_LK_IntroText4,"这是我们的..."
+AL_LK_IntroTitle,"来世"
+
+AL_LK_Begin,"开始"
+AL_LK_EquipmentHeader,"[(((ColourEquipment)))]装备[-]"
+AL_LK_SkillsHeader,"[(((ColourSkills)))]技能[-]"
+AL_LK_PerkHeader,"[(((ColourPerks)))]特性[-]"
+
+AL_LK_NormieColoured,"[(((ColourNormie)))]普通人[-]"
+AL_LK_SheriffColoured,"[(((ColourSheriff)))]警长[-]"
+AL_LK_CrawlerColoured,"[(((ColourCrawler)))]爬行者[-]"
+AL_LK_SavageColoured,"[(((ColourSavage)))]野蛮人[-]"
+AL_LK_HoodlumColoured,"[(((ColourHoodlum)))]暴徒[-]"
+AL_LK_PrepperColoured,"[(((ColourPrepper)))]生存者[-]"
+AL_LK_EnigmaColoured,"[(((ColourEnigma)))]谜团[-]"
+AL_LK_Normie,"普通人"
+AL_LK_Sheriff,"警长"
+AL_LK_Crawler,"爬行者"
+AL_LK_Savage,"野蛮人"
+AL_LK_Hoodlum,"暴徒"
+AL_LK_Prepper,"生存者"
+
+AL_LK_NormieText,"你的生活稳定而舒适，但有些单调。你不明白那些羡慕你的人。你经常发现自己在想，是否通过工作养家糊口是在浪费生命。\n\n末日迫使你改变，尽管面临生命威胁的危险，你却（悄悄地）对此感到兴奋。世界一片废墟，但你觉得自己的生活即将开始。"
+AL_LK_NormieEquipment,"适合下一次面试的着装，一些旧世界的现金，一块腕表，以及一个实用的背包。"
+AL_LK_NormieEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 一套适合下一次面试的商务套装。\n- 一叠旧世界的现金。\n- 一块时尚的腕表。\n- 一个非常实用的背包。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 游泳。\n- 20 运动。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 在自动售货机上获得 25% 更好的交易。[-]"
+
+AL_LK_SheriffText,"你宣誓维护法律，伸张正义，并为城市提供罚款收入以充实市政金库。\n\n现在文书工作少了，你的敏感性和缓和冲突的训练似乎不再那么有用，但至少你可以射杀丧尸。"
+AL_LK_SheriffEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 制服、配枪、几发子弹和一根警棍。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 25 手枪。\n- 25 棍击。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40d040]- 找到 9mm 子弹的概率增加 20%，并且可以在其他人找不到的地方找到 9mm 子弹。\n[40d040]- 可以轻松打开警车。\n- 恐惧和战斗压力导致的生命值损失减少一半。[-]\n[ff4040]- 掠夺速度降低 25%。\n- 不会从 [f6d900]暴徒[-] 处获得‘社交’生命值。"
+
+AL_LK_CrawlerText,"[a0a0a0]''去温彻斯特酒吧，喝一杯冷啤酒，等待这一切过去...''[-]\n\n你是典型的终生酒吧爬虫，常因酗酒被赶出酒吧。\n\n你无意让某个吃脑的家伙妨碍你喝一杯好啤酒。"
+AL_LK_CrawlerEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 拳套。\n- 几瓶路上喝的啤酒。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 拳击。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 酩酊大醉的效果加倍。\n- 酩酊大醉的惩罚减半。\n- 开始时解锁蒸馏器工作站。\n- 不会因过量饮酒而呕吐。[-]\n[ff4040]- 开始时酒精依赖度为 100%。\n- 酒精依赖度永远不会低于 25%。[-]"
+
+AL_LK_SavageText,"末日降临之时，你发现自己被困在一条偏远的道路上，车子抛锚了。你没有选择寻求文明社会的帮助，而是逃进了森林。也许是运气，但你在那里的表现很好。你几乎靠一无所有生存下来，并且大部分时间避开了与丧尸的接触。\n\n现在，作为一位经验丰富的林中人，你准备重新回到城镇和城市，尝试在这段生活中做出更多的事情。"
+AL_LK_SavageEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 一把简易弓和一捆箭。\n- 一把骨刀。\n- 一把石斧。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 弓箭术。\n- 20 屠宰。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 特性：'野蛮'；立即提供基本追踪技能。\n- 在森林生物群落时始终知道床铺的位置。\n[(((ColourGrey)))]- 跳过 (来世) 教程任务线。"
+
+AL_LK_HoodlumText,"你出生并成长在都市贫困之中，学会了任何方式生存。\n\n盗窃和入室盗窃只是名称，如果你不努力，就会在社会的裂缝中消亡。然而，当死人站起来时，游戏规则改变了。\n\n死人比活人更快采取暴力行动，但他们对掠夺并不在意。"
+AL_LK_HoodlumEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 一把刀片。\n- 一套撬锁工具。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 刀术。\n- 20 撬锁。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40d040]- 特性：'刀片'；用刀攻击时提供轻微流血效果。\n- 可以制作 [00ff00]即兴撬锁工具[-][40ff40]。\n[d04040]- 不会从 [00abff]警长[-] 处获得‘社交’生命值。"
+
+AL_LK_Enigma,"谜团"
+AL_LK_EnigmaText,"你醒来时身无分文，手中没有任何东西，记忆全无。你不记得有家人或朋友，也不记得在哪里长大、上什么学校或是否有宠物。你不记得有任何爱好或工作。你没有任何特定的归属感或偏见。幸运的是，你还保留了基本的语言技能。"
+AL_LK_EnigmaEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 没有。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 没有。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n- 没有。[-]"
+# }}}
+
+# Attributes {{{
+AL_Attribute_Strength,力量
+AL_Attribute_Fortitude,体质
+AL_Attribute_Finesse,灵巧
+AL_Attribute_Agility,敏捷
+AL_Attribute_Perception,感知
+AL_Attribute_Intellect,智力
+
+# Suppressing default text from showing up with these..
+AL_LK_StrengthPerks,""
+AL_LK_FortitudePerks,""
+AL_LK_FinessePerks,""
+AL_LK_AgilityPerks,""
+AL_LK_PerceptionPerks,""
+AL_LK_IntellectPerks,""
+
+AL_LK_RGB_AL_Attribute_Strength,"[ff9933]力量[-]"
+AL_LK_RGB_AL_Attribute_Fortitude,"[ff3333]体质[-]"
+AL_LK_RGB_AL_Attribute_Finesse,"[33ff33]灵巧[-]"
+AL_LK_RGB_AL_Attribute_Agility,"[ffff33]敏捷[-]"
+AL_LK_RGB_AL_Attribute_Perception,"[9059ff]感知[-]"
+AL_LK_RGB_AL_Attribute_Intellect,"[6666ff]智力[-]"
+
+AL_Attribute_StrengthDesc,"力量是纯粹的肌肉力量；身体容量和爆发力。它影响并随着那些受益于此类力量的技能增长，主要包括采矿、[(((ColourModded)))]挖掘[-]、[(((ColourModded)))]伐木[-]、[(((ColourModded)))]棍击[-]、[(((ColourModded)))]大锤[-]、[(((ColourModded)))]斧头[-]，但许多其他技能也有较小程度的影响，例如[(((ColourModded)))]建造[-]和[(((ColourModded)))]拳击[-]。"
+AL_Attribute_FortitudeDesc,"你的体质是你对物理或其他方面攻击的总体抵抗力。你的免疫系统、精神状态、承受物理伤害的能力都与体质有关。主要相关技能包括[(((ColourModded)))]运动[-]和[(((ColourModded)))]游泳[-]，但大多数技能都有某种程度的相关性。"
+AL_Attribute_FinesseDesc,"灵巧代表了一个人在精细操作手和手指方面的敏捷度。它主要影响并随着[(((ColourModded)))]刀具[-]、[(((ColourModded)))]弓箭[-]、[(((ColourModded)))]手枪[-]、[(((ColourModded)))]撬锁[-]的增长，但也较小程度上影响[(((ColourModded)))]矛[-]、[(((ColourModded)))]弩[-]、[(((ColourModded)))]突击步枪[-]和[(((ColourModded)))]冲锋枪[-]。"
+AL_Attribute_AgilityDesc,"敏捷代表了你四肢的一般准确性和速度。它的练习会产生有用的效果，但在这种生活中很少有频繁进行的练习能够增强它。"
+AL_Attribute_PerceptionDesc,"感知是一个人注意到事物、在一切事物中找到形状的能力，可能是指向你头部的步枪的形状……或者仅仅是额外战利品的形状。感知很难增长，但[(((ColourModded)))]搜寻[-]和使用[(((ColourModded)))]步枪[-]在一定程度上会有帮助。"
+AL_Attribute_IntellectDesc,"智力是你一般推理、理解和建立有用联系的能力，这些是那些脑细胞较少的人可能无法做到的。它与一些智力活动有关，例如[(((ColourModded)))]治疗[-]和[(((ColourModded)))]撬锁[-]。"
+# }}}
+
+# Perks {{{
+AL_Perk_Decorator,"装饰师"
+AL_Perk_DecoratorDesc," "
+AL_Perk_Decorator1Desc,"从装饰中获得的生命值增加 [(((ColourEffectGood)))]20%[-]。"
+AL_Perk_Decorator2Desc,"从装饰中获得的生命值增加 [(((ColourEffectGood)))]40%[-]。"
+AL_Perk_Decorator3Desc,"从装饰中获得的生命值增加 [(((ColourEffectGood)))]60%[-]。"
+AL_Perk_Decorator4Desc,"从装饰中获得的生命值增加 [(((ColourEffectGood)))]80%[-]。"
+AL_Perk_Decorator5Desc,"从装饰中获得的生命值翻倍 [-]。"
+
+AL_Perk_Slayer,"屠夫"
+AL_Perk_SlayerDesc,"浴血奋战！……丧尸的血！"
+AL_Perk_Slayer1Desc,"每次击杀丧尸时获得 [(((ColourEffectGood)))].04[-] 生命值。"
+AL_Perk_Slayer2Desc,"每次击杀丧尸时获得 [(((ColourEffectGood)))].08[-] 生命值。"
+AL_Perk_Slayer3Desc,"每次击杀丧尸时获得 [(((ColourEffectGood)))].12[-] 生命值。"
+AL_Perk_Slayer4Desc,"每次击杀丧尸时获得 [(((ColourEffectGood)))].16[-] 生命值。"
+AL_Perk_Slayer5Desc,"每次击杀丧尸时获得 [(((ColourEffectGood)))].2[-] 生命值。"
+
+AL_Perk_Inconspicuous,"隐蔽"
+AL_Perk_InconspicuousDesc,"通过敏锐的观察和练习，可以抑制在敌人面前的身体反应。通过控制呼吸和保持静止，你将消失不见。"
+AL_Perk_Inconspicuous1Desc,"保持静止 [(((ColourEffectGood)))]30 秒[-] 后，你的隐蔽逐渐提升，在再过 [(((ColourEffectGood)))]60 秒[-] 后达到隐身状态。任何移动都会取消该效果。"
+AL_Perk_Inconspicuous2Desc,"初始计时减少至 [(((ColourEffectGood)))]20 秒[-]，之后在 [(((ColourModded)))]30 秒[-] 内达到隐身状态。"
+AL_Perk_Inconspicuous3Desc,"初始计时减少至 [(((ColourEffectGood)))]10 秒[-]，之后在 [(((ColourModded)))]15 秒[-] 内达到隐身状态。"
+
+AL_Perk_Shiv,"刀片"
+AL_Perk_ShivDesc,"让我们这么说吧，你已经习惯了快速刺人。"
+AL_Perk_Shiv1Desc,"使用刀具时，每次攻击增加 [(((ColourModded)))]6 点[-] 流血伤害。"
+
+AL_Perk_Tracker,"追踪者"
+AL_Perk_TrackerDesc,"他们可以跑，实际上跑得非常快，但一旦我获得这个特性，他们就无法隐藏。"
+AL_Perk_Tracker1Desc,"你可以检测小型动物留下的踪迹。"
+AL_Perk_Tracker2Desc,"你可以检测中型动物留下的踪迹，并感知附近的小型动物。"
+AL_Perk_Tracker3Desc,"你可以检测大型动物留下的踪迹，并感知附近的中型动物。"
+AL_Perk_Tracker4Desc,"待定"
+
+AL_Perk_Savagery,"野蛮"
+AL_Perk_SavageryDesc,"你在野外度过的时间使你能够与野生动物的生活相协调。[(((ColourModded)))]野蛮人[-] 无法获得正常的追踪特性，但可以获得 [(((ColourModded)))]野蛮[-] 特性。"
+AL_Perk_Savagery1Desc,"你获得 [(((ColourModded)))]追踪[-] 动作技能，并可以检测小型动物留下的踪迹。"
+AL_Perk_Savagery2Desc,"你可以检测中型动物留下的踪迹，并感知附近的小型动物。"
+AL_Perk_Savagery3Desc,"你可以检测大型动物留下的踪迹，并感知附近的中型动物。"
+AL_Perk_Savagery4Desc,"你可以感知大型动物。"
+AL_Perk_Savagery5Desc,"你可以感知丧尸动物。"
+
+AL_Perk_ProprietaryMorality,"私有道德"
+AL_Perk_ProprietaryMoralityDesc,"一名高级市政警察很快就会明白，如果他希望事业进步，权力、政治和金钱充斥着正义的齿轮。普通警察只是这个安排中的蓝领士兵。"
+AL_Perk_FuckItDesc,"在这个世界上试图少拿一点？这是什么产权屁话？算了。反正我已经砸烂了一半店老板的脑袋。"
+AL_Perk_AlcoholismDesc,"我不需要停止！这让我感觉良好.."
+
+AL_Perk_Insight,"洞察"
+AL_Perk_InsightDesc,"人们想知道……能否仅仅通过使用某物就能了解其工作原理和制造方法？这个特性说是的。是的，你可以。"
+AL_Perk_Insight1Desc,"在任何动作技能中获得的经验值中有 [(((ColourEffectGood)))]2%[-] 会转化为相关的制作技能经验值。"
+AL_Perk_Insight2Desc,"加成增加至 [(((ColourEffectGood)))]4%[-]。"
+AL_Perk_Insight3Desc,"加成增加至 [(((ColourEffectGood)))]6%[-]。"
+AL_Perk_Insight4Desc,"加成增加至 [(((ColourEffectGood)))]8%[-]。"
+AL_Perk_Insight5Desc,"加成增加至 [(((ColourEffectGood)))]10%[-]。"
+
+AL_Perk_Survivor,"幸存者"
+AL_Perk_SurvivorDesc,"当你继续在这个世界中生存时，你会逐渐适应其更持久和无聊的困难。"
+AL_Perk_Survivor1Desc,"[(((ColourModded)))]-10%[-] 因 [(((ColourEffectBad)))]环境[-]、[(((ColourEffectBad)))]饥饿[-] 和 [(((ColourEffectBad)))]口渴[-] 导致的生命值损失。"
+AL_Perk_Survivor2Desc,"[(((ColourModded)))]-20%[-] 因 [(((ColourEffectBad)))]环境[-]、[(((ColourEffectBad)))]饥饿[-] 和 [(((ColourEffectBad)))]口渴[-] 导致的生命值损失。"
+AL_Perk_Survivor3Desc,"[(((ColourModded)))]-30%[-] 因 [(((ColourEffectBad)))]环境[-]、[(((ColourEffectBad)))]饥饿[-] 和 [(((ColourEffectBad)))]口渴[-] 导致的生命值损失。"
+AL_Perk_Survivor4Desc,"[(((ColourModded)))]-40%[-] 因 [(((ColourEffectBad)))]环境[-]、[(((ColourEffectBad)))]饥饿[-] 和 [(((ColourEffectBad)))]口渴[-] 导致的生命值损失。"
+AL_Perk_Survivor5Desc,"[(((ColourModded)))]减半[-] 因 [(((ColourEffectBad)))]环境[-]、[(((ColourEffectBad)))]饥饿[-] 和 [(((ColourEffectBad)))]口渴[-] 导致的生命值损失。"
+
+AL_Perk_IronGuts,"铁胃"
+AL_Perk_IronGutsDesc,"通过接受太多挑战而获得的能力。"
+AL_Perk_IronGuts1Desc,"食物和饮料引起的中毒减少 [(((ColourEffectGood)))]15%[-]。"
+AL_Perk_IronGuts2Desc,"食物和饮料引起的中毒减少 [(((ColourEffectGood)))]30%[-]。"
+AL_Perk_IronGuts3Desc,"食物和饮料引起的中毒减少 [(((ColourEffectGood)))]45%[-]。"
+AL_Perk_IronGuts4Desc,"食物和饮料引起的中毒减少 [(((ColourEffectGood)))]60%[-]。"
+AL_Perk_IronGuts5Desc,"食物和饮料引起的中毒减少 [(((ColourEffectGood)))]75%[-]。"
+# }}}
+
+# Action Skills {{{
+AL_ActionSkill_Gathering,"采集"
+AL_ActionSkill_Healing,"治疗"
+AL_ActionSkill_Athletics,"运动"
+AL_ActionSkill_Swimming,"游泳"
+AL_ActionSkill_Scavenging,"搜寻"
+AL_ActionSkill_Cooking,"烹饪"
+AL_ActionSkill_Butchering,"屠宰"
+AL_ActionSkill_Combat,"战斗"
+AL_ActionSkill_Fisticuffs,"拳击"
+AL_ActionSkill_Clubbing,"棍击"
+AL_ActionSkill_Axes,"斧头"
+AL_ActionSkill_Pickaxes,"镐子"
+AL_ActionSkill_Shovels,"铲子"
+AL_ActionSkill_Spears,"长矛"
+AL_ActionSkill_Sledgehammers,"大锤"
+AL_ActionSkill_Swordsmanship,"剑术"
+AL_ActionSkill_Knives,"刀具"
+AL_ActionSkill_Construction,"建造"
+AL_ActionSkill_Archery,"弓箭"
+AL_ActionSkill_Bows,"弓"
+AL_ActionSkill_Crossbows,"弩"
+AL_ActionSkill_Gunplay,"枪法"
+AL_ActionSkill_Rifles,"步枪"
+AL_ActionSkill_AssaultRifles,"突击步枪"
+AL_ActionSkill_Shotguns,"霰弹枪"
+AL_ActionSkill_Pistols,"手枪"
+AL_ActionSkill_SMGs,"冲锋枪"
+AL_ActionSkill_LMGs,"轻机枪"
+AL_ActionSkill_Mining,"采矿"
+AL_ActionSkill_Logging,"伐木"
+AL_ActionSkill_Digging,"挖掘"
+AL_ActionSkill_Lockpicking,"撬锁"
+AL_ActionSkill_Tracking,"追踪"
+AL_ActionSkill_ThrownWeapons,"投掷武器"
+AL_ActionSkill_Salvage,"拆解"
+AL_ActionSkill_Stealth,"潜行"
+# }}}
+
+# Action Skill Descriptions {{{
+AL_ActionSkill_MiningDesc,"[7aaa51ff]采矿[-] 是你在采矿各个方面的技能，从使用工具到识别矿石、定位矿脉等。"
+AL_ActionSkill_LoggingDesc,"你在砍伐树木方面的熟练程度。"
+AL_ActionSkill_DiggingDesc,"[7aaa51ff]挖掘[-] 是 [7aaa51ff]采矿[-] 的补充，反映了你移除较软土壤的能力。"
+AL_ActionSkill_CombatDesc,"[7aaa51ff]战斗[-] 描述了你在战斗经验方面的熟悉程度。提高这项技能会使你在使用所有武器时更加有效。"
+AL_ActionSkill_GatheringDesc,"[7aaa51ff]采集[-] 影响你在所有资源采集、收获、提取等活动中的效率。"
+AL_ActionSkill_ClubbingDesc,"[7aaa51ff]棍击[-] 代表了你用手中持有的工具将其他可能活着的生物打倒的能力，而不是像野蛮人那样用手，更像是像混混那样。"
+AL_ActionSkill_RiflesDesc,"[7aaa51ff]步枪[-] 技能是你使用较长步枪的熟练程度，通常具有较慢的射击速率和较重的弹药。它包括适合狙击和中距离交战的步枪。"
+AL_ActionSkill_AthleticsDesc,"逃离丧尸和绕开丧尸固然不错，但理想情况下，你应该冲向丧尸、越过丧尸，有时甚至从丧尸下面穿过。保持健康在任何时候都很重要，末日也不例外。"
+AL_ActionSkill_ScavengingDesc,"有些人贬低这种做法，称之为‘掠夺’，但他们只是嫉妒你的技能。这其实就是简单的模式匹配。你做得越多，就越擅长发现你需要的东西，并且抓取的速度也越快。"
+AL_ActionSkill_SwimmingDesc,"丧尸不太擅长游泳，所以确保自己擅长游泳是个好主意。只是不要在里面待太久……几乎所有未经处理的水都严重受感染。"
+AL_ActionSkill_StealthDesc,"知识就是力量。如果在你把刀片插进丧尸的脑袋之前，它完全不知道你的存在，那么这个可怜的家伙根本没有任何力量。"
+AL_ActionSkill_TrackingDesc,"追踪追踪再追踪，追踪追踪追踪追踪。"
+# }}}
+
+# Class {{{
+AL_ClassPerk_Normie,"普通人"
+AL_ClassPerk_Sheriff,"警长"
+AL_ClassPerk_Crawler,"爬行者"
+AL_ClassPerk_Savage,"野蛮人"
+AL_ClassPerk_Hoodlum,"混混"
+AL_ClassPerk_Enigma,"谜团"
+# }}}
+
+# Perks {{{
+AL_Perk_Parkour,"跑酷"
+AL_Perk_ParkourDesc,"自由奔跑者几乎不可能被人类，更不用说丧尸抓住。学习跑酷，轻松穿越城市。"
+AL_Perk_Parkour1Desc,"跳跃时体力消耗减少 [(((ColourModded)))]-10%[-]。跳跃距离最多增加 [(((ColourModded)))]2 倍[-]，助跑时间 [(((ColourModded)))]5 秒[-]。"
+AL_Perk_Parkour2Desc,"跳跃时体力消耗减少 [(((ColourModded)))]-20%[-]。跳跃距离最多增加 [(((ColourModded)))]2.1 倍[-]，助跑时间 [(((ColourModded)))]4 秒[-]。"
+AL_Perk_Parkour3Desc,"跳跃时体力消耗减少 [(((ColourModded)))]-30%[-]。跳跃距离最多增加 [(((ColourModded)))]2.2 倍[-]，助跑时间 [(((ColourModded)))]3 秒[-]。跌落伤害减少 [(((ColourModded)))]-25%[-]。"
+AL_Perk_Parkour4Desc,"跳跃时体力消耗减少 [(((ColourModded)))]-40%[-]。跳跃距离最多增加 [(((ColourModded)))]2.3 倍[-]，助跑时间 [(((ColourModded)))]2 秒[-]。跌落伤害减少 [(((ColourModded)))]-37.5%[-]。跳跃高度增加 [(((ColourModded)))]+10%[-]。"
+AL_Perk_Parkour5Desc,"跳跃时体力消耗减少 [(((ColourModded)))]-50%[-]。跳跃距离最多增加 [(((ColourModded)))]2.4 倍[-]，助跑时间 [(((ColourModded)))]1 秒[-]。跌落伤害减少 [(((ColourModded)))]-50%[-]。跳跃高度增加 [(((ColourModded)))]+20%[-]。"
+
+AL_Perk_LootGobblin,"拾荒者"
+AL_Perk_LootGobblinDesc,"你对战利品的渴望无止境，达到了极致的细致。"
+AL_Perk_LootGobblin1Desc,"战利品质量和数量增加 [(((ColourModded)))]7.5%[-]。"
+AL_Perk_LootGobblin2Desc,"战利品质量和数量增加 [(((ColourModded)))]15%[-]。"
+AL_Perk_LootGobblin3Desc,"战利品质量和数量增加 [(((ColourModded)))]22.5%[-]。"
+AL_Perk_LootGobblin4Desc,"战利品质量和数量增加 [(((ColourModded)))]30%[-]。"
+AL_Perk_LootGobblin5Desc,"战利品质量和数量增加 [(((ColourModded)))]37.5%[-]。"
+
+AL_Perk_BattleHardened,"身经百战"
+AL_Perk_BattleHardenedDesc,"你见过一些东西。"
+AL_Perk_BattleHardened1Desc,"你曾与几只鸡和兔子进行生死搏斗。 [40ff40]-25%[-] 战斗中生命值损失。"
+AL_Perk_BattleHardened2Desc,"你曾经与一只丧尸战斗并沾了些血。很恶心也很可怕。 [40ff40]-50%[-] 战斗中生命值损失。"
+AL_Perk_BattleHardened3Desc,"你经历过几次严重的战斗，能够应对自如。 [40ff40]-75%[-] 战斗中生命值损失。"
+AL_Perk_BattleHardened4Desc,"你经历了太多的战斗……你不再在乎了，伙计！ [40ff40]零[-] 战斗中生命值损失。"
+AL_Perk_BattleHardened5Desc,"你开始喜欢上这个了！ [40ff40]少量生命值恢复[-] 战斗后。"
+
+AL_Perk_Epiphany,"顿悟"
+AL_Perk_EpiphanyDesc,"尤里卡！突然领悟深刻的事理是真正的智力满足。"
+AL_Perk_Epiphany1Desc,"[(((ColourModded)))]12%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验。 [(((ColourModded)))]2%[-] 的概率获得 [(((ColourModded)))]3 倍[-]。"
+AL_Perk_Epiphany2Desc,"[(((ColourModded)))]25%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验。 [(((ColourModded)))]5%[-] 的概率获得 [(((ColourModded)))]3 倍[-]。当此特性激活时，生成 [(((ColourModded)))]可获取经验的笔记[-]，只能由其他玩家阅读或废弃。"
+AL_Perk_Epiphany3Desc,"[(((ColourModded)))]37%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验。 [(((ColourModded)))]7%[-] 的概率获得 [(((ColourModded)))]3 倍[-]，并 [(((ColourModded)))]生成笔记[-]。"
+AL_Perk_Epiphany4Desc,"[(((ColourModded)))]50%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验， [(((ColourModded)))]10%[-] 的概率获得 [(((ColourModded)))]3 倍[-]，并 [(((ColourModded)))]生成笔记[-]。"
+AL_Perk_Epiphany5Desc,"[(((ColourModded)))]100%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验， [(((ColourModded)))]20%[-] 的概率获得 [(((ColourModded)))]3 倍[-]，并 [(((ColourModded)))]生成笔记[-]。"
+
+AL_LK_EpiphanyReceivedDupe,"[(((ColourModded)))]你在阅读时有了[-] [5092ff]顿悟[-] [(((ColourModded)))]，并将你的领悟记录下来供其他玩家阅读。[-]"
+
+AL_Perk_Meticulous,"一丝不苟"
+AL_Perk_MeticulousDesc,"精心制定的计划和谨慎的执行是经过验证的有效组合。"
+AL_Perk_Meticulous1Desc,"你制作所有武器和工具的速度减慢 [(((ColourModded)))]20%[-]，但质量提高 [(((ColourModded)))]5%[-]。"
+AL_Perk_Meticulous2Desc,"你制作所有武器和工具的速度减慢 [(((ColourModded)))]40%[-]，但质量提高 [(((ColourModded)))]10%[-]。"
+AL_Perk_Meticulous3Desc,"你制作所有武器和工具的速度减慢 [(((ColourModded)))]60%[-]，但质量提高 [(((ColourModded)))]15%[-]。"
+AL_Perk_Meticulous4Desc,"你制作所有武器和工具的速度减慢 [(((ColourModded)))]80%[-]，但质量提高 [(((ColourModded)))]20%[-]。"
+AL_Perk_Meticulous5Desc,"你制作所有武器和工具的时间是原来的 [(((ColourModded)))]两倍[-]，但质量提高 [(((ColourModded)))]25%[-]。"
+
+AL_Perk_Constitutional,"体质强健"
+AL_Perk_ConstitutionalDesc,"你照顾了自己的身体，现在更清楚健康的重要性。只要你没有脱水或饿死，你的身体恢复速度更快。"
+AL_Perk_Constitutional1Desc,"每秒额外恢复 [(((ColourModded)))]0.04[-] 生命值。这种额外恢复不需要额外的食物和水。"
+AL_Perk_Constitutional2Desc,"每秒生命值恢复加成增加到 [(((ColourModded)))]0.08[-]。"
+AL_Perk_Constitutional3Desc,"每秒生命值恢复加成增加到 [(((ColourModded)))]0.12[-]。"
+AL_Perk_Constitutional4Desc,"每秒生命值恢复加成增加到 [(((ColourModded)))]0.16[-]。"
+AL_Perk_Constitutional5Desc,"每秒生命值恢复加成增加到 [(((ColourModded)))]0.2[-]。"
+
+AL_Perk_SmashNGrab,"破门抢掠"
+AL_Perk_SmashNGrabDesc,"在这个不文明、喧嚣且无法无天的世界里，矫揉造作并不实用。消灭丧尸，然后破门而入。"
+AL_Perk_SmashNGrab1Desc,"你对坚固箱子的伤害增加 [(((ColourModded)))]100%[-]。"
+AL_Perk_SmashNGrab2Desc,"你对坚固箱子的伤害增加 [(((ColourModded)))]200%[-]。"
+AL_Perk_SmashNGrab3Desc,"你对坚固箱子的伤害增加 [(((ColourModded)))]300%[-]。"
+AL_Perk_SmashNGrab4Desc,"你对坚固箱子的伤害增加 [(((ColourModded)))]400%[-]。"
+AL_Perk_SmashNGrab5Desc,"对坚固箱子的伤害增加 [(((ColourModded)))]500%[-]。打击坚固箱子时有 [(((ColourModded)))]5%[-] 到 [(((ColourModded)))]20%[-] 的概率自动破坏锁（随力量等级从 100 到 1000 变化）。"
+
+AL_Perk_Demolisher,"毁灭者"
+AL_Perk_DemolisherDesc,"肌肉和力量只是最低要求。通过训练，你学会了感受其结构在打击下的反应。它暴露了弱点。"
+AL_Perk_Demolisher1Desc,"你使用 [(((ColourModded)))]大锤[-] 的破坏力增加 [(((ColourModded)))]100%[-]。"
+AL_Perk_Demolisher2Desc,"你使用 [(((ColourModded)))]大锤[-] 的破坏力增加 [(((ColourModded)))]200%[-]。"
+AL_Perk_Demolisher3Desc,"你使用 [(((ColourModded)))]大锤[-] 的破坏力增加 [(((ColourModded)))]300%[-]。"
+AL_Perk_Demolisher4Desc,"你使用 [(((ColourModded)))]大锤[-] 的破坏力增加 [(((ColourModded)))]400%[-]。"
+AL_Perk_Demolisher5Desc,"你使用 [(((ColourModded)))]大锤[-] 的破坏力增加 [(((ColourModded)))]500%[-]。"
+
+AL_Perk_LootHoarder,"囤积者"
+AL_Perk_LootHoarderDesc,"你是否有一种不可抗拒的冲动，要把所有没固定的东西都带走？你是否经常在背包满载超过 30 磅的情况下行走？你是否发现自己即使在丧尸逼近时也无法丢弃战利品？你可能是一个囤积者。"
+AL_Perk_LootHoarder1Desc,"通过紧密卷起衣物，你找到了 [(((ColourModded)))]4[-] 个额外的背包空间。"
+AL_Perk_LootHoarder2Desc,"你开始运用你的俄罗斯方块技巧来整理物品，并找到了 [(((ColourModded)))]8[-] 个额外的空间。"
+AL_Perk_LootHoarder3Desc,"显然你在玩俄罗斯方块方面并不擅长，但通过整理物品变得更好。你现在找到了 [(((ColourModded)))]12[-] 个空间。"
+AL_Perk_LootHoarder4Desc,"你意识到自己其实不是在玩俄罗斯方块，而是在玩西洋跳棋。因此，你现在总共有 [(((ColourModded)))]16[-] 个额外的空间。"
+AL_Perk_LootHoarder5Desc,"你短暂地在背包中引发了核聚变，现在总共有 [(((ColourModded)))]24[-] 个额外的空间。"
+
+AL_Perk_Assassin,"刺客"
+AL_Perk_AssassinDesc,"他们永远也想不到，但可能会感受到。"
+AL_Perk_Assassin1Desc,"提高 [(((ColourSpecialAttack)))]背后刺杀[-] 能力，增加 [(((ColourModded)))]匕首[-] 造成的额外 [00ff00]50%[-] 伤害。"
+AL_Perk_Assassin2Desc,"加成提高至 [00ff00]100%[-]。"
+AL_Perk_Assassin3Desc,"加成提高至 [00ff00]150%[-]。"
+AL_Perk_Assassin4Desc,"加成提高至 [00ff00]200%[-]。"
+AL_Perk_Assassin5Desc,"加成提高至 [00ff00]250%[-]。"
+
+AL_Perk_Clockwork,"钟表匠"
+AL_Perk_ClockworkDesc,"微小的形状，微小的齿轮。你需要一个稳定的手才能处理这些。"
+AL_Perk_Clockwork1Desc,"减少精细机械物品的制作时间 [00ff00]25%[-]。"
+AL_Perk_Clockwork2Desc,"加成提高至 [00ff00]50%[-]。"
+AL_Perk_Clockwork3Desc,"加成提高至 [00ff00]75%[-]。"
+
+AL_Perk_Bloodletter,"放血者"
+AL_Perk_BloodletterDesc,"你能真正让丧尸流血吗？丧尸的血和我们的血一样吗？他们真的需要血吗？哦，算了。多捅几下，少想些。"
+AL_Perk_Bloodletter1Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]4[-] 点出血伤害。"
+AL_Perk_Bloodletter2Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]8[-] 点出血伤害。"
+AL_Perk_Bloodletter3Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]12[-] 点出血伤害。"
+AL_Perk_Bloodletter4Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]16[-] 点出血伤害。"
+AL_Perk_Bloodletter5Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]20[-] 点出血伤害。"
+
+AL_Perk_Pipeslinger,"管枪手"
+AL_Perk_PipeslingerDesc,"谁需要真正好的枪械来变得真正厉害，当你可以用真正差的枪械变得非常厉害时？"
+AL_Perk_Pipeslinger1Desc,"使用管状武器时，装弹速度提高 [(((ColourModded)))]+40%[-]。"
+AL_Perk_Pipeslinger2Desc,"使用管状武器时，装弹速度提高 [(((ColourModded)))]+80%[-]。"
+AL_Perk_Pipeslinger3Desc,"使用管状武器时，装弹速度提高 [(((ColourModded)))]+120%[-]。"
+AL_Perk_Pipeslinger4Desc,"使用管状武器时，装弹速度提高 [(((ColourModded)))]+160%[-]。"
+AL_Perk_Pipeslinger5Desc,"使用管状武器时，装弹速度提高 [(((ColourModded)))]+200%[-]。"
+
+AL_Perk_Volley,"齐射"
+AL_Perk_VolleyDesc,"如果你做对了，你或许可以在丧尸来临之前实现那个你一直想做的莱格拉斯角色扮演。迟做总比不做强！"
+AL_Perk_Volley1Desc,"使用弓箭时，可以使用径向菜单准备 [(((ColourModded)))]齐射[-]，额外装载 [(((ColourModded)))]1[-] 支箭进行快速射击。"
+AL_Perk_Volley2Desc,"可以额外装载 [(((ColourModded)))]2[-] 支箭。"
+AL_Perk_Volley3Desc,"可以额外装载 [(((ColourModded)))]3[-] 支箭。"
+AL_Perk_Volley4Desc,"可以额外装载 [(((ColourModded)))]4[-] 支箭。"
+
+AL_Perk_ThunderThighs,"雷霆大腿"
+AL_Perk_ThunderThighsDesc,"每天都是腿部训练日。别忘了这一点。"
+AL_Perk_ThunderThighs1Desc,"匍匐时移动速度提高 [(((ColourModded)))]+20%[-]。"
+AL_Perk_ThunderThighs2Desc,"匍匐时移动速度提高 [(((ColourModded)))]+40%[-]。"
+AL_Perk_ThunderThighs3Desc,"匍匐时移动速度提高 [(((ColourModded)))]+60%[-]。"
+AL_Perk_ThunderThighs4Desc,"匍匐时移动速度提高 [(((ColourModded)))]+80%[-]。"
+AL_Perk_ThunderThighs5Desc,"匍匐时移动速度提高 [(((ColourModded)))]+100%[-]。"
+
+AL_Perk_Beatdown,"碾压"
+AL_Perk_BeatdownDesc,"趁他们倒下时猛击他们！"
+AL_Perk_Beatdown1Desc,"使用拳击时，对倒地敌人的轻攻击每次命中会增加攻击速度 [(((ColourModded)))]+10%[-]。"
+AL_Perk_Beatdown2Desc,"加成提高至 [(((ColourModded)))]+20%[-]。"
+AL_Perk_Beatdown3Desc,"加成提高至 [(((ColourModded)))]+30%[-]。"
+AL_Perk_Beatdown4Desc,"加成提高至 [(((ColourModded)))]+40%[-]。"
+AL_Perk_Beatdown5Desc,"加成提高至 [(((ColourModded)))]+80%[-]。"
+
+AL_Perk_SuckerPunch,"偷袭"
+AL_Perk_SuckerPunchDesc,"直接打脸！"
+AL_Perk_SuckerPunch1Desc,"使用拳击时，重攻击速度降低 [ff2020]-10%[-]，伤害增加 [20ff20]+20%[-]，并且有 [(((ColourModded)))]4%[-] 的几率在重攻击命中面部时击倒敌人。"
+AL_Perk_SuckerPunch2Desc,"重攻击速度降低 [ff2020]-20%[-]，伤害增加 [20ff20]+40%[-]，击倒几率提高至 [(((ColourModded)))]8%[-]。"
+AL_Perk_SuckerPunch3Desc,"重攻击速度降低 [ff2020]-30%[-]，伤害增加 [20ff20]+60%[-]，击倒几率提高至 [(((ColourModded)))]12%[-]。"
+AL_Perk_SuckerPunch4Desc,"重攻击速度降低 [ff2020]-40%[-]，伤害增加 [20ff20]+80%[-]，击倒几率提高至 [(((ColourModded)))]16%[-]。"
+AL_Perk_SuckerPunch5Desc,"重攻击速度降低 [ff2020]一半[-]，伤害增加 [20ff20]两倍[-]，击倒几率提高至 [(((ColourModded)))]20%[-]。"
+
+AL_Perk_Joust,"比武"
+AL_Perk_JoustDesc,"你可能没有马，但如果你敲敲椰子壳，它也能派上用场。"
+AL_Perk_Joust1Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]1 倍[-] 的额外伤害。"
+AL_Perk_Joust2Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]2 倍[-] 的额外伤害。"
+AL_Perk_Joust3Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]3 倍[-] 的额外伤害。"
+AL_Perk_Joust4Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]4 倍[-] 的额外伤害。"
+AL_Perk_Joust5Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]5 倍[-] 的额外伤害。"
+
+AL_Perk_Pike,"长矛"
+AL_Perk_PikeDesc,"你想近战战斗，但又不想让那些恶心的丧尸靠近怎么办？"
+AL_Perk_Pike1Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.2[-] 格。"
+AL_Perk_Pike2Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.4[-] 格。"
+AL_Perk_Pike3Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.6[-] 格。"
+AL_Perk_Pike4Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.8[-] 格。"
+AL_Perk_Pike5Desc,"增加长矛的攻击范围 [(((ColourModded)))]1[-] 格。"
+
+AL_Perk_Prod,"推搡"
+AL_Perk_ProdDesc,"有时候你只需要一点推动力。"
+AL_Perk_Prod1Desc,"增加长矛的 [(((ColourSpecialAttack)))]推击[-] 力度至 [00ff00]30[-]（原本为 20）。"
+AL_Perk_Prod2Desc,"增加长矛的 [(((ColourSpecialAttack)))]推击[-] 力度至 [00ff00]40[-]。"
+AL_Perk_Prod3Desc,"增加长矛的 [(((ColourSpecialAttack)))]推击[-] 力度至 [00ff00]50[-]。"
+AL_Perk_Prod4Desc,"增加长矛的 [(((ColourSpecialAttack)))]推击[-] 力度至 [00ff00]60[-]。"
+AL_Perk_Prod5Desc,"增加长矛的 [(((ColourSpecialAttack)))]推击[-] 力度至 [00ff00]70[-]。"
+
+AL_Perk_SuperAttack,"超级攻击"
+AL_Perk_SuperAttackDesc,"什么？强力攻击？从来没听说过。这是 [i]超级[/i] 攻击。更强。"
+AL_Perk_SuperAttack1Desc,"增加 [(((ColourSpecialAttack)))]强力攻击[-] 用棍棒造成的伤害 [00ff00]20%[-]，同时按比例增加体力消耗。"
+AL_Perk_SuperAttack2Desc,"加成提高至 [00ff00]40%[-]。"
+AL_Perk_SuperAttack3Desc,"加成提高至 [00ff00]60%[-]。"
+AL_Perk_SuperAttack4Desc,"加成提高至 [00ff00]80%[-]。"
+AL_Perk_SuperAttack5Desc,"加成提高至 [00ff00]100%[-]。"
+
+AL_Perk_Sunder,"削弱"
+AL_Perk_SunderDesc,"在正确的位置进行一次及时的攻击，任何人都会变得虚弱。"
+AL_Perk_Sunder1Desc,"增加拳击的 [(((ColourSpecialAttack)))]削弱[-] 攻击减少疼痛抗性的效果，从 [ff8000]10%[-] 提高至 [00ff00]16%[-]。"
+AL_Perk_Sunder2Desc,"效果提高至 [00ff00]22%[-]。"
+AL_Perk_Sunder3Desc,"效果提高至 [00ff00]28%[-]。"
+AL_Perk_Sunder4Desc,"效果提高至 [00ff00]34%[-]。"
+AL_Perk_Sunder5Desc,"效果提高至 [00ff00]40%[-]。"
+
+AL_Perk_Perseverance,"毅力"
+AL_Perk_PerseveranceDesc,"不能…停下…我！..."
+AL_Perk_Perseverance1Desc,"减少因缺水导致的体力恢复减少 [00ff00]10%[-]。"
+AL_Perk_Perseverance2Desc,"减少因缺水导致的体力恢复减少 [00ff00]20%[-]。"
+AL_Perk_Perseverance3Desc,"减少因缺水导致的体力恢复减少 [00ff00]30%[-]。"
+AL_Perk_Perseverance4Desc,"减少因缺水导致的体力恢复减少 [00ff00]40%[-]。"
+AL_Perk_Perseverance5Desc,"减少因缺水导致的体力恢复减少 [00ff00]50%[-]。"
+
+AL_Perk_DiggyDiggyHole,"挖洞挖洞"
+AL_Perk_DiggyDiggyHoleDesc,"我不是矮人，但我正在挖洞，挖洞挖洞，挖洞挖洞。"
+AL_Perk_DiggyDiggyHole1Desc,"增加对 [(((ColourModded)))]泥土[-]、[(((ColourModded)))]表土[-]、[(((ColourModded)))]沙子[-]、[(((ColourModded)))]石头[-]、[(((ColourModded)))]砾石[-]、[(((ColourModded)))]雪[-] 和 [(((ColourModded)))]砂岩[-] 的破坏力 [00ff00]10%[-]。"
+AL_Perk_DiggyDiggyHole2Desc,"加成提高至 [00ff00]20%[-]。"
+AL_Perk_DiggyDiggyHole3Desc,"加成提高至 [00ff00]30%[-]。"
+AL_Perk_DiggyDiggyHole4Desc,"加成提高至 [00ff00]40%[-]。"
+AL_Perk_DiggyDiggyHole5Desc,"加成提高至 [00ff00]50%[-]。"
+
+AL_Perk_BrutalMomentum,"狂暴动势"
+AL_Perk_BrutalMomentumDesc,"我不是被你们包围！你们都被我包围了！"
+AL_Perk_BrutalMomentum1Desc,"减少 [(((ColourSpecialAttack)))]横扫[-] 攻击的体力消耗，对额外目标的体力消耗减少 [00ff00]20%[-]。"
+AL_Perk_BrutalMomentum2Desc,"加成提高至 [00ff00]40%[-]。"
+AL_Perk_BrutalMomentum3Desc,"加成提高至 [00ff00]60%[-]。"
+AL_Perk_BrutalMomentum4Desc,"加成提高至 [00ff00]80%[-]。"
+AL_Perk_BrutalMomentum5Desc,"你可以始终以无额外体力消耗的方式攻击所有目标。"
+
+AL_Perk_CombatMedic,"战斗医疗兵"
+AL_Perk_CombatMedicDesc,"有时你需要战斗，有时你需要治疗，有时你需要两者兼顾。"
+AL_Perk_CombatMedic1Desc,"绷带、急救包、夹板、石膏和止痛药在自己身上使用时速度加快 [00ff00]10%[-]，在他人身上使用时速度加快 [00ff00]20%[-]。"
+AL_Perk_CombatMedic2Desc,"在自己身上使用时速度加快 [00ff00]20%[-]，在他人身上使用时速度加快 [00ff00]40%[-]。"
+AL_Perk_CombatMedic3Desc,"在自己身上使用时速度加快 [00ff00]30%[-]，在他人身上使用时速度加快 [00ff00]60%[-]。"
+AL_Perk_CombatMedic4Desc,"在自己身上使用时速度加快 [00ff00]40%[-]，在他人身上使用时速度加快 [00ff00]80%[-]。"
+AL_Perk_CombatMedic5Desc,"在自己身上使用时速度加快 [00ff00]50%[-]，在他人身上使用时速度加快 [00ff00]100%[-]。"
+
+AL_Perk_FranticMan,"狂躁者"
+AL_Perk_FranticManDesc,"跳跃、奔跑、满身是伤，疯狂地服用止痛药，拼命地缠绷带，数十个野蛮的摩托车手紧追不舍，这就是狂躁者的生活。"
+AL_Perk_FranticMan1Desc,"使用治疗物品时的速度降低减少了 [00ff00]25%[-]。"
+AL_Perk_FranticMan2Desc,"速度降低减少了 [00ff00]50%[-]。"
+AL_Perk_FranticMan3Desc,"速度降低减少了 [00ff00]75%[-]。"
+AL_Perk_FranticMan4Desc,"使用治疗物品时不再降低奔跑速度。"
+AL_Perk_FranticMan5Desc,"使用治疗物品后，奔跑速度在 [00ff00]10秒[-] 内增加 [00ff00]25%[-]。"
+
+AL_Perk_Explorer,"探险者"
+AL_Perk_ExplorerDesc,"没有高山够不到，没有山谷够不着，没有河流过不去。"
+AL_Perk_Explorer1Desc,"你的地图探索范围增加 [00ff00]1[-]。"
+AL_Perk_Explorer2Desc,"你的地图探索范围增加 [00ff00]2[-]。"
+AL_Perk_Explorer3Desc,"你的地图探索范围增加 [00ff00]3[-]。"
+AL_Perk_Explorer4Desc,"你的地图探索范围增加 [00ff00]4[-]。"
+AL_Perk_Explorer5Desc,"你的地图探索范围增加 [00ff00]5[-]。"
+# }}}
+
+# Progression UI {{{
+AL_LK_AttributesTab,"属性"
+AL_LK_SkillsTab,"技能"
+AL_LK_CraftingTab,"制造"
+AL_LK_PerkBooksTab,"特性书"
+AL_LK_PerksTab,"特性"
+AL_LK_BackstoryTab,"背景故事"
+AL_LK_SkillsGeneral,"通用"
+AL_LK_SkillsCombat,"战斗"
+AL_LK_SkillsMelee,"近战"
+AL_LK_SkillsRanged,"远程"
+AL_LK_SkillsGathering,"采集"
+AL_LK_SkillsCrafting,"制造"
+AL_LK_SkillsMeleeCombat,"近战战斗"
+AL_LK_SkillsRangedCombat,"远程战斗"
+AL_LK_NoPerkPoints,"你的 {0} 特性点数不足。"
+# }}}
+
+# Progression {{{
+AL_LK_LevelUp,"你在 [ff8020]{0}[-] 方面的技能已提升到 [80ff80]{1}[-]。"
+AL_LK_LevelUp_AL_Attribute_Strength,"你变得更 [ff9933]强壮[-] 了。"
+AL_LK_LevelUp_AL_Attribute_Fortitude,"你的 [ff3333]耐力[-] 已增强。"
+AL_LK_LevelUp_AL_Attribute_Agility,"你的 [ffff33]敏捷[-] 已增强。"
+AL_LK_LevelUp_AL_Attribute_Finesse,"你的 [33ff33]灵巧[-] 已提升。"
+AL_LK_LevelUp_AL_Attribute_Perception,"你的 [9059ff]感知[-] 更敏锐了。"
+AL_LK_LevelUp_AL_Attribute_Intellect,"你的 [6666ff]智力[-] 更强了。"
+
+AL_LK_TTStrengthPerkPoints,"[ff9933]强壮[-] 特性点数"
+AL_LK_TTFortitudePerkPoints,"[ff3333]耐力[-] 特性点数"
+AL_LK_TTFinessePerkPoints,"[33ff33]灵巧[-] 特性点数"
+AL_LK_TTAgilityPerkPoints,"[ffff33]敏捷[-] 特性点数"
+AL_LK_TTPerceptionPerkPoints,"[9059ff]感知[-] 特性点数"
+AL_LK_TTIntellectPerkPoints,"[6666ff]智力[-] 特性点数"
+# }}}
+
+# FreeDye {{{
+AL_LK_BottleIt,"装瓶"
+AL_LK_EmptyTub,"清空浴盆"
+AL_LK_InsufficientColour,"颜色不足。"
+AL_LK_ToolTipBottleIt,"[(((ColourModded)))]将大约十个单位的颜色装瓶，制成可用的染料，颜色为当前浴盆中的颜色。[-]"
+AL_LK_ToolTipEmptyTub,"[(((ColourModded)))]清空染料浴盆中的内容物，不可逆地销毁所有染料。[-]"
+# }}}
+
+# FreeBuild {{{
+AL_LK_UpgradeRequirementsJoinedWood,"[(((ColourRequirement)))]要求[-]:\n10 木材\n1 松香"
+AL_LK_UpgradeRequirementsNailedWood,"[(((ColourRequirement)))]要求[-]:\n10 木材\n2 钉子"
+AL_LK_UpgradeRequirementsCobblestone,"[(((ColourRequirement)))]要求[-]:\n10 小石块\n2 原始砂浆"
+AL_LK_UpgradeRequirementsBrick,"[(((ColourRequirement)))]要求[-]:\n10 砖块\n2 砂浆"
+AL_LK_UpgradeRequirementsConcrete,"[(((ColourRequirement)))]要求[-]:\n10 混凝土混合物"
+AL_LK_UpgradeRequirementsSteel,"[(((ColourRequirement)))]要求[-]:\n2 钢锭"
+AL_LK_UpgradeRequirementsInconel,"[(((ColourRequirement)))]要求[-]:\n2 镍合金棒材"
+
+AL_LK_NailedWood,"[(((ColourWoodNailed)))]钉合木板[-]"
+AL_LK_JoinedWood,"[(((ColourWood)))]拼接木板[-]"
+# }}}
+
+# Map {{{
+AL_LK_RenameWaypoint, "重命名"
+AL_LK_RemoveWaypoint, "移除"
+AL_LK_PopupTextNeedMap,"[(((ColourToolbeltText)))]未装备地图。[-]"
+# }}}
+
+# EntityClasses {{{
+AL_EC_TrainingDummy,"训练假人"
+AL_EC_ZombiePyro,"喷火丧尸"
+AL_EC_ZombieStoner,"嗑药丧尸"
+AL_EC_ZombieFroglok,"青蛙丧尸"
+
+AL_EC_AnimalZombieBearRadiated,"辐射丧尸熊"
+AL_EC_AnimalZombieBoar,"丧尸野猪"
+AL_EC_PolarBear,"北极熊"
+
+AL_EC_ZombieBerserkerSteve,"狂战士 史蒂夫"
+AL_EC_ZombieBerserkerMoe,"狂战士 莫伊"
+AL_EC_ZombieBerserkerLab,"狂战士 实验室工作人员"
+AL_EC_ZombieBerserkerUtilityWorker,"狂战士 公用事业工人"
+AL_EC_ZombieBerserkerLumberjack,"狂战士 伐木工"
+AL_EC_ZombieBerserkerArlene,"狂战士 阿琳"
+AL_EC_ZombieBerserkerSkateboarder,"狂战士 暴徒"
+AL_EC_ZombieBerserkerFatHawaiian,"狂战士 游客"
+AL_EC_ZombieBerserkerFemaleFat,"狂战士 大妈妈"
+AL_EC_ZombieBerserkerBoe,"狂战士 布尔"
+AL_EC_ZombieBerserkerPartyGirl,"狂战士 派对女孩"
+AL_EC_ZombieBerserkerDarlene,"狂战士 达琳"
+AL_EC_ZombieBerserkerBiker,"狂战士 摩托车手"
+AL_EC_ZombieBerserkerJoe,"狂战士 乔"
+AL_EC_ZombieBerserkerJanitor,"狂战士 看门人"
+AL_EC_ZombieBerserkerBusinessMan,"狂战士 商人"
+AL_EC_ZombieBerserkerTomClark,"狂战士 汤姆·克拉克"
+AL_EC_ZombieBerserkerNurse,"狂战士 护士"
+AL_EC_ZombieBerserkerYo,"狂战士 幽"
+AL_EC_ZombieBerserkerMarlene,"狂战士 马琳"
+AL_EC_ZombieBerserkerSoldier,"狂战士 士兵"
+
+AL_EC_ZombieRabidSteve,"狂暴 史蒂夫"
+AL_EC_ZombieRabidArlene,"狂暴 阿琳"
+AL_EC_ZombieRabidDarlene,"狂暴 达琳"
+AL_EC_ZombieRabidMarlene,"狂暴 马琳"
+AL_EC_ZombieRabidPartyGirl,"狂暴 派对女孩"
+AL_EC_ZombieRabidNurse,"狂暴 护士"
+AL_EC_ZombieRabidBusinessMan,"狂暴 商人"
+AL_EC_ZombieRabidTomClark,"狂暴 汤姆·克拉克"
+AL_EC_ZombieRabidMoe,"狂暴 莫伊"
+AL_EC_ZombieRabidJanitor,"狂暴 看门人"
+AL_EC_ZombieRabidHazmat,"狂暴 防化服"
+AL_EC_ZombieRabidUtilityWorker,"狂暴 公用事业工人"
+AL_EC_ZombieRabidBiker,"狂暴 摩托车手"
+AL_EC_ZombieRabidLumberjack,"狂暴 伐木工"
+AL_EC_ZombieRabidFemaleFat,"狂暴 大妈妈"
+AL_EC_ZombieRabidFatHawaiian,"狂暴 游客"
+AL_EC_ZombieRabidYo,"狂暴 幽"
+AL_EC_ZombieRabidSkateboarder,"狂暴 暴徒"
+AL_EC_ZombieRabidBoe,"狂暴 布尔"
+AL_EC_ZombieRabidJoe,"狂暴 乔"
+AL_EC_ZombieRabidLab,"狂暴 实验室工作人员"
+
+AL_EC_ZombieSmartBusinessMan,"聪明的商人丧尸"
+AL_EC_ZombieSmartLab,"聪明的实验室工作人员"
+AL_EC_ZombieSmartLumberjack,"聪明的伐木工"
+AL_EC_ZombieSmartBiker,"聪明的摩托车手"
+AL_EC_ZombieSmartPartyGirl,"聪明的派对女孩"
+AL_EC_ZombieSmartSoldier,"聪明的士兵"
+
+AL_EC_ZombiePartyGirlBrunette,"派对女孩（黑发）"
+# }}}
+
+# Vanilla Entries Modified {{{
+drugSteroidsDesc,"孩子们，记得远离类固醇！不过这个是可以用的，可以让你的负重翻倍。"
+blockcommand_pickup,"[(((ColourToolbeltText)))]拾取[-]"
+IZYgunT1assaultrifleAK47Milled,"AK47 突击步枪"
+bucketEmpty,"水桶"
+bucketEmptyDesc,"可用于收集水并将其转移到其他地方的水桶。[bbbbbb]仅支持污浊感染水。[-]"
+bucketRiverWater,"水桶 [(((ColourDirtyWater)))](污浊感染水)[-]"
+bucketRiverWaterDesc,"一个装满了非常糟糕的水的水桶。非常非常糟糕。可以说是周围最糟糕的水。"
+perkEnforcerIntimidationDesc,"[(((ColourModded)))]西部最快手枪手:[-] 装备左轮手枪后立即发射的第一枪极其精准。"
+perkEnforcerIntimidationLongDesc,"[(((ColourModded)))]西部最快手枪手:[-] 装备左轮手枪后立即发射的第一枪极其精准。"
+
+perkSniperControlledBreathingDesc,"[(((ColourModded)))]幽灵:[-] 当你手持狙击步枪时，敌人寻找你的时间减少 10%。"
+perkSniperControlledBreathingLongDesc,"[(((ColourModded)))]幽灵:[-] 当你手持狙击步枪时，敌人寻找你的时间减少 10%。"
+
+ObjectiveLocateSupplies_keyword,"定位物资："
+
+perkRangersAPAmmoDesc,"使用弓和弩进行潜行攻击时，额外造成 50% 的伤害加成。"
+perkRangersAPAmmoLongDesc,"使用弓和弩进行潜行攻击时，额外造成 50% 的伤害加成。"
+
+drugAntibioticsDesc,"虽然抗生素不能治愈 Z 病毒，但它们可以显著减少病毒的影响。"
+
+gunMGT0PipeMachineGun,"铁管 SMG"
+gunMGT0PipeMachineGunDesc,"一种发射9毫米弹药的自制自动武器。"
+
+lblContextActionDrink,"饮用一些 [(((ColourDirtyWater)))]污浊感染水[-]。"
+
+blockVariantHelperGroupDesc,"可用于放置方块，如果使用规划工具，则可放置可升级的蓝图方块，例如使用木锤进行建造。"
+
+perkLuckyLooterBrassDesc,"在掠夺时找到更多废金属。"
+perkLuckyLooterBrassLongDesc,"在掠夺时找到更多废金属。"
+perkLuckyLooterLeadDesc,"在掠夺时找到更多的废金属。"
+perkLuckyLooterLeadLongDesc,"在掠夺时找到更多的废金属。"
+
+perkWasteTreasuresDoorsDesc,"从大多数门上收获废料。"
+perkWasteTreasuresDoorsLongDesc,"从大多数门上收获废料。"
+perkWasteTreasuresSinksDesc,"从水槽中收获更多废料。"
+perkWasteTreasuresSinksLongDesc,"从水槽中收获更多废料。"
+perkWasteTreasuresHoneyDesc,"从树桩中取蜂蜜时有 10% 的几率获得麦卢卡蜂蜜。"
+perkWasteTreasuresHoneyLongDesc,"从树桩中取蜂蜜时有 10% 的几率获得麦卢卡蜂蜜。"
+perkWasteTreasuresCompleteDesc,"在掠夺时有更大的几率找到高价值的不可制作物品。"
+perkWasteTreasuresCompleteLongDesc,"在掠夺时有更大的几率找到高价值的不可制作物品。"
+
+perkBarBrawling7BoozedUpDesc,"醉酒导致的视线模糊程度减半。"
+perkBarBrawling7BoozedUpLongDesc,"醉酒导致的视线模糊程度减半。"
+
+resourceLeather,"动物皮革"
+resourceLeatherDesc,"一张刚刚从死去的动物身上剥下的皮。我们感谢它们的牺牲。"
+cntDewCollector,"雨水收集器"
+xuiDewCollector,"雨水收集器"
+
+goDifficulty2,"冒险者（新默认难度）"
+goDifficulty3,"流浪者（旧默认难度）"
+
+ammoArrowStone,"[(((ColourModded)))]原始箭[-]"
+ammoArrowStoneDesc,"带有骨头或石头箭头的原始箭。它通常指向即将被击中的目标。"
+
+xuiOptionsVideoShadowsDistanceTooltip,阴影的质量和距离。\n性能影响：高\n在 [(((ColourModded)))]末日[-] 中无法禁用。
+
+sneakDamageBonus,"[(((ColourModded)))]{0}[-]x 伤害加成"
+
+lootItem,""
+lootEntity,{1}\n[5cff5c](未触碰)[-]
+lootTooltipEmpty,{1}\n[(((ColourGrey)))](空)[-]
+lootTooltipNew,{1}\n[5cff5c](未触碰)[-]
+lootTooltipTouched,{1}\n[ffaa00](已搜索)[-]
+useCampfire,"[(((ColourModded)))][使用][-]"
+useForge,"[(((ColourModded)))][使用][-]"
+useSecureDoor,"[(((ColourModded)))]打开[-]"
+useWorkstation,"[(((ColourModded)))][使用][-]"
+pickupCrops,"[(((ColourModded)))][拾取][-]"
+pickupPrompt,"[(((ColourModded)))][拾取][-]"
+tooltipInteract,"[与 [(((ColourModded)))]{1}[-] 互动]"
+vendingMachineActivate,"[与 [(((ColourModded)))]{1}[-] 互动]"
+
+xuiOptionsVideoUIBackgroundOpacity,游戏中 UI 背景透明度
+xuiOptionsVideoUIForegroundOpacity,游戏中 UI 前景色透明度
+
+xuiOptionsVideoUIBackgroundOpacityTooltip,游戏中（即不在菜单中）UI 背景轮廓和图标透明度。
+xuiOptionsVideoUIForegroundOpacityTooltip,游戏中（即不在菜单中）UI 前景色轮廓和图标透明度。
+
+tooltipUnlocked,"[使用 [(((ColourModded)))]{1}[-]]\n[83FF89](未锁定)[-]"
+tooltipLocked,"[使用 [(((ColourModded)))]{1}[-]]\n[ff5555](已锁定)[-]"
+useBlock,"[使用 [(((ColourModded)))]{1}[-]]"
+
+resourceMetalPipeDesc,"一根长长的中空圆筒形管状物。可以用作糟糕的望远镜，或者是一个劣质的迪吉里杜管。"
+
+trapsSkillMagazine,陷阱杂志
+trapsSkillMagazineDesc,你有虫害吗？看看这些疯狂的陷阱吧，用于虫害控制和家庭安全。\n\n提高 [(((ColourModded)))]陷阱制作[-] 技能。
+
+ttCraftingSkillUnlock,"[a0a0a0]解锁 {0}:[-] [ffc000]{1}[-]"
+ttCraftingSkillUnlockQuality,"[a0a0a0]解锁 {0}:[-] [ffc000]{1}[-] [(((ColourGrey)))](品质 {2})[-]"
+
+npcTooltipTalk,"[(((ColourModded)))][互动][-]"
+
+drinkJarBeer,"啤酒"
+drinkJarBeerDesc,"这不会像你遇到过的其他啤酒那样让你变成抗晕的拳打脚踢的超级人类，但嗯……这只是啤酒……"
+
+resourceBone,"[(((ColourModded)))]骨头[-]"
+resourceBoneDesc,"骨头，在某种意义上，它们将你的身体连在一起。而在另一种意义上，你可以用它们砸丧尸，这也帮助你保住自己的身体。它们也非常适合扮演穴居人。"
+
+dFood,"[ff8000]食物[-]"
+
+repairToolsSkillMagazineDesc,"无论你是家庭改善者还是专业装修者，我们都为你提供了全面的服务！\n\n提高 [(((ColourModded)))]建筑工具制作[-] 技能。"
+
+toolAnvil,"铁砧"
+toolAnvilDesc,"普通的铁砧。可以在熔炉中安装以启用锻造功能；将金属锭加工成各种产品。启用使用铁砧的青铜工具配方，以更快的速度完成相同的工作。"
+toolBellowsDesc,"至关重要的风箱通过持续输送密集空气来促进熔炉或熔炉中的反应。可以在熔炉中安装以增加一级熔炉温度，不受当前燃烧燃料的影响。"
+toolForgeCrucibleDesc,"坩埚是冶炼过程中的关键部分，通过捕捉和输送纯熔融金属进入模具来生产小型全金属物品。可以在熔炉中安装以从熔炉存储的金属中铸造金属产品。"
+
+xuiEmptyInfoPanelText,"[00ff00][Shift + [action:local:Primary]][-] 在 [(((ColourModded)))]制作/拆解/修理[-] 上添加到制作队列的前面。\n[00ff00][R][-] 在工作台上取出所有成品。\n[00ff00][[action:local:FocusCopyBlock]][-] 面对一个方块时 [(((ColourModded)))]复制旋转[-]。\n[00ff00][Shift + [action:local:FocusCopyBlock]][-] 面对一个方块时 [(((ColourModded)))]复制形状[-]。\n[00ff00][Ctrl + Alt + [action:local:Primary]][-] 启动 [(((ColourModded)))]自动攻击[-]。\n[action:local:Primary] 停止 [(((ColourModded)))]自动攻击[-]。\n[00ff00][Alt + [action:local:Primary]][-] 在库存物品上锁定该槽位。[-]"
+
+meleeToolRepairT0StoneAxeDesc,"一种原始工具，适用于砍伐树木、开采石头、修理和升级墙壁、门和窗户。不是最好的武器。"
+cellarDoorDoubleIronDesc,"按住 [action:local:Activate][action:permanent:Activate] 锁定或设置组合锁。使用制作的钢地下室门升级为钢地下室门。"
+cellarDoorDoubleSteelDesc,"按住 [action:local:Activate][action:permanent:Activate] 锁定或设置组合锁。"
+cellarDoorDoubleWoodDesc,"按住 [action:local:Activate][action:permanent:Activate] 锁定或设置组合锁。"
+drugVitaminsDesc,"随着超市无尽选择的消失，维生素可以提供几乎肯定缺失的营养。通过改善营养，能量和免疫系统也会得到提升。"
+
+resourcePaperDesc,"纸可以与其他成分一起用来制作霰弹枪弹药、炸药和雪茄。纸在过去的世界中是随处可见的，现在仍然很丰富。"
+
+perkFiremansAlmanacCompleteLongDesc,"火场肾上腺素：烟雾的味道激发你的肾上腺素。在废土中，奔跑时获得 20% 的伤害和 20% 的耐力恢复。"
+
+perkRangersCompleteDesc,"用弓和弩击中未警觉敌人的头部时造成双倍伤害。"
+
+ammoGasCan,"[(((ColourModded)))]汽油[-]"
+ammoGasCanDesc,"一种专用燃料，可用于发电机和钻机、链锯等电动工具。"
+
+perkEnforcerCompleteDesc,"所有使用 .44 弹药的射击穿透敌人。"
+perkEnforcerCompleteLongDesc,"穿透：.44 普通和 HiPower 子弹可以穿透敌人并击中后面的敌人。"
+
+perkPistolPeteCompleteDesc,"近距离射击无视护甲。"
+perkPistolPeteCompleteLongDesc,"粉末烧伤：9mm 武器近距离射击无视 20% 的护甲并造成出血伤害。"
+
+perkShotgunMessiahCompleteDesc,"你可以一枪打穿大部分木墙。"
+perkShotgunMessiahCompleteLongDesc,"一枪：被困在狭小空间中需要快速逃脱？用这一招在墙上打出一个洞。你可以一枪打穿大部分石膏墙和木墙。"
+
+perkSniperCompleteDesc,"一枪毙命！击中远处目标头部时造成巨大伤害。越远越好。"
+perkSniperCompleteLongDesc,"一枪毙命！击中远处目标头部时造成巨大伤害。越远越好。"
+
+drinkJarGrandpasMoonshineDesc,"没有什么比一瓶爷爷的私酿酒更适合解决老问题了。"
+
+perkSpearHunter3BleedDesc,"长矛有 25% 的几率对目标造成 24 点出血伤害。"
+perkSpearHunter3BleedLongDesc,"出血伤害：长矛有 25% 的几率对目标造成 24 点出血伤害。"
+
+meleeToolPickT3Auger,"钻机"
+meleeToolPickT3AugerDesc,"是时候让这场末日深入地下了。 :sunglasses:\n\n[(((ColourGrey)))]注意：钻机钻孔极具破坏性，非常适合挖隧道，不适合采集资源。"
+
+meleeWpnClubT0WoodenClubDesc,"木棍。适合打断膝盖和头骨。\n\n(((AL_LK_PowerAttackEffect)))"
+meleeWpnClubT1BaseballBatDesc,"这个棍棒曾用于过去在巨大竞技场中举行的角斗游戏。\n\n(((AL_LK_PowerAttackEffect)))"
+meleeWpnClubT3SteelClubDesc,"钢棍非常耐用且攻击力强大。\n\n(((AL_LK_PowerAttackEffect)))"
+
+meleeWpnSpearT0StoneSpearDesc,"长矛比其他近战武器有更多的攻击范围。\n\n(((AL_LK_PushAttackEffect)))"
+meleeWpnSpearT1IronSpearDesc,"长矛比其他近战武器有更多的攻击范围。\n\n(((AL_LK_PushAttackEffect)))"
+meleeWpnSpearT3SteelSpearDesc,"长矛比其他近战武器有更多的攻击范围。\n\n(((AL_LK_PushAttackEffect)))"
+
+meleeWpnBladeT0BoneKnifeDesc,"这种原始的临时武器也适合解剖动物。\n\n(((AL_LK_BackstabEffect)))"
+meleeWpnBladeT1HuntingKnifeDesc,"非常适合刺杀和切割！\n\n(((AL_LK_BackstabEffect)))"
+
+meleeWpnSledgeT0StoneSledgehammerDesc,"大锤是敲碎头骨的最佳武器之一。\n\n(((AL_LK_CleaveEffect)))"
+meleeWpnSledgeT1IronSledgehammerDesc,"大锤是敲碎头骨的最佳武器之一。\n\n(((AL_LK_CleaveEffect)))"
+meleeWpnSledgeT3SteelSledgehammerDesc,"大锤是敲碎头骨的最佳武器之一。\n\n(((AL_LK_CleaveEffect)))"
+
+meleeWpnKnucklesT0LeatherKnucklesDesc,"皮革指关节包裹以保护双手并在挥动时增加重量。\n\n(((AL_LK_WeakenEffect)))"
+meleeWpnKnucklesT1IronKnucklesDesc,"保护双手并在挥动时增加重量。\n\n(((AL_LK_WeakenEffect)))"
+meleeWpnKnucklesT3SteelKnucklesDesc,"保护双手并在挥动时增加重量。这些刀片也适合解剖动物。\n\n(((AL_LK_WeakenEffect)))"
+
+gunBowT1WoodenBowDesc,"适合狩猎和杀死丧尸。如果你急需的话，也可以当作一种不错的弦乐器。"
+# }}}
+
+# Buffs {{{
+AL_Buff_VitalitySummaryName,"[(((ColourVitality)))]活力总览[-]"
+lblBuffs,"增益效果"
+
+AL_Buff_VolleyName,"准备齐射"
+AL_Buff_VolleyDesc,"几发子弹已准备好发射。"
+
+AL_Buff_InfectionStallingDisplayName,"感染停滞"
+AL_Buff_InfectionStallingDisplayDesc,"感染停滞的时间。最大时间为 1 小时。"
+
+AL_Buff_VitalityMinimum,"乐观主义"
+AL_Buff_VitalityMinimumDesc,"末日就末日呗！\n\n[aaaaaa]你的最低[-] [(((ColourModded)))]活力[-] [aaaaaa]目前为[-] {0}[aaaaaa]。这个最低值会逐渐降低至零，并在[-] [ffffff]第 8 天[-][aaaaaa]结束，之后你的最低 [(((ColourModded)))]活力[-] 为零。[-]"
+
+AL_Buff_WarmingFire,"取暖火焰"
+AL_Buff_WarmingFireName,"取暖火焰"
+AL_Buff_WarmingFireDesc,"你在附近的火焰中取暖。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]- +20 抗低温。\n- 快速减少湿气。[-]"
+
+AL_Buff_DrinkingRain,"喝雨水"
+AL_Buff_DrinkingRainName,"喝雨水"
+AL_Buff_DrinkingRainDesc,"虽然慢而且会弄湿衣服，但总比脱水强。"
+
+AL_Buff_ZInfectionTurnedName,"[ff4040]转变[-]"
+AL_Buff_ZInfectionTurnedDesc,"丧尸感染完全包围了你，并导致了你异常的死亡。当你意识离开身体时，你在虚空中跳跃时被拦截。虽然感觉像是在开放的空间，但实际上被固定住了。一种痛苦的切割感迅速蔓延全身。你想尖叫，但这里没有可以尖叫的身体。一股敌对的力量袭击了你。你被拉过尖锐的虚空，就像被拉过一片剃刀地带。你的意识被撕裂。你感到精神上的守护者正在试图把你拉回来，似乎在挣扎。一段时间后，你被大力甩开，显然逃脱了，但你知道这次经历严重损害了你的思维。这种感染似乎不仅仅是自然力量。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]所有属性、行动技能和制作技能减少了 10%。[-]"
+
+AL_Buff_BloodmoonDeath,"[ff4040]献祭给血月[-]"
+AL_Buff_BloodmoonDeathDesc,"当你被推向虚空复活时，虽然轨迹未受影响，但突然感到一股强大的钝击。你感受到了某种注视。显然对你存在的事实不太满意。冲击的感觉逐渐渗透，你感到内心深处渐渐滋生出深深的敌意。它的触须有条不紊地向内延伸，缠绕着你的思维边缘。你醒来了。再次复活，但带着强烈的恐惧。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]活力降至零。[-]"
+
+al_buff_vitamins,"[(((ColourModded)))]营养充足[-]"
+AL_Buff_VitaminsName,"[(((ColourModded)))]营养充足[-]"
+AL_Buff_VitaminsDesc,"你的维生素和矿物质都得到了补充，感觉更有活力；+10% 耐力（除了活力效果）。"
+
+AL_Buff_AlcoholWithdrawal_DepressionName,"[e79b13]戒酒症状:[-] 抑郁"
+AL_Buff_AlcoholWithdrawal_DepressionDesc,"沉重的抑郁压在你的心头。它在几乎所有方面都拖慢了你，并使你对生活产生阴暗的看法。"
+
+AL_Buff_AlcoholWithdrawal_AnxietyName,"[e79b13]戒酒症状:[-] 焦虑"
+AL_Buff_AlcoholWithdrawal_AnxietyDesc,"以前害怕的事物现在更加可怕，以前不害怕的事物现在也让你不安。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]加倍 [-] [ffffff]环境[-][bbbbbb]、[-] [ffffff]战斗压力[-][bbbbbb] 和 [-] [ffffff]恐惧[-][bbbbbb] 的负面影响。"
+
+AL_Buff_AlcoholWithdrawal_BrainFogName,"[e79b13]戒酒症状:[-] 思维混乱"
+AL_Buff_AlcoholWithdrawal_BrainFogDesc,"你似乎无法将思绪联系起来.."
+
+AL_Buff_AlcoholWithdrawal_TremorsName,"[e79b13]戒酒症状:[-] 颤抖"
+AL_Buff_AlcoholWithdrawal_TremorsDesc,"你浑身颤抖。"
+
+AL_Buff_AlcoholWithdrawal_FatigueName,"[e79b13]戒酒症状:[-] 疲劳"
+AL_Buff_AlcoholWithdrawal_FatigueDesc,"你觉得如此沉重...仅仅移动都非常困难..."
+
+AL_Buff_AlcoholWithdrawal_HeadacheName,"[e79b13]戒酒症状:[-] 头痛"
+AL_Buff_AlcoholWithdrawal_HeadacheDesc,"你突然感到剧烈头痛。"
+
+AL_BuffWoodsman,"森林人"
+AL_BuffWoodsmanDesc,"自从末日以来，你一直在森林中度过，避免人口中心区域，因此你对野外环境更为适应，对文明世界则更为警惕。[(((ColourGrey)))]在野外地区，你跑得更快，耐力恢复更快，而在人造环境中则相反。[-]"
+AL_BuffWoodsmanTT,"自从末日以来，你一直在森林中度过，避免人口中心区域，因此你对野外环境更为适应，对文明世界则更为警惕。[(((ColourGrey)))]在野外地区，你跑得更快，耐力恢复更快，而在人造环境中则相反。[-]"
+
+AL_Buff_FoodPoisoning_QueasyName,"不适"
+AL_Buff_FoodPoisoning_QueasyDesc,"你的胃感觉不太好.. 最好休息一下。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]-0.01% 活力 / 分钟\n-5% 移动速度[-]"
+
+AL_Buff_FoodPoisoning_NauseousName,"恶心"
+AL_Buff_FoodPoisoning_NauseousDesc,"你真的 [i]真的[/i] 不太舒服.. 啊..\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]-0.02% 活力 / 分钟\n-10% 移动速度[-]"
+
+AL_Buff_VomitName,"呕吐！"
+AL_Buff_VomitDesc,"呃呃呃呃呃呃.....啊啊啊啊啊呃呃呃呃呃.....呃呃呃呃呃哇哇哇哇哇...."
+# }}}
+
+# UI Only {{{
+AL_LK_StatSymbolHealth,"生命"
+AL_LK_StatSymbolStamina,"耐力"
+AL_LK_StatSymbolAlcohol,"活力"
+AL_LK_StatSymbolAlcohol,"酒精"
+
+AL_TagRestrictedSlot_Light,"手电筒 / 火炬"
+AL_TagRestrictedSlot_Map,"地图"
+AL_TagRestrictedSlot_Compass,"指南针"
+AL_TagRestrictedSlot_Watch,"手表"
+AL_TagRestrictedSlot_Radio,"收音机"
+AL_TagRestrictedSlot_GeigerCounter,"盖革计数器"
+AL_TagRestrictedSlot_Toolbelt,"工具带"
+AL_TagRestrictedSlot_Backpack,"背包"
+
+AL_BookGroup_RockHard,"坚石"
+AL_BookGroup_MoreDakka,"更多火力"
+AL_BookGroup_WhiskeyPunch,"酒吧拳击"
+AL_BookGroup_HitIt,"击打"
+AL_BookGroup_Magnuminous,"重型武器"
+AL_BookGroup_BurnBabyBurn,"燃烧吧"
+AL_BookGroup_Yoink,"抓取！"
+AL_BookGroup_WildThing,"狂野之物"
+AL_BookGroup_LootGobblin,"掠夺者"
+AL_BookGroup_DarknessCalls,"黑暗召唤"
+AL_BookGroup_ShootyMcGee,"射击小子"
+AL_BookGroup_Trueshot,"精准射击"
+AL_BookGroup_BlastEm,"轰击"
+AL_BookGroup_LongShot,"远程射击"
+AL_BookGroup_HotTips,"热辣提示"
+AL_BookGroup_CloseQuarters,"近战"
+
+AL_LK_Rotato,土豆
+# }}}
+
+# Main Menu {{{
+AL_LK_7DTDCredits,"制作组：7 Days To Die"
+AL_LK_ALCredits,"制作组：Afterlife Mod"
+# }}}
+
+# Cartography Table {{{
+AL_LK_UseCartographyTable,"[使用 [(((ColourModded)))]制图台[-]]"
+blockcommand_sync,"与地图同步"
+blockcommand_copy_to,"复制到"
+blockcommand_copy_from,"从...复制"
+blockcommand_reset,"调试：重置地图"
+# }}}
+
+# Block Commands {{{
+blockcommand_pick_normal,"开锁\n[bbbbbb](普通撬锁工具)[-]"
+blockcommand_pick_improvised,"开锁\n[(((ColourModded)))](临时撬锁工具)[-]"
+# }}}
+
+# TimedActions {{{
+AL_LK_TargetAtMaxHealth,"目标已经处于满生命状态。"
+AL_LK_PlayerAtMaxHealth,"你已经处于满生命状态。"
+# }}}
+
+# Progression UI {{{
+AL_PerkBook_RockHard1,"坚石 第1卷"
+AL_PerkBook_RockHard2,"坚石 第2卷"
+AL_PerkBook_RockHard3,"坚石 第3卷"
+AL_PerkBook_RockHard4,"坚石 第4卷"
+AL_PerkBook_RockHard5,"坚石 第5卷"
+AL_PerkBook_RockHard6,"坚石 第6卷"
+AL_PerkBook_RockHard7,"坚石 第7卷"
+AL_PerkBook_RockHard1Desc,"可以制作 [(((ColourModded)))]黑带咖啡[-]."
+AL_PerkBook_RockHard2Desc,"坍塌：从掉落的方块受到的伤害减半。"
+AL_PerkBook_RockHard3Desc,"传递胶带：采矿工具的耐久度消耗减少 [(((ColourEffectGood)))]20%[-]."
+AL_PerkBook_RockHard4Desc,"[(((ColourEffectGood)))]矿石产量增加 10%[-]."
+AL_PerkBook_RockHard5Desc,"白炽光：可以制作 [(((ColourModded)))]头灯[-]."
+AL_PerkBook_RockHard6Desc,"保持水分：当水含量超过 50% 时，挥动采矿工具时耐力消耗减少 [(((ColourEffectGood)))]20%[-]."
+AL_PerkBook_RockHard7Desc,"只用尖端：可以制作 [(((ColourModded)))]钻石镐头[-]."
+AL_PerkBook_RockHardCompleteDesc,"突破：有机会一击采下矿石。效果随采矿技能提升而增强。"
+# }}}
+
+# Crafting Skills {{{
+AL_CraftingSkill_Armour,"护甲制作"
+AL_CraftingSkill_ConstructionTools,"建筑工具制作"
+AL_CraftingSkill_HarvestingTools,"采集工具制作"
+AL_CraftingSkill_SalvageTools,"拆解工具制作"
+AL_CraftingSkill_Knuckles,"指虎制作"
+AL_CraftingSkill_Medical,"医疗制作"
+AL_CraftingSkill_Spears,"长矛制作"
+AL_CraftingSkill_Cooking,"烹饪"
+AL_CraftingSkill_Tools,"工具制作"
+AL_CraftingSkill_Knives,"刀具制作"
+AL_CraftingSkill_BowyeryFletching,"弓箭制作"
+AL_CraftingSkill_Clubs,"棍棒制作"
+AL_CraftingSkill_Electronics,"电子设备制作"
+AL_CraftingSkill_Explosives,"爆炸物制作"
+AL_CraftingSkill_Handguns,"手枪制作"
+AL_CraftingSkill_MachineGuns,"机枪制作"
+AL_CraftingSkill_SMGs,"冲锋枪制作"
+AL_CraftingSkill_LMGs,"轻机枪制作"
+AL_CraftingSkill_Rifles,"步枪制作"
+AL_CraftingSkill_Robotics,"机器人制作"
+AL_CraftingSkill_Farming,"农业"
+AL_CraftingSkill_Shotguns,"霰弹枪制作"
+AL_CraftingSkill_Sledgehammers,"大锤制作"
+AL_CraftingSkill_Traps,"陷阱制作"
+AL_CraftingSkill_Vehicles,"车辆制作"
+AL_CraftingSkill_Workstations,"工作站制作"
+AL_CraftingSkill_Mechanics,"机械制作"
+AL_CraftingSkill_AssaultRifles,"突击步枪制作"
+AL_CraftingSkill_MeleeWeapons,"近战武器制作"
+AL_CraftingSkill_Guns,"枪械制作"
+AL_CraftingSkill_Primitive,"原始制作"
+AL_CraftingSkill_Tailoring,"裁缝"
+AL_CraftingSkill_Leatherworking,"皮革制作"
+
+AL_CraftingSkill_ArmourLong,"护甲制作"
+AL_CraftingSkill_ConstructionToolsLong,"建筑工具制作"
+AL_CraftingSkill_HarvestingToolsLong,"采集工具制作"
+AL_CraftingSkill_SalvageToolsLong,"拆解工具制作"
+AL_CraftingSkill_KnucklesLong,"指虎制作"
+AL_CraftingSkill_MedicalLong,"医疗制作"
+AL_CraftingSkill_SpearsLong,"长矛制作"
+AL_CraftingSkill_CookingLong,"烹饪"
+AL_CraftingSkill_ToolsLong,"工具制作"
+AL_CraftingSkill_KnivesLong,"刀具制作"
+AL_CraftingSkill_BowyeryFletchingLong,"弓/弩制作"
+AL_CraftingSkill_ClubsLong,"棍棒制作"
+AL_CraftingSkill_ElectronicsLong,"电子设备制作"
+AL_CraftingSkill_ExplosivesLong,"爆炸物制作"
+AL_CraftingSkill_HandgunsLong,"手枪制作"
+AL_CraftingSkill_MachineGunsLong,"机枪制作"
+AL_CraftingSkill_SMGsLong,"冲锋枪制作"
+AL_CraftingSkill_LMGsLong,"轻机枪制作"
+AL_CraftingSkill_RiflesLong,"步枪制作"
+AL_CraftingSkill_RoboticsLong,"机器人制作"
+AL_CraftingSkill_FarmingLong,"农业"
+AL_CraftingSkill_ShotgunsLong,"霰弹枪制作"
+AL_CraftingSkill_SledgehammersLong,"大锤制作"
+AL_CraftingSkill_TrapsLong,"陷阱制作"
+AL_CraftingSkill_VehiclesLong,"车辆制作"
+AL_CraftingSkill_WorkstationsLong,"工作站制作"
+AL_CraftingSkill_MechanicsLong,"机械制作"
+AL_CraftingSkill_AssaultRiflesLong,"突击步枪制作"
+AL_CraftingSkill_MeleeWeaponsLong,"近战武器制作"
+AL_CraftingSkill_GunsLong,"枪械制作"
+AL_CraftingSkill_PrimitiveLong,"原始制作"
+AL_CraftingSkill_TailoringLong,"裁缝"
+AL_CraftingSkill_LeatherworkingLong,"皮革制作"
+
+AL_CraftingSkill_HarvestingToolsDesc,"允许制作采集工具，并提高所制作工具的质量。阅读 [(((ColourModded)))]工具摘要[-] 并拆解此类工具以提升等级。"
+AL_CraftingSkill_ConstructionToolsDesc,"允许制作建筑与修理工具，并提高所制作工具的质量。阅读 [(((ColourModded)))]巧手之家[-] 并拆解建筑/修理工具以提升等级。"
+AL_CraftingSkill_SalvageToolsDesc,"允许制作拆解工具，并提高所制作工具的质量。阅读 [(((ColourModded)))]趣味分解[-] 并拆解拆解工具以提升等级。"
+AL_CraftingSkill_KnucklesDesc,"允许制作指虎，并提高所制作指虎的质量。阅读 [(((ColourModded)))]愤怒之拳[-] 并拆解指虎以提升等级。"
+AL_CraftingSkill_MedicalDesc,"允许制作医疗物品。阅读 [(((ColourModded)))]医学期刊[-] 以提升等级。"
+AL_CraftingSkill_SpearsDesc,"允许制作长矛，并提高所制作长矛的质量。阅读 [(((ColourModded)))]尖锐之棍[-] 并拆解长矛以提升等级。"
+AL_CraftingSkill_CookingDesc,"允许制作各种食物。阅读 [(((ColourModded)))]家庭烹饪周刊[-] 以提升等级。"
+AL_CraftingSkill_KnivesDesc,"允许制作刀具，并提高所制作刀具的质量。阅读 [(((ColourModded)))]刀剑客[-] 并拆解刀具以提升等级。"
+AL_CraftingSkill_BowyeryFletchingDesc,"允许制作弓和弩，提高所制作弓和弩的质量，并允许制作箭和弩箭。阅读 [(((ColourModded)))]猎人之弓[-] 并拆解弓和弩以提升等级。"
+AL_CraftingSkill_ClubsDesc,"允许制作棍棒，并提高所制作棍棒的质量。阅读 [(((ColourModded)))]打击高手[-] 并拆解棍棒以提升等级。"
+AL_CraftingSkill_ElectronicsDesc,"允许制作电子和电器物品。阅读 [(((ColourModded)))]布线101[-] 以提升等级。"
+AL_CraftingSkill_ExplosivesDesc,"允许制作爆炸物。阅读 [(((ColourModded)))]炸药库[-] 并拆解爆炸物以提升等级。"
+AL_CraftingSkill_HandgunsDesc,"允许制作手枪，并提高所制作手枪的质量。阅读 [(((ColourModded)))]手枪弹匣[-] 并拆解手枪以提升等级。"
+AL_CraftingSkill_SMGsDesc,"允许制作冲锋枪，并提高所制作冲锋枪的质量。阅读 [(((ColourModded)))]战术战争[-] 并拆解冲锋枪以提升等级。"
+AL_CraftingSkill_RiflesDesc,"允许制作步枪，并提高所制作步枪的质量。阅读 [(((ColourModded)))]步枪世界[-] 并拆解步枪以提升等级。"
+AL_CraftingSkill_RoboticsDesc,"允许制作机器人设备。阅读 [(((ColourModded)))]科技星球[-] 以提升等级。"
+AL_CraftingSkill_FarmingDesc,"允许制作农业用品。阅读 [(((ColourModded)))]南方种植[-] 以提升等级。"
+AL_CraftingSkill_ShotgunsDesc,"允许制作霰弹枪，并提高所制作霰弹枪的质量。阅读 [(((ColourModded)))]霰弹枪周刊[-] 并拆解霰弹枪以提升等级。"
+AL_CraftingSkill_SledgehammersDesc,"允许制作大锤，并提高所制作大锤的质量。阅读 [(((ColourModded)))]锤行天下[-] 并拆解大锤以提升等级。"
+AL_CraftingSkill_TrapsDesc,"允许制作陷阱。阅读 [(((ColourModded)))]陷阱杂志[-] 以提升等级。"
+AL_CraftingSkill_VehiclesDesc,"允许制作车辆。阅读 [(((ColourModded)))]载具大冒险[-] 以提升等级。"
+AL_CraftingSkill_WorkstationsDesc,"允许制作各种工作站。阅读 [(((ColourModded)))]锻造指南[-] 并拆解找到的已毁坏的工作站以提升等级。"
+AL_CraftingSkill_MechanicsDesc,"允许制作一些机械和机动物品，并提高此类物品的制作质量。提升 [(((ColourModded)))]机械工具[-] 和 [(((ColourModded)))]车辆[-] 技能以提升等级。"
+AL_CraftingSkill_MeleeWeaponsDesc,"提高所有近战武器的制作质量。阅读任何近战武器杂志并拆解近战武器以提升等级。"
+AL_CraftingSkill_GunsDesc,"提高所有枪械的制作质量。阅读任何枪械杂志并拆解枪械以提升等级。"
+AL_CraftingSkill_MachineGunsDesc,"允许制作机枪，并提高所制作机枪的质量。阅读 [(((ColourModded)))]战备竞赛[-] 并拆解机枪以提升等级。"
+AL_CraftingSkill_LMGsDesc,"轻机枪"
+AL_CraftingSkill_AssaultRiflesDesc,"突击步枪"
+AL_CraftingSkill_PrimitiveDesc,"获得制作大量原始物品的配方。这些配方可以通过其他途径独立发现。"
+AL_CraftingSkill_TailoringDesc,"允许制作轻型护甲。阅读 [(((ColourModded)))]针线杂志[-] 并拆解轻型护甲以提升等级。"
+AL_CraftingSkill_ArmourDesc,"允许制作重型护甲。阅读 [(((ColourModded)))]全副武装[-] 并拆解重型护甲以提升等级。"
+AL_CraftingSkill_LeatherworkingDesc,"允许制作中型护甲。阅读 [(((ColourModded)))]皮革杂志[-] 并拆解中型护甲以提升等级。"
+
+AL_LK_BronzeArrowsAndBolts,"青铜箭与青铜弩箭"
+AL_LK_IronArrowsAndBolts,"铁箭与铁弩箭"
+AL_LK_SteelArrowsAndBolts,"钢箭与钢弩箭"
+# }}}
+
+# Passive Effects {{{
+None,"无"
+EntityDamage,"实体伤害"
+EntityHeal,"治疗（使用物品）"
+BlockDamage,"方块破坏"
+BlockRepairAmount,"方块修复"
+DamageModifier,"伤害修正"
+LandClaimDamageModifier,"领地伤害修正"
+DegradationPerUse,"使用损耗"
+DegradationMax,"最大损耗"
+MagazineSize,"弹匣容量"
+DamageFalloffRange,"伤害衰减范围"
+MaxRange,"最大射程"
+BlockRange,"方块范围"
+WeaponHandling,"武器操控"
+IncrementalSpreadMultiplier,""
+BurstRoundCount,""
+RoundRayCount,""
+RoundsPerMinute,"每分钟射击次数"
+AttacksPerMinute,"每分钟攻击次数"
+ExplosionRadius,"爆炸半径"
+ExplosionIncomingDamage,"爆炸抗性"
+ModSlots,"改装槽位"
+ModPowerBonus,"改装功率加成"
+SpreadMultiplierHip,"腰射散布"
+SpreadMultiplierAiming,"瞄准散布"
+SpreadMultiplierRunning,"奔跑散布"
+SpreadMultiplierWalking,"行走散布"
+SpreadMultiplierCrouching,"蹲伏散布"
+SpreadMultiplierIdle,"基础散布"
+SpreadDegreesVertical,"垂直散布"
+SpreadDegreesHorizontal,"水平散布"
+KickDegreesVerticalMin,"最小垂直后坐力"
+KickDegreesHorizontalMin,"最小水平后坐力"
+KickDegreesVerticalMax,"最大垂直后坐力"
+KickDegreesHorizontalMax,"最大水平后坐力"
+SphereCastRadius,""
+GrazeDamageMultiplier,"擦伤伤害倍率"
+GrazeStaminaMultiplier,"擦伤耐力倍率"
+GeneralDamageResist,"综合抗性"
+PhysicalDamageResist,"物理抗性"
+PhysicalDamageResistMax,"最大物理抗性"
+ElementalDamageResist,"元素抗性"
+ElementalDamageResistMax,"最大元素抗性"
+HypothermalResist,"寒冷抗性"
+HyperthermalResist,"热抗性"
+FallDamageReduction,"跌落伤害减免"
+Tier,"等级"
+LightIntensity,"手持光源强度"
+VehicleFuelMaxPer,"车辆最大燃油使用"
+VehicleFuelUsePer,"车辆燃油使用"
+VehicleVelocityMaxPer,"车辆最大速度"
+VehicleVelocityMaxTurboPer,"车辆最大涡轮速度"
+VehicleCarryCapacity,"车辆物品容量"
+VehicleEntityDamage,"车辆实体伤害"
+VehicleBlockDamage,"车辆方块破坏"
+VehicleReflectedDamage,"车辆反射伤害"
+VehicleSeats,"车辆座位数"
+VehicleTankSize,"车辆油箱容量"
+VehicleHopStrength,"车辆跳跃力量"
+VehiclePlayerStaminaDrainRate,"车辆内耐力损失率"
+BatteryMaxLoadInVolts,"电池最大负载（伏特）"
+BatteryDischargeTimeInMinutes,"电池放电时间（分钟）"
+DistractionResistance,"干扰抗性"
+DistractionRadius,"干扰半径"
+DistractionLifetime,"干扰持续时间"
+DistractionStrength,"干扰强度"
+DistractionEatTicks,"干扰时间"
+ProjectileGravity,"弹道重力"
+ProjectileVelocity,"弹道速度"
+ProjectileStickChance,"弹道粘着几率"
+RecipeTagUnlocked,"解锁配方"
+JunkTurretActiveRange,"垃圾炮塔活动范围"
+JunkTurretActiveCount,"垃圾炮塔活动数量"
+EconomicValue,"经济价值"
+LockPickTime,"开锁时间"
+LockPickBreakChance,"开锁失败几率"
+LootProb,"掉落概率"
+LootDropProb,"掉落物品概率"
+LootQuantity,"掉落数量"
+Tracking,"追踪"
+AttributeLevel,"属性等级"
+SkillLevel,"技能等级"
+PerkLevel,"特性等级"
+SkillExpGain,"技能经验增益"
+PlayerExpGain,"玩家经验增益"
+NoiseMultiplier,"噪音倍率"
+LightMultiplier,"光线倍率"
+EnemySearchDuration,"敌人搜索持续时间"
+CraftingTime,"制作时间"
+CraftingTier,"制作等级"
+CraftingOutputCount,"制作产出数量"
+ActiveCraftingSlots,"活跃制作槽位"
+CraftingSlots,"制作槽位"
+CraftingSmeltTime,"熔炼时间"
+ExpDeficitMaxPercentage,"最大经验赤字（%）"
+ExpDeficitPerDeathPercentage,"每次死亡经验赤字（%）"
+CarryCapacity,"携带容量"
+BagSize,"背包大小"
+RepairTime,"维修时间"
+RepairAmount,"维修量"
+ReloadSpeedMultiplier,"装弹速度"
+WaterRegenRate,"水分恢复速率"
+HealthMax,"最大生命值"
+HealthChangeOT,"生命恢复"
+HealthGain,"生命增益倍率"
+HealthLoss,"生命损失倍率"
+HealthMaxBlockage,"生命值减少"
+StaminaMax,"最大耐力"
+StaminaChangeOT,"耐力恢复"
+StaminaGain,"耐力增益倍率"
+StaminaLoss,"耐力损失倍率"
+StaminaMaxBlockage,"耐力减少"
+FoodMax,"最大食物"
+FoodChangeOT,"食物恢复"
+FoodGain,"食物增益倍率"
+FoodLoss,"食物损失倍率"
+FoodLossPerHealthPointLost,"每失去一点生命值的食物损失"
+FoodLossPerStaminaPointGained,"每获得一点耐力的食物损失"
+FoodLossPerHealthPointGained,"每获得一点生命值的食物损失"
+FoodMaxBlockage,"最大食物减少"
+WaterMax,"最大水分"
+WaterChangeOT,"水分恢复"
+WaterGain,"水分增益倍率"
+WaterLoss,"水分损失倍率"
+WaterLossPerHealthPointGained,"每获得一点生命值的水分损失"
+WaterLossPerStaminaPointGained,"每获得一点耐力的水分损失"
+WaterMaxBlockage,"最大水分减少"
+CoreTempChangeOT,"核心温度变化率"
+CoreTempGain,"加热倍率"
+CoreTempLoss,"冷却倍率"
+JumpStrength,"跳跃力量"
+WalkSpeed,"步行速度"
+RunSpeed,"跑步速度"
+CrouchSpeed,"蹲伏速度"
+Mobility,"移动性"
+LandMineImmunity,"地雷免疫"
+ScavengingTime,"搜刮时间"
+ScavengingTier,"搜刮等级"
+ScavengingItemCount,"搜刮物品数量"
+HarvestCount,"收获数量"
+ScrappingTime,"拆解时间"
+DismemberSelfChance,""
+DismemberChance,"肢解几率"
+TreasureRadius,"宝藏半径"
+TreasureBlocksPerReduction,""
+BreathHoldDuration,"屏息持续时间"
+BarteringBuying,"交易购买折扣"
+BarteringSelling,"交易出售加成"
+SecretStash,"秘密储藏"
+LootTier,"掉落等级"
+HeatGain,"热量增加"
+MovementFactorMultiplier,"移动倍率"
+QuestBonusItemReward,"任务奖励物品价值"
+QuestRewardOptionCount,"任务奖励选项数量"
+QuestRewardChoiceCount,"任务奖励选择数量"
+GameStage,"游戏阶段"
+TraderStage,"商人阶段"
+LootStage,"掉落阶段"
+DamageBonus,"伤害加成"
+InternalDamageModifier,""
+TargetArmor,""
+FallingBlockDamage,"掉落方块伤害"
+SilenceBlockSteps,"静音方块步骤"
+TrackDistance,"追踪距离"
+HealthSteal,"吸血"
+TurretWakeUp,""
+ElectricalTrapXP,""
+TrapDoorTriggerDelay,"陷阱门触发延迟"
+LandMineTriggerDelay,"地雷触发延迟"
+TrapIncomingDamage,"陷阱伤害"
+BlockPickup,""
+HeadShotOnly,"仅头部射击"
+NegateDamageSelf,"抵消自身伤害"
+NegateDamageOther,"抵消他人伤害"
+DisableItem,"禁用物品"
+DisableLoot,"禁用掉落"
+NoVehicle,"禁止载具"
+FlipControls,"翻转控制"
+CelebrationKill,"庆祝击杀"
+ShuffledBackpack,"随机背包"
+EnemySearchDuration,"敌人搜索持续时间"
+TwitchViewerPointRate,""
+TwitchSpawnMultiplier,""
+TwitchAddCooldown,""
+InfiniteAmmo,"无限弹药"
+NoTimeDisplay,"不显示时间"
+DisableGameEventNotify,"禁用游戏事件通知"
+NoTrader,"无商人"
+DisableMovement,"禁用移动"
+ExperienceGain,"经验增益"
+CriticalChance,"暴击几率"
+BuffProcChance,"Buff触发几率"
+BuffBlink,""
+BuffResistance,"Buff抗性"
+CraftingIngredientCount,"制作材料数量"
+EntityPenetrationCount,"实体穿透数量"
+BlockPenetrationFactor,"方块穿透"
+Count,"数量"
+
+# Custom Passive Effects
+WeightCapacity,"负重容量"
+# }}}
+
+# Block Placeholders {{{
+AL_HelperStoneGarnierite,"=绿泥石矿脉 助手"
+AL_HelperStoneChromite,"=铬铁矿矿脉 助手"
+AL_HelperStoneAnthracite,"=无烟煤矿脉 助手"
+AL_HelperStoneChalcopyrite,"=黄铜矿矿脉 助手"
+AL_HelperStoneSphalerite,"=闪锌矿矿脉 助手"
+# }}}
+
+# Vehicles {{{
+AL_Item_BuggyEngine,"[(((ColourModded)))] buggy发动机[-]"
+# }}}
+
+# Formats {{{
+AL_LK_Format_WithParenthesis,"{0} [(((ColourGrey)))]({1})[-]"
+AL_LK_Format_UpgradingTo,"升级到 [(((ColourModded)))]{0}[-]..."
+AL_LK_Format_WillUpgradeTo,"将升级到 [(((ColourModded)))]{0}[-]..."
+AL_LK_Format_CanUpgradeTo,"可以升级到 [(((ColourModded)))]{0}[-]..."
+AL_LK_Format_PerkPointGained,"您获得了 [(((ColourModded)))]特性点[-]，现在共有 [(((ColourModded)))]{0}[-]."
+AL_LK_Format_HealingTarget,"正在治疗 [(((ColourModded)))]{0}[-] 至 [ff4040]{1}/{2}[-] ..."
+AL_LK_Format_EquipItemToSlot,"将 [(((ColourModded)))]{0}[-] 装备到您的 [(((ColourModded)))]{1}[-] 槽位。"
+AL_LK_Format_VitalityInstant,"[bbbbbb]{0:0.00}% 立即活力[-]"
+AL_LK_Format_VitalityMeasure,"[bbbbbb]{0:0.00}% 活力/分钟[-]"
+AL_LK_Format_ZombieKills,"[ff8000]{0}[-] 丧尸击杀数"
+AL_LK_Format_Take,"[(((ColourModded)))]获取 {0}[-]"
+AL_LK_Format_DecorTierEffects,"[bbbbbb]第 {0} 级: {1:0.00}%[-] - [ffffff]{2}[-] [bbbbbb]的[-] [ffffff]{3}[-]"
+AL_LK_Format_Total,"[ffe375]总计: +{0:0.00}% 活力/分钟[-]"
+AL_LK_Format_TierNDecor,"[(((ColourModded)))]第 {0} 级装饰[-]"
+AL_LK_Format_Tier1Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier1)))][1][-] [(((ColourModded)))]级装饰[-]"
+AL_LK_Format_Tier2Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier2)))][2][-] [(((ColourModded)))]级装饰[-]"
+AL_LK_Format_Tier3Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier3)))][3][-] [(((ColourModded)))]级装饰[-]"
+AL_LK_Format_Tier4Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier4)))][4][-] [(((ColourModded)))]级装饰[-]"
+AL_LK_Format_Tier5Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier5)))][5][-] [(((ColourModded)))]级装饰[-]"
+AL_LK_Format_DamageBlockType,"对 [(((ColourModded)))]{0}[-] 造成伤害。"
+AL_LK_Format_CanBePickedUpWeight,"[80ff80]可拾取[-] [bbbbbb]({0} 公斤)[-][80ff80][-]"
+AL_LK_Format_ItemBeyondRepair,"[(((ColourModded)))]{0}[-] 的质量太低，无法修复。"
+AL_LK_Format_Proportion,"{0}/{1}"
+AL_LK_Format_NPerkPoints,"{0} 特性点"
+AL_LK_QuantityStorage_Format_SlashDelim,"{0}/{1}"
+AL_LK_Format_HarvestYieldOne,"[(((ColourYields)))]产量:[-] {0} {1}"
+AL_LK_Format_HarvestYieldOneRange,"[(((ColourYields)))]产量:[-] {0}-{1} {2}"
+AL_LK_Format_HarvestYieldBare,"{0} {1}"
+AL_LK_Format_HarvestYieldBareRange,"{0}-{1} {2}"
+# }}}
+
+# Singular Words {{{
+AL_LK_All,全部
+AL_LK_Create,创建
+AL_LK_Dye,染料
+AL_LK_Wood,木材
+AL_LK_Cobblestone,圆石
+AL_LK_Brick,砖块
+AL_LK_Concrete,混凝土
+AL_LK_Steel,钢铁
+AL_LK_Inconel,镍合金
+AL_LK_Yourself,你自己
+# }}}
+
+# UI Display {{{
+AL_UID_TitleKey_ZInfectionIncrease,"[a3d900]感染增加[-]"
+AL_UID_TitleKey_Tier,"品质 (0 [(((ColourGrey)))]|[-][806040]|[-][804000]|[-][c06000]|[-][ff8000]|[-][ffc000]|[-][ffff00]|[-][80ff00]|[-][00ff00]|[-][00ff80]|[-][00ffff]|[-][0080ff]|[-][0000ff]|[-][4000ff]|[-][8000ff]|[-][c000ff]|[-][ff00ff]|[-][ff0090]|[-][ff0019]|[-] 65535)"
+AL_UID_ZInfectionReduction,"感染减少"
+AL_UID_HitsUpgradeToWood,"升级所需打击次数 [(((ColourWood)))](木材)[-]"
+AL_UID_HitsUpgradeToCobblestone,"升级所需打击次数 [(((ColourCobblestone)))](圆石)[-]"
+AL_UID_HitsUpgradeToBrick,"升级所需打击次数 [(((ColourBricks)))](砖块)[-]"
+AL_UID_HitsUpgradeToConcrete,"升级所需打击次数 [(((ColourGrey)))](混凝土)[-]"
+AL_UID_HitsUpgradeToSteel,"升级所需打击次数 [(((ColourSteel)))](钢铁)[-]"
+AL_UID_HitsUpgradeToInconel,"升级所需打击次数 [(((ColourInconel)))](镍合金)[-]"
+
+AL_UID_TitleKey_WeaponType,"武器类型"
+AL_UID_TitleKey_ToolType,"工具类型"
+AL_UID_TitleKey_BlockDamageLoggingTargets,"破坏日志目标的方块伤害"
+AL_UID_TitleKey_RepairWith,"维修材料"
+AL_UID_TitleKey_SneakAttackMultiplier,"潜行攻击倍率"
+AL_UID_TitleKey_ZInfectionStallDuration,"感染停滞时间"
+AL_UID_TitleKey_ZInfectionReduction,"感染减少"
+AL_UID_TitleKey_ActionSkill,"动作技能"
+
+AL_UID_TitleKey_EntityDamage,"实体伤害"
+AL_UID_TitleKey_EntityDamagePowerAttack,"实体伤害 [(((ColourGrey)))](强力攻击)[-]"
+AL_UID_TitleKey_BlockDamage,"方块伤害"
+AL_UID_TitleKey_BlockDamagePowerAttack,"方块伤害 [(((ColourGrey)))](强力攻击)[-]"
+AL_UID_TitleKey_StaminaPowerAttack,"体力消耗 [(((ColourGrey)))](强力攻击)[-]"
+AL_UID_TitleKey_DestroyedWhenBroken,"损坏时销毁"
+
+AL_UID_TitleKey_WeaponTypeMelee,"武器类型 [(((ColourGrey)))](近战)[-]"
+AL_UID_TitleKey_WeaponTypeRanged,"武器类型 [(((ColourGrey)))](远程)[-]"
+
+AL_UID_TitleKey_FoodPoisoningPressure,"食物中毒压力"
+AL_UID_TitleKey_NormalInfectionPressure,"正常感染压力"
+AL_UID_TitleKey_ZInfectionPressure,"丧尸感染压力"
+AL_UID_TitleKey_ZInfectionReduction,"丧尸感染减少"
+AL_UID_TitleKey_ZInfectionStalling,"丧尸感染停滞"
+AL_UID_TitleKey_CanCureZInfection,"可以治愈丧尸感染"
+
+AL_UID_TitleKey_CraftingXPIfScrapped,"分解获得的制作经验"
+
+AL_UID_TitleKey_Alcohol,"[e79b13]酒精[-]"
+
+AL_UID_TitleKey_ActionSkill,"动作技能"
+AL_UID_TitleKey_ActionSkillMelee,"动作技能 [(((ColourGrey)))](近战)[-]"
+AL_UID_TitleKey_ActionSkillThrow,"动作技能 [(((ColourGrey)))](投掷)[-]"
+AL_UID_TitleKey_ActionSkillRanged,"动作技能 [(((ColourGrey)))](远程)[-]"
+
+AL_UID_TitleKey_EfficientDigestion,"高效消化"
+AL_UID_TitleKey_FoodPoisoningPressureReduce,"食物中毒减少"
+AL_UID_TitleKey_FulfilsBooze,"[(((ColourModded)))]满足需求:[-] 酒精"
+AL_UID_TitleKey_FulfilsSweetTreat,"[(((ColourModded)))]满足需求:[-] 甜食"
+
+AL_UID_TitleKey_SmeltsInto,"熔炼成"
+AL_UID_TitleKey_RequiredHeatLevel,"所需热量等级"
+AL_UID_TitleKey_HeatLevel,"热量等级"
+AL_UID_TitleKey_FuelTime,"燃料时间"
+AL_UID_TitleKey_DismemberChance,"断肢几率"
+
+AL_LK_TemporaryStaminaIncrease,"[00ff00]临时体力增加[-]"
+
+AL_UID_TitleKey_WeightCapacityBonus,"负重上限加成"
+AL_UID_TitleKey_SpecialAttack,"[(((ColourSpecialAttack)))]特殊攻击[-]"
+AL_UID_TitleKey_PrimDistillationTimeReduction,"原始蒸馏时间减少"
+# }}}
+
+# Toolbelt Tooltips {{{
+AL_LK_SelectUpgradePath,"[(((ColourModded)))]通过径向菜单选择一个升级路径来升级框架方块。[-]"
+AL_LK_RepairBeforeUpgrade,"[(((ColourModded)))]在升级之前，您必须先修理它。[-]"
+AL_LK_RepairBeforePickup,"[(((ColourModded)))]在捡起之前，您必须先修理它。[-]"
+
+AL_LK_TooltipPerkPointExperience,"[(((ColourModded)))]特性点经验[-]\n[bbbbbb]在任何 [-]动作技能[bbbbbb]中获得的经验也会同样奖励给您下一个 [-]特性点[-]的经验。[-]"
+AL_LK_TooltipPerkPointCount,"[(((ColourModded)))]特性点[-]\n[bbbbbb]这是您可以使用的特性点数量。您可以通过点击任何 [-]特性[bbbbbb]，然后点击已满足要求的特性等级旁边的加号符号来花费这些特性点。您可以将鼠标悬停在锁图标上以查看这些要求。[-]"
+# }}}
+
+# Vitality {{{
+AL_LK_Vitality_Per_Hour,"[(((ColourModded)))]每小时活力[-]"
+AL_LK_VitalityEffect,"[(((ColourVitality)))]活力效果[-]"
+
+AL_LK_VitResurrectedName,"[(((ColourVitality)))]活力:[-] 复活"
+AL_LK_VitResurrectedDesc,"经历身体被摧毁的痛苦，随后突然离开这种体验，在完全不同的地方醒来……这并不是一种愉快的经历。\n\n[(((ColourGrey)))](-25% 立即活力)[-]"
+
+AL_LK_VitEntertainmentName,"娱乐"
+AL_LK_VitEntertainmentDesc,"待定"
+
+AL_LK_VitCombatStressName,"战斗压力"
+AL_LK_VitCombatStressDescPos,"你在激烈的战斗中，给予并承受着伤痕、痛苦和死亡。这相当令人兴奋！"
+AL_LK_VitCombatStressDescNeg,"你在激烈的战斗中，给予并承受着伤痕、痛苦和死亡。心理压力消耗了你的精力。"
+
+AL_Buff_VitSocial,"社交"
+AL_Buff_VitSocialName,"社交"
+AL_Buff_VitSocialDesc,"你找到了其他（活着的）人类！"
+
+al_buff_vitcomradedied,"战友牺牲"
+AL_Buff_VitComradeDiedName,"战友牺牲"
+AL_Buff_VitComradeDiedDesc,"他们将被深深怀念……"
+
+al_buff_wantsweet,"[ff8000]想要:[-] 甜食"
+AL_Buff_WantSweetDesc,"你想要一点甜食……\n\n[bbbbbb]吃一些带有 '满足需求: 甜食' 属性的食物来满足这个需求。[-]"
+al_buff_wantsweet_fulfilled,"[00ff00]满足:[-] 甜食"
+AL_Buff_WantSweet_FulfilledName,"[00ff00]满足:[-] 甜食"
+AL_Buff_WantSweet_FulfilledDesc,"美味。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]+10% 立即活力[-]"
+
+al_buff_wantbooze,"[ff8000]想要:[-] 酒精"
+AL_Buff_WantBoozeDesc,"喝一点点应该不会有问题……\n\n[bbbbbb]喝一些带有 '满足需求: 酒精' 属性的饮料来满足这个需求。[-]"
+al_buff_wantbooze_fulfilled,"[00ff00]满足:[-] 酒精"
+AL_Buff_WantBooze_FulfilledName,"[00ff00]满足:[-] 酒精"
+AL_Buff_WantBooze_FulfilledDesc,"派对时间！\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]+10% 立即活力[-]"
+
+al_buff_wantspecificfood,"[ff8000]想要:[-] 特定食物"
+AL_Buff_WantSpecificFood,"[ff8000]想要:[-] 特定食物"
+AL_Buff_WantSpecificFoodDesc,"你真的很想吃 [(((ColourModded)))]{0}[-]……\n\n[bbbbbb]吃 [ffffff]{0}[bbbbbb] 来满足这个需求，并获得 [(((ColourModded)))]25% 活力[-]"
+al_buff_wantspecificfood_fulfilled,"[00ff00]满足:[-] 特定食物"
+AL_Buff_WantSpecificFood_FulfilledName,"[00ff00]满足:[-] 特定食物"
+AL_Buff_WantSpecificFood_FulfilledDesc,"真的很好吃……\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]+25% 立即活力[-]"
+
+al_buff_vitsocial,"社交"
+al_buff_vitbodilycomfort,"身体舒适"
+al_buff_vitinebriated,"醉酒"
+al_buff_vitexcited,"兴奋"
+
+al_buff_vitwet,"湿身"
+AL_Buff_VitWetName,"湿身"
+AL_Buff_VitWetDesc,"你全身湿透了！你的装备浸满了水，比平时更加沉重，影响了你的移动能力。"
+
+al_buff_vitexposedtorain,"暴露在雨中"
+AL_Buff_VitExposedToRainName,"暴露在雨中"
+AL_Buff_VitExposedToRainDesc,"大雨倾盆而下，阻碍了你的视线，让你越来越湿。"
+
+al_buff_vitamind,"阳光心情"
+AL_Buff_VitaminDName,"阳光心情"
+AL_Buff_VitaminDDesc,"你已经得到了足够的维生素 D，感觉非常积极向上。"
+
+al_buff_hearth,"温暖的家"
+AL_Buff_HearthName,"温暖的家"
+AL_Buff_HearthDesc,"回家的感觉真好。"
+
+al_buff_vitwantmusic,"动听的旋律"
+al_buff_vitwantread,"阅读"
+al_buff_vitwantbooze,"烈酒"
+al_buff_vitwantdrive,"开车"
+al_buff_vitwantcolddrink,"冷饮"
+
+al_buff_vitdiscomfort,"身体不适"
+al_buff_vitfreezing,"寒冷"
+al_buff_vitoverheating,"过热"
+al_buff_vitalone,"孤独"
+
+al_buff_vitambient,"环境"
+AL_Buff_VitAmbientName,"环境"
+AL_Buff_VitAmbientDesc,"这个充满死亡与不死的世界逐渐消耗着你的精力。"
+
+al_buff_vitloneliness,"孤独"
+AL_Buff_VitLoneliness,"孤独"
+AL_Buff_VitLonelinessDesc,"天哪，你真的不介意看到一张不是丧尸的人脸……即使它的主人正拿着枪指着你。"
+
+al_buff_vitinjury,"受伤"
+AL_Buff_VitInjuryName,"受伤"
+AL_Buff_VitInjuryDesc,"你的未治疗的伤口给你带来了痛苦。"
+
+al_buff_vitalityeffect_drunk,"醉酒"
+AL_Buff_VitalityEffect_DrunkName,"醉酒"
+AL_Buff_VitalityEffect_DrunkDesc,"Frshjjuhhhh htis stufsfs ptetegddd!!"
+
+al_buff_vitpitchblack,"漆黑一片"
+AL_Buff_VitPitchBlackName,"漆黑一片"
+AL_Buff_VitPitchBlackDesc,"你完全被黑暗包围，连自己都看不见。"
+
+al_buff_vitstarving,"饥饿"
+AL_Buff_VitStarvingName,"饥饿"
+AL_Buff_VitStarvingDesc,"有一种空虚感在里面，需要填满……甜甜圈，或者，你知道的，任何东西。"
+
+al_buff_vitdehydrated,"脱水"
+AL_Buff_VitDehydratedName,"脱水"
+AL_Buff_VitDehydratedDesc,"如果水是生命的源泉，那你几乎已经死了。"
+
+al_buff_vitfear,"恐惧"
+AL_Buff_VitFearName,"恐惧"
+AL_Buff_VitFearDesc,"它们在外面！那些……东西。腐烂的、咕哝的、蹒跚的尸体……复活了。看到它们，你可以从它们的步伐、衣物、肌肉中看到它们的人性。它们就是我们。但我们必须抑制住试图拯救它们的原始冲动……因为只需一点点划伤，生命就会枯萎，加入那些回声之中。"
+
+al_buff_vitexhausted,"筋疲力尽"
+AL_Buff_VitExhaustedName,"筋疲力尽"
+AL_Buff_VitExhaustedDesc,"你累坏了！该躺下休息一会儿了。\n\n[bbbbbb]可以通过坐在床上或睡袋上直到获得休息效果来移除此效果。[-]"
+
+al_buff_vitpitchblack,"漆黑一片"
+al_buff_vitcomradied,"战友牺牲"
+al_buff_vitresurrected,"复活"
+al_buff_vitcombatstress,"战斗压力"
+
+AL_Buff_AlcoholismHeadacheName,"[ff9239]酗酒:[-] 头痛"
+AL_Buff_AlcoholismHeadacheDesc,"你的戒酒症状给你带来了剧烈的头痛……"
+
+AL_Buff_DecorName,"装饰"
+AL_Buff_DecorDesc,"这个地方有好的氛围、颜色协调、室内设计，也许还有风水？不管怎样，这里很好，这对你是好的。"
+
+AL_LK_VitInfectionUnknownName,"可能感染"
+AL_LK_VitInfectionUnknownDesc,"你最近与丧尸有过接触，你 [i]可能[/i] 已经被感染。这种不确定性压得你喘不过气。"
+
+AL_LK_VitInfectionKnownName,"感染"
+AL_LK_VitInfectionKnownDesc,"你确实被感染了。这很糟糕。非常糟糕。"
+
+AL_LK_VitInfectionReducedName,"感染减轻"
+AL_LK_VitInfectionReducedDesc,"你被感染了，但你最近成功地抑制了感染，也减少了你的担忧。"
+
+AL_LK_VitInfectionCuredName,"感染治愈"
+AL_LK_VitInfectionCuredDesc,"你最近治愈了丧尸感染，感到非常高兴！"
+
+# Character Stats {{{
+AL_LK_ModifiedMaxHealth,"修正后的最大健康值"
+AL_LK_ModifiedMaxStamina,"修正后的最大体力值"
+AL_LK_VitalityName,"[(((ColourVitality)))]活力[-]"
+AL_LK_VitalityNameColon,"[(((ColourVitality)))]活力:[-]"
+# }}}
+
+# Stat Symbols {{{
+AL_LK_StatSymbolTooltipHealth,"[(((ColourHealth)))]健康[-]\n[bbbbbb]如果数值大于零，你就没有死。这是好事。[-]"
+
+AL_LK_StatSymbolTooltipStamina,"[(((ColourStamina)))]体力[-]\n[bbbbbb]与 [ffffff]水分[-] [bbbbbb]水平密切相关。[-] [ffffff]体力[-] [bbbbbb]恢复速度永远不会低于每秒1点。[-]"
+
+AL_LK_StatSymbolTooltipFood,"[(((ColourFood)))]食物[-]\n[bbbbbb]与 [ffffff]健康[-] [bbbbbb]恢复密切相关。最大 [ffffff]食物[-] [bbbbbb]约为正常值的两倍。[-]"
+
+AL_LK_StatSymbolTooltipWater,"[(((ColourWater)))]水分[-]\n[bbbbbb]影响 [ffffff]体力[-] [bbbbbb]恢复。只要你的 [ffffff]水分[-] [bbbbbb]保持在25%以上，你的 [ffffff]体力[-] [bbbbbb]恢复就不会受到影响。低于25%，恢复速度会按比例下降至零。最大 [ffffff]水分[-] 约为正常值的两倍。[-]"
+
+AL_LK_StatSymbolTooltipStealth,"[(((ColourStealth)))]潜行[-]"
+
+AL_LK_StatSymbolTooltipVitality,"[(((ColourVitality)))]活力[-]\n[bbbbbb]这是衡量你的角色精神意志、精神状态和信心的一个指标。没有 [ffffff]活力[-] [bbbbbb]和最大 [ffffff]活力[-] [bbbbbb]之间的差异会对许多战斗和生存属性产生重大影响，而在另一端，则会产生强大的增益。检查角色窗口中的 [-] [ffffff]活动增益[-] [bbbbbb]标签，可以看到活跃的 [ffffff]活力[-] [bbbbbb]效果。[-]"
+
+AL_LK_StatSymbolTooltipBloodAlcoholLevel,"[(((ColourAlcohol)))]血液酒精浓度[-]\n[bbbbbb]这是衡量你醉酒程度的指标。不要过度饮酒，否则你会呕吐；也不要频繁饮酒，否则你会在不喝酒时出现戒酒症状。如果你确实患上了酒精依赖症，戒酒 [-] [(((ColourGrey)))](并应对戒酒症状)[-] [bbbbbb] 会逐渐消除你的依赖症。[-]"
+
+AL_LK_StatSymbolTooltipBlood,"[(((ColourBlood)))]血液[-]\n[bbbbbb]这代表你体内保留了多少 [ffffff]血液[-]。受到敌人的攻击等导致出血时，你的 [ffffff]血液[-] 水平会降低。低于50%，你的视野会开始模糊。降至零时，你会失去意识，完全任由附近敌人摆布。在无意识状态下继续出血会导致 [ffffff]健康[-] 损害。[-] [ffffff]血液[-] 在不流血的情况下会自动恢复，当 [ffffff]血液[-] 达到25%时，无意识状态结束。[-]"
+
+AL_LK_StatSymbolTooltipWetness,"[(((ColourWet)))]湿度[-]\n[bbbbbb]当你站在雨中或在水中活动时，你会变得更 [ffffff]湿[-]。[ffffff]湿度[-] 会对 [ffffff]移动[-] [bbbbbb]造成惩罚，并负面影响 [ffffff]活力[-][bbbbbb]。[-]"
+
+AL_LK_StatSymbolTooltipWeight,"[ffffff]重量[-]\n[bbbbbb]当你超过重量限制时，你的移动能力会逐渐降低，直到达到两倍重量限制时完全无法移动。主要通过提高力量属性来增加重量限制，此外还可以通过各种特性和物品来增加。[-]"
+
+AL_LK_StatSymbolTooltipInfection,"[(((ColourInfection)))]丧尸感染[-]\n[bbbbbb]现在很明显，你已经感染了 Z 病毒。感染可以被抑制和减少，但不太可能找到治愈方法。[-]"
+
+AL_LK_StatSymbolTooltipFoodPoisoning,"[(((ColourFoodPoisoning)))]食物中毒压力[-]\n[bbbbbb]这是衡量你由于食用变质食物而感到恶心的程度。它会对移动能力和 [(((ColourVitality)))]活力[-] 造成惩罚，并且会逐渐上升至100%。如果达到100%，你会呕吐并失去所有食物和水分。不要呕吐。[-]"
+# }}}
+
+# Quests {{{
+
+# From Scratch (Tutorial Quest)
+AL_Quest_FromScratch_GroupName,"[(((ColourModded)))]从零开始[-]"
+AL_Quest_FromScratch_Offer,"翻阅这本名为'[(((ColourModded)))]生存指南[-]'的书籍的前几页后，发现书中包含如何在野外'[(((ColourModded)))]从零开始[-]'的生存指导。在这种情况下找到这样的书简直不可思议。"
+
+AL_Quest_FromScratch_Quest0Name,"[(((ColourModded)))]从零开始:[-] 背包"
+AL_Quest_FromScratch_Quest0_title,"[(((ColourModded)))]从零开始:[-] 背包"
+AL_Quest_FromScratch_Quest0Desc,"《生存指南》的开头部分介绍了你需要在野外生存的各种物品，并强调了配备携带这些物品的重要性。书中接着描述了如何用纤维制作一个基础背包的方法。"
+AL_Quest_FromScratch_Tip_Start_title,"[(((ColourModded)))]从零开始:[-] 背包"
+AL_Quest_FromScratch_Tip_Start,"《生存指南》的开头部分介绍了你需要在野外生存的各种物品，并强调了配备携带这些物品的重要性。书中接着描述了如何用纤维制作一个基础背包的方法。"
+
+AL_Quest_FromScratch_Quest1Name,"[(((ColourModded)))]从零开始:[-] 岩石与石头"
+AL_Quest_FromScratch_Quest1_title,"[(((ColourModded)))]从零开始:[-] 岩石与石头"
+AL_Quest_FromScratch_Quest1Desc,"你翻到《生存指南》的下一页，发现了一些关于如何制作石斧的设计图。首先需要你获取一块适合做工具头的石头。你需要的石头要比周围的石头更重一些。"
+AL_Quest_FromScratch_Tip_MadeBag_title,"[(((ColourModded)))]从零开始:[-] 岩石与石头"
+AL_Quest_FromScratch_Tip_MadeBag,"你翻到《生存指南》的下一页，发现了一些关于如何制作石斧的设计图。首先需要你获取一块适合做工具头的石头。你需要的石头要比周围的石头更重一些。"
+
+AL_Quest_FromScratch_Quest2Name,"[(((ColourModded)))]从零开始:[-] 石斧"
+AL_Quest_FromScratch_Quest2_title,"[(((ColourModded)))]从零开始:[-] 石斧"
+AL_Quest_FromScratch_Quest2Desc_title,"[(((ColourModded)))]从零开始:[-] 石斧"
+AL_Quest_FromScratch_Quest2Desc,"你完成了斧头的组装，再次打开《生存指南》。接下来的部分描述了如何搭建一个简单的营地。第一个任务是使用你的新工具砍倒一棵树以获取木头原木。"
+
+AL_Quest_FromScratch_Quest3Name,"[(((ColourModded)))]从零开始:[-] 野营"
+AL_Quest_FromScratch_Quest3_title,"[(((ColourModded)))]从零开始:[-] 野营"
+AL_Quest_FromScratch_Quest3Desc,"书的下一部分热情洋溢地描述了野外的黑暗，并提供了制作木制火把的方法。不幸的是，描述如何制作[(((ColourModded)))]松脂[-]时忽略了一个关键细节：需要一个金属容器来煮沸[(((ColourModded)))]树脂[-]。需要小心地进入一栋房屋。丧尸在等待着你。"
+AL_Quest_FromScratch_Tip_FindCookingPot_title,"[(((ColourModded)))]从零开始:[-] 全金属锅"
+AL_Quest_FromScratch_Tip_FindCookingPot,"书的下一部分热情洋溢地描述了野外的黑暗，并提供了制作木制火把的方法。不幸的是，描述如何制作[(((ColourModded)))]松脂[-]时忽略了一个关键细节：需要一个金属容器来煮沸[(((ColourModded)))]树脂[-]。需要小心地进入一栋房屋。丧尸在等待着你。"
+
+AL_Quest_FromScratch_Quest4Name,"[(((ColourModded)))]从零开始:[-] 全金属锅"
+AL_Quest_FromScratch_Quest4_title,"[(((ColourModded)))]从零开始:[-] 全金属锅"
+AL_Quest_FromScratch_Quest4Desc,"营地建好后，你意识到新学到的技能在这种生活中特别有用。你再次翻开《生存指南》。然而，书页并没有像预期那样出现平淡的指示，而是从书的下一节撕下的杂志封面映入眼帘。这本杂志标题为'[(((ColourModded)))]极简生活杂志[-]'。其尺寸非常适合藏在《生存指南》里，好像就是为了这样做准备的。你将杂志放进包里，继续看《生存指南》的下一部分。"
+AL_Quest_FromScratch_Tip_FoundMagazine_title,"[(((ColourModded)))]从零开始:[-] 全金属锅"
+AL_Quest_FromScratch_Tip_FoundMagazine,"营地建好后，你意识到新学到的技能在这种生活中特别有用。你再次翻开《生存指南》。然而，书页并没有像预期那样出现平淡的指示，而是从书的下一节撕下的杂志封面映入眼帘。这本杂志标题为'[(((ColourModded)))]极简生活杂志[-]'。其尺寸非常适合藏在《生存指南》里，好像就是为了这样做准备的。你将杂志放进包里，继续看《生存指南》的下一部分。"
+AL_Quest_FromScratch_Tip_End_title,"[(((ColourModded)))]从零开始:[-] 希望之光"
+AL_Quest_FromScratch_Tip_End,"点燃火把后，黑暗退去，夜晚似乎不再那么可怕。你再次打开《生存指南》，停留在之前的页面。书的不平衡重量表明它已经传授了所有能教的东西。剩下的几页暗示了需要保护自己免受野生动物的侵害，但并未提到活死人。幸运的是，无论腐烂与否，肉体对武器的反应大致相同。你丢掉了《生存指南》，考虑下一步行动。"
+
+AL_Quest_FromScratch_Hint_MakeBag,"[(((ColourModded)))]收集[00ff00]草[-] [(((ColourModded)))]并将[-][00ff00]草[-] [(((ColourModded)))]编织成一个[-] [00ff00]纤维斜挎包[-][(((ColourModded)))].[-]"
+AL_Quest_FromScratch_Hint_BreakBoulder,"[(((ColourModded)))]磨尖一个[-] [00ff00]小石头[-] [(((ColourModded)))]并用它敲碎一块[-] [00ff00]大石头[-] [(((ColourModded)))]从[-] [00ff00]石块[-][(((ColourModded)))].[-]"
+AL_Quest_FromScratch_Hint_FellTree,"[(((ColourModded)))]磨尖[-] [00ff00]大石头[-] [(((ColourModded)))]并用它组装一把[-] [00ff00]石斧[-] [(((ColourModded)))]，然后用它砍倒一棵树。[-]"
+AL_Quest_FromScratch_Hint_BuildCampsite,"[(((ColourModded)))]收集[00ff00]草[-][(((ColourModded)))], [-][00ff00]棉花[-][(((ColourModded)))], 和[-] [00ff00]石头[-] [(((ColourModded)))]并生产一个新的营地所需的所有物品。[-]"
+AL_Quest_FromScratch_Hint_FindCookingPot,"[(((ColourModded)))]进入一栋房屋并找到一个[-] [00ff00]烹饪锅[-][(((ColourModded)))]. 顺便拿些[-] [00ff00]布料[-] [(((ColourModded)))]。[-]"
+AL_Quest_FromScratch_Hint_RTBMakeBoneKnife,"[(((ColourModded)))]返回营地并架设你的[-] [00ff00]烹饪锅[-][(((ColourModded)))], 然后获取一块[-] [00ff00]骨头[-] [(((ColourModded)))]并将其磨尖成一把[-] [00ff00]骨刀[-][(((ColourModded)))].[-]"
+AL_Quest_FromScratch_Hint_BurnWoodScrapCharcoalGetResin,"[(((ColourModded)))]在[-] [00ff00]篝火[-] [(((ColourModded)))]上燃烧一根[-] [00ff00]木头[-] [(((ColourModded)))]以产生[-] [00ff00]木炭[-] [(((ColourModded)))]作为副产品，然后刮碎它以产生 [00ff00]木炭粉[-][(((ColourModded)))]. 刮碎的同时，用你的[-] [00ff00]骨刀[-] [(((ColourModded)))]从树上刮取一些[-] [00ff00]树脂[-] [(((ColourModded)))]。[-]"
+AL_Quest_FromScratch_Hint_CraftPitchRest,"[(((ColourModded)))]在[-] [00ff00]松脂[-] [(((ColourModded)))]沸腾时放松一下。[-]"
+AL_Quest_FromScratch_Hint_AssembleTorch,"[(((ColourModded)))]制作一个[-] [00ff00]火把[-] [(((ColourModded)))]并装备到你的[-] [00ff00]照明[-] [(((ColourModded)))]槽位。[-]"
+
+# 寻找方向（地图探索任务）
+
+AL_Quest_Cartography_Name,"[(((ColourModded)))]x,y,z,w[-]"
+AL_Quest_Cartography_GroupName,"(((AL_Quest_Cartography_Name)))"
+AL_Quest_Cartography_title,"(((AL_Quest_Cartography_Name)))"
+AL_Quest_Cartography_Desc,"为了生存，我需要记录地标、地形、资源等信息。所以我需要一张地图。为了使用这张地图，我需要知道自己的方向。为了知道何时到达何地，我需要知道时间。"
+
+# 生存（生存/主线任务）
+
+AL_Quest_Survive_Name,"[(((ColourModded)))]末日生存[-]"
+AL_Quest_Survive_GroupName,"(((AL_Quest_Survive_Name)))"
+AL_Quest_Survive_Quest_title,"(((AL_Quest_Survive_Name)))"
+AL_Quest_Survive_Desc,"别无选择。我必须尽一切可能活下去。"
+
+# 脑电波（联系/无线电任务）
+
+AL_Quest_Brainwaves_Name,"[(((ColourModded)))]脑电波[-]"
+AL_Quest_Brainwaves_GroupName,"(((AL_Quest_Brainwaves_Name)))"
+AL_Quest_Brainwaves_Quest_title,"(((AL_Quest_Brainwaves_Name)))"
+AL_Quest_Brainwaves_Hint1,"[(((ColourModded)))]找到一个[-] [00ff00]收音机[-] [(((ColourModded)))]并尝试联系其他幸存者。[-]"
+AL_Quest_Brainwaves_Desc,"如果我要在这里生存下去，我需要帮助。如果我能找到一台收音机，也许可以试着听听电台信号……看看有没有人在那里。"
+
+# 科技（工作站回收）
+
+AL_Quest_Technology_Name,"[(((ColourModded)))]科技[-]"
+AL_Quest_Technology_GroupName,"(((AL_Quest_Technology_Name)))"
+AL_Quest_Technology_Quest_title,"(((AL_Quest_Technology_Name)))"
+AL_Quest_Technology_Hint1,"找到一个[(((ColourModded)))]倒塌的工作台[-] 并损坏或拆解它以解锁其秘密。"
+AL_Quest_Technology_Desc,"站在巨人的肩膀上，你知道是怎么回事……外面有科技；那些之前来到这里又死去的人留下的科技。他们在事态恶化前还是之后使用这些工具并不重要。如果我能研究他们用来延长生存时间的工具，我或许也能学到一些对我有用的东西。"
+
+AL_Quest_Water_Name,"[(((ColourWater)))]水源[-]"
+AL_Quest_Water_GroupName,"(((AL_Quest_Water_Name)))"
+AL_Quest_Water_Desc,"所以……幸运的是……我知道Z病毒极其顽强，不能简单地通过煮沸来消灭，所以我必须从雨水或某种蒸馏方式获取水源。如果我能弄到一个[(((ColourModded)))]防水布[-] 和一个 [(((ColourModded)))]木桶[-] 并放在篝火上的烹饪锅上，我或许能找到一种可行的方法。"
+
+AL_Quest_Construction_Name,"建造"
+AL_Quest_Construction_GroupName,"(((AL_Quest_Construction_Name)))"
+AL_Quest_Construction_Desc,"我可能需要建造一个居所……我最好试一试。"
+
+AL_Quest_T1_RetrieveSSD,"找回SSD [(((ColourModded)))](T1)[-]"
+AL_Quest_T1_RetrieveSSD_Description,"在我们曾经活跃过的邻近地区，埋藏着许多旧的黑荆棘储藏点。特别是我们想要的数据，即储藏点中的硬盘。我会给你一个这样的储藏点的位置。如果你能找回数据，并把它送到黑荆棘的交货点，然后再回来报告，你就为我们做了件好事。"
+AL_Quest_T1_RetrieveSSD_Response,"找回SSD [(((ColourModded)))](T1)[-]"
+AL_Quest_T1_RetrieveSSD_GroupName,"找回SSD"
+AL_LK_ReportToBlackthorne,"向黑荆棘报告："
+
+# 休息系统 {{{
+AL_Buff_LCBNoBed,"土地所有权但无床"
+AL_Buff_LCBNoBedDesc,"你在友好的土地所有权区域内，但你的床不在里面。只有在友好的土地所有权区域并且包含你的床时，你才能开始积累休息时间。"
+
+AL_Buff_BedNoLCB,"有床但无土地所有权"
+AL_Buff_BedNoLCBDesc,"你在床附近，但你的床不在友好的土地所有权区域。只有在友好的土地所有权区域并且包含你的床时，你才能开始积累休息时间。"
+
+AL_Buff_BaseSecureName,"基地安全"
+AL_Buff_BaseSecureDesc,"家的感觉真好！ [(((ColourGrey)))](休息率正常)[-]"
+
+AL_Buff_BaseInsecureName,"基地不安全"
+AL_Buff_BaseInsecureDesc,"周围有些麻烦。在解决之前无法放松。 [(((ColourGrey)))](休息率降低)[-]"
+
+al_buff_restedt0,"[(((ColourGrey)))]短暂眨眼[-] (T0)"
+AL_Buff_RestedT0Name,"[(((ColourGrey)))]短暂眨眼[-] (T0)"
+AL_Buff_RestedT0Desc,"你在眨眼时多闭了几毫秒的眼睛……真是舒服。绝对是你的前五次眨眼之一。"
+
+al_buff_restedt1,"[804000]片刻休憩[-] (T1)"
+AL_Buff_RestedT1Name,"[804000]片刻休憩[-] (T1)"
+AL_Buff_RestedT1Desc,"你找到了几秒钟的时间，让眼睛放松，关闭大脑，就那么‘呼呼’地休息了一会儿。"
+
+al_buff_restedt2,"[ff8000]短暂喘息[-] (T2)"
+AL_Buff_RestedT2Name,"[ff8000]短暂喘息[-] (T2)"
+AL_Buff_RestedT2Desc,"你非常刻意地留出一小段时间，就那么存在了一会儿，你知道的。"
+
+al_buff_restedt3,"[ffff00]终于得到了真正的休息[-] (T3)"
+AL_Buff_RestedT3Name,"[ffff00]终于得到了真正的休息[-] (T3)"
+AL_Buff_RestedT3Desc,"充分理解到水平状态是一种奢侈，只有少数幸运的人能达到，你决定妥协，在几秒钟内变成斜躺的状态。不确定是否有帮助，但你必须尝试一下！"
+
+al_buff_restedt4,"[00ff00]长且平坦[-] (T4)"
+AL_Buff_RestedT4Name,"[00ff00]长且平坦[-] (T4)"
+AL_Buff_RestedT4Desc,"令人惊讶的是，你找到了一些时间真正躺下来。你相信那一定很好。"
+
+al_buff_restedt5,"[00ffff]打盹[-] (T5)"
+AL_Buff_RestedT5Name,"[00ffff]打盹[-] (T5)"
+AL_Buff_RestedT5Desc,"不仅实现了水平状态，你还睡了一小会儿。你的祖先会为你骄傲。"
+
+al_buff_restedt6,"[0000ff]良好的睡眠[-] (T6)"
+AL_Buff_RestedT6Name,"[0000ff]良好的睡眠[-] (T6)"
+AL_Buff_RestedT6Desc,"不知怎的，你连续无意识了八个小时。这一壮举将在未来的历史中回响。你已经触及并标记了文明的本质。你辉煌的遗产，从此成为意义本身的一部分，融入每一个维度的本质之中。从现在直到无数宇宙崩溃，最后的原子存在在自己的虚空中低语最后一个因果关系的伟大弦动时，每一世代都将学习这一天，并见证其荣耀和恩典。你的生命现在是一个不可逆转的成功，而且永远无法改变。"
+
+al_buff_restedt7,"[8000ff]清明梦境[-] (T7)"
+AL_Buff_RestedT7Name,"[8000ff]清明梦境[-] (T7)"
+AL_Buff_RestedT7Desc,"你以一种特殊的方式睡觉，发现自己迷失在一个远离末日荒谬的奇妙梦境世界中。"
+
+al_buff_restedt8,"[ff00ff]冬眠[-] (T8)"
+AL_Buff_RestedT8Name,"[ff00ff]冬眠[-] (T8)"
+AL_Buff_RestedT8Desc,"你退隐到山中，在一个合适的洞穴中生起温暖的火堆，然后离开了现实几个月。当你回来时，你发现什么都没有改变。实际上，真的什么都没有改变。你不应该排除自己可能是时间领主的想法。"
+
+al_buff_restedt9,"[ff0020]量子以太突触时间投射[-] (最高级别)"
+AL_Buff_RestedT9Name,"[ff0020]量子以太突触时间投射[-] (最高级别)"
+AL_Buff_RestedT9Desc,"原来你真的是时间领主。你毫不费力地搅动时空漩涡，可以在其中随心所欲地睡觉。"
+
+AL_Buff_UnrestedDisplayName,"正在休息..."
+AL_Buff_UnrestedDisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](未休息至第0级)[-]"
+AL_Buff_RestedT0DisplayName,"正在休息..."
+AL_Buff_RestedT0DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第0级至第1级)[-]"
+AL_Buff_RestedT1DisplayName,"正在休息..."
+AL_Buff_RestedT1DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第1级至第2级)[-]"
+AL_Buff_RestedT2DisplayName,"正在休息..."
+AL_Buff_RestedT2DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第2级至第3级)[-]"
+AL_Buff_RestedT3DisplayName,"正在休息..."
+AL_Buff_RestedT3DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第3级至第4级)[-]"
+AL_Buff_RestedT4DisplayName,"正在休息..."
+AL_Buff_RestedT4DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第4级至第5级)[-]"
+AL_Buff_RestedT5DisplayName,"正在休息..."
+AL_Buff_RestedT5DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第5级至第6级)[-]"
+AL_Buff_RestedT6DisplayName,"正在休息..."
+AL_Buff_RestedT6DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第6级至第7级)[-]"
+AL_Buff_RestedT7DisplayName,"正在休息..."
+AL_Buff_RestedT7DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第7级至第8级)[-]"
+AL_Buff_RestedT8DisplayName,"正在休息..."
+AL_Buff_RestedT8DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第8级至第9级)[-]"
+AL_Buff_RestedT9DisplayName,"最高休息级别"
+AL_Buff_RestedT9DisplayDesc,"你已经达到最高的休息级别，老实说，你睡得太多了。别再浪费生命了！出去好好活吧！"
+# }}}
+
+# Ham Radio {{{
+AL_Dialog_Response_Next,"[下一步]"
+
+npcHamRadio,"[(((ColourModded)))]业余无线电[-]"
+npc_hamRadio,"[(((ColourModded)))]业余无线电[-]"
+AL_LK_UseRadio,"[(((ColourModded)))]使用无线电[-]"
+
+AL_Dialog_HamRadio_Statement_Start,"你打开无线电，熟悉的静电噪音迎接了你。"
+AL_Dialog_HamRadio_Statement_SearchAirwaves,"你开始穿越电波，寻找生命的迹象……"
+
+AL_Dialog_HamRadio_Statement_BlackthorneIntro1,"静电突然中断，取而代之的显然是军事通信；简短、尖锐且稳定。声音以简洁、有节奏的单调语气不断释放着神秘的信息。据你所知，所有人都死了，没有军事力量需要掩饰通信。\n\n你打断讲话以引起对方注意。他们的突然沉默带来了一定的影响。"
+AL_Dialog_HamRadio_Statement_BlackthorneIntro2,"那个声音打断了你。\n\n[707353]这是黑荆棘军事后勤频率。请切换频道。[-]\n\n你简要说明了自己的处境。说话者对你还活着表示惊讶。"
+AL_Dialog_HamRadio_Statement_BlackthorneIntro3,"你大概地请求帮助。说话者的语气没有任何同情。\n\n[707353]收到。我已经获得调配和分发物资给幸存者的权力。要知道，你并不是第一个打断我们通信的人。有一个协议。帮助我们，我们可能会帮助你。我将为你预留一个频道。你的呼号是“西拉37”。完毕。[-]"
+
+AL_Dialog_HamRadio_Statement_BlackthorneNoMap,"你要询问任务，但意识到还没有办法跟踪目标。你最好先弄张地图。"
+AL_Dialog_HamRadio_Statement_BlackthorneTasksPreamble,"黑荆棘联系人概述了一些任务。"
+AL_Dialog_HamRadio_Statement_BlackthorneMain,"[707353]收到。[-]"
+AL_Dialog_HamRadio_Statement_BlackthorneTaskReturn,"[707353]准备好后再回来。完毕。[-]"
+AL_Dialog_HamRadio_Statement_BlackthorneContact,"你调到黑荆棘联系人的频率并宣布自己。回应很快到来。\n\n[707353]这里是黑荆棘。有什么事情？"
+
+AL_Dialog_HamRadio_Statement_BlackthorneReporting,"你向说话者汇报任务进度。"
+AL_Dialog_HamRadio_Statement_BlackthorneQuestComplete,"[707353]收到。稍等确认……\n\n不错的工作。你的帮助已经被记录。完毕。[-]"
+AL_Dialog_HamRadio_Statement_BlackthorneQuestIncomplete,"[707353]收到。稍等确认……\n\n我们无法确认你的任务已完成。完成后再来汇报。完毕。[-]"
+
+AL_Dialog_HamRadio_Statement_RequestSuppliesSufficient,"[707053]收到。稍等……\n\n我可以在接下来半小时内安排空投。确认。[-]"
+AL_Dialog_HamRadio_Statement_RequestSuppliesInsufficient,"[707053]收到。稍等……\n\n你需要为我们做更多事情，我才能为你调配物资。完成一些任务后再试试。完毕。[-]"
+
+AL_Dialog_HamRadio_Response_Tasks,"[询问任务]"
+AL_Dialog_HamRadio_Response_Nevermind,"算了。"
+AL_Dialog_HamRadio_Response_Out,"“西拉37”完毕。"
+AL_Dialog_HamRadio_Response_SearchAirwaves,"[搜索电波]"
+AL_Dialog_HamRadio_Response_TurnOff,"[关闭无线电]"
+AL_Dialog_HamRadio_Response_TuneBlackthorne,"[联系黑荆棘]"
+AL_Dialog_HamRadio_Response_Report,"[汇报]"
+AL_Dialog_HamRadio_Response_RequestSupplies,"[请求物资]"
+AL_Dialog_HamRadio_Response_Affirmative,"肯定的。"
+AL_Dialog_HamRadio_Response_Negative,"否定的。"
+# }}}
+
+# ItemActionUseTimed {{{
+AL_LK_Format_HoldToVerb,"[(((ColourGrey)))][[-][a0a0a0]按住[-] [action:local:Primary] [a0a0a0]以[-] [dddddd]{0}[-][(((ColourGrey)))]][-]"
+AL_LK_Format_ApplyItem_Verbing,"{0} [(((ColourModded)))]{1}[-]..."
+AL_LK_Format_ApplyItem_VerbingOn,"{0} [(((ColourModded)))]{1}[-] on [(((ColourModded)))]{2}[-].."
+AL_LK_Format_ApplyItem_IncreaseStat,"增加 [(((ColourModded)))]{0}[-] 到 [(((ColourModded)))]{1:0}/{2:0}[-]"
+AL_LK_Format_ApplyItem_DecreaseStat,"减少 [(((ColourModded)))]{0}[-] 到 [(((ColourModded)))]{1:0}/{2:0}[-]"
+AL_LK_Format_ApplyItem_Removing,"移除 [(((ColourModded)))]{0}[-]..."
+health,"[(((ColourHealth)))]生命值[-]"
+stamina,"[(((ColourStamina)))]耐力[-]"
+food,"[(((ColourFood)))]食物[-]"
+water,"[(((ColourWater)))]水[-]"
+
+# QuantityStorage {{{
+AL_LK_QuantityStorage_Water,"[(((ColourWater)))]水[-]"
+AL_LK_QuantityStorage_DirtyInfectedWater,"[(((ColourDirtyWater)))]污浊感染水[-]"
+AL_LK_QuantityStorage_InfectedWater,"[(((ColourInfectedWater)))]感染水[-]"
+AL_LK_QuantityStorage_RedTea,"[(((ColourRedTea)))]红茶[-]"
+AL_LK_QuantityStorage_GoldenrodTea,"[(((ColourGoldenrodTea)))]金丝桃茶[-]"
+AL_LK_QuantityStorage_Beer,"[(((ColourAlcohol)))]啤酒[-]"
+AL_LK_QuantityStorage_Shiraz,"[(((ColourRedWine)))]西拉葡萄酒[-]"
+AL_LK_QuantityStorage_Fuel,"[(((ColourFuel)))]燃料[-]"
+AL_LK_QuantityStorage_YuccaJuice,"[(((ColourYucca)))]丝兰汁[-]"
+AL_LK_QuantityStorage_Coffee,"[(((ColourCoffee)))]咖啡[-]"
+AL_LK_QuantityStorage_BlackStrapCoffee,"[(((ColourBlackstrap)))]黑糖咖啡[-]"
+AL_LK_QuantityStorage_MineralWater,"[(((ColourMineralWater)))]矿泉水[-]"
+AL_LK_QuantityStorage_Honey,"[(((ColourHoney)))]蜂蜜[-]"
+AL_LK_QuantityStorage_ManukaHoney,"[(((ColourManukaHoney)))]麦卢卡蜂蜜[-]"
+
+AL_LK_QuantityStorage_GSWater,"[bbbbbb]水[-]"
+AL_LK_QuantityStorage_GSDirtyInfectedWater,"[bbbbbb]污浊感染水[-]"
+AL_LK_QuantityStorage_GSInfectedWater,"[bbbbbb]感染水[-]"
+AL_LK_QuantityStorage_GSRedTea,"[bbbbbb]红茶[-]"
+AL_LK_QuantityStorage_GSGoldenrodTea,"[bbbbbb]金丝桃茶[-]"
+AL_LK_QuantityStorage_GSBeer,"[bbbbbb]啤酒[-]"
+AL_LK_QuantityStorage_GSShiraz,"[bbbbbb]西拉葡萄酒[-]"
+AL_LK_QuantityStorage_GSFuel,"[bbbbbb]燃料[-]"
+AL_LK_QuantityStorage_GSYuccaJuice,"[bbbbbb]丝兰汁[-]"
+AL_LK_QuantityStorage_GSCoffee,"[bbbbbb]咖啡[-]"
+AL_LK_QuantityStorage_GSBlackStrapCoffee,"[bbbbbb]黑糖咖啡[-]"
+AL_LK_QuantityStorage_GSMineralWater,"[bbbbbb]矿泉水[-]"
+AL_LK_QuantityStorage_GSHoney,"[bbbbbb]蜂蜜[-]"
+AL_LK_QuantityStorage_GSManukaHoney,"[bbbbbb]麦卢卡蜂蜜[-]"
+
+AL_LK_QuantityStorage_ContainerBlockFull,"[bbbbbb]已满。[-]"
+AL_LK_QuantityStorage_VehicleFuelFull,"[bbbbbb]已满。[-]"
+AL_LK_QuantityStorage_ContainerBlockEmpty,"[bbbbbb]为空。[-]"
+AL_LK_QuantityStorage_EquipLiquidContainer,"[bbbbbb]（装备液体容器以互动）[-]"
+AL_LK_QuantityStorage_EquipEmptyLiquidContainer,"[aaaaaa]（装备空液体容器以取水）[-]"
+
+AL_LK_Format_QuantityStorage_Amount,"[bbbbbb]含有:[-] {0}/{1} {2}"
+AL_LK_Format_QuantityStorage_AmountRC,"[bbbbbb]含有:[-] {0:0.##}/{1} {2}"
+AL_LK_Format_QuantityStorage_AmountTakeOnly,"[bbbbbb]含有:[-] {0} {1}"
+AL_LK_Format_InsufficientContents,"[bbbbbb]容器中的[-] {0} [bbbbbb]不足以装满你的[-] {1}[bbbbbb]。[-]"
+AL_LK_Format_FillingLiquidContainerItem,"[bbbbbb]用[-] {1} [bbbbbb]填充[-] {0} [bbbbbb]...[-]"
+AL_LK_Format_FillingLiquidContainerBlock,"[bbbbbb]将[-] {0} [bbbbbb]倒入[-] {1}[bbbbbb]...[-]"
+AL_LK_Format_FillingItemContainer,"[bbbbbb]从[-] {2} [bbbbbb]用[-] {1} [bbbbbb]填充[-] {0} [bbbbbb]...[-]"
+AL_LK_Format_FillingItemContainerPlain,"[bbbbbb]填充[-] {0} [bbbbbb]...[-]"
+AL_LK_Format_FillingBlockContainer,"[bbbbbb]将[-] {0} [bbbbbb]倒入[-] {1}[bbbbbb]...[-]"
+AL_LK_Format_Refuelling,"[bbbbbb]加油[-] [(((ColourModded)))]{0}[-][bbbbbb]...[-]"
+AL_LK_Format_EmptyingOut,"[ff4040]将[-] {0} [ff4040]倒在地上...[-]"
+AL_LK_Format_QuantityContainerItemIsEmpty,"[bbbbbb]你的[-] {0} [bbbbbb]是空的。[-]"
+AL_LK_Format_QuantityContainerDifferentUnit,"[bbbbbb]你的[-] {0} [bbbbbb]与[-] {1} [bbbbbb]的内容不同。[-]"
+AL_LK_Format_QuantityContainerEmpty,"[bbbbbb]该[-] {0} [bbbbbb]是空的。[-]"
+AL_LK_Format_QuantityContainerItemIsFull,"[bbbbbb]你的[-] {0} [bbbbbb]已满。[-]"
+AL_LK_Format_ItemContainerUnitRestriction,"[bbbbbb]你的[-] {0} [bbbbbb]不能容纳[-] {1}[bbbbbb]。"
+
+AL_LK_Format_QuantityStorage_PotentialActionText,"{0} [action:local:Primary] | [action:local:Secondary] {1}"
+AL_LK_QuantityStorage_Action_None,"[bbbbbb]无操作[-]{0}"
+AL_LK_QuantityStorage_Action_TakingTerrainWater,"[bbbbbb]取[-] {0}"
+AL_LK_QuantityStorage_Action_TakingFromBlockContainer,"[bbbbbb]从[-] {0} [bbbbbb]取水"
+AL_LK_QuantityStorage_Action_FillingBlockContainer,"[bbbbbb]填充[-] {0}"
+AL_LK_QuantityStorage_Action_FillingVehicle,"[bbbbbb]填充[-] {0}"
+AL_LK_QuantityStorage_Action_EmptyingOutItemContainer,"[bbbbbb]清空[-] {0}"
+AL_LK_QuantityStorage_Action_TakingFromVehicle,"[bbbbbb]从[-] {0} [bbbbbb]抽水"
+AL_LK_QuantityStorage_Action_Consuming,"[bbbbbb]饮用[-] {0}"
+
+AL_LK_RainCatcherCollecting,"[(((ColourWater)))]正在收集雨水。[-]"
+AL_LK_RainCatcherBlocked,"[(((ColourTomato)))]未暴露在天空下。[-]"
+
+AL_LK_WaterBarrel,"水桶"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Base,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Water,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_RedTea,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_GoldenrodTea,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Beer,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Shiraz,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_DirtyInfectedWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_InfectedWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_DirtyWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_MineralWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Fuel,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_YuccaJuice,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Honey,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_ManukaHoney,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Coffee,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Base,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Water,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_RedTea,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_GoldenrodTea,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Beer,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Shiraz,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_DirtyInfectedWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_InfectedWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_DirtyWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_MineralWater,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Fuel,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_YuccaJuice,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Honey,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_ManukaHoney,"(((AL_LK_WaterBarrel)))"
+
+AL_LK_WaterBarrels,"一组水桶"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Base,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Water,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_RedTea,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_GoldenrodTea,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Beer,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Shiraz,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_DirtyInfectedWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_InfectedWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_DirtyWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_MineralWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Fuel,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_YuccaJuice,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Honey,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_ManukaHoney,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Base,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Water,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_RedTea,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_GoldenrodTea,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Beer,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Shiraz,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_DirtyInfectedWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_InfectedWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_DirtyWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_MineralWater,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Fuel,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_YuccaJuice,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Honey,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_ManukaHoney,"(((AL_LK_WaterBarrels)))"
+
+AL_LK_WineBarrel,"酒桶"
+AL_Block_QuantityStorage_WineBarrel,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_Base,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_Water,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_RedTea,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_GoldenrodTea,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_Beer,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_Shiraz,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_DirtyInfectedWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_InfectedWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_DirtyWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_MineralWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_Fuel,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_YuccaJuice,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_Honey,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrel_ManukaHoney,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_Base,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_Water,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_RedTea,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_GoldenrodTea,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_Beer,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_Shiraz,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_DirtyInfectedWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_InfectedWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_DirtyWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_MineralWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_Fuel,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_YucaJuice,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_Honey,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain_ManukaHoney,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_Base,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_Water,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_RedTea,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_GoldenrodTea,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_Beer,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_Shiraz,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_DirtyInfectedWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_InfectedWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_DirtyWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_MineralWater,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_Fuel,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_YuccaJuice,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_Honey,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet_ManukaHoney,"(((AL_LK_WineBarrel)))"
+
+AL_LK_GasPump,"加油泵"
+AL_Block_QuantityStorage_GasPump,"(((AL_LK_GasPump)))"
+AL_Block_QuantityStorage_GasPump_Base,"(((AL_LK_GasPump)))"
+AL_Block_QuantityStorage_GasPump_Fuel,"(((AL_LK_GasPump)))"
+
+AL_LK_GasBarrel,"汽油桶"
+AL_Block_QuantityStorage_GasBarrelSingle,"(((AL_LK_GasBarrel)))"
+AL_Block_QuantityStorage_GasBarrelSingle_Fuel,"(((AL_LK_GasBarrel)))"
+AL_Block_QuantityStorage_GasBarrelSingle45,"(((AL_LK_GasBarrel)))"
+AL_Block_QuantityStorage_GasBarrelSingle45_Fuel,"(((AL_LK_GasBarrel)))"
+
+AL_LK_OldBarrel,"旧桶"
+AL_Block_QuantityStorage_GasBarrelOld,"(((AL_LK_OldBarrel)))"
+AL_Block_QuantityStorage_GasBarrelOld_Fuel,"(((AL_LK_OldBarrel)))"
+
+AL_LK_GasBarrels,"汽油桶组"
+AL_Block_QuantityStorage_GasBarrelQuadA,"(((AL_LK_GasBarrels)))"
+AL_Block_QuantityStorage_GasBarrelQuadA_Fuel,"(((AL_LK_GasBarrels)))"
+AL_Block_QuantityStorage_GasBarrelQuadB,"(((AL_LK_GasBarrels)))"
+AL_Block_QuantityStorage_GasBarrelQuadB_Fuel,"(((AL_LK_GasBarrels)))"
+
+AL_LK_RustyBarrel,"生锈的桶"
+AL_LK_RustyBarrels,"一组生锈的桶"
+AL_Block_QuantityStorage_GenericBarrelSingle,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_GenericBarrelSingle_Fuel,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_GenericBarrelSingle45,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_GenericBarrelSingle45_Fuel,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_GenericBarrelQuadA,"(((AL_LK_RustyBarrels)))"
+AL_Block_QuantityStorage_GenericBarrelQuadA_Fuel,"(((AL_LK_RustyBarrels)))"
+AL_Block_QuantityStorage_GenericBarrelQuadB,"(((AL_LK_RustyBarrels)))"
+AL_Block_QuantityStorage_GenericBarrelQuadB_Fuel,"(((AL_LK_RustyBarrels)))"
+AL_Block_QuantityStorage_WhiteBarrelSingle,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_WhiteBarrelSingle_Fuel,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_WhiteBarrelSingle45,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_WhiteBarrelSingle45_Fuel,"(((AL_LK_RustyBarrel)))"
+AL_Block_QuantityStorage_WhiteBarrelQuadA,"(((AL_LK_RustyBarrels)))"
+AL_Block_QuantityStorage_WhiteBarrelQuadA_Fuel,"(((AL_LK_RustyBarrels)))"
+AL_Block_QuantityStorage_WhiteBarrelQuadB,"(((AL_LK_RustyBarrels)))"
+AL_Block_QuantityStorage_WhiteBarrelQuadB_Fuel,"(((AL_LK_RustyBarrels)))"
+
+AL_LK_OilBarrel,"油桶"
+AL_Block_QuantityStorage_OilBarrelSingle,"(((AL_LK_OldBarrel)))"
+AL_Block_QuantityStorage_OilBarrelSingle_Fuel,"(((AL_LK_OldBarrel)))"
+AL_Block_QuantityStorage_OilBarrelSingle45,"(((AL_LK_OldBarrel)))"
+AL_Block_QuantityStorage_OilBarrelSingle45_Fuel,"(((AL_LK_OldBarrel)))"
+
+AL_LK_OilBarrels,"一组油桶"
+AL_Block_QuantityStorage_OilBarrelQuadA,"(((AL_LK_OilBarrels)))"
+AL_Block_QuantityStorage_OilBarrelQuadA_Fuel,"(((AL_LK_OilBarrels)))"
+AL_Block_QuantityStorage_OilBarrelQuadB,"(((AL_LK_OilBarrels)))"
+AL_Block_QuantityStorage_OilBarrelQuadB_Fuel,"(((AL_LK_OilBarrels)))"
+
+AL_Block_QuantityStorage_TreeStumpMature_Honey,"树桩"
+AL_Block_QuantityStorage_TreeStumpMature_ManukaHoney,"树桩"
+
+AL_LK_RainCatcherCollecting,"[(((ColourWater)))]正在收集雨水。[-]"
+AL_LK_RainCatcherBlocked,"[(((ColourTomato)))]未暴露在天空下。[-]"
+AL_LK_PourIntoEmptyJars,"[(((ColourModded)))]倒入[-] 空罐子"
+
+AL_LK_QuantityStorage_Format_PourInto,"[bbbbbb]倒入[-] [(((ColourModded)))]{0}[-]"
+# }}}
+
+# Survivor Notes {{{
+AL_Item_HintNote1,"[(((ColourModded)))]芳香便条[-]"
+AL_Item_HintNote2,"[(((ColourModded)))]略微烧焦的便条[-]"
+AL_Item_HintNote3,"[(((ColourModded)))]铁匠笔记 #1[-]"
+AL_Item_HintNote4,"[(((ColourModded)))]铁匠笔记 #2[-]"
+AL_Item_HintNote5,"[(((ColourModded)))]铁匠笔记 #3[-]"
+AL_Item_HintNote6,"[(((ColourModded)))]潮湿便条[-]"
+AL_Item_HintNote7,"[(((ColourModded)))]矿工便条[-]"
+
+AL_Item_HintNote1Desc,"[(((ColourGrey)))]一张满是潦草文字的便条...[-]\n\n这些白痴就是不听我的话。他们接受蜂蜜可以减缓感染，谢天谢地，但他们显然认为不变成吃脑怪物不如多砍点木头重要。他们到底以为蜂蜜是从哪儿来的？月球上吗？当其中一个我们的人成为另一个人的早餐时，他们会后悔的。"
+
+AL_Item_HintNote2Desc,"[(((ColourGrey)))]一张书写整洁的便条...[-]\n\n我的同伴们坚持认为我们不应该点燃火把，因为这会吸引丧尸。我不知道这个想法是怎么传开的，但这是胡说八道。我的意思是，几天前我们烧毁了那座房子，但一个丧尸都没出现。"
+
+AL_Item_HintNote3Desc,"[(((ColourGrey)))]一张用华丽草书写成的便条...[-]\n\n在这个时代，我们的领域迫切需要像我这样的人。锻造‘中世纪’武器，在我的生活中，被视为一种仅仅取悦cosplay影响者和中世纪历史YouTuber的爱好，现在却成为了生死攸关的事情。无论如何，我写下另一份这样的笔记，传授我在铁匠技艺方面的知识，我是地球上最擅长此道的人。对于任何试图更有效地杀死这些怪物的人来说，听从我的建议吧。单纯的木材不足以熔炼矿石和加工金属。为了熔炼和加工铁，你需要煤。是的，煤，而不是木炭，并且获取并不难。它偶尔可以在附近的森林里找到。这就是我现在要讲的全部内容。[-]"
+
+AL_Item_HintNote4Desc,"[(((ColourGrey)))]一张用华丽草书写成的便条...[-]\n\n这片废墟和胶带之地让我怀念起那些完美的钢材和异国情调的超级合金的时代。现在自己制造钢并不是一件容易的事……也许是时候复活我们最古老的合金——青铜。它更容易熔炼，我在森林里采集时见过可以用来生产青铜的矿石……主要是黄铜矿和锡石。是的……这可能是值得的……[-]"
+
+AL_Item_HintNote5Desc,"[(((ColourGrey)))]一张用华丽草书写成的便条...[-]\n\n再次将我的丰富经验写在纸上；这是一个微不足道的容器，承载着如此伟大的知识。不过，旅者，知道这份指导性的文字为你带来了关于更远和有趣的矿石和燃料的知识。在炎热的沙漠领域，你会发现用于制作弹药的铅和硝石。在冬季领域，你会发现一种优质的煤——无烟煤。在那里，你还可以找到铬铁矿，它是许多坚固合金的成分。在烧毁领域，你可以找到闪锌矿，对制作黄铜合金有用。在毁灭领域，你可能会发现一种绿色矿石——镍矿石，熔炼后可得到镍。现在你知道外面有什么了，祝你好运，四处寻找，穿过不死生物群，获取更多力量。上帝保佑，旅者。"
+
+AL_Item_HintNote6Desc,"[(((ColourGrey)))]你尽力阅读纸上的潦草字迹...[-]\n\n是的，当然，水被感染了，我们都知道这一点，但他们为什么坐在火堆旁抱怨口渴呢？天哪，外面上帝正为我们倾盆而下的干净雨水。出去喝点雨水吧。"
+
+AL_Item_HintNote7Desc,"[(((ColourGrey)))]一份写得很不错的便条，虽然纸张很脏...[-]\n\n我认为我的新雇主撑不了多久。我最好开始寻找替代的工作。他们根本没有任何竞争力。他们甚至不在现场熔炼矿石！我的意思是，他们的熔炼设施确实令人印象深刻，而且他们投入了很多资金，想要使用它，但这样做只是在运输大量无用的岩石，熔炼后就丢弃了。"
+
+# Third Party POIs {{{
+Zap_Arcade_Voltralux,"Zap Arcade"
+MafiaMuseum_Voltralux,"黑帮博物馆"
+house_atomic_01_Voltralux,"唯一幸存者的住所"
+Boxing_Gym_Voltralux,"Mister's 拳击馆"
+GunShopKendo_Voltralux,"Gun Shop Kendo"
+# }}}
+
+# Item Stats {{{
+AL_LK_MaxHealth,"最大生命值"
+AL_LK_MaxStamina,"最大耐力"
+AL_LK_HealthRegen,"生命值恢复"
+AL_LK_AttackSpeed,"攻击速度 (%)"
+AL_LK_HealthRegenPerc,"生命值恢复 (%)"
+AL_LK_StaminaRegenPerc,"耐力恢复 (%)"
+AL_LK_ZInfectionRate,"Z病毒感染率 (%)"
+AL_LK_VitalityChangeRGB,"[(((ColourVitality)))]活力变化[-]"
+AL_LK_PerMinute,"每分钟"
+AL_LK_RainOnGlassEffectReduction,"玻璃上雨水效果减少"
+AL_LK_PreventsXpGain,"阻止经验值获得"
+AL_LK_FallingBlockDamage,"掉落方块伤害"
+AL_LK_CuttingResist,"切割抗性 (负面效果)"
+AL_LK_BashingResist,"打击抗性 (负面效果)"
+AL_LK_StunResist,"眩晕抗性"
+AL_LK_StaminaRegenRunning,"跑步时耐力恢复"
+AL_LK_FinessePenalty,"灵巧惩罚"
+AL_LK_PrimitiveArmour,"原始护甲"
+AL_LK_Bicycle,"自行车"
+# }}}
+
+# TEFeatures {{{
+blockcommand_TEFeatureTakeable:take,"拿取"
+}}}
+
+
+BoxTruck,--------------------------------------------------------------------
+vehicleBoxTruckbody,"厢式货车车身"
+vehicleBoxTruckbodyDesc,"制作厢式货车所需的部件"
+vehicleBoxTruckchassis,"厢式货车底盘"
+vehicleBoxTruckchassisDesc,"制作厢式货车所需的部件"
+vehicleBoxTruckPlain,"厢式货车"
+vehicleBoxTruckPlainplaceable,"厢式货车"
+vehicleBoxTruckPlainplaceableDesc,"一辆旧厢式货车"
+vehicleBoxTruckHostess,"餐饮厢式货车"
+vehicleBoxTruckHostessplaceable,"餐饮厢式货车"
+vehicleBoxTruckHostessplaceableDesc,"塔拉哈西的最爱！"
+
+Buggy,--------------------------------------------------------------------
+vehicleBuggychassis,"越野车底盘"
+vehicleBuggychassisDesc,"制作越野车所需的部件"
+vehicleBuggyaccessories,"越野车配件"
+vehicleBuggyaccessoriesDesc,"制作越野车所需的部件"
+vehicleBuggy,"越野车"
+vehicleBuggyplaceable,"越野车"
+vehicleBuggyplaceableDesc,"一辆旧的越野车"
+
+
+OcbMicroSplat,--------------------------------------------------------------------
+xuiOptionsVideoTerrainTessellation,"地形细分"
+xuiOptionsVideoTerrainTessellationTooltip,"在GPU上启用细分。\n性能影响：非常高"
+
+
+Torch,--------------------------------------------------------------------
+loadingTipTorchCulling_title,"火炬光照遮挡剔除"
+loadingTipTorchCulling,"火炬使用遮挡剔除来移除最终帧中不可见的光源，从而在具有大量光源但很少可见的情况下提高性能"
+loadingTipTorchShadowMaps_title,"火炬阴影图缓存"
+loadingTipTorchShadowMaps,"火炬缓存由光源创建的阴影图以供未来帧使用，从而提高性能"
+torchSettingGeneral,"通用设置"
+torchSettingGeneralTooltip,"火炬的通用设置"
+torchSettingGIGeneral,"通用设置"
+torchSettingGIGeneralTooltip,"火炬实时全局照明的通用设置"
+torchSettingEnabled,"火炬"
+torchSettingCulling,"光照遮挡剔除"
+torchSettingShadowMapCaching,"阴影图缓存"
+torchSettingShadowMapResolution,"阴影图分辨率"
+torchSettingEnabledTooltip,"启用或禁用火炬。这将同时开启或关闭光照遮挡剔除系统和阴影图缓存系统"
+torchSettingGIType,"全局照明类型"
+torchSettingGITypeTooltip,"全局照明类型 \n\n屏幕空间仅使用屏幕上的内容来确定帧中的全局照明量"
+torchSettingGIQuality,"质量级别"
+torchSettingGIQualityTooltip,"全局照明的质量级别"
+torchSettingCullingTooltip,"启用或禁用火炬的光照遮挡剔除系统，如果启用，则最终帧中不可见的光源将不会被渲染"
+torchSettingShadowMapCachingTooltip,"启用或禁用火炬的阴影图缓存系统，如果启用，则所有光源的阴影图都会被缓存而不是每帧重新创建。此设置会增加VRAM使用量"
+torchSettingShadowMapResolutionTooltip,"设置光源的阴影图分辨率，更高的设置会增加VRAM使用量"
+torchSettingMaxPixelLightShadowMaps,"最大像素光源阴影"
+torchSettingMaxPixelLightShadowMapsTooltip,"光照草地和植物时带有阴影的最大像素光源数量"
+torchSettingPixelLightCount,"像素光源数量"
+torchSettingPixelLightCountTooltip,"影响同一草地或植物的实时光源数量。增加此设置可以减少草地和植物上的光线溢出。默认设置为非常低。设置越高，潜在的绘制调用越多，稍微降低FPS。"
+torchSettingLights,"实时光源"
+torchSettingLightsTooltip,"Unity渲染的实时光源设置"
+torchSettingShadows,"阴影"
+torchSettingShadowsTooltip,"火炬渲染的阴影设置"
+torchSettingMaxCascades,"最大阴影级联"
+torchSettingMaxCascadesTooltip,"可以渲染的最大阴影级联数量"
+
+zAfterlifeIzayoGunTweaks,--------------------------------------------------------------------
+# 9mm
+IZYgunT1PistolBrowningHipower,勃朗宁大威力手枪
+IZYgunT2PistolCZ75,CZ 75 手枪
+IZYgunT3PistolP08luger,鲁格 P08 手枪
+IZYgunT4PistolC96red9,C96 大红九毛瑟手枪
+
+IZYgunT1SMGVolksmachinegun,VOLKs 冲锋枪
+IZYgunT2SMGBerettaM38,Model 38 冲锋枪
+IZYgunT3SMGSMP40,MP-40 冲锋枪
+IZYgunT4SMGTokarevPP209,PPSH-2000 冲锋枪
+
+IZYgunT1TacticalSMGARM9a2,ARM-9 A2 冲锋枪
+IZYgunT2TacticalSMGSMP5,MP5 冲锋枪
+IZYgunT3TacticalSMGSaika9,Saika-9 冲锋枪
+IZYgunT4TacticalSMGCZscorpion,Scorpion EVO3 冲锋枪
+
+# 7.62
+IZYgunT1SniperRifleMosinNagant,M1891莫辛-纳甘步枪
+IZYgunT2SniperRifleM40a3,M40 A3 狙击步枪
+IZYgunT3SniperRifleL96S,L96 狙击步枪
+IZYgunT4SniperRifleHKPSG1,PSG-1 狙击步枪
+IZYgunT1DMRSks,SKS 狙击步枪
+IZYgunT2DMRM141,M141 狙击步枪
+IZYgunT3DMRSR110a2,SR-110 A2 狙击步枪
+IZYgunT4DMRM21SOCOM,M21-SOCOM 狙击步枪
+
+# 5.56
+IZYammo556mmBulletBall,5.56x45 子弹
+IZYammo556mmArmorpiercing,5.56x45 穿甲弹
+IZYammo556mmHighPower,5.56x45 空心弹
+IZYgunT1assaultrifleTacticalCarbineCAR15,CAR-15 XM-177 突击步枪
+IZYgunT2assaultrifleTacticalCarbineM4C,M4Ca2 突击步枪
+IZYgunT3assaultrifleTacticalCarbineSOCmk1,SOC mark.1 突击步枪
+IZYgunT4assaultrifleTacticalCarbineG36cA1,G36C 突击步枪
+IZYgunT1assaultrifleBattleCarbineFNLcal,FNN LCAL 突击步枪
+IZYgunT2assaultrifleBattleCarbineHK33,HnK-33 突击步枪
+IZYgunT3assaultrifleBattleCarbineAKWa2,AKWa2 突击步枪
+IZYgunT4assaultrifleBattleCarbineScarLight,SKAR-L 突击步枪
+IZYgunT1LMGIWINegev,NEGEV 机枪
+IZYgunT2LMGM249,M249 机枪
+IZYgunT3LMGAmeliMG,AMELI 机枪
+IZYgunT4LMGHeavy16,HEAVY-16 机枪
+
+
+# Shotguns
+IZYspecialgunpartShotgun,"特殊枪械部件（霰弹枪）"
+ammoShotgunShellFlechette,"霰弹枪飞镖弹（弹药）"
+ammoShotgunShellFlechetteDesc,"这种弹壳发射多个飞镖。\n让我们撕裂他们的装甲！\n按住装弹键使用备用弹药。"
+ammoShotgunShellTokenShot,"霰弹枪硬币弹（弹药）"
+ammoShotgunShellTokenShotDesc,"这是一种改良的弹壳，发射的是硬币而不是弹丸。\n你会感觉自己像是一个酷炫的西部亡命之徒。\n按住装弹键使用备用弹药。"
+ammoShotgunSuperpenetratorslug,"霰弹枪超级穿甲弹（弹药）"
+ammoShotgunSuperpenetratorslugDesc,"这是一种具有增强穿透力的穿甲弹。\n即使是军用防弹衣也无法抵挡这种穿透力。\n按住装弹键使用备用弹药。"
+IZYgunT1shotgunDoublebarrellong,"长筒双管霰弹枪"
+IZYgunT1shotgunDoublebarrellongDesc,"这是一把长管并排霰弹枪，弹容量较低，但比半自动霰弹枪射速更快。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT1shotgunBoltactionShotgun,"Higgins 霰弹枪"
+IZYgunT1shotgunBoltactionShotgunDesc,"这是一把手动装填猎用霰弹枪。今晚去打点鹿肉做晚餐吧。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT1shotgunModel1887,"M1887 霰弹枪"
+IZYgunT1shotgunModel1887Desc,"这是一把杠杆式霰弹枪。即使液态金属杀手从未来来到这里，这也足够用了。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT2shotgunM31hunter,"M31 霰弹枪"
+IZYgunT2shotgunM31hunterDesc,"这是泵动霰弹枪的经典之作。尽管老旧，但性能足以对付丧尸。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT2shotgunM1897,"M1897 霰弹枪"
+IZYgunT2shotgunM1897Desc,"这是一把古老的但坚固可靠的霰弹枪，在一战中表现出色。让我们挖掘战壕拦截丧尸。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT2shotgunM870Police,"M870 警用霰弹枪"
+IZYgunT2shotgunM870PoliceDesc,"这是一把适合控制暴乱的警用霰弹枪。即使暴乱者变成了丧尸，它仍然有效。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT3shotgunM4terminator,"M4 霰弹枪"
+IZYgunT3shotgunM4terminatorDesc,"这些半自动霰弹枪也被海军陆战队使用。无论是锁门还是丧尸，一旦打出洞来都一样。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT3shotgunXM12G,"XM-12 自动霰弹枪"
+IZYgunT3shotgunXM12GDesc,"出色的容量！出色的射速！让我们击退涌来的丧尸！\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT3shotgunM590S,"M590 特种霰弹枪"
+IZYgunT3shotgunM590SDesc,"这把霰弹枪广泛用于军事、执法和民用。它轻便、易于操作，具有高耐用性。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT4shotgunSaika12g,"Saiga-12 半自动霰弹枪"
+IZYgunT4shotgunSaika12gDesc,"发射12号弹的AK！高射速、高可靠性，适用于废土中的丧尸战斗。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT4shotgunHEXAGun,"HEXAGUN 霰弹枪"
+IZYgunT4shotgunHEXAGunDesc,"转轮式霰弹枪。比半自动霰弹枪更准确，比泵动霰弹枪射速更高。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunT4shotgunSPAS12,"SPAS-12 半自动霰弹枪"
+IZYgunT4shotgunSPAS12Desc,"这是一把意大利制造的战斗霰弹枪，性能卓越，无法与狩猎或比赛用霰弹枪相比。\n\n使用修理工具包修理。\n拆解成霰弹枪部件。"
+IZYgunmodSilencerIMS,"改进型消音器"
+
+
+gunMGT1AK47,AK-47突击步枪
