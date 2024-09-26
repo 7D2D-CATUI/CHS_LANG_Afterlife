@@ -3,6 +3,8 @@ Key,schinese
 zAfterlife,--------------------------------------------------------------------
 
 # General / Miscellaneous {{{
+xuiRWGRandom,"随机"
+AL_LK_NoEffectsYet,,"[(((ColourModded)))][无效果][-]";
 AL_LK_BuildBlock,建造/升级方块
 AL_LK_Food,[(((ColourFood)))]食物[-]
 AL_LK_Water,[(((ColourWater)))]水[-]
@@ -122,6 +124,7 @@ AL_LK_Weaken,[(((ColourModded)))]削弱[-]
 AL_LK_Unconscious,[(((ColourDarkGrey)))]昏迷[-]
 AL_LK_Yields,[(((ColourYields)))]产出[-]
 AL_LK_HarvestAction,[(((ColourModded)))][收获][-]
+AL_LK_TempVitality,"[(((ColourModded)))]临时活力[-]"
 # }}}
 
 # Craft Area to Block Name Translation {{{
@@ -1967,9 +1970,15 @@ meleeWpnKnucklesT1IronKnucklesDesc,"保护双手并在挥动时增加重量。\n
 meleeWpnKnucklesT3SteelKnucklesDesc,"保护双手并在挥动时增加重量。这些刀片也适合解剖动物。\n\n(((AL_LK_WeakenEffect)))"
 
 gunBowT1WoodenBowDesc,"适合狩猎和杀死丧尸。如果你急需的话，也可以当作一种不错的弦乐器。"
+
+modMeleeSerratedBladeDesc,"有10%的几率造成24点伤害。"
+modMeleeClubBarbedWireDesc,"有20%的几率造成24点伤害。40%的几率触发连续攻击。"
+drinkJarGrandpasAwesomeSauceDesc,"保证让你感觉超棒！"
 # }}}
 
 # Buffs {{{
+AL_Buff_AwesomeSauce,"祖父的秘制酱料"
+AL_Buff_AwesomeSauceDesc,"这东西太棒了！"
 AL_Buff_VitalitySummaryName,"[(((ColourVitality)))]活力总览[-]"
 lblBuffs,"增益效果"
 
@@ -2452,7 +2461,7 @@ AL_LK_Format_Tier3Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier3)))][3][
 AL_LK_Format_Tier4Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier4)))][4][-] [(((ColourModded)))]级装饰[-]"
 AL_LK_Format_Tier5Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier5)))][5][-] [(((ColourModded)))]级装饰[-]"
 AL_LK_Format_DamageBlockType,"对 [(((ColourModded)))]{0}[-] 造成伤害。"
-AL_LK_Format_CanBePickedUpWeight,"[80ff80]可拾取[-] [bbbbbb]({0} 公斤)[-][80ff80][-]"
+AL_LK_Format_CanBePickedUpWeight,"[80ff80]可拾取[-] [bbbbbb]({0} kg)[-][80ff80][-]"
 AL_LK_Format_ItemBeyondRepair,"[(((ColourModded)))]{0}[-] 的质量太低，无法修复。"
 AL_LK_Format_Proportion,"{0}/{1}"
 AL_LK_Format_NPerkPoints,"{0} 特性点"
@@ -2461,6 +2470,7 @@ AL_LK_Format_HarvestYieldOne,"[(((ColourYields)))]产量:[-] {0} {1}"
 AL_LK_Format_HarvestYieldOneRange,"[(((ColourYields)))]产量:[-] {0}-{1} {2}"
 AL_LK_Format_HarvestYieldBare,"{0} {1}"
 AL_LK_Format_HarvestYieldBareRange,"{0}-{1} {2}"
+AL_LK_Format_TooHeavyBy,"[(((ColourModded)))]物品太重了，你无法拾取 (重量 {0:0.##} kg).[-]"
 # }}}
 
 # Singular Words {{{
@@ -2565,7 +2575,7 @@ AL_LK_VitCombatStressDescNeg,"你在激烈的战斗中，给予并承受着伤�
 
 AL_Buff_VitSocial,"社交"
 AL_Buff_VitSocialName,"社交"
-AL_Buff_VitSocialDesc,"你找到了其他（活着的）人类！"
+AL_Buff_VitSocialDesc,"你最近与一些活着的人在一起。"
 
 al_buff_vitcomradedied,"战友牺牲"
 AL_Buff_VitComradeDiedName,"战友牺牲"
