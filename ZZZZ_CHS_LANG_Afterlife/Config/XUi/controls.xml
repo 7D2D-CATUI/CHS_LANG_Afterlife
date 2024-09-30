@@ -1,0 +1,17 @@
+<CATUI>
+	<setattribute xpath="//al_skillbox/rect/label[@justify='left']" name="font_size">26</setattribute>
+
+	<setattribute xpath="//al_crafting_skill_entry/rect/label[@name='lblName']" name="font_size">22</setattribute>
+
+	<setattribute xpath="//al_perk/rect/rect[@name='padding']/label[@name='name']" name="font_size">26</setattribute>
+	<setattribute xpath="//al_perk/rect/rect[@name='padding']/label[@name='name']" name="color">[gold]</setattribute>
+	<setattribute xpath="//al_perk/rect/rect[@name='padding']/label[@name='name']" name="effect">Outline8</setattribute>
+	<setattribute xpath="//al_perk/rect/rect[@name='padding']/label[@name='name']" name="effect_color">[black]</setattribute>
+	<setattribute xpath="//al_perk/rect/rect[@name='padding']/label[@name='name']" name="effect_distance">1,1</setattribute>
+
+	<setattribute xpath="//al_perk_level/rect/rect/label[@name='description']" name="font_size">24</setattribute>
+	<setattribute xpath="//al_perk_level/rect/rect/label[@name='description']" name="pos">5,-5</setattribute>
+	<setattribute xpath="//al_perk_level/rect/rect/label[@name='description']" name="spacing_y">5</setattribute>
+
+
+</CATUI>

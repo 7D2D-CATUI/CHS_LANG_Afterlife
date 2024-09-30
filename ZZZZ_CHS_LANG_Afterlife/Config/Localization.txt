@@ -4,7 +4,7 @@ zAfterlife,--------------------------------------------------------------------
 
 # General / Miscellaneous {{{
 xuiRWGRandom,"随机"
-AL_LK_NoEffectsYet,,"[(((ColourModded)))][无效果][-]";
+AL_LK_NoEffectsYet,"[(((ColourModded)))][无效果][-]";
 AL_LK_BuildBlock,建造/升级方块
 AL_LK_Food,[(((ColourFood)))]食物[-]
 AL_LK_Water,[(((ColourWater)))]水[-]
@@ -253,7 +253,7 @@ AL_AffectedByActionSkill_ConstructionTools,建筑工具
 # Special Atacks {{{
 AL_LK_SpecialAttack,特殊攻击
 AL_LK_BackstabEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]背刺[-]\n尝试背刺可以通过次要攻击执行，在敌人看不到你的情况下命中时会额外造成伤害。可以通过 [(((ColourModded)))]刺客[-] 特性来提升。
-AL_LK_WeakenEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]削弱[-]\n削弱打击可以通过次要攻击执行，会减少目标当前的抗痛能力 10%。这使你能够更多地击打敌人而不使他们免疫眩晕。可以通过 [(((ColourModded)))]撕裂[-] 特性来提升。
+AL_LK_WeakenEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]削弱[-]\n削弱打击可以通过次要攻击执行，会减少目标当前的抗痛能力 10%。这使你能够更多地击打敌人而不使他们免疫眩晕。可以通过 [(((ColourModded)))]削弱打击[-] 特性来提升。
 AL_LK_CleaveEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]横扫[-]\n横扫可以通过次要攻击执行，并会对范围内的所有目标造成伤害，就像分别击打每个目标一样。每增加一个目标都会增加攻击的耐力消耗，但这可以通过 [(((ColourModded)))]狂暴动势[-] 特性来缓解。
 AL_LK_PushAttackEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]推击[-]\n推击可以通过次要攻击执行，并会将敌人推开一点距离。推的距离可以通过 [(((ColourModded)))]推击[-] 特性来提升。
 AL_LK_PowerAttackEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]强力攻击[-]\n强力攻击可以通过次要攻击执行，并会发出较慢但更具杀伤力的攻击，相比其他武器的特殊攻击效果更强。可以通过 [(((ColourModded)))]超级攻击[-] 特性来增强。
@@ -271,6 +271,9 @@ AL_LK_CategoryWriting,写作
 # }}}
 
 # Items {{{
+AL_Item_ZebraCake,"斑马臀纹蛋糕"
+AL_Item_ZebraCakeDesc,"这块蛋糕看起来很好吃！……但似乎有些不祥的气息。"
+
 AL_Item_GoldNugget,金块
 AL_Item_GoldNuggetDesc,成为一块金块总比成为一块鸡肉块好。
 
@@ -487,8 +490,8 @@ AL_Item_BikerHelmetDesc,它是用来骑车的，还是用来打架的？为什�
 AL_Item_CeramicCrucible,[(((ColourModded)))]陶瓷坩埚[-]
 AL_Item_CeramicCrucibleDesc,这个由泥土和火制成的简单坩埚可以忠实地容纳几乎所有的熔融金属。可以在熔炉中安装使用。
 
-AL_Item_LockpickSet,[(((ColourModded)))]开锁工具组[-]
-AL_Item_LockpickSetDesc,一个携带袋内装有一套开锁工具。当然，在现代社会，它们只被爱好者和竞技开锁者使用。一个人不应该打开不属于自己的锁。是的，就是这样……
+AL_Item_LockpickSet,[(((ColourModded)))]撬锁工具组[-]
+AL_Item_LockpickSetDesc,一个携带袋内装有一套撬锁工具。当然，在现代社会，它们只被爱好者和竞技撬锁使用。一个人不应该打开不属于自己的锁。是的，就是这样……
 
 AL_Item_PatchUpKit,[(((ColourModded)))]修补包[-]
 AL_Item_PatchUpKitDesc,这种由易得材料制成的简易装置可以适度修复大多数物品，但也会减少修复物品的最大耐久度，直到进行一次完整的修复。
@@ -831,8 +834,8 @@ AL_Item_WhiteMeatGrilledDesc,"一块不错的白肉，可能来自家禽。它�
 AL_Item_Shiraz,"[(((ColourModded)))]西拉子葡萄酒[-]"
 AL_Item_ShirazDesc,"非常深、非常红、非常干、非常葡萄酒。"
 
-AL_Item_ImprovisedLockpick,"[(((ColourModded)))]临时开锁器[-]"
-AL_Item_ImprovisedLockpickDesc,"它不过是用某种方式缠绕的一些电线，但可能会起作用。[bbbbbb]可以通过径向菜单在锁定的箱子上使用。效果显著低于常规开锁器。[-]"
+AL_Item_ImprovisedLockpick,"[(((ColourModded)))]简易撬锁工具[-]"
+AL_Item_ImprovisedLockpickDesc,"用某种方式缠绕在一起的电线，可能会起作用。[bbbbbb]可以在锁定的箱子上通过转盘菜单使用。撬锁成功率显著低于撬锁工具。[-]"
 
 AL_Item_CounterfeitOldCash,"[(((ColourModded)))]伪造旧钞[-]"
 AL_Item_CounterfeitOldCashDesc,"那台可怜的自动售货机永远也不会知道发生了什么！"
@@ -1267,21 +1270,21 @@ AL_LK_Savage,"猎人"
 AL_LK_Hoodlum,"街头混混"
 AL_LK_Prepper,"生存者"
 
-AL_LK_NormieText,"你的生活稳定而舒适，但有些单调。你不明白那些羡慕你的人。你经常发现自己在想，是否通过工作养家糊口是在浪费生命。\n\n末日迫使你改变，尽管面临生命威胁的危险，你却（悄悄地）对此感到兴奋。世界一片废墟，但你觉得自己的生活即将开始。"
-AL_LK_NormieEquipment,"适合下一次面试的着装，一些旧世界的现金，一块腕表，以及一个实用的背包。"
-AL_LK_NormieEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 一套适合下一次面试的商务套装。\n- 一叠旧世界的现金。\n- 一块时尚的腕表。\n- 一个非常实用的背包。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 游泳。\n- 20 运动。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 在自动售货机上获得 25% 更好的交易。[-]"
+AL_LK_NormieText,"你的生活稳定而舒适，但有些单调。你不明白那些羡慕你的人。你经常发现自己在想，是否通过工作养家糊口是在浪费生命。\n\n末日迫使你改变，尽管面临生命威胁的危险，你却默默对此感到兴奋。即便世界一片废墟，但你觉得新生活即将开始。"
+AL_LK_NormieEquipment,"适合面试的西装，一些旧世界的现金，一块腕表，以及一个实用的背包。"
+AL_LK_NormieEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 商务套装。\n- 一叠旧世界的现金。\n- 一块时尚的腕表。\n- 一个非常实用的背包。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 游泳。\n- 20 运动。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 在自动售货机上获得 25% 更好的交易。[-]"
 
-AL_LK_SheriffText,"你宣誓维护法律，伸张正义，并为城市提供罚款收入以充实市政金库。\n\n现在文书工作少了，你的敏感性和缓和冲突的训练似乎不再那么有用，但至少你可以射杀丧尸。"
-AL_LK_SheriffEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 制服、配枪、几发子弹和一根警棍。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 25 手枪。\n- 25 棍击。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40d040]- 找到 9mm 子弹的概率增加 20%，并且可以在其他人找不到的地方找到 9mm 子弹。\n[40d040]- 可以轻松打开警车。\n- 恐惧和战斗压力导致的活力损失减少一半。[-]\n[ff4040]- 掠夺速度降低 25%。\n- 不会从 [f6d900]街头混混[-] 处获得‘社交’活力恢复。"
+AL_LK_SheriffText,"你宣誓维护法律，伸张正义，并为城市提供罚款收入以充实市政金库。\n\n现在文书工作少了，你的职业敏感性和缓和冲突的训练似乎不再那么有用，但至少你可以射杀几只丧尸。"
+AL_LK_SheriffEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 制服、配枪、几发子弹和一根警棍。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 25 手枪。\n- 25 棍击。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40d040]- 找到 9mm 子弹的概率增加 20%，并且可以在其他人找不到的地方找到 9mm 子弹。\n[40d040]- 可以轻松打开警车。\n- 恐惧和战斗压力导致的活力损失减少一半。[-]\n[ff4040]- 搜刮速度降低 25%。\n- 不会从 [f6d900]街头混混[-] 处获得‘社交’活力恢复。"
 
 AL_LK_CrawlerText,"[a0a0a0]''去温彻斯特酒吧，喝一杯冰爽啤酒，等待这一切过去...''[-]\n\n你是典型的混迹于酒吧里的酒虫，而且常因酗酒被赶出酒吧。\n\n要是某个贪图脑浆的家伙妨碍你喝一杯好啤酒，你不介意赏他一顿老拳。"
-AL_LK_CrawlerEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 拳套。\n- 几瓶路上喝的啤酒。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 拳击。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 酩酊大醉的效果加倍。\n- 酩酊大醉的惩罚减半。\n- 开始时解锁蒸馏器工作站。\n- 不会因过量饮酒而呕吐。[-]\n[ff4040]- 开始时酒精依赖度为 100%。\n- 酒精依赖度永远不会低于 25%。[-]"
+AL_LK_CrawlerEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 拳套。\n- 几瓶路上喝的啤酒。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 拳击。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 酩酊大醉的效果加倍。\n- 酩酊大醉的惩罚减半。\n- 解锁蒸馏器工作站。\n- 不会因过量饮酒而呕吐。[-]\n[ff4040]- 开始时酒精依赖度为 100%。\n- 酒精依赖度永远不会低于 25%。[-]"
 
 AL_LK_SavageText,"末日降临之时，你发现自己被困在一条偏远的道路上，车子抛锚了。你没有选择寻求文明社会的帮助，而是逃进了森林。也许是运气，你在那里的表现出色。你在一无所有的情况下顺利的生存了下来，并且避开了与丧尸的接触。\n\n现在，作为一位生存经验丰富的丛林猎人，你准备重新回到城镇，尝试在新的旅途中做出更多的成就。"
 AL_LK_SavageEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 一把简易弓和一捆箭。\n- 一把骨刀。\n- 一把石斧。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 弓箭。\n- 20 屠宰。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40ff40]- 特性：'荒野猎人'；立即提供基本追踪技能。\n- 在森林生物群落时始终知道床铺的位置。\n[(((ColourGrey)))]- 跳过 (来世) 教程任务线。"
 
-AL_LK_HoodlumText,"你出生并成长在都市贫困之中，学会了任何方式生存。\n\n盗窃和入室盗窃只是名称，如果你不努力，就会在社会的裂缝中消亡。然而，当死人站起来时，游戏规则改变了。\n\n死人比活人更快采取暴力行动，但他们对掠夺并不在意。"
-AL_LK_HoodlumEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 一把刀片。\n- 一套撬锁工具。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 刀术。\n- 20 撬锁。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40d040]- 特性：'刀片'；用刀攻击时提供轻微流血效果。\n- 可以制作 [00ff00]即兴撬锁工具[-][40ff40]。\n[d04040]- 不会从 [00abff]警察[-] 处获得‘社交’活力恢复。"
+AL_LK_HoodlumText,"你出生并成长在都市贫困之中，学会了任何方式生存。\n\n抢劫和入室盗窃只是说说的，如果你不够努力，就会在社会的漩涡中消亡。然而，当丧尸病毒传播时，游戏规则发生了改变。\n\n丧尸会比活人更快采取暴力行动，但他们对搜刮并不在意。"
+AL_LK_HoodlumEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 一把小刀。\n- 一套撬锁工具。\n\n[(((ColourHeaderStartingSkills)))]初始技能:[-]\n- 20 刀术。\n- 20 撬锁。\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40d040]- 职业特性：'蝴蝶刀法'；用刀攻击时提供轻微流血效果。\n- 可以制作 [00ff00]简易撬锁工具[-][40ff40]。\n[d04040]- 不会从 [00abff]警察[-] 处获得‘社交’活力恢复。"
 
 AL_LK_Enigma,"一无所有"
 AL_LK_EnigmaText,"你醒来时身无分文，手中没有任何东西，记忆全无。你不记得有家人或朋友，也不记得在哪里长大、上什么学校或是否有宠物。你不记得有任何爱好或工作。你没有任何特定的归属感或偏见。幸运的是，你还保留了基本的语言技能。"
@@ -1290,11 +1293,11 @@ AL_LK_EnigmaEffects,"[(((ColourHeaderEquipment)))]装备:[-]\n- 没有。\n\n[((
 
 # Attributes {{{
 AL_Attribute_Strength,力量
-AL_Attribute_Fortitude,体质
+AL_Attribute_Fortitude,强健
 AL_Attribute_Finesse,灵巧
 AL_Attribute_Agility,敏捷
 AL_Attribute_Perception,感知
-AL_Attribute_Intellect,智力
+AL_Attribute_Intellect,智慧
 
 # Suppressing default text from showing up with these..
 AL_LK_StrengthPerks,""
@@ -1305,18 +1308,18 @@ AL_LK_PerceptionPerks,""
 AL_LK_IntellectPerks,""
 
 AL_LK_RGB_AL_Attribute_Strength,"[ff9933]力量[-]"
-AL_LK_RGB_AL_Attribute_Fortitude,"[ff3333]体质[-]"
+AL_LK_RGB_AL_Attribute_Fortitude,"[ff3333]强健[-]"
 AL_LK_RGB_AL_Attribute_Finesse,"[33ff33]灵巧[-]"
 AL_LK_RGB_AL_Attribute_Agility,"[ffff33]敏捷[-]"
 AL_LK_RGB_AL_Attribute_Perception,"[9059ff]感知[-]"
-AL_LK_RGB_AL_Attribute_Intellect,"[6666ff]智力[-]"
+AL_LK_RGB_AL_Attribute_Intellect,"[6666ff]智慧[-]"
 
 AL_Attribute_StrengthDesc,"力量是纯粹的肌肉力量；身体容量和爆发力。它影响并随着那些受益于此类力量的技能增长，主要包括采矿、[(((ColourModded)))]挖掘[-]、[(((ColourModded)))]伐木[-]、[(((ColourModded)))]棍击[-]、[(((ColourModded)))]大锤[-]、[(((ColourModded)))]斧头[-]，但许多其他技能也有较小程度的影响，例如[(((ColourModded)))]建造[-]和[(((ColourModded)))]拳击[-]。"
-AL_Attribute_FortitudeDesc,"你的体质是你对物理或其他方面攻击的总体抵抗力。你的免疫系统、精神状态、承受物理伤害的能力都与体质有关。主要相关技能包括[(((ColourModded)))]运动[-]和[(((ColourModded)))]游泳[-]，但大多数技能都有某种程度的相关性。"
+AL_Attribute_FortitudeDesc,"强健是你对物理或其他方面攻击的总体抵抗力。你的免疫系统、精神状态、承受物理伤害的能力都与强健有关。主要相关技能包括[(((ColourModded)))]运动[-]和[(((ColourModded)))]游泳[-]，但大多数技能都有某种程度的相关性。"
 AL_Attribute_FinesseDesc,"灵巧代表了一个人在精细操作手和手指方面的敏捷度。它主要影响并随着[(((ColourModded)))]刀具[-]、[(((ColourModded)))]弓箭[-]、[(((ColourModded)))]手枪[-]、[(((ColourModded)))]撬锁[-]的增长，但也较小程度上影响[(((ColourModded)))]矛[-]、[(((ColourModded)))]弩[-]、[(((ColourModded)))]突击步枪[-]和[(((ColourModded)))]冲锋枪[-]。"
 AL_Attribute_AgilityDesc,"敏捷代表了你四肢的一般准确性和速度。它的练习会产生有用的效果，但在这种生活中很少有频繁进行的练习能够增强它。"
 AL_Attribute_PerceptionDesc,"感知是一个人注意到事物、在一切事物中找到形状的能力，可能是指向你头部的步枪的形状……或者仅仅是额外战利品的形状。感知很难增长，但[(((ColourModded)))]搜寻[-]和使用[(((ColourModded)))]步枪[-]在一定程度上会有帮助。"
-AL_Attribute_IntellectDesc,"智力是你一般推理、理解和建立有用联系的能力，这些是那些脑细胞较少的人可能无法做到的。它与一些智力活动有关，例如[(((ColourModded)))]治疗[-]和[(((ColourModded)))]撬锁[-]。"
+AL_Attribute_IntellectDesc,"智慧是你一般推理、理解和建立有用联系的能力，这些是那些脑细胞较少的人可能无法做到的。它与一些智慧活动有关，例如[(((ColourModded)))]治疗[-]和[(((ColourModded)))]撬锁[-]。"
 # }}}
 
 # Perks {{{
@@ -1342,7 +1345,7 @@ AL_Perk_Inconspicuous1Desc,"保持静止 [(((ColourEffectGood)))]30 秒[-] 后�
 AL_Perk_Inconspicuous2Desc,"初始计时减少至 [(((ColourEffectGood)))]20 秒[-]，之后在 [(((ColourModded)))]30 秒[-] 内达到隐身状态。"
 AL_Perk_Inconspicuous3Desc,"初始计时减少至 [(((ColourEffectGood)))]10 秒[-]，之后在 [(((ColourModded)))]15 秒[-] 内达到隐身状态。"
 
-AL_Perk_Shiv,"刀片"
+AL_Perk_Shiv,"蝴蝶刀法"
 AL_Perk_ShivDesc,"让我这么说吧，你已经掌握了使敌人快速流血的方法。"
 AL_Perk_Shiv1Desc,"使用刀具时，每次攻击增加 [(((ColourModded)))]6 点[-] 流血伤害。"
 
@@ -1431,7 +1434,7 @@ AL_ActionSkill_Stealth,"潜行"
 # }}}
 
 # Action Skill Descriptions {{{
-AL_ActionSkill_MiningDesc,"[7aaa51ff]采矿[-] 是你在采矿各个方面的技能，从使用工具到识别矿石、定位矿脉等。"
+AL_ActionSkill_MiningDesc,"[7aaa51ff]采矿[-] 是你在开采矿石时需要用到的技能，从使用工具到识别矿石、定位矿脉等。"
 AL_ActionSkill_LoggingDesc,"你在砍伐树木方面的熟练程度。"
 AL_ActionSkill_DiggingDesc,"[7aaa51ff]挖掘[-] 是 [7aaa51ff]采矿[-] 的补充，反映了你移除较软土壤的能力。"
 AL_ActionSkill_CombatDesc,"[7aaa51ff]战斗[-] 描述了你在战斗经验方面的熟悉程度。提高这项技能会使你在使用所有武器时更加有效。"
@@ -1439,7 +1442,7 @@ AL_ActionSkill_GatheringDesc,"[7aaa51ff]采集[-] 影响你在所有资源采集
 AL_ActionSkill_ClubbingDesc,"[7aaa51ff]棍击[-] 代表了你用手中持有的工具将其他可能活着的生物打倒的能力，而不是像酒虫那样用手，更像是像街头混混那样。"
 AL_ActionSkill_RiflesDesc,"[7aaa51ff]步枪[-] 技能是你使用较长步枪的熟练程度，通常具有较慢的射击速率和较重的弹药。它包括适合狙击和中距离交战的步枪。"
 AL_ActionSkill_AthleticsDesc,"逃离丧尸和绕开丧尸固然不错，但理想情况下，你应该冲向丧尸、越过丧尸，有时甚至从丧尸下面穿过。保持健康在任何时候都很重要，末日也不例外。"
-AL_ActionSkill_ScavengingDesc,"有些人贬低这种做法，称之为‘掠夺’，但他们只是嫉妒你的技能。这其实就是简单的模式匹配。你做得越多，就越擅长发现你需要的东西，并且抓取的速度也越快。"
+AL_ActionSkill_ScavengingDesc,"有些人贬低这种做法，称之为‘掠夺’，但他们只是嫉妒你的技能。这其实就是简单的模式匹配。你做得越多，就越擅长发现你需要的东西，并且搜刮的速度也越快。"
 AL_ActionSkill_SwimmingDesc,"丧尸不太擅长游泳，所以确保自己擅长游泳是个好主意。只是不要在里面待太久……几乎所有未经处理的水都严重受感染。"
 AL_ActionSkill_StealthDesc,"知识就是力量。如果在你把刀片插进丧尸的脑袋之前，它完全不知道你的存在，那么这个可怜的家伙根本没有任何力量。"
 AL_ActionSkill_TrackingDesc,"追踪追踪再追踪，追踪追踪追踪追踪。"
@@ -1476,11 +1479,11 @@ AL_Perk_BattleHardenedDesc,"你见过一些东西。"
 AL_Perk_BattleHardened1Desc,"你曾与几只鸡和兔子进行生死搏斗。 [40ff40]-25%[-] 战斗中活力损失。"
 AL_Perk_BattleHardened2Desc,"你曾经与一只丧尸战斗并沾了些血。很恶心也很可怕。 [40ff40]-50%[-] 战斗中活力损失。"
 AL_Perk_BattleHardened3Desc,"你经历过几次严重的战斗，能够应对自如。 [40ff40]-75%[-] 战斗中活力损失。"
-AL_Perk_BattleHardened4Desc,"你经历了太多的战斗……你不再在乎了，伙计！ [40ff40]零[-] 战斗中活力损失。"
-AL_Perk_BattleHardened5Desc,"你开始喜欢上这个了！ [40ff40]少量活力恢复[-] 战斗后。"
+AL_Perk_BattleHardened4Desc,"你经历了太多的战斗……你不再在乎了，伙计！战斗中活力损失为 [40ff40]零[-]。"
+AL_Perk_BattleHardened5Desc,"你开始喜欢上这个了！战斗后 [40ff40]少量活力恢复[-] 。"
 
 AL_Perk_Epiphany,"顿悟"
-AL_Perk_EpiphanyDesc,"尤里卡！突然领悟深刻的事理是真正的智力满足。"
+AL_Perk_EpiphanyDesc,"尤里卡！突然领悟深刻的事理是真正的智慧所在。"
 AL_Perk_Epiphany1Desc,"[(((ColourModded)))]12%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验。 [(((ColourModded)))]2%[-] 的概率获得 [(((ColourModded)))]3 倍[-]。"
 AL_Perk_Epiphany2Desc,"[(((ColourModded)))]25%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验。 [(((ColourModded)))]5%[-] 的概率获得 [(((ColourModded)))]3 倍[-]。当此特性激活时，生成 [(((ColourModded)))]可获取经验的笔记[-]，只能由其他玩家阅读或废弃。"
 AL_Perk_Epiphany3Desc,"[(((ColourModded)))]37%[-] 的概率从书籍中获得 [(((ColourModded)))]2 倍[-] 经验。 [(((ColourModded)))]7%[-] 的概率获得 [(((ColourModded)))]3 倍[-]，并 [(((ColourModded)))]生成笔记[-]。"
@@ -1497,7 +1500,7 @@ AL_Perk_Meticulous3Desc,"所有武器和工具的制作速度减慢 [(((ColourMo
 AL_Perk_Meticulous4Desc,"所有武器和工具的制作速度减慢 [(((ColourModded)))]80%[-]，但质量提高 [(((ColourModded)))]20%[-]。"
 AL_Perk_Meticulous5Desc,"制作所有武器和工具的时间是原来的 [(((ColourModded)))]2倍[-]，但质量提高 [(((ColourModded)))]25%[-]。"
 
-AL_Perk_Constitutional,"体质强健"
+AL_Perk_Constitutional,"强健体质"
 AL_Perk_ConstitutionalDesc,"你照顾了自己的身体，现在更清楚健康的重要性。只要你没有脱水或饿死，你的身体恢复速度更快。"
 AL_Perk_Constitutional1Desc,"每秒额外恢复 [(((ColourModded)))]0.04[-] 生命值。这种额外恢复不需要额外的食物和水。"
 AL_Perk_Constitutional2Desc,"每秒生命值恢复加成增加到 [(((ColourModded)))]0.08[-]。"
@@ -1529,9 +1532,9 @@ AL_Perk_LootHoarder3Desc,"显然你在玩俄罗斯方块方面并不擅长，但
 AL_Perk_LootHoarder4Desc,"你意识到自己其实不是在玩俄罗斯方块，而是在玩西洋跳棋。因此，你现在总共有 [(((ColourModded)))]16[-] 个额外的空间。"
 AL_Perk_LootHoarder5Desc,"你短暂地在背包中引发了核聚变，现在总共有 [(((ColourModded)))]24[-] 个额外的空间。"
 
-AL_Perk_Assassin,"刺客"
+AL_Perk_Assassin,"影袭‌背刺"
 AL_Perk_AssassinDesc,"他们永远也想不到，但可能会感受到。"
-AL_Perk_Assassin1Desc,"提高 [(((ColourSpecialAttack)))]背后刺杀[-] 能力，增加 [(((ColourModded)))]匕首[-] 造成的额外 [00ff00]50%[-] 伤害。"
+AL_Perk_Assassin1Desc,"提高 [(((ColourSpecialAttack)))]‌背刺[-] 能力，增加 [(((ColourModded)))]匕首[-] 造成的额外 [00ff00]50%[-] 背刺伤害。"
 AL_Perk_Assassin2Desc,"加成提高至 [00ff00]100%[-]。"
 AL_Perk_Assassin3Desc,"加成提高至 [00ff00]150%[-]。"
 AL_Perk_Assassin4Desc,"加成提高至 [00ff00]200%[-]。"
@@ -1543,8 +1546,8 @@ AL_Perk_Clockwork1Desc,"减少精细机械物品的制作时间 [00ff00]25%[-]�
 AL_Perk_Clockwork2Desc,"加成提高至 [00ff00]50%[-]。"
 AL_Perk_Clockwork3Desc,"加成提高至 [00ff00]75%[-]。"
 
-AL_Perk_Bloodletter,"撕裂"
-AL_Perk_BloodletterDesc,"你能真正让丧尸流血吗？丧尸的血和我们的血一样吗？他们真的需要血吗？哦，算了。多捅几下，少想些。"
+AL_Perk_Bloodletter,"撕裂伤口"
+AL_Perk_BloodletterDesc,"丧尸会流血吗？丧尸的血和我们的血一样吗？他们真的需要血吗？哦，算了，多捅几下，少想这些没用的。"
 AL_Perk_Bloodletter1Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]4[-] 点出血伤害。"
 AL_Perk_Bloodletter2Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]8[-] 点出血伤害。"
 AL_Perk_Bloodletter3Desc,"使用匕首时，每次攻击造成 [(((ColourModded)))]12[-] 点出血伤害。"
@@ -1574,7 +1577,7 @@ AL_Perk_ThunderThighs3Desc,"蹲伏时移动速度提高 [(((ColourModded)))]+60%
 AL_Perk_ThunderThighs4Desc,"蹲伏时移动速度提高 [(((ColourModded)))]+80%[-]。"
 AL_Perk_ThunderThighs5Desc,"蹲伏时移动速度提高 [(((ColourModded)))]+100%[-]。"
 
-AL_Perk_Beatdown,"碾压"
+AL_Perk_Beatdown,"疾风打击"
 AL_Perk_BeatdownDesc,"趁他们倒下时猛击他们！"
 AL_Perk_Beatdown1Desc,"使用拳头武器时，对倒地敌人轻攻击，每次命中会增加攻击速度 [(((ColourModded)))]+10%[-]。"
 AL_Perk_Beatdown2Desc,"加成提高至 [(((ColourModded)))]+20%[-]。"
@@ -1582,7 +1585,7 @@ AL_Perk_Beatdown3Desc,"加成提高至 [(((ColourModded)))]+30%[-]。"
 AL_Perk_Beatdown4Desc,"加成提高至 [(((ColourModded)))]+40%[-]。"
 AL_Perk_Beatdown5Desc,"加成提高至 [(((ColourModded)))]+80%[-]。"
 
-AL_Perk_SuckerPunch,"偷袭"
+AL_Perk_SuckerPunch,"大力重拳"
 AL_Perk_SuckerPunchDesc,"直接打脸！"
 AL_Perk_SuckerPunch1Desc,"使用拳头武器时，重攻击速度降低 [ff2020]-10%[-]，伤害增加 [20ff20]+20%[-]，并且有 [(((ColourModded)))]4%[-] 的几率在重攻击命中面部时击倒敌人。"
 AL_Perk_SuckerPunch2Desc,"重攻击速度降低 [ff2020]-20%[-]，伤害增加 [20ff20]+40%[-]，击倒几率提高至 [(((ColourModded)))]8%[-]。"
@@ -1590,15 +1593,15 @@ AL_Perk_SuckerPunch3Desc,"重攻击速度降低 [ff2020]-30%[-]，伤害增加 [
 AL_Perk_SuckerPunch4Desc,"重攻击速度降低 [ff2020]-40%[-]，伤害增加 [20ff20]+80%[-]，击倒几率提高至 [(((ColourModded)))]16%[-]。"
 AL_Perk_SuckerPunch5Desc,"重攻击速度降低 [ff2020]一半[-]，伤害增加 [20ff20]两倍[-]，击倒几率提高至 [(((ColourModded)))]20%[-]。"
 
-AL_Perk_Joust,"比武"
-AL_Perk_JoustDesc,"你可能没有马，但如果你敲敲椰子壳，它也能派上用场。"
+AL_Perk_Joust,"冲锋攻击"
+AL_Perk_JoustDesc,"你的胯下虽然没有马，但如果有节奏的敲响椰子壳的话，它模拟的马蹄声能派上大用场。"
 AL_Perk_Joust1Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]1 倍[-] 的额外伤害。"
 AL_Perk_Joust2Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]2 倍[-] 的额外伤害。"
 AL_Perk_Joust3Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]3 倍[-] 的额外伤害。"
 AL_Perk_Joust4Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]4 倍[-] 的额外伤害。"
 AL_Perk_Joust5Desc,"根据助跑长度和移动速度，最高可造成 [(((ColourModded)))]5 倍[-] 的额外伤害。"
 
-AL_Perk_Pike,"长矛"
+AL_Perk_Pike,"长柄武器"
 AL_Perk_PikeDesc,"你想近战战斗，但又不想让那些恶心的丧尸靠近怎么办？"
 AL_Perk_Pike1Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.2[-] 格。"
 AL_Perk_Pike2Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.4[-] 格。"
@@ -1606,7 +1609,7 @@ AL_Perk_Pike3Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.6[-] 格。
 AL_Perk_Pike4Desc,"增加长矛的攻击范围 [(((ColourModded)))]0.8[-] 格。"
 AL_Perk_Pike5Desc,"增加长矛的攻击范围 [(((ColourModded)))]1[-] 格。"
 
-AL_Perk_Prod,"推击"
+AL_Perk_Prod,"强力推击"
 AL_Perk_ProdDesc,"有时候你只需要一点推动力。"
 AL_Perk_Prod1Desc,"增加长矛的 [(((ColourSpecialAttack)))]推击[-] 力度至 [00ff00]30[-]（原本为 20）。"
 AL_Perk_Prod2Desc,"增加长矛的 [(((ColourSpecialAttack)))]推击[-] 力度至 [00ff00]40[-]。"
@@ -1622,9 +1625,9 @@ AL_Perk_SuperAttack3Desc,"加成提高至 [00ff00]60%[-]。"
 AL_Perk_SuperAttack4Desc,"加成提高至 [00ff00]80%[-]。"
 AL_Perk_SuperAttack5Desc,"加成提高至 [00ff00]100%[-]。"
 
-AL_Perk_Sunder,"削弱"
+AL_Perk_Sunder,"削弱打击"
 AL_Perk_SunderDesc,"在弱点位置进行一次及时的攻击，任何人都会变得虚弱。"
-AL_Perk_Sunder1Desc,"增加拳击的 [(((ColourSpecialAttack)))]削弱[-] 攻击减少疼痛抗性的效果，从 [ff8000]10%[-] 提高至 [00ff00]16%[-]。"
+AL_Perk_Sunder1Desc,"增加拳头武器的 [(((ColourSpecialAttack)))]削弱[-] 攻击减少疼痛抗性的效果，从 [ff8000]10%[-] 提高至 [00ff00]16%[-]。"
 AL_Perk_Sunder2Desc,"效果提高至 [00ff00]22%[-]。"
 AL_Perk_Sunder3Desc,"效果提高至 [00ff00]28%[-]。"
 AL_Perk_Sunder4Desc,"效果提高至 [00ff00]34%[-]。"
@@ -1646,7 +1649,7 @@ AL_Perk_DiggyDiggyHole3Desc,"加成提高至 [00ff00]30%[-]。"
 AL_Perk_DiggyDiggyHole4Desc,"加成提高至 [00ff00]40%[-]。"
 AL_Perk_DiggyDiggyHole5Desc,"加成提高至 [00ff00]50%[-]。"
 
-AL_Perk_BrutalMomentum,"狂暴动势"
+AL_Perk_BrutalMomentum,"狂暴横扫"
 AL_Perk_BrutalMomentumDesc,"我不是被你们包围！你们都被我包围了！"
 AL_Perk_BrutalMomentum1Desc,"减少 [(((ColourSpecialAttack)))]横扫[-] 攻击的体力消耗，对额外目标的体力消耗减少 [00ff00]20%[-]。"
 AL_Perk_BrutalMomentum2Desc,"加成提高至 [00ff00]40%[-]。"
@@ -1699,19 +1702,19 @@ AL_LK_NoPerkPoints,"你的 {0} 特性点数不足。"
 
 # Progression {{{
 AL_LK_LevelUp,"你在 [ff8020]{0}[-] 方面的技能已提升到 [80ff80]{1}[-]。"
-AL_LK_LevelUp_AL_Attribute_Strength,"你的 [ff9933]力量[-] 已增强。。"
-AL_LK_LevelUp_AL_Attribute_Fortitude,"你的 [ff3333]体质[-] 已增强。"
-AL_LK_LevelUp_AL_Attribute_Finesse,"你的 [33ff33]灵巧[-] 已增强。"
-AL_LK_LevelUp_AL_Attribute_Agility,"你的 [ffff33]敏捷[-] 已增强。"
-AL_LK_LevelUp_AL_Attribute_Perception,"你的 [9059ff]感知[-] 已增强。"
-AL_LK_LevelUp_AL_Attribute_Intellect,"你的 [6666ff]智力[-] 已增强。"
+AL_LK_LevelUp_AL_Attribute_Strength,"你的属性 [ff9933]力量[-] 已增强。。"
+AL_LK_LevelUp_AL_Attribute_Fortitude,"你的属性 [ff3333]强健[-] 已增强。"
+AL_LK_LevelUp_AL_Attribute_Finesse,"你的属性 [33ff33]灵巧[-] 已增强。"
+AL_LK_LevelUp_AL_Attribute_Agility,"你的属性 [ffff33]敏捷[-] 已增强。"
+AL_LK_LevelUp_AL_Attribute_Perception,"你的属性 [9059ff]感知[-] 已增强。"
+AL_LK_LevelUp_AL_Attribute_Intellect,"你的属性 [6666ff]智慧[-] 已增强。"
 
 AL_LK_TTStrengthPerkPoints,"[ff9933]力量[-] 特性点数"
-AL_LK_TTFortitudePerkPoints,"[ff3333]体质[-] 特性点数"
+AL_LK_TTFortitudePerkPoints,"[ff3333]强健[-] 特性点数"
 AL_LK_TTFinessePerkPoints,"[33ff33]灵巧[-] 特性点数"
 AL_LK_TTAgilityPerkPoints,"[ffff33]敏捷[-] 特性点数"
 AL_LK_TTPerceptionPerkPoints,"[9059ff]感知[-] 特性点数"
-AL_LK_TTIntellectPerkPoints,"[6666ff]智力[-] 特性点数"
+AL_LK_TTIntellectPerkPoints,"[6666ff]智慧[-] 特性点数"
 # }}}
 
 # FreeDye {{{
@@ -1832,25 +1835,26 @@ lblContextActionDrink,"饮用一些 [(((ColourDirtyWater)))]污浊感染水[-]�
 
 blockVariantHelperGroupDesc,"可用于放置方块，如果使用规划工具，则可放置可升级的蓝图方块，例如使用木锤进行建造。"
 
-perkLuckyLooterBrassDesc,"在掠夺时找到更多废金属。"
-perkLuckyLooterBrassLongDesc,"在掠夺时找到更多废金属。"
-perkLuckyLooterLeadDesc,"在掠夺时找到更多的废金属。"
-perkLuckyLooterLeadLongDesc,"在掠夺时找到更多的废金属。"
+perkLuckyLooterBrassDesc,"在搜刮时找到更多黄铜。"
+perkLuckyLooterBrassLongDesc,"在搜刮时找到更多黄铜。"
+perkLuckyLooterLeadDesc,"在搜刮时找到更多的废金属。"
+perkLuckyLooterLeadLongDesc,"在搜刮时找到更多的废金属。"
 
-perkWasteTreasuresDoorsDesc,"从大多数门上收获废料。"
-perkWasteTreasuresDoorsLongDesc,"从大多数门上收获废料。"
-perkWasteTreasuresSinksDesc,"从水槽中收获更多废料。"
-perkWasteTreasuresSinksLongDesc,"从水槽中收获更多废料。"
-perkWasteTreasuresHoneyDesc,"从树桩中取蜂蜜时有 10% 的几率获得麦卢卡蜂蜜。"
-perkWasteTreasuresHoneyLongDesc,"从树桩中取蜂蜜时有 10% 的几率获得麦卢卡蜂蜜。"
-perkWasteTreasuresCompleteDesc,"在掠夺时有更大的几率找到高价值的不可制作物品。"
-perkWasteTreasuresCompleteLongDesc,"在掠夺时有更大的几率找到高价值的不可制作物品。"
+
+perkWasteTreasuresDoorsDesc,"可在大多数门上收获废料。"
+perkWasteTreasuresDoorsLongDesc,"可在大多数门上收获废料。"
+perkWasteTreasuresSinksDesc,"可在水槽中收获更多废料。"
+perkWasteTreasuresSinksLongDesc,"可在水槽中收获更多废料。"
+perkWasteTreasuresHoneyDesc,"在树桩中取蜂蜜时有 10% 的几率获得麦卢卡蜂蜜。"
+perkWasteTreasuresHoneyLongDesc,"在树桩中取蜂蜜时有 10% 的几率获得麦卢卡蜂蜜。"
+perkWasteTreasuresCompleteDesc,"在搜刮时有更大的几率找到高价值的不可制作物品。"
+perkWasteTreasuresCompleteLongDesc,"在搜刮时有更大的几率找到高价值的不可制作物品。"
 
 perkBarBrawling7BoozedUpDesc,"醉酒导致的视线模糊程度减半。"
 perkBarBrawling7BoozedUpLongDesc,"醉酒导致的视线模糊程度减半。"
 
 resourceLeather,"动物皮革"
-resourceLeatherDesc,"一张刚刚从死去的动物身上剥下的皮。我们感谢它们的牺牲。"
+resourceLeatherDesc,"一张刚刚从死去的动物身上剥下的皮。感谢它们的馈赠。"
 cntDewCollector,"雨水收集器"
 xuiDewCollector,"雨水收集器"
 
@@ -1989,7 +1993,7 @@ AL_Buff_InfectionStallingDisplayName,"感染停滞"
 AL_Buff_InfectionStallingDisplayDesc,"感染停滞的时间。最大时间为 1 小时。"
 
 AL_Buff_VitalityMinimum,"乐观主义"
-AL_Buff_VitalityMinimumDesc,"末日就末日呗！\n\n[aaaaaa]你的最低[-] [(((ColourModded)))]活力[-] [aaaaaa]目前为[-] {0}[aaaaaa]。这个最低值会逐渐降低至零，并在[-] [ffffff]第 8 天[-][aaaaaa]结束，之后你的最低 [(((ColourModded)))]活力[-] 为零。[-]"
+AL_Buff_VitalityMinimumDesc,"末日就末日呗！\n\n[aaaaaa]你的最低[-] [(((ColourModded)))]活力[-] [aaaaaa]目前为[-] {0}[aaaaaa]。最低值将在7小时内逐渐减少至零。[-]"
 
 AL_Buff_WarmingFire,"取暖火焰"
 AL_Buff_WarmingFireName,"取暖火焰"
@@ -2090,8 +2094,8 @@ blockcommand_reset,"调试：重置地图"
 # }}}
 
 # Block Commands {{{
-blockcommand_pick_normal,"开锁\n[bbbbbb](普通撬锁工具)[-]"
-blockcommand_pick_improvised,"开锁\n[(((ColourModded)))](临时撬锁工具)[-]"
+blockcommand_pick_normal,"开锁\n[bbbbbb](撬锁工具)[-]"
+blockcommand_pick_improvised,"开锁\n[(((ColourModded)))](简易撬锁工具)[-]"
 # }}}
 
 # TimedActions {{{
@@ -2111,7 +2115,7 @@ AL_PerkBook_RockHard1Desc,"可以制作 [(((ColourModded)))]黑带咖啡[-]."
 AL_PerkBook_RockHard2Desc,"垮塌的物块对你造成的伤害减少[(((ColourEffectGood)))]50%[-]"
 AL_PerkBook_RockHard3Desc,"传递胶带：采矿工具的耐久度消耗减少 [(((ColourEffectGood)))]20%[-]."
 AL_PerkBook_RockHard4Desc,"矿石产量增加 [(((ColourEffectGood)))]10%[-]."
-AL_PerkBook_RockHard5Desc,"白炽光：可以制作 [(((ColourModded)))]头灯[-]."
+AL_PerkBook_RockHard5Desc,"从石灰岩和石块中额外收获 [(((ColourModded)))] 石灰 [-]。"
 AL_PerkBook_RockHard6Desc,"保持水分：当水含量超过 50% 时，挥动采矿工具时耐力消耗减少 [(((ColourEffectGood)))]20%[-]."
 AL_PerkBook_RockHard7Desc,"只用尖端：可以制作 [(((ColourModded)))]金刚石刀刃模组[-]."
 AL_PerkBook_RockHardCompleteDesc,"突破：有机会[(((ColourModded)))]一击开采矿石[-]。效果随采矿技能提升而增强。"
@@ -2448,11 +2452,11 @@ AL_LK_Format_CanUpgradeTo,"可以升级到 [(((ColourModded)))]{0}[-]..."
 AL_LK_Format_PerkPointGained,"您获得了 [(((ColourModded)))]特性点[-]，现在共有 [(((ColourModded)))]{0}[-]."
 AL_LK_Format_HealingTarget,"正在治疗 [(((ColourModded)))]{0}[-] 至 [ff4040]{1}/{2}[-] ..."
 AL_LK_Format_EquipItemToSlot,"将 [(((ColourModded)))]{0}[-] 装备到你的 [(((ColourModded)))]{1}[-] 槽位。"
-AL_LK_Format_VitalityInstant,"立即[bbbbbb]{0:0.00}% 活力[-]"
+AL_LK_Format_VitalityInstant,"立即增加 [bbbbbb]{0:0.00}% 活力[-]"
 AL_LK_Format_VitalityMeasure,"[bbbbbb]{0:0.00}% 活力/分钟[-]"
 AL_LK_Format_ZombieKills,"[ff8000]{0}[-] 丧尸击杀数"
 AL_LK_Format_Take,"[(((ColourModded)))]获取 {0}[-]"
-AL_LK_Format_DecorTierEffects,"[bbbbbb]第 {0} 级: {1:0.00}%[-] - [ffffff]{2}[-] [bbbbbb]的[-] [ffffff]{3}[-]"
+AL_LK_Format_DecorTierEffects,"[bbbbbb]第 {0} 级: {1:0.00}%[-] - [ffffff]{2}[-] [bbbbbb]/[-] [ffffff]{3}[-]"
 AL_LK_Format_Total,"[ffe375]总计: +{0:0.00}% 活力/分钟[-]"
 AL_LK_Format_TierNDecor,"[(((ColourModded)))]第 {0} 级装饰[-]"
 AL_LK_Format_Tier1Decor,"[(((ColourModded)))]第[-] [(((ColourDecorTier1)))][1][-] [(((ColourModded)))]级装饰[-]"
@@ -2564,7 +2568,7 @@ AL_LK_Vitality_Per_Hour,"[(((ColourModded)))]每小时活力[-]"
 AL_LK_VitalityEffect,"[(((ColourVitality)))]活力效果[-]"
 
 AL_LK_VitResurrectedName,"[(((ColourVitality)))]活力:[-] 复活"
-AL_LK_VitResurrectedDesc,"经历身体被摧毁的痛苦，随后突然离开这种体验，在完全不同的地方醒来……这并不是一种愉快的经历。\n\n[(((ColourGrey)))](-25% 立即活力)[-]"
+AL_LK_VitResurrectedDesc,"经历身体被摧毁的痛苦，随后突然离开这种体验，在完全不同的地方醒来……这并不是一种愉快的经历。\n\n[(((ColourGrey)))](立即 -25% 活力)[-]"
 
 AL_LK_VitEntertainmentName,"娱乐"
 AL_LK_VitEntertainmentDesc,"待定"
@@ -2585,20 +2589,20 @@ al_buff_wantsweet,"[ff8000]想要:[-] 甜食"
 AL_Buff_WantSweetDesc,"你想要一点甜食……\n\n[bbbbbb]吃一些带有 '满足需求: 甜食' 属性的食物来满足这个需求。[-]"
 al_buff_wantsweet_fulfilled,"[00ff00]满足:[-] 甜食"
 AL_Buff_WantSweet_FulfilledName,"[00ff00]满足:[-] 甜食"
-AL_Buff_WantSweet_FulfilledDesc,"美味。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]+10% 立即活力[-]"
+AL_Buff_WantSweet_FulfilledDesc,"美味。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]立即 +10% 活力[-]"
 
 al_buff_wantbooze,"[ff8000]想要:[-] 酒精"
 AL_Buff_WantBoozeDesc,"喝一点点应该不会有问题……\n\n[bbbbbb]喝一些带有 '满足需求: 酒精' 属性的饮料来满足这个需求。[-]"
 al_buff_wantbooze_fulfilled,"[00ff00]满足:[-] 酒精"
 AL_Buff_WantBooze_FulfilledName,"[00ff00]满足:[-] 酒精"
-AL_Buff_WantBooze_FulfilledDesc,"派对时间！\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]+10% 立即活力[-]"
+AL_Buff_WantBooze_FulfilledDesc,"派对时间！\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]立即 +10% 活力[-]"
 
 al_buff_wantspecificfood,"[ff8000]想要:[-] 特定食物"
 AL_Buff_WantSpecificFood,"[ff8000]想要:[-] 特定食物"
 AL_Buff_WantSpecificFoodDesc,"你真的很想吃 [(((ColourModded)))]{0}[-]……\n\n[bbbbbb]吃 [ffffff]{0}[bbbbbb] 来满足这个需求，并获得 [(((ColourModded)))]25% 活力[-]"
 al_buff_wantspecificfood_fulfilled,"[00ff00]满足:[-] 特定食物"
 AL_Buff_WantSpecificFood_FulfilledName,"[00ff00]满足:[-] 特定食物"
-AL_Buff_WantSpecificFood_FulfilledDesc,"真的很好吃……\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]+25% 立即活力[-]"
+AL_Buff_WantSpecificFood_FulfilledDesc,"真的很好吃……\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]立即 +25% 活力[-]"
 
 al_buff_vitsocial,"社交"
 al_buff_vitbodilycomfort,"身体舒适"
@@ -2634,7 +2638,7 @@ al_buff_vitalone,"孤独"
 
 al_buff_vitambient,"环境"
 AL_Buff_VitAmbientName,"环境"
-AL_Buff_VitAmbientDesc,"这个充满死亡与不死的世界逐渐消耗着你的精力。"
+AL_Buff_VitAmbientDesc,"这个充满死亡与丧尸的世界逐渐消耗着你的精力。"
 
 al_buff_vitloneliness,"孤独"
 AL_Buff_VitLoneliness,"孤独"
@@ -2676,6 +2680,7 @@ al_buff_vitcombatstress,"战斗压力"
 AL_Buff_AlcoholismHeadacheName,"[ff9239]酗酒:[-] 头痛"
 AL_Buff_AlcoholismHeadacheDesc,"你的戒酒症状给你带来了剧烈的头痛……"
 
+AL_Buff_Decor,"装饰"
 AL_Buff_DecorName,"装饰"
 AL_Buff_DecorDesc,"这个地方有好的氛围、颜色协调、室内设计，也许还有风水？不管怎样，这里很好，这对你是好的。"
 
@@ -2869,25 +2874,25 @@ AL_Buff_RestedT9Name,"[ff0020]量子以太突触时间投射[-] (最高级别)"
 AL_Buff_RestedT9Desc,"原来你真的是时间领主。你毫不费力地搅动时空漩涡，可以在其中随心所欲地睡觉。"
 
 AL_Buff_UnrestedDisplayName,"正在休息..."
-AL_Buff_UnrestedDisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](未休息至第0级)[-]"
+AL_Buff_UnrestedDisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](未休息 至 第0级)[-]"
 AL_Buff_RestedT0DisplayName,"正在休息..."
-AL_Buff_RestedT0DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第0级至第1级)[-]"
+AL_Buff_RestedT0DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第0级 至 第1级)[-]"
 AL_Buff_RestedT1DisplayName,"正在休息..."
-AL_Buff_RestedT1DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第1级至第2级)[-]"
+AL_Buff_RestedT1DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第1级 至 第2级)[-]"
 AL_Buff_RestedT2DisplayName,"正在休息..."
-AL_Buff_RestedT2DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第2级至第3级)[-]"
+AL_Buff_RestedT2DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第2级 至 第3级)[-]"
 AL_Buff_RestedT3DisplayName,"正在休息..."
-AL_Buff_RestedT3DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第3级至第4级)[-]"
+AL_Buff_RestedT3DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第3级 至 第4级)[-]"
 AL_Buff_RestedT4DisplayName,"正在休息..."
-AL_Buff_RestedT4DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第4级至第5级)[-]"
+AL_Buff_RestedT4DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第4级 至 第5级)[-]"
 AL_Buff_RestedT5DisplayName,"正在休息..."
-AL_Buff_RestedT5DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第5级至第6级)[-]"
+AL_Buff_RestedT5DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第5级 至 第6级)[-]"
 AL_Buff_RestedT6DisplayName,"正在休息..."
-AL_Buff_RestedT6DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第6级至第7级)[-]"
+AL_Buff_RestedT6DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第6级 至 第7级)[-]"
 AL_Buff_RestedT7DisplayName,"正在休息..."
-AL_Buff_RestedT7DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第7级至第8级)[-]"
+AL_Buff_RestedT7DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第7级 至 第8级)[-]"
 AL_Buff_RestedT8DisplayName,"正在休息..."
-AL_Buff_RestedT8DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第8级至第9级)[-]"
+AL_Buff_RestedT8DisplayDesc,"你正在得到急需的休息。 [(((ColourGrey)))](第8级 至 第9级)[-]"
 AL_Buff_RestedT9DisplayName,"最高休息级别"
 AL_Buff_RestedT9DisplayDesc,"你已经达到最高的休息级别，老实说，你睡得太多了。别再浪费生命了！出去好好活吧！"
 # }}}
@@ -3193,7 +3198,7 @@ AL_Item_HintNote5,"[(((ColourModded)))]铁匠笔记 #3[-]"
 AL_Item_HintNote6,"[(((ColourModded)))]潮湿便条[-]"
 AL_Item_HintNote7,"[(((ColourModded)))]矿工便条[-]"
 
-AL_Item_HintNote1Desc,"[(((ColourGrey)))]一张满是潦草文字的便条...[-]\n\n这些白痴就是不听我的话。他们接受蜂蜜可以减缓感染，谢天谢地，但他们显然认为不变成吃脑怪物不如多砍点木头重要。他们到底以为蜂蜜是从哪儿来的？月球上吗？当其中一个我们的人成为另一个人的早餐时，他们会后悔的。"
+AL_Item_HintNote1Desc,"[(((ColourGrey)))]一张满是潦草文字的便条...[-]\n\n这些白痴就是不听我的话。明明使用蜂蜜可以减缓感染，但他们固执的认为比起变成丧尸不如多砍点木头重要。还有他们到底以为蜂蜜是从哪儿来的？月球上吗？当我们其中一个人成为另一个人的早餐时，他们会后悔的。"
 
 AL_Item_HintNote2Desc,"[(((ColourGrey)))]一张书写整洁的便条...[-]\n\n我的同伴们坚持认为我们不应该点燃火把，因为这会吸引丧尸。我不知道这个想法是怎么传开的，但这是胡说八道。我的意思是，几天前我们烧毁了那座房子，但一个丧尸都没出现。"
 
@@ -3226,6 +3231,7 @@ AL_LK_ZInfectionRate,"Z病毒感染率 (%)"
 AL_LK_VitalityChangeRGB,"[(((ColourVitality)))]活力变化[-]"
 AL_LK_PerMinute,"每分钟"
 AL_LK_RainOnGlassEffectReduction,"玻璃上雨水效果减少"
+AL_LK_Sunglasses,"墨镜"
 AL_LK_PreventsXpGain,"阻止经验值获得"
 AL_LK_FallingBlockDamage,"掉落方块伤害"
 AL_LK_CuttingResist,"切割抗性 (负面效果)"
@@ -3367,7 +3373,7 @@ IZYgunT2shotgunM1897Desc,"这是一把古老的但坚固可靠的霰弹枪，在
 IZYgunT2shotgunM870Police,"M870 警用霰弹枪"
 IZYgunT2shotgunM870PoliceDesc,"这是一把适合控制暴乱的警用霰弹枪。即使暴乱者变成了丧尸，它仍然有效。\n\n可用维修工具修理。\n可分解为霰弹枪零件。"
 IZYgunT3shotgunM4terminator,"M4 霰弹枪"
-IZYgunT3shotgunM4terminatorDesc,"这些半自动霰弹枪也被海军陆战队使用。无论是锁门还是丧尸，一旦打出洞来都一样。\n\n可用维修工具修理。\n可分解为霰弹枪零件。"
+IZYgunT3shotgunM4terminatorDesc,"这些半自动霰弹枪也被海军陆战队使用。无论是门锁还是丧尸，一旦打出洞来都一样。\n\n可用维修工具修理。\n可分解为霰弹枪零件。"
 IZYgunT3shotgunXM12G,"XM-12 自动霰弹枪"
 IZYgunT3shotgunXM12GDesc,"出色的容量！出色的射速！让我们击退涌来的丧尸！\n\n可用维修工具修理。\n可分解为霰弹枪零件。"
 IZYgunT3shotgunM590S,"M590 特种霰弹枪"
