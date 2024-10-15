@@ -4,6 +4,7 @@ zAfterlife,--------------------------------------------------------------------
 
 # General / Miscellaneous {{{
 xuiRWGRandom,"随机"
+AL_LK_ModOptions,"模组选项"
 AL_LK_NoEffectsYet,"[(((ColourModded)))][无效果][-]";
 AL_LK_BuildBlock,建造/升级方块
 AL_LK_Food,[(((ColourFood)))]食物[-]
@@ -77,7 +78,7 @@ AL_LK_Applying,应用中
 AL_LK_ApplyingInf,应用
 AL_LK_Eating,进食
 AL_LK_EatingInf,吃
-AL_LK_Drinking,喝水
+AL_LK_Drinking,正在喝
 AL_LK_DrinkingInf,喝
 AL_LK_Taking,服用
 AL_LK_TakingInf,服用
@@ -124,7 +125,9 @@ AL_LK_Weaken,[(((ColourModded)))]削弱[-]
 AL_LK_Unconscious,[(((ColourDarkGrey)))]昏迷[-]
 AL_LK_Yields,[(((ColourYields)))]产出[-]
 AL_LK_HarvestAction,[(((ColourModded)))][收获][-]
-AL_LK_TempVitality,"[(((ColourModded)))]临时活力[-]"
+AL_LK_TempVitality,"[(((ColourModded)))]临时活力值[-]"
+AL_LK_WarningAllCaps,"警告"
+AL_LK_OK,"好的"
 # }}}
 
 # Craft Area to Block Name Translation {{{
@@ -194,7 +197,7 @@ AL_ItemType_Polearm,长柄武器
 AL_ItemType_Spear,矛
 AL_ItemType_Knuckles,拳头武器
 AL_ItemType_Pickaxe,镐
-
+AL_ItemType_Axe,斧头
 AL_ItemType_Pistol,手枪
 AL_ItemType_Magnum,左轮手枪
 AL_ItemType_Shotgun,霰弹枪
@@ -254,7 +257,7 @@ AL_AffectedByActionSkill_ConstructionTools,建筑工具
 AL_LK_SpecialAttack,特殊攻击
 AL_LK_BackstabEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]背刺[-]\n尝试背刺可以通过次要攻击执行，在敌人看不到你的情况下命中时会额外造成伤害。可以通过 [(((ColourModded)))]刺客[-] 特性来提升。
 AL_LK_WeakenEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]削弱[-]\n削弱打击可以通过次要攻击执行，会减少目标当前的抗痛能力 10%。这使你能够更多地击打敌人而不使他们免疫眩晕。可以通过 [(((ColourModded)))]削弱打击[-] 特性来提升。
-AL_LK_CleaveEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]横扫[-]\n横扫可以通过次要攻击执行，并会对范围内的所有目标造成伤害，就像分别击打每个目标一样。每增加一个目标都会增加攻击的耐力消耗，但这可以通过 [(((ColourModded)))]狂暴动势[-] 特性来缓解。
+AL_LK_CleaveEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]横扫[-]\n横扫可以通过次要攻击执行，并会对范围内的所有目标造成伤害，就像分别击打每个目标一样。每增加一个目标都会增加攻击体力消耗，但这可以通过 [(((ColourModded)))]狂暴动势[-] 特性来缓解。
 AL_LK_PushAttackEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]推击[-]\n推击可以通过次要攻击执行，并会将敌人推开一点距离。推的距离可以通过 [(((ColourModded)))]推击[-] 特性来提升。
 AL_LK_PowerAttackEffect,[aaaaaa](((AL_LK_SpecialAttack))):[-] [(((ColourSpecialAttack)))]强力攻击[-]\n强力攻击可以通过次要攻击执行，并会发出较慢但更具杀伤力的攻击，相比其他武器的特殊攻击效果更强。可以通过 [(((ColourModded)))]超级攻击[-] 特性来增强。
 # }}}
@@ -271,6 +274,12 @@ AL_LK_CategoryWriting,写作
 # }}}
 
 # Items {{{
+AL_Item_1PlyToiletPaper,"[(((ColourModded)))]单层卫生卷纸[-]"
+AL_Item_1PlyToiletPaperDesc,"[i]单层？[/i] 使用它的人一定经历了一场噩梦。。。"
+
+AL_Item_Siphon,"虹吸管"
+AL_Item_SiphonDesc,"以前随身携带这东西出门有点危险，但现在对任何幸存者来说都是一个非常好用的工具。 [808080]将物品放置在背包库存中，你能够从车辆中获取燃料。[-]"
+
 AL_Item_ZebraCake,"斑马臀纹蛋糕"
 AL_Item_ZebraCakeDesc,"这块蛋糕看起来很好吃！……但似乎有些不祥的气息。"
 
@@ -415,7 +424,7 @@ AL_Item_BronzeShovelDesc,一个后新石器时代前讽刺的挖洞工具。
 AL_Item_Shiv,[(((ColourModded)))]自制刀[-]
 AL_Item_ShivDesc,拿起一件尖锐的东西，像刀一样握着，你就有了一个自制刀。\n\n(((AL_LK_BackstabEffect)))
 
-AL_Item_ZVirusTestingKit,[(((ColourModded)))]Z病毒测试套件[-]
+AL_Item_ZVirusTestingKit,[(((ColourModded)))]Z病毒检测工具[-]
 AL_Item_ZVirusTestingKitDesc,这个可以用来检测你是否被感染，在症状变得太明显之前。
 
 AL_Item_Vodka,[(((ColourModded)))]伏特加[-]
@@ -425,7 +434,7 @@ AL_Item_Trinkermeister,[(((ColourModded)))]饮酒大师[-]
 AL_Item_TrinkermeisterDesc,当所有人都昏倒时，你就是饮酒大师！
 
 AL_Item_Umbrella,[(((ColourModded)))]雨伞[-]
-AL_Item_UmbrellaDesc,当外面下着大雨，但室内丧尸数量已经超标时，用雨伞。
+AL_Item_UmbrellaDesc,当外面下着大雨，你又不想进入充满丧尸的建筑内避雨，这时雨伞就能派上大用场。
 
 AL_Item_BucketFull,[(((ColourModded)))]装满污浊感染水的桶[-]
 AL_Item_BucketFullDesc,一个装满了非常糟糕的水的桶。非常非常糟糕。可以说是最糟糕的水。
@@ -488,9 +497,9 @@ AL_Item_BikerHelmet,[(((ColourModded)))]摩托车头盔[-]
 AL_Item_BikerHelmetDesc,它是用来骑车的，还是用来打架的？为什么不两者兼用呢？
 
 AL_Item_CeramicCrucible,[(((ColourModded)))]陶瓷坩埚[-]
-AL_Item_CeramicCrucibleDesc,这个由泥土和火制成的简单坩埚可以忠实地容纳几乎所有的熔融金属。可以在熔炉中安装使用。
+AL_Item_CeramicCrucibleDesc,这个由泥土和火制成的简单坩埚可以安全的容纳几乎所有的熔融金属溶液。可以在熔炉中安装使用。
 
-AL_Item_LockpickSet,[(((ColourModded)))]撬锁工具组[-]
+AL_Item_LockpickSet,[(((ColourModded)))]一堆撬锁工具[-]
 AL_Item_LockpickSetDesc,一个携带袋内装有一套撬锁工具。当然，在现代社会，它们只被爱好者和竞技撬锁使用。一个人不应该打开不属于自己的锁。是的，就是这样……
 
 AL_Item_PatchUpKit,[(((ColourModded)))]修补包[-]
@@ -662,17 +671,17 @@ AL_Item_LargeSharpStoneDesc,一块沉重的带有尖锐边缘的石头。这是�
 AL_Item_SmallSharpStone,[(((ColourModded)))]小尖石[-]
 AL_Item_SmallSharpStoneDesc,观察发现，尺寸窄的物体比宽的物体更容易分割物质。正是通过这一观察，人类发展出了小尖石。
 
-AL_Item_GarnieriteOre,[(((ColourModded)))]加尼埃石矿[-]
-AL_Item_GarnieriteOreDesc,[(((ColourModded)))]加尼埃石矿[-]经过提炼后可大量产出镍金属。
+AL_Item_GarnieriteOre,[(((ColourModded)))]硅镁镍矿[-]
+AL_Item_GarnieriteOreDesc,[(((ColourModded)))]硅镁镍矿[-]经过提炼后可大量产出镍金属。
 
 AL_Item_GalenaOre,[(((ColourModded)))]方铅矿[-]
 AL_Item_GalenaOreDesc,这种奇特的矿石是这个世界中铅的主要来源。有时也可能产出一些银。
 
 AL_Item_ChromiteOre,[(((ColourModded)))]铬铁矿[-]
-AL_Item_ChromiteOreDesc,[(((ColourModded)))]铬铁矿[-]如蛇纹岩中的这种矿石可以提炼成铬金属。
+AL_Item_ChromiteOreDesc,[(((ColourModded)))]铬铁矿[-]这种矿石可以提炼成铬金属。
 
 AL_Item_ChalcopyriteOre,[(((ColourModded)))]黄铜矿[-]
-AL_Item_ChalcopyriteOreDesc,[(((ColourModded)))]黄铜矿[-]如这种矿石是铜的重要来源。
+AL_Item_ChalcopyriteOreDesc,[(((ColourModded)))]黄铜矿[-]这种矿石是铜的重要来源。
 
 AL_Item_SphaleriteOre,[(((ColourModded)))]闪锌矿[-]
 AL_Item_SphaleriteOreDesc,[(((ColourModded)))]闪锌矿[-]是含锌的主要矿石。
@@ -762,7 +771,7 @@ AL_Item_Charcoal,[(((ColourModded)))]木炭[-]
 AL_Item_CharcoalDesc,当你需要比木材更多的热量时，这是一种易于获取的强大燃料。
 
 AL_Item_CharcoalPowder,[(((ColourModded)))]木炭粉[-]
-AL_Item_CharcoalPowderDesc,经过一番努力后得到的木炭粉。可用于制作原始胶水。
+AL_Item_CharcoalPowderDesc,经过一番努力后得到的木炭粉。可用于制作树脂胶水。
 
 AL_Item_Limestone,[(((ColourModded)))]石灰石[-]
 AL_Item_LimestoneDesc,美味。
@@ -1242,6 +1251,30 @@ AL_Block_WorkstationBloomery,"[(((ColourModded)))]鼓风炉[-]"
 AL_Block_WorkstationBloomeryDesc,"一个原始但可用的 [(((ColourModded)))]鼓风炉[-]。"
 
 AL_Block_GunVendingMachine,"[(((ColourModded)))]枪械自动售货机[-]"
+
+AL_Block_LootChestT2NoLootRespawnTaken,"(((cntLootChestHeroInsecureT2)))"
+AL_Block_LootChestT3NoLootRespawnTaken,"(((cntLootChestHero)))"
+AL_Block_LootChestT3NoLootRespawnOpened,"(((cntLootChestHero)))"
+AL_Block_LootChestT4NoLootRespawnTaken,"(((cntHardenedChestSecure)))"
+AL_Block_LootChestT4NoLootRespawnOpened,"(((cntHardenedChestSecure)))"
+AL_Block_LootChestT5NoLootRespawnTaken,"(((cntHardenedChestSecureT5)))"
+AL_Block_LootChestT5NoLootRespawnOpened,"(((cntHardenedChestSecureT5)))"
+
+AL_Block_LootChestT1Insecure,"(((cntLootChestHeroInsecureT1)))"
+AL_Block_LootChestT2Insecure,"(((cntLootChestHeroInsecureT2)))"
+AL_Block_LootChestT2Taken,"(((cntLootChestHeroInsecureT2)))"
+AL_Block_LootChestT3Secure,"(((cntLootChestHeroInsecure)))"
+AL_Block_LootChestT3Taken,"(((cntLootChestHeroInsecure)))"
+AL_Block_LootChestT3Open,"(((cntLootChestHeroInsecure)))"
+AL_Block_LootChestT4Secure,"(((cntHardenedChestSecure)))"
+AL_Block_LootChestT4Taken,"(((cntHardenedChestSecure)))"
+AL_Block_LootChestT4Open,"(((cntHardenedChestSecure)))"
+AL_Block_LootChestT5Secure,"(((cntHardenedChestInsecureT5)))"
+AL_Block_LootChestT5Taken,"(((cntHardenedChestInsecureT5)))"
+AL_Block_LootChestT5Open,"(((cntHardenedChestInsecureT5)))"
+
+hordeBaseKeystoneBlock,"[(((ColourModded)))]土地征用块 (部落基地变体)[-]"
+hordeBaseKeystoneBlockDesc,"一种用于“部落基地”的土地征用块的变种。不产生休息效果。"
 # }}}
 
 # New Game {{{
@@ -1501,7 +1534,7 @@ AL_Perk_Meticulous4Desc,"所有武器和工具的制作速度减慢 [(((ColourMo
 AL_Perk_Meticulous5Desc,"制作所有武器和工具的时间是原来的 [(((ColourModded)))]2倍[-]，但质量提高 [(((ColourModded)))]25%[-]。"
 
 AL_Perk_Constitutional,"强健体质"
-AL_Perk_ConstitutionalDesc,"你照顾了自己的身体，现在更清楚健康的重要性。只要你没有脱水或饿死，你的身体恢复速度更快。"
+AL_Perk_ConstitutionalDesc,"你照顾了自己的身体，现在更清楚生命值的重要性。只要你没有脱水或饿死，你的身体恢复速度更快。"
 AL_Perk_Constitutional1Desc,"每秒额外恢复 [(((ColourModded)))]0.04[-] 生命值。这种额外恢复不需要额外的食物和水。"
 AL_Perk_Constitutional2Desc,"每秒生命值恢复加成增加到 [(((ColourModded)))]0.08[-]。"
 AL_Perk_Constitutional3Desc,"每秒生命值恢复加成增加到 [(((ColourModded)))]0.12[-]。"
@@ -1808,6 +1841,7 @@ AL_EC_ZombiePartyGirlBrunette,"派对女孩（黑发）"
 # }}}
 
 # Vanilla Entries Modified {{{
+craftingFoodDesc,"阅读 [(((ColourModded)))]《家庭烹饪周刊》[-] 可以提升等级。"
 drugSteroidsDesc,"孩子们，记得远离类固醇！不过这个是可以用的，可以让你的负重翻倍。"
 blockcommand_pickup,"[(((ColourToolbeltText)))]拾取[-]"
 IZYgunT1assaultrifleAK47Milled,"AK47 突击步枪"
@@ -1869,10 +1903,10 @@ xuiOptionsVideoShadowsDistanceTooltip,阴影的质量和距离。\n性能影响�
 sneakDamageBonus,"[(((ColourModded)))]{0}[-]x 伤害加成"
 
 lootItem,""
-lootEntity,{1}\n[5cff5c](未触碰)[-]
-lootTooltipEmpty,{1}\n[(((ColourGrey)))](空)[-]
-lootTooltipNew,{1}\n[5cff5c](未触碰)[-]
-lootTooltipTouched,{1}\n[ffaa00](已搜索)[-]
+lootEntity,[5cff5c](未搜索)[-]
+lootTooltipEmpty,[(((ColourGrey)))](空)[-]
+lootTooltipNew,[5cff5c](未搜索)[-]
+lootTooltipTouched,[ffaa00](已搜索)[-]
 useCampfire,"[(((ColourModded)))][使用][-]"
 useForge,"[(((ColourModded)))][使用][-]"
 useSecureDoor,"[(((ColourModded)))]打开[-]"
@@ -1888,8 +1922,8 @@ xuiOptionsVideoUIForegroundOpacity,游戏中 UI 前景色透明度
 xuiOptionsVideoUIBackgroundOpacityTooltip,游戏中（即不在菜单中）UI 背景轮廓和图标透明度。
 xuiOptionsVideoUIForegroundOpacityTooltip,游戏中（即不在菜单中）UI 前景色轮廓和图标透明度。
 
-tooltipUnlocked,"[使用 [(((ColourModded)))]{1}[-]]\n[83FF89](未锁定)[-]"
-tooltipLocked,"[使用 [(((ColourModded)))]{1}[-]]\n[ff5555](已锁定)[-]"
+tooltipUnlocked,"[83FF89](未锁定)[-]"
+tooltipLocked,"[ff5555](已锁定)[-]"
 useBlock,"[使用 [(((ColourModded)))]{1}[-]]"
 
 resourceMetalPipeDesc,"一根长长的中空圆筒形管状物。可以用作糟糕的望远镜，或者是一个劣质的迪吉里杜管。"
@@ -1927,7 +1961,7 @@ drugVitaminsDesc,"随着超市无尽选择的消失，维生素可以提供几�
 
 resourcePaperDesc,"纸可以与其他成分一起用来制作霰弹枪弹药、炸药和雪茄。纸在过去的世界中是随处可见的，现在仍然很丰富。"
 
-perkFiremansAlmanacCompleteLongDesc,"火场肾上腺素：烟雾的味道激发你的肾上腺素。在废土中，奔跑时获得 20% 的伤害和 20% 的耐力恢复。"
+perkFiremansAlmanacCompleteLongDesc,"火场肾上腺素：烟雾的味道激发你的肾上腺素。在废土中，奔跑时获得 20% 的伤害和 20% 的体力恢复。"
 
 perkRangersCompleteDesc,"用弓和弩击中未警觉敌人的头部时造成双倍伤害。"
 
@@ -1951,8 +1985,8 @@ drinkJarGrandpasMoonshineDesc,"没有什么比一瓶爷爷的私酿酒更适合�
 perkSpearHunter3BleedDesc,"长矛有 25% 的几率对目标造成 24 点出血伤害。"
 perkSpearHunter3BleedLongDesc,"出血伤害：长矛有 25% 的几率对目标造成 24 点出血伤害。"
 
-meleeToolPickT3Auger,"钻机"
-meleeToolPickT3AugerDesc,"是时候让这场末日深入地下了。 :sunglasses:\n\n[(((ColourGrey)))]注意：钻机钻孔极具破坏性，非常适合挖隧道，不适合采集资源。"
+meleeToolPickT3Auger,"螺旋钻"
+meleeToolPickT3AugerDesc,"是时候深入地下了。 :sunglasses:\n\n[(((ColourGrey)))]注意：螺旋钻极具破坏性，非常适合挖隧道，不适合采集资源。"
 
 meleeWpnClubT0WoodenClubDesc,"木棍。适合打断膝盖和头骨。\n\n(((AL_LK_PowerAttackEffect)))"
 meleeWpnClubT1BaseballBatDesc,"这个棍棒曾用于过去在巨大竞技场中举行的角斗游戏。\n\n(((AL_LK_PowerAttackEffect)))"
@@ -2011,7 +2045,7 @@ AL_Buff_BloodmoonDeathDesc,"当你被推向虚空复活时，虽然轨迹未受�
 
 al_buff_vitamins,"[(((ColourModded)))]营养充足[-]"
 AL_Buff_VitaminsName,"[(((ColourModded)))]营养充足[-]"
-AL_Buff_VitaminsDesc,"你的维生素和矿物质都得到了补充，感觉更有活力；+10% 耐力（除了活力效果）。"
+AL_Buff_VitaminsDesc,"你的维生素和矿物质都得到了补充，感觉更有活力；+10% 体力（除了活力效果）。"
 
 AL_Buff_AlcoholWithdrawal_DepressionName,"[e79b13]戒酒症状:[-] 抑郁"
 AL_Buff_AlcoholWithdrawal_DepressionDesc,"沉重的抑郁压在你的心头。它在几乎所有方面都拖慢了你，并使你对生活产生阴暗的看法。"
@@ -2032,8 +2066,8 @@ AL_Buff_AlcoholWithdrawal_HeadacheName,"[e79b13]戒酒症状:[-] 头痛"
 AL_Buff_AlcoholWithdrawal_HeadacheDesc,"你突然感到剧烈头痛。"
 
 AL_BuffWoodsman,"森林人"
-AL_BuffWoodsmanDesc,"自从末日以来，你一直在森林中度过，避免人口中心区域，因此你对野外环境更为适应，对文明世界则更为警惕。[(((ColourGrey)))]在野外地区，你跑得更快，耐力恢复更快，而在人造环境中则相反。[-]"
-AL_BuffWoodsmanTT,"自从末日以来，你一直在森林中度过，避免人口中心区域，因此你对野外环境更为适应，对文明世界则更为警惕。[(((ColourGrey)))]在野外地区，你跑得更快，耐力恢复更快，而在人造环境中则相反。[-]"
+AL_BuffWoodsmanDesc,"自从末日以来，你一直在森林中度过，避免人口中心区域，因此你对野外环境更为适应，对文明世界则更为警惕。[(((ColourGrey)))]在野外地区，你跑得更快体力恢复更快，而在人造环境中则相反。[-]"
+AL_BuffWoodsmanTT,"自从末日以来，你一直在森林中度过，避免人口中心区域，因此你对野外环境更为适应，对文明世界则更为警惕。[(((ColourGrey)))]在野外地区，你跑得更快，体力恢复更快，而在人造环境中则相反。[-]"
 
 AL_Buff_FoodPoisoning_QueasyName,"不适"
 AL_Buff_FoodPoisoning_QueasyDesc,"你的胃感觉不太好.. 最好休息一下。\n\n[(((ColourModded)))]效果:[-]\n[bbbbbb]-0.01% 活力 / 分钟\n-5% 移动速度[-]"
@@ -2047,7 +2081,7 @@ AL_Buff_VomitDesc,"呃呃呃呃呃呃.....啊啊啊啊啊呃呃呃呃呃.....呃
 
 # UI Only {{{
 AL_LK_StatSymbolHealth,"生命"
-AL_LK_StatSymbolStamina,"耐力"
+AL_LK_StatSymbolStamina,"体力"
 AL_LK_StatSymbolAlcohol,"活力"
 AL_LK_StatSymbolAlcohol,"酒精"
 
@@ -2113,10 +2147,10 @@ AL_PerkBook_RockHard6,"采矿的艺术 第6卷"
 AL_PerkBook_RockHard7,"采矿的艺术 第7卷"
 AL_PerkBook_RockHard1Desc,"可以制作 [(((ColourModded)))]黑带咖啡[-]."
 AL_PerkBook_RockHard2Desc,"垮塌的物块对你造成的伤害减少[(((ColourEffectGood)))]50%[-]"
-AL_PerkBook_RockHard3Desc,"传递胶带：采矿工具的耐久度消耗减少 [(((ColourEffectGood)))]20%[-]."
+AL_PerkBook_RockHard3Desc,"加固胶带：采矿工具的耐久度消耗减少 [(((ColourEffectGood)))]20%[-]."
 AL_PerkBook_RockHard4Desc,"矿石产量增加 [(((ColourEffectGood)))]10%[-]."
 AL_PerkBook_RockHard5Desc,"从石灰岩和石块中额外收获 [(((ColourModded)))] 石灰 [-]。"
-AL_PerkBook_RockHard6Desc,"保持水分：当水含量超过 50% 时，挥动采矿工具时耐力消耗减少 [(((ColourEffectGood)))]20%[-]."
+AL_PerkBook_RockHard6Desc,"保持水分：当口渴度超过 50% 时，挥动采矿工具时体力消耗减少 [(((ColourEffectGood)))]20%[-]."
 AL_PerkBook_RockHard7Desc,"只用尖端：可以制作 [(((ColourModded)))]金刚石刀刃模组[-]."
 AL_PerkBook_RockHardCompleteDesc,"突破：有机会[(((ColourModded)))]一击开采矿石[-]。效果随采矿技能提升而增强。"
 # }}}
@@ -2167,7 +2201,7 @@ AL_CraftingSkill_CookingLong,"烹饪"
 AL_CraftingSkill_ToolsLong,"工具"
 AL_CraftingSkill_KnivesLong,"刀具"
 AL_CraftingSkill_BowyeryFletchingLong,"弓/弩"
-AL_CraftingSkill_ClubsLong,"棍棒制作"
+AL_CraftingSkill_ClubsLong,"棍棒"
 AL_CraftingSkill_ElectronicsLong,"电子设备"
 AL_CraftingSkill_ExplosivesLong,"爆炸物"
 AL_CraftingSkill_HandgunsLong,"手枪"
@@ -2266,7 +2300,7 @@ KickDegreesVerticalMax,"最大垂直后坐力"
 KickDegreesHorizontalMax,"最大水平后坐力"
 SphereCastRadius,""
 GrazeDamageMultiplier,"擦伤伤害倍率"
-GrazeStaminaMultiplier,"擦伤耐力倍率"
+GrazeStaminaMultiplier,"擦伤体力倍率"
 GeneralDamageResist,"综合抗性"
 PhysicalDamageResist,"物理抗性"
 PhysicalDamageResistMax,"最大物理抗性"
@@ -2288,7 +2322,7 @@ VehicleReflectedDamage,"车辆反射伤害"
 VehicleSeats,"车辆座位数"
 VehicleTankSize,"车辆油箱容量"
 VehicleHopStrength,"车辆跳跃力量"
-VehiclePlayerStaminaDrainRate,"车辆内耐力损失率"
+VehiclePlayerStaminaDrainRate,"车辆内体力损失率"
 BatteryMaxLoadInVolts,"电池最大负载（伏特）"
 BatteryDischargeTimeInMinutes,"电池放电时间（分钟）"
 DistractionResistance,"干扰抗性"
@@ -2336,17 +2370,17 @@ HealthChangeOT,"生命恢复"
 HealthGain,"生命增益倍率"
 HealthLoss,"生命损失倍率"
 HealthMaxBlockage,"生命值减少"
-StaminaMax,"最大耐力"
-StaminaChangeOT,"耐力恢复"
-StaminaGain,"耐力增益倍率"
-StaminaLoss,"耐力损失倍率"
-StaminaMaxBlockage,"耐力减少"
+StaminaMax,"最大体力值"
+StaminaChangeOT,"体力恢复"
+StaminaGain,"体力增益倍率"
+StaminaLoss,"体力损失倍率"
+StaminaMaxBlockage,"体力值减少"
 FoodMax,"最大食物"
 FoodChangeOT,"食物恢复"
 FoodGain,"食物增益倍率"
 FoodLoss,"食物损失倍率"
 FoodLossPerHealthPointLost,"每失去一点生命值的食物损失"
-FoodLossPerStaminaPointGained,"每获得一点耐力的食物损失"
+FoodLossPerStaminaPointGained,"每获得一点体力值的食物损失"
 FoodLossPerHealthPointGained,"每获得一点生命值的食物损失"
 FoodMaxBlockage,"最大食物减少"
 WaterMax,"最大水分"
@@ -2354,7 +2388,7 @@ WaterChangeOT,"水分恢复"
 WaterGain,"水分增益倍率"
 WaterLoss,"水分损失倍率"
 WaterLossPerHealthPointGained,"每获得一点生命值的水分损失"
-WaterLossPerStaminaPointGained,"每获得一点耐力的水分损失"
+WaterLossPerStaminaPointGained,"每获得一点体力值的水分损失"
 WaterMaxBlockage,"最大水分减少"
 CoreTempChangeOT,"核心温度变化率"
 CoreTempGain,"加热倍率"
@@ -2433,7 +2467,7 @@ WeightCapacity,"负重容量"
 # }}}
 
 # Block Placeholders {{{
-AL_HelperStoneGarnierite,"=绿泥石矿脉 助手"
+AL_HelperStoneGarnierite,"=硅镁镍矿脉 助手"
 AL_HelperStoneChromite,"=铬铁矿矿脉 助手"
 AL_HelperStoneAnthracite,"=无烟煤矿脉 助手"
 AL_HelperStoneChalcopyrite,"=黄铜矿矿脉 助手"
@@ -2475,6 +2509,8 @@ AL_LK_Format_HarvestYieldOneRange,"[(((ColourYields)))]产量:[-] {0}-{1} {2}"
 AL_LK_Format_HarvestYieldBare,"{0} {1}"
 AL_LK_Format_HarvestYieldBareRange,"{0}-{1} {2}"
 AL_LK_Format_TooHeavyBy,"[(((ColourModded)))]物品太重了，你无法拾取 (重量 {0:0.##} kg).[-]"
+AL_LK_Format_GameVersionMismatch,"当前 [(((ColourModded)))]劫后余生[-] 模组是基于 [(((ColourModded)))]{0}[-] 版本的 [ff0000]《七日杀》[-] 构建的。你当前运行的是 [(((ColourModded)))]{1}[-] 版本。请注意，此模组可能无法按预期工作，甚至可能无法游玩。"
+AL_LK_Format_EmptyLiquidContainer,"[77f4ff][空液体容器][-]\n[(((ColourGrey)))]容量:[-] {0}"
 # }}}
 
 # Singular Words {{{
@@ -2579,7 +2615,7 @@ AL_LK_VitCombatStressDescNeg,"你在激烈的战斗中，给予并承受着伤�
 
 AL_Buff_VitSocial,"社交"
 AL_Buff_VitSocialName,"社交"
-AL_Buff_VitSocialDesc,"你最近与一些活着的人在一起。"
+AL_Buff_VitSocialDesc,"你最近与一些活人在一起。"
 
 al_buff_vitcomradedied,"战友牺牲"
 AL_Buff_VitComradeDiedName,"战友牺牲"
@@ -2682,7 +2718,7 @@ AL_Buff_AlcoholismHeadacheDesc,"你的戒酒症状给你带来了剧烈的头痛
 
 AL_Buff_Decor,"装饰"
 AL_Buff_DecorName,"装饰"
-AL_Buff_DecorDesc,"这个地方有好的氛围、颜色协调、室内设计，也许还有风水？不管怎样，这里很好，这对你是好的。"
+AL_Buff_DecorDesc,"这个地方有好的氛围、颜色协调、室内设计，也许还有风水？不管怎样，这里很好，这对你来说是一件好事。"
 
 AL_LK_VitInfectionUnknownName,"可能感染"
 AL_LK_VitInfectionUnknownDesc,"你最近与丧尸有过接触，你 [i]可能[/i] 已经被感染。这种不确定性压得你喘不过气。"
@@ -2697,18 +2733,18 @@ AL_LK_VitInfectionCuredName,"感染治愈"
 AL_LK_VitInfectionCuredDesc,"你最近治愈了丧尸感染，感到非常高兴！"
 
 # Character Stats {{{
-AL_LK_ModifiedMaxHealth,"修正后的最大健康值"
+AL_LK_ModifiedMaxHealth,"修正后的最大生命值"
 AL_LK_ModifiedMaxStamina,"修正后的最大体力值"
 AL_LK_VitalityName,"[(((ColourVitality)))]活力[-]"
 AL_LK_VitalityNameColon,"[(((ColourVitality)))]活力:[-]"
 # }}}
 
 # Stat Symbols {{{
-AL_LK_StatSymbolTooltipHealth,"[(((ColourHealth)))]健康[-]\n[bbbbbb]如果数值大于零，你就没有死。这是好事。[-]"
+AL_LK_StatSymbolTooltipHealth,"[(((ColourHealth)))]生命值[-]\n[bbbbbb]如果数值大于零，说明你还活着。这是好事。[-]"
 
-AL_LK_StatSymbolTooltipStamina,"[(((ColourStamina)))]体力[-]\n[bbbbbb]与 [ffffff]水分[-] [bbbbbb]水平密切相关。[-] [ffffff]体力[-] [bbbbbb]恢复速度永远不会低于每秒1点。[-]"
+AL_LK_StatSymbolTooltipStamina,"[(((ColourStamina)))]体力值[-]\n[bbbbbb]与 [ffffff]水分[-] [bbbbbb]水平密切相关。[-] [ffffff]体力[-] [bbbbbb]恢复速度永远不会低于每秒1点。[-]"
 
-AL_LK_StatSymbolTooltipFood,"[(((ColourFood)))]食物[-]\n[bbbbbb]与 [ffffff]健康[-] [bbbbbb]恢复密切相关。最大 [ffffff]食物[-] [bbbbbb]约为正常值的两倍。[-]"
+AL_LK_StatSymbolTooltipFood,"[(((ColourFood)))]食物[-]\n[bbbbbb]与 [ffffff]生命值[-] [bbbbbb]恢复密切相关。最大 [ffffff]食物[-] [bbbbbb]约为正常值的两倍。[-]"
 
 AL_LK_StatSymbolTooltipWater,"[(((ColourWater)))]水分[-]\n[bbbbbb]影响 [ffffff]体力[-] [bbbbbb]恢复。只要你的 [ffffff]水分[-] [bbbbbb]保持在25%以上，你的 [ffffff]体力[-] [bbbbbb]恢复就不会受到影响。低于25%，恢复速度会按比例下降至零。最大 [ffffff]水分[-] 约为正常值的两倍。[-]"
 
@@ -2718,9 +2754,9 @@ AL_LK_StatSymbolTooltipVitality,"[(((ColourVitality)))]活力[-]\n[bbbbbb]这是
 
 AL_LK_StatSymbolTooltipBloodAlcoholLevel,"[(((ColourAlcohol)))]血液酒精浓度[-]\n[bbbbbb]这是衡量你醉酒程度的指标。不要过度饮酒，否则你会呕吐；也不要频繁饮酒，否则你会在不喝酒时出现戒酒症状。如果你确实患上了酒精依赖症，戒酒 [-] [(((ColourGrey)))](并应对戒酒症状)[-] [bbbbbb] 会逐渐消除你的依赖症。[-]"
 
-AL_LK_StatSymbolTooltipBlood,"[(((ColourBlood)))]血液[-]\n[bbbbbb]这代表你体内保留了多少 [ffffff]血液[-]。受到敌人的攻击等导致出血时，你的 [ffffff]血液[-] 水平会降低。低于50%，你的视野会开始模糊。降至零时，你会失去意识，完全任由附近敌人摆布。在无意识状态下继续出血会导致 [ffffff]健康[-] 损害。[-] [ffffff]血液[-] 在不流血的情况下会自动恢复，当 [ffffff]血液[-] 达到25%时，无意识状态结束。[-]"
+AL_LK_StatSymbolTooltipBlood,"[(((ColourBlood)))]血液[-]\n[bbbbbb]这代表你体内保留了多少 [ffffff]血液[-]。受到敌人的攻击等导致出血时，你的 [ffffff]血液[-] 水平会降低。低于50%，你的视野会开始模糊。降至零时，你会失去意识，完全任由附近敌人摆布。在昏迷状态下继续出血会损失 [ffffff]生命值[-]。[-] [ffffff]血液[-] 在不流血的情况下会自动恢复，当 [ffffff]血液[-] 恢复至25%时，昏迷状态结束。[-]"
 
-AL_LK_StatSymbolTooltipWetness,"[(((ColourWet)))]湿度[-]\n[bbbbbb]当你站在雨中或在水中活动时，你会变得更 [ffffff]湿[-]。[ffffff]湿度[-] 会对 [ffffff]移动[-] [bbbbbb]造成惩罚，并负面影响 [ffffff]活力[-][bbbbbb]。[-]"
+AL_LK_StatSymbolTooltipWetness,"[(((ColourWet)))]湿度[-]\n[bbbbbb]当你站在雨中或在水中活动时，你会变得更 [ffffff]湿[-]。[ffffff]湿度[-] 会对 [ffffff]移动[-] [bbbbbb]造成惩罚，并对 [ffffff]活力[-][bbbbbb]造成负面影响。[-]"
 
 AL_LK_StatSymbolTooltipWeight,"[ffffff]重量[-]\n[bbbbbb]当你超过重量限制时，你的移动能力会逐渐降低，直到达到两倍重量限制时完全无法移动。主要通过提高力量属性来增加重量限制，此外还可以通过各种特性和物品来增加。[-]"
 
@@ -2808,7 +2844,7 @@ AL_Quest_Technology_Desc,"站在巨人的肩膀上，你知道是怎么回事…
 
 AL_Quest_Water_Name,"[(((ColourWater)))]水源[-]"
 AL_Quest_Water_GroupName,"(((AL_Quest_Water_Name)))"
-AL_Quest_Water_Desc,"所以……幸运的是……我知道Z病毒极其顽强，不能简单地通过煮沸来消灭，所以我必须从雨水或某种蒸馏方式获取水源。如果我能弄到一个[(((ColourModded)))]防水布[-] 和一个 [(((ColourModded)))]木桶[-] 并放在篝火上的烹饪锅上，我或许能找到一种可行的方法。"
+AL_Quest_Water_Desc,"所以……我知道Z病毒极其顽强，不能简单地通过把水煮沸将其消灭，幸运的是我可以从雨水或某种蒸馏方式获取水源。如果能弄到一个[(((ColourModded)))]防水布[-] 和一个 [(((ColourModded)))]木桶[-] 并放在篝火上的烹饪锅上，我或许能找到一种可行的方法。"
 
 AL_Quest_Construction_Name,"建造"
 AL_Quest_Construction_GroupName,"(((AL_Quest_Construction_Name)))"
@@ -2944,46 +2980,41 @@ AL_LK_Format_ApplyItem_IncreaseStat,"增加 [(((ColourModded)))]{0}[-] 到 [(((C
 AL_LK_Format_ApplyItem_DecreaseStat,"减少 [(((ColourModded)))]{0}[-] 到 [(((ColourModded)))]{1:0}/{2:0}[-]"
 AL_LK_Format_ApplyItem_Removing,"移除 [(((ColourModded)))]{0}[-]..."
 health,"[(((ColourHealth)))]生命值[-]"
-stamina,"[(((ColourStamina)))]耐力[-]"
+stamina,"[(((ColourStamina)))]体力值[-]"
 food,"[(((ColourFood)))]食物[-]"
 water,"[(((ColourWater)))]水[-]"
 
 # QuantityStorage {{{
 AL_LK_QuantityStorage_Water,"[(((ColourWater)))]水[-]"
-AL_LK_QuantityStorage_DirtyInfectedWater,"[(((ColourDirtyWater)))]污浊感染水[-]"
+AL_LK_QuantityStorage_DirtyWater,"[(((ColourDirtyWater)))]污浊感染水[-]"
 AL_LK_QuantityStorage_InfectedWater,"[(((ColourInfectedWater)))]感染水[-]"
 AL_LK_QuantityStorage_RedTea,"[(((ColourRedTea)))]红茶[-]"
-AL_LK_QuantityStorage_GoldenrodTea,"[(((ColourGoldenrodTea)))]金丝桃茶[-]"
+AL_LK_QuantityStorage_GoldenrodTea,"[(((ColourGoldenrodTea)))]秋麒麟茶[-]"
+AL_LK_QuantityStorage_Fuel,"[(((ColourFuel)))]Fuel[-]"
 AL_LK_QuantityStorage_Beer,"[(((ColourAlcohol)))]啤酒[-]"
+AL_LK_QuantityStorage_DarkDaysLager,"[(((ColourAlcohol)))]黑暗时光拉格啤酒[-]"
 AL_LK_QuantityStorage_Shiraz,"[(((ColourRedWine)))]西拉葡萄酒[-]"
-AL_LK_QuantityStorage_Fuel,"[(((ColourFuel)))]燃料[-]"
-AL_LK_QuantityStorage_YuccaJuice,"[(((ColourYucca)))]丝兰汁[-]"
 AL_LK_QuantityStorage_Coffee,"[(((ColourCoffee)))]咖啡[-]"
-AL_LK_QuantityStorage_BlackStrapCoffee,"[(((ColourBlackstrap)))]黑糖咖啡[-]"
 AL_LK_QuantityStorage_MineralWater,"[(((ColourMineralWater)))]矿泉水[-]"
+AL_LK_QuantityStorage_BlackStrapCoffee,"[(((ColourBlackstrap)))]黑带咖啡[-]"
 AL_LK_QuantityStorage_Honey,"[(((ColourHoney)))]蜂蜜[-]"
 AL_LK_QuantityStorage_ManukaHoney,"[(((ColourManukaHoney)))]麦卢卡蜂蜜[-]"
-
-AL_LK_QuantityStorage_GSWater,"[bbbbbb]水[-]"
-AL_LK_QuantityStorage_GSDirtyInfectedWater,"[bbbbbb]污浊感染水[-]"
-AL_LK_QuantityStorage_GSInfectedWater,"[bbbbbb]感染水[-]"
-AL_LK_QuantityStorage_GSRedTea,"[bbbbbb]红茶[-]"
-AL_LK_QuantityStorage_GSGoldenrodTea,"[bbbbbb]金丝桃茶[-]"
-AL_LK_QuantityStorage_GSBeer,"[bbbbbb]啤酒[-]"
-AL_LK_QuantityStorage_GSShiraz,"[bbbbbb]西拉葡萄酒[-]"
-AL_LK_QuantityStorage_GSFuel,"[bbbbbb]燃料[-]"
-AL_LK_QuantityStorage_GSYuccaJuice,"[bbbbbb]丝兰汁[-]"
-AL_LK_QuantityStorage_GSCoffee,"[bbbbbb]咖啡[-]"
-AL_LK_QuantityStorage_GSBlackStrapCoffee,"[bbbbbb]黑糖咖啡[-]"
-AL_LK_QuantityStorage_GSMineralWater,"[bbbbbb]矿泉水[-]"
-AL_LK_QuantityStorage_GSHoney,"[bbbbbb]蜂蜜[-]"
-AL_LK_QuantityStorage_GSManukaHoney,"[bbbbbb]麦卢卡蜂蜜[-]"
+AL_LK_QuantityStorage_YuccaJuice,"[(((ColourYucca)))]丝兰汁[-]"
+AL_LK_QuantityStorage_YuccaSmoothie,"[(((ColourYucca)))]丝兰汁果昔[-]"
+AL_LK_QuantityStorage_MegaCrush,"[(((ColourModded)))]碾压王[-]"
+AL_LK_QuantityStorage_Schnapps,"[(((ColourModded)))]烈酒[-]"
+AL_LK_QuantityStorage_Trinkermeister,"[(((ColourModded)))]烈酒大师[-]"
+AL_LK_QuantityStorage_Vodka,"[(((ColourModded)))]伏特加[-]"
+AL_LK_QuantityStorage_Moonshine,"[(((ColourModded)))]私酿酒[-]"
+AL_LK_QuantityStorage_SyphiaSyrup,"[(((ColourModded)))]索菲亚汽水[-]"
 
 AL_LK_QuantityStorage_ContainerBlockFull,"[bbbbbb]已满。[-]"
 AL_LK_QuantityStorage_VehicleFuelFull,"[bbbbbb]已满。[-]"
 AL_LK_QuantityStorage_ContainerBlockEmpty,"[bbbbbb]为空。[-]"
-AL_LK_QuantityStorage_EquipLiquidContainer,"[bbbbbb]（装备液体容器以互动）[-]"
-AL_LK_QuantityStorage_EquipEmptyLiquidContainer,"[aaaaaa]（装备空液体容器以取水）[-]"
+AL_LK_QuantityStorage_VehicleFuelEmpty,"[bbbbbb]它是空的[-]"
+AL_LK_QuantityStorage_EquipLiquidContainer,"[bbbbbb]（装备液体容器互动）[-]"
+AL_LK_QuantityStorage_EquipEmptyLiquidContainer,"[aaaaaa]（装备空液体容器获取）[-]"
+AL_LK_QuantityStorage_NeedSiphon,"你需要一个 [(((ColourModded)))]虹吸管[-] 来从车辆中抽取燃油。"
 
 AL_LK_Format_QuantityStorage_Amount,"[bbbbbb]含有:[-] {0}/{1} {2}"
 AL_LK_Format_QuantityStorage_AmountRC,"[bbbbbb]含有:[-] {0:0.##}/{1} {2}"
@@ -2995,6 +3026,7 @@ AL_LK_Format_FillingItemContainer,"[bbbbbb]从[-] {2} [bbbbbb]用[-] {1} [bbbbbb
 AL_LK_Format_FillingItemContainerPlain,"[bbbbbb]填充[-] {0} [bbbbbb]...[-]"
 AL_LK_Format_FillingBlockContainer,"[bbbbbb]将[-] {0} [bbbbbb]倒入[-] {1}[bbbbbb]...[-]"
 AL_LK_Format_Refuelling,"[bbbbbb]加油[-] [(((ColourModded)))]{0}[-][bbbbbb]...[-]"
+AL_LK_Format_SiphoningFrom,"正在从 [(((ColourModded)))]{0}[-] 中 [bbbbbb]抽取[-] [bbbbbb]...[-]"
 AL_LK_Format_EmptyingOut,"[ff4040]将[-] {0} [ff4040]倒在地上...[-]"
 AL_LK_Format_QuantityContainerItemIsEmpty,"[bbbbbb]你的[-] {0} [bbbbbb]是空的。[-]"
 AL_LK_Format_QuantityContainerDifferentUnit,"[bbbbbb]你的[-] {0} [bbbbbb]与[-] {1} [bbbbbb]的内容不同。[-]"
@@ -3016,171 +3048,43 @@ AL_LK_RainCatcherCollecting,"[(((ColourWater)))]正在收集雨水。[-]"
 AL_LK_RainCatcherBlocked,"[(((ColourTomato)))]未暴露在天空下。[-]"
 
 AL_LK_WaterBarrel,"水桶"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Base,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Water,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_RedTea,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_GoldenrodTea,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Beer,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Shiraz,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_DirtyInfectedWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_InfectedWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_DirtyWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_MineralWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Fuel,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_YuccaJuice,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Honey,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_ManukaHoney,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle_Coffee,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Base,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Water,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_RedTea,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_GoldenrodTea,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Beer,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Shiraz,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_DirtyInfectedWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_InfectedWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_DirtyWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_MineralWater,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Fuel,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_YuccaJuice,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_Honey,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueKnockedOverDiagonal_ManukaHoney,"(((AL_LK_WaterBarrel)))"
-
 AL_LK_WaterBarrels,"一组水桶"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Base,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Water,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_RedTea,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_GoldenrodTea,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Beer,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Shiraz,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_DirtyInfectedWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_InfectedWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_DirtyWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_MineralWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Fuel,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_YuccaJuice,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_Honey,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA_ManukaHoney,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Base,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Water,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_RedTea,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_GoldenrodTea,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Beer,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Shiraz,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_DirtyInfectedWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_InfectedWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_DirtyWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_MineralWater,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Fuel,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_YuccaJuice,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_Honey,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB_ManukaHoney,"(((AL_LK_WaterBarrels)))"
-
 AL_LK_WineBarrel,"酒桶"
-AL_Block_QuantityStorage_WineBarrel,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_Base,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_Water,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_RedTea,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_GoldenrodTea,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_Beer,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_Shiraz,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_DirtyInfectedWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_InfectedWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_DirtyWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_MineralWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_Fuel,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_YuccaJuice,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_Honey,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrel_ManukaHoney,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_Base,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_Water,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_RedTea,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_GoldenrodTea,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_Beer,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_Shiraz,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_DirtyInfectedWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_InfectedWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_DirtyWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_MineralWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_Fuel,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_YucaJuice,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_Honey,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain_ManukaHoney,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_Base,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_Water,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_RedTea,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_GoldenrodTea,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_Beer,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_Shiraz,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_DirtyInfectedWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_InfectedWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_DirtyWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_MineralWater,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_Fuel,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_YuccaJuice,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_Honey,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet_ManukaHoney,"(((AL_LK_WineBarrel)))"
-
 AL_LK_GasPump,"加油泵"
-AL_Block_QuantityStorage_GasPump,"(((AL_LK_GasPump)))"
-AL_Block_QuantityStorage_GasPump_Base,"(((AL_LK_GasPump)))"
-AL_Block_QuantityStorage_GasPump_Fuel,"(((AL_LK_GasPump)))"
-
 AL_LK_GasBarrel,"汽油桶"
-AL_Block_QuantityStorage_GasBarrelSingle,"(((AL_LK_GasBarrel)))"
-AL_Block_QuantityStorage_GasBarrelSingle_Fuel,"(((AL_LK_GasBarrel)))"
-AL_Block_QuantityStorage_GasBarrelSingle45,"(((AL_LK_GasBarrel)))"
-AL_Block_QuantityStorage_GasBarrelSingle45_Fuel,"(((AL_LK_GasBarrel)))"
-
 AL_LK_OldBarrel,"旧桶"
-AL_Block_QuantityStorage_GasBarrelOld,"(((AL_LK_OldBarrel)))"
-AL_Block_QuantityStorage_GasBarrelOld_Fuel,"(((AL_LK_OldBarrel)))"
-
-AL_LK_GasBarrels,"汽油桶组"
-AL_Block_QuantityStorage_GasBarrelQuadA,"(((AL_LK_GasBarrels)))"
-AL_Block_QuantityStorage_GasBarrelQuadA_Fuel,"(((AL_LK_GasBarrels)))"
-AL_Block_QuantityStorage_GasBarrelQuadB,"(((AL_LK_GasBarrels)))"
-AL_Block_QuantityStorage_GasBarrelQuadB_Fuel,"(((AL_LK_GasBarrels)))"
-
+AL_LK_GasBarrels,"一组汽油桶"
 AL_LK_RustyBarrel,"生锈的桶"
 AL_LK_RustyBarrels,"一组生锈的桶"
+AL_LK_OilBarrel,   ,"油桶"
+AL_LK_OilBarrels,  ,"一组油桶"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle,   ,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle45, ,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA,    ,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB,    ,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_WineBarrel,                ,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain,           ,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet,             ,"(((AL_LK_WineBarrels)))"
+AL_Block_QuantityStorage_GasPump,                   ,"(((AL_LK_GasPump)))"
+AL_Block_QuantityStorage_GasBarrelSingle,           ,"(((AL_LK_GasBarrel)))"
+AL_Block_QuantityStorage_GasBarrelSingle45,         ,"(((AL_LK_GasBarrel)))"
+AL_Block_QuantityStorage_GasBarrelOld,              ,"(((AL_LK_OldBarrel)))"
+AL_Block_QuantityStorage_GasBarrelQuadA,            ,"(((AL_LK_GasBarrels)))"
+AL_Block_QuantityStorage_GasBarrelQuadB,            ,"(((AL_LK_GasBarrels)))"
 AL_Block_QuantityStorage_GenericBarrelSingle,"(((AL_LK_RustyBarrel)))"
-AL_Block_QuantityStorage_GenericBarrelSingle_Fuel,"(((AL_LK_RustyBarrel)))"
 AL_Block_QuantityStorage_GenericBarrelSingle45,"(((AL_LK_RustyBarrel)))"
-AL_Block_QuantityStorage_GenericBarrelSingle45_Fuel,"(((AL_LK_RustyBarrel)))"
 AL_Block_QuantityStorage_GenericBarrelQuadA,"(((AL_LK_RustyBarrels)))"
-AL_Block_QuantityStorage_GenericBarrelQuadA_Fuel,"(((AL_LK_RustyBarrels)))"
 AL_Block_QuantityStorage_GenericBarrelQuadB,"(((AL_LK_RustyBarrels)))"
-AL_Block_QuantityStorage_GenericBarrelQuadB_Fuel,"(((AL_LK_RustyBarrels)))"
 AL_Block_QuantityStorage_WhiteBarrelSingle,"(((AL_LK_RustyBarrel)))"
-AL_Block_QuantityStorage_WhiteBarrelSingle_Fuel,"(((AL_LK_RustyBarrel)))"
 AL_Block_QuantityStorage_WhiteBarrelSingle45,"(((AL_LK_RustyBarrel)))"
-AL_Block_QuantityStorage_WhiteBarrelSingle45_Fuel,"(((AL_LK_RustyBarrel)))"
 AL_Block_QuantityStorage_WhiteBarrelQuadA,"(((AL_LK_RustyBarrels)))"
-AL_Block_QuantityStorage_WhiteBarrelQuadA_Fuel,"(((AL_LK_RustyBarrels)))"
 AL_Block_QuantityStorage_WhiteBarrelQuadB,"(((AL_LK_RustyBarrels)))"
-AL_Block_QuantityStorage_WhiteBarrelQuadB_Fuel,"(((AL_LK_RustyBarrels)))"
-
-AL_LK_OilBarrel,"油桶"
 AL_Block_QuantityStorage_OilBarrelSingle,"(((AL_LK_OldBarrel)))"
-AL_Block_QuantityStorage_OilBarrelSingle_Fuel,"(((AL_LK_OldBarrel)))"
 AL_Block_QuantityStorage_OilBarrelSingle45,"(((AL_LK_OldBarrel)))"
-AL_Block_QuantityStorage_OilBarrelSingle45_Fuel,"(((AL_LK_OldBarrel)))"
-
-AL_LK_OilBarrels,"一组油桶"
 AL_Block_QuantityStorage_OilBarrelQuadA,"(((AL_LK_OilBarrels)))"
-AL_Block_QuantityStorage_OilBarrelQuadA_Fuel,"(((AL_LK_OilBarrels)))"
 AL_Block_QuantityStorage_OilBarrelQuadB,"(((AL_LK_OilBarrels)))"
-AL_Block_QuantityStorage_OilBarrelQuadB_Fuel,"(((AL_LK_OilBarrels)))"
 
-AL_Block_QuantityStorage_TreeStumpMature_Honey,"树桩"
-AL_Block_QuantityStorage_TreeStumpMature_ManukaHoney,"树桩"
+AL_Block_QuantityStorage_TreeStumpMature,"树桩"
 
 AL_LK_RainCatcherCollecting,"[(((ColourWater)))]正在收集雨水。[-]"
 AL_LK_RainCatcherBlocked,"[(((ColourTomato)))]未暴露在天空下。[-]"
@@ -3206,27 +3110,27 @@ AL_Item_HintNote3Desc,"[(((ColourGrey)))]一张用华丽草书写成的便条...
 
 AL_Item_HintNote4Desc,"[(((ColourGrey)))]一张用华丽草书写成的便条...[-]\n\n这片废墟和胶带之地让我怀念起那些完美的钢材和异国情调的超级合金的时代。现在自己制造钢并不是一件容易的事……也许是时候复活我们最古老的合金——青铜。它更容易熔炼，我在森林里采集时见过可以用来生产青铜的矿石……主要是黄铜矿和锡石。是的……这可能是值得的……[-]"
 
-AL_Item_HintNote5Desc,"[(((ColourGrey)))]一张用华丽草书写成的便条...[-]\n\n再次将我的丰富经验写在纸上；这是一个微不足道的容器，承载着如此伟大的知识。不过，旅者，知道这份指导性的文字为你带来了关于更远和有趣的矿石和燃料的知识。在炎热的沙漠领域，你会发现用于制作弹药的铅和硝石。在冬季领域，你会发现一种优质的煤——无烟煤。在那里，你还可以找到铬铁矿，它是许多坚固合金的成分。在烧毁领域，你可以找到闪锌矿，对制作黄铜合金有用。在毁灭领域，你可能会发现一种绿色矿石——镍矿石，熔炼后可得到镍。现在你知道外面有什么了，祝你好运，四处寻找，穿过不死生物群，获取更多力量。上帝保佑，旅者。"
+AL_Item_HintNote5Desc,"[(((ColourGrey)))]一张用华丽草书写成的便条...[-]\n\n再次将我的丰富经验写在纸上；这是一个微不足道的容器，承载着如此伟大的知识。不过，旅者，知道这份指导性的文字为你带来了关于更远和有趣的矿石和燃料的知识。在炎热的沙漠区域，你会发现用于制作弹药的铅和硝石。在雪地区域，你会发现一种优质的煤——无烟煤。在那里，你还可以找到铬铁矿，它是许多坚固合金的成分。在火烧林区域，你可以找到闪锌矿，对制作黄铜合金有用。在废墟区域，你可能会发现一种绿色矿石——镍矿石，熔炼后可得到镍。现在你知道外面有什么了，祝你好运，四处寻找，穿过不死生物群，获取更多力量。上帝保佑，旅者。"
 
-AL_Item_HintNote6Desc,"[(((ColourGrey)))]你尽力阅读纸上的潦草字迹...[-]\n\n是的，当然，水被感染了，我们都知道这一点，但他们为什么坐在火堆旁抱怨口渴呢？天哪，外面上帝正为我们倾盆而下的干净雨水。出去喝点雨水吧。"
+AL_Item_HintNote6Desc,"[(((ColourGrey)))]你尽力阅读纸上的潦草字迹...[-]\n\n是的，当然，水被感染了，我们都知道这一点，但他们为什么坐在火堆旁抱怨口渴呢？天哪，外面上帝正为我们倾盆而下的干净雨水。出去吧，抬起头，喝点雨水吧。"
 
 AL_Item_HintNote7Desc,"[(((ColourGrey)))]一份写得很不错的便条，虽然纸张很脏...[-]\n\n我认为我的新雇主撑不了多久。我最好开始寻找替代的工作。他们根本没有任何竞争力。他们甚至不在现场熔炼矿石！我的意思是，他们的熔炼设施确实令人印象深刻，而且他们投入了很多资金，想要使用它，但这样做只是在运输大量无用的岩石，熔炼后就丢弃了。"
 
 # Third Party POIs {{{
-Zap_Arcade_Voltralux,"Zap Arcade"
+Zap_Arcade_Voltralux,"扎普游乐场"
 MafiaMuseum_Voltralux,"黑帮博物馆"
 house_atomic_01_Voltralux,"唯一幸存者的住所"
-Boxing_Gym_Voltralux,"Mister's 拳击馆"
-GunShopKendo_Voltralux,"Gun Shop Kendo"
+Boxing_Gym_Voltralux,"大师的拳击馆"
+GunShopKendo_Voltralux,"肯度武器店"
 # }}}
 
 # Item Stats {{{
 AL_LK_MaxHealth,"最大生命值"
-AL_LK_MaxStamina,"最大耐力"
+AL_LK_MaxStamina,"最大体力值"
 AL_LK_HealthRegen,"生命值恢复"
 AL_LK_AttackSpeed,"攻击速度 (%)"
 AL_LK_HealthRegenPerc,"生命值恢复 (%)"
-AL_LK_StaminaRegenPerc,"耐力恢复 (%)"
+AL_LK_StaminaRegenPerc,"体力值恢复 (%)"
 AL_LK_ZInfectionRate,"Z病毒感染率 (%)"
 AL_LK_VitalityChangeRGB,"[(((ColourVitality)))]活力变化[-]"
 AL_LK_PerMinute,"每分钟"
@@ -3237,16 +3141,31 @@ AL_LK_FallingBlockDamage,"掉落方块伤害"
 AL_LK_CuttingResist,"切割抗性 (负面效果)"
 AL_LK_BashingResist,"打击抗性 (负面效果)"
 AL_LK_StunResist,"眩晕抗性"
-AL_LK_StaminaRegenRunning,"跑步时耐力恢复"
+AL_LK_StaminaRegenRunning,"跑步时体力恢复"
 AL_LK_FinessePenalty,"灵巧惩罚"
 AL_LK_PrimitiveArmour,"原始护甲"
 AL_LK_Bicycle,"自行车"
+AL_LK_VitalityChangeUnscaled,"[(((ColourVitality)))]未缩放的生命值变化[-]:"
+AL_LK_Unscaled,"未缩放"
 # }}}
 
 # TEFeatures {{{
 blockcommand_TEFeatureTakeable:take,"拿取"
+blockcommand_TEFeatureTakeable:close,"关闭"
+blockcommand_TEFeatureQuantityContainer:Close,"关闭"
+blockcommand_TEFeatureLockPickable:pick,"挑选"
+blockcommand_TEFeatureLockPickable:pick_improvised,"选择 简易撬锁工具"
+blockcommand_TEFeatureLockPickable:pick_normal,"选择 撬锁工具"
 }}}
 
+blockcommand_pick_normal,"开锁\n[bbbbbb](撬锁工具)[-]"
+blockcommand_pick_improvised,"开锁\n[(((ColourModded)))](简易撬锁工具)[-]"
+
+# Gears
+fbGeneral,"常规"
+fbAccessibility,"无障碍"
+fbHeadBob,"头部摆动"
+fbHeadBobTT,"移动时，玩家的头部摆动的幅度。"
 
 BoxTruck,--------------------------------------------------------------------
 vehicleBoxTruckbody,"厢式货车车身"
@@ -3393,3 +3312,4 @@ Brick,"[(((ColourBricks)))]砖块[-]"
 Concrete,"[(((ColourGrey)))]混凝土[-]"
 Steel,"[(((ColourWoodNailed)))]钢铁[-]"
 Inconel,"[(((ColourInconel)))]镍合金[-]"
+AL_EC_BlueberryBastard,"拟态丧尸"
