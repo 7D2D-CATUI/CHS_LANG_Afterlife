@@ -3,6 +3,13 @@ Key,schinese
 zAfterlife,--------------------------------------------------------------------
 
 # General / Miscellaneous {{{
+AL_LK_CannotFuelIt,"这件物品不能作为燃料"
+AL_LK_CantTakeMoreFuel,"不能添加更多燃料"
+AL_LK_CantIgniteTorches,"[(((ColourModded)))]当前物品无法点燃[-]"
+AL_LK_Format_TimeRemaining,"[(((ColourModded)))]剩余 {0} 分钟的燃料[-]"
+AL_LK_NothingToBurn,"[808080]已经没有可燃物了[-]"
+AL_LK_LessThanMinuteFuel,"[808080]燃料即将耗尽[-]"
+
 xuiRWGRandom,"随机"
 AL_LK_ModOptions,"模组选项"
 AL_LK_NoEffectsYet,"[(((ColourModded)))][无效果][-]";
@@ -565,6 +572,23 @@ AL_Item_BookRockHard5Desc,这期似乎全是关于采矿头盔的内容，特别
 AL_Item_BookRockHard6Desc,详细介绍了工作中保持水分的重要性。他们说的没错。采矿是出汗的工作，尤其是在你只留下一个出口并且一群怪物跳进来的时候。
 AL_Item_BookRockHard7Desc,本期详细描述了在坚硬的东西末端加上更硬的东西的优点。
 AL_BookGroup_RockHardDesc,你是岩石硬核的采矿者吗？这是你的杂志。
+
+AL_Item_AxeBookBase,"[(((ColourModded)))]劈砍杂志基础版[-] (开发者物品)"
+AL_Item_AxeBook1,"[(((ColourModded)))]劈砍杂志：第 1 卷[-]"
+AL_Item_AxeBook2,"[(((ColourModded)))]劈砍杂志：第 2 卷[-]"
+AL_Item_AxeBook3,"[(((ColourModded)))]劈砍杂志：第 3 卷[-]"
+AL_Item_AxeBook4,"[(((ColourModded)))]劈砍杂志：第 4 卷[-]"
+AL_Item_AxeBook5,"[(((ColourModded)))]劈砍杂志：第 5 卷[-]"
+AL_Item_AxeBook6,"[(((ColourModded)))]劈砍杂志：第 6 卷[-]"
+AL_Item_AxeBook7,"[(((ColourModded)))]劈砍杂志：第 7 卷[-]"
+
+AL_Item_AxeBook1Desc,"杂志主要介绍了如何最有效地用斧头伤人，尽管文字的语气轻松愉快。令人担忧。 [808080](使用斧头时伤害增加 10%)[-]"
+AL_Item_AxeBook2Desc,"这一卷从描述人们用斧头破门的文字开始，让人联想到消防员救人的情景。然而，当文字揭示破门的对象是‘敌人’时，整个文章的性质就变了。奇怪而令人担忧。 [808080](使用斧头破门时伤害增加 25%)[-]"
+AL_Item_AxeBook3Desc,"这一卷详细描述了持着喜爱的斧头时的重要性，并声称真正的斧手总是急于砍伐。好吧，姑且这么说吧。 [808080](持斧行走速度加快 20%)[-]"
+AL_Item_AxeBook4Desc,"这一卷愤怒地描述了……树木。它类似于典型的种族主义言论，只不过对象不是外国人，而是树木。非常奇怪。谁会读这种东西？ [808080](砍树后 5 秒内耐力恢复速度增加 10%)[-]"
+AL_Item_AxeBook5Desc,"这一卷极其恐怖，详细描述了最有效的砍人部位，以最大限度地切断肢体。文章风格更像是技术文档，而不是挥舞斧头的精神病患者。 [808080](使用斧头时断肢几率增加 5%)[-]"
+AL_Item_AxeBook6Desc,"这一卷奇特地批判了整个文明社会，并狂热地建议对任何侮辱都以愤怒回应，不出所料，用斧头。 [808080](受到攻击时，接下来三次攻击速度提高 50%)[-]"
+AL_Item_AxeBook7Desc,"这一卷类似第 4 卷，胡言乱语地描述了木材的邪恶。普通的木材。据说所有木制物体都需要迅速用斧头摧毁。 [808080](使用斧头砍伐木制方块时伤害增加 25%)[-]"
 
 AL_Item_BookDakkaX4Vol1,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第一卷[-]
 AL_Item_BookDakkaX4Vol2,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第二卷[-]
@@ -1275,6 +1299,8 @@ AL_Block_LootChestT5Open,"(((cntHardenedChestInsecureT5)))"
 
 hordeBaseKeystoneBlock,"[(((ColourModded)))]土地征用块 (部落基地变体)[-]"
 hordeBaseKeystoneBlockDesc,"一种用于“部落基地”的土地征用块的变种。不产生休息效果。"
+
+AL_Block_DecorUncrookedCowSkull,"牛头骨"
 # }}}
 
 # New Game {{{
@@ -1771,8 +1797,8 @@ AL_LK_JoinedWood,"[(((ColourWood)))]拼接木板[-]"
 # }}}
 
 # Map {{{
-AL_LK_RenameWaypoint, "重命名"
-AL_LK_RemoveWaypoint, "移除"
+AL_LK_RenameWaypoint,"重命名"
+AL_LK_RemoveWaypoint,"移除"
 AL_LK_PopupTextNeedMap,"[(((ColourToolbeltText)))]未装备地图。[-]"
 # }}}
 
@@ -2110,6 +2136,7 @@ AL_BookGroup_BlastEm,"轰击"
 AL_BookGroup_LongShot,"远程射击"
 AL_BookGroup_HotTips,"热辣提示"
 AL_BookGroup_CloseQuarters,"近战"
+AL_BookGroup_AxeBook,"劈砍杂志"
 
 AL_LK_Rotato,土豆
 # }}}
@@ -2153,6 +2180,24 @@ AL_PerkBook_RockHard5Desc,"从石灰岩和石块中额外收获 [(((ColourModded
 AL_PerkBook_RockHard6Desc,"保持水分：当口渴度超过 50% 时，挥动采矿工具时体力消耗减少 [(((ColourEffectGood)))]20%[-]."
 AL_PerkBook_RockHard7Desc,"只用尖端：可以制作 [(((ColourModded)))]金刚石刀刃模组[-]."
 AL_PerkBook_RockHardCompleteDesc,"突破：有机会[(((ColourModded)))]一击开采矿石[-]。效果随采矿技能提升而增强。"
+
+AL_PerkBook_AxeBook1,"劈砍杂志：第 1 卷"
+AL_PerkBook_AxeBook2,"劈砍杂志：第 2 卷"
+AL_PerkBook_AxeBook3,"劈砍杂志：第 3 卷"
+AL_PerkBook_AxeBook4,"劈砍杂志：第 4 卷"
+AL_PerkBook_AxeBook5,"劈砍杂志：第 5 卷"
+AL_PerkBook_AxeBook6,"劈砍杂志：第 6 卷"
+AL_PerkBook_AxeBook7,"劈砍杂志：第 7 卷"
+
+AL_PerkBook_AxeBook1Desc,"使用斧头时伤害增加 10%。"
+AL_PerkBook_AxeBook2Desc,"使用斧头破门时伤害增加 25%。"
+AL_PerkBook_AxeBook3Desc,"持斧行走速度加快 20%。"
+AL_PerkBook_AxeBook4Desc,"砍树后 5 秒内耐力恢复速度增加 10%。"
+AL_PerkBook_AxeBook5Desc,"使用斧头时断肢几率增加 5%。"
+AL_PerkBook_AxeBook6Desc,"受到攻击时，接下来三次攻击速度提高 50%。"
+AL_PerkBook_AxeBook7Desc,"使用斧头砍伐木制方块时伤害增加 25%。"
+AL_PerkBook_AxeBookCompleteDesc,"攻击门时也会对门另一侧的敌人造成伤害。"
+AL_BookGroup_AxeBookDesc,"你是一个挥舞斧头的精神病患者吗？你喜欢砍伐木头或人类吗？有时候你会大喊‘盾墙’，因为感觉很好？欢迎来到劈砍杂志。"
 # }}}
 
 # Crafting Skills {{{
@@ -3056,21 +3101,21 @@ AL_LK_OldBarrel,"旧桶"
 AL_LK_GasBarrels,"一组汽油桶"
 AL_LK_RustyBarrel,"生锈的桶"
 AL_LK_RustyBarrels,"一组生锈的桶"
-AL_LK_OilBarrel,   ,"油桶"
-AL_LK_OilBarrels,  ,"一组油桶"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle,   ,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueSingle45, ,"(((AL_LK_WaterBarrel)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadA,    ,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_BarrelPlasticBlueQuadB,    ,"(((AL_LK_WaterBarrels)))"
-AL_Block_QuantityStorage_WineBarrel,                ,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelPlain,           ,"(((AL_LK_WineBarrel)))"
-AL_Block_QuantityStorage_WineBarrelSet,             ,"(((AL_LK_WineBarrels)))"
-AL_Block_QuantityStorage_GasPump,                   ,"(((AL_LK_GasPump)))"
-AL_Block_QuantityStorage_GasBarrelSingle,           ,"(((AL_LK_GasBarrel)))"
-AL_Block_QuantityStorage_GasBarrelSingle45,         ,"(((AL_LK_GasBarrel)))"
-AL_Block_QuantityStorage_GasBarrelOld,              ,"(((AL_LK_OldBarrel)))"
-AL_Block_QuantityStorage_GasBarrelQuadA,            ,"(((AL_LK_GasBarrels)))"
-AL_Block_QuantityStorage_GasBarrelQuadB,            ,"(((AL_LK_GasBarrels)))"
+AL_LK_OilBarrel,"油桶"
+AL_LK_OilBarrels,"一组油桶"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueSingle45,"(((AL_LK_WaterBarrel)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadA,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_BarrelPlasticBlueQuadB,"(((AL_LK_WaterBarrels)))"
+AL_Block_QuantityStorage_WineBarrel,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelPlain,"(((AL_LK_WineBarrel)))"
+AL_Block_QuantityStorage_WineBarrelSet,"(((AL_LK_WineBarrels)))"
+AL_Block_QuantityStorage_GasPump,"(((AL_LK_GasPump)))"
+AL_Block_QuantityStorage_GasBarrelSingle,"(((AL_LK_GasBarrel)))"
+AL_Block_QuantityStorage_GasBarrelSingle45,"(((AL_LK_GasBarrel)))"
+AL_Block_QuantityStorage_GasBarrelOld,"(((AL_LK_OldBarrel)))"
+AL_Block_QuantityStorage_GasBarrelQuadA,"(((AL_LK_GasBarrels)))"
+AL_Block_QuantityStorage_GasBarrelQuadB,"(((AL_LK_GasBarrels)))"
 AL_Block_QuantityStorage_GenericBarrelSingle,"(((AL_LK_RustyBarrel)))"
 AL_Block_QuantityStorage_GenericBarrelSingle45,"(((AL_LK_RustyBarrel)))"
 AL_Block_QuantityStorage_GenericBarrelQuadA,"(((AL_LK_RustyBarrels)))"
@@ -3149,21 +3194,24 @@ AL_LK_VitalityChangeUnscaled,"[(((ColourVitality)))]未缩放的生命值变化[
 AL_LK_Unscaled,"未缩放"
 # }}}
 
-# TEFeatures {{{
+# TEFeatures and BlockCommands {{{
 blockcommand_TEFeatureTakeable:take,"拿取"
 blockcommand_TEFeatureTakeable:close,"关闭"
 blockcommand_TEFeatureQuantityContainer:Close,"关闭"
 blockcommand_TEFeatureLockPickable:pick,"挑选"
 blockcommand_TEFeatureLockPickable:pick_improvised,"选择 简易撬锁工具"
 blockcommand_TEFeatureLockPickable:pick_normal,"选择 撬锁工具"
-}}}
+blockcommand_TEFeatureTorch:ignite,"[(((ColourModded)))]点燃[-]"
+blockcommand_TEFeatureTorch:douse,"[(((ColourModded)))]熄灭[-]"
+blockcommand_TEFeatureTorch:refuel,"[(((ColourModded)))]添加燃料[-]"
 
 blockcommand_pick_normal,"开锁\n[bbbbbb](撬锁工具)[-]"
 blockcommand_pick_improvised,"开锁\n[(((ColourModded)))](简易撬锁工具)[-]"
+}}}
 
 # Gears
 fbGeneral,"常规"
-fbAccessibility,"无障碍"
+fbAccessibility,"无障碍设置"
 fbHeadBob,"头部摆动"
 fbHeadBobTT,"移动时，玩家的头部摆动的幅度。"
 
