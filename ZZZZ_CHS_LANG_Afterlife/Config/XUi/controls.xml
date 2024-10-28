@@ -13,5 +13,6 @@
 	<setattribute xpath="//al_perk_level/rect/rect/label[@name='description']" name="pos">5,-5</setattribute>
 	<setattribute xpath="//al_perk_level/rect/rect/label[@name='description']" name="spacing_y">5</setattribute>
 
-
+	<setattribute xpath="//forge_material/rect/label[@name='material']" name="pos">0,-3</setattribute>
+	<setattribute xpath="//forge_material/rect/label[@name='material']" name="font_size">14</setattribute>
 </CATUI>
