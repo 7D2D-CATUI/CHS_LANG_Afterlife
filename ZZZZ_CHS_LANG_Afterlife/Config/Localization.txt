@@ -608,13 +608,13 @@ AL_Item_ShovelBook5,"[(((ColourModded)))]挖掘入门：第 5 卷[-]"
 AL_Item_ShovelBook6,"[(((ColourModded)))]挖掘入门：第 6 卷[-]"
 AL_Item_ShovelBook7,"[(((ColourModded)))]挖掘入门：第 7 卷[-]"
 
-AL_Item_ShovelBook1Desc,"[808080](使用铲子时伤害增加 10%)[-]"
-AL_Item_ShovelBook2Desc,"[808080](使用铲子对正下方地形块造成的伤害增加 30%)[-]"
-AL_Item_ShovelBook3Desc,"[808080](使用铲子时范围增加 0.5)[-]"
-AL_Item_ShovelBook4Desc,"[808080](使用铲子挖掘时获得的经验值增加 10%)[-]"
-AL_Item_ShovelBook5Desc,"[808080](使用铲子挖掘时从地形块获得的产出增加 10%)[-]"
-AL_Item_ShovelBook6Desc,"[808080](使用铲子挖掘时有小概率找到金块或银块)[-]"
-AL_Item_ShovelBook7Desc,"[808080](有小概率解锁……某些东西)[-]"
+AL_Item_ShovelBook1Desc,"本书非常形象地描述了用铲子敲打丧尸头部时发出的‘砰！’声，并且一再强调铲子也是一种对抗丧尸的有效的武器。也许‘砰！’真的很棒……呃，也许并没那么夸张。[808080](使用铲子时伤害增加 10%)[-]"
+AL_Item_ShovelBook2Desc,"文中详细说明了如何将多种武术纳入到铲子技能中，据说能以非常惊人的效果击碎地面。[808080](使用铲子对正下方地形块造成的伤害增加 30%)[-]"
+AL_Item_ShovelBook3Desc,"显然，如果只握住铲子的把手，就可以将铲子伸得更远。试过之后，你不得不承认这并没有听起来那么愚蠢。[808080](使用铲子时范围增加 0.5)[-]"
+AL_Item_ShovelBook4Desc,"本书解释了在所有事情中保持专注的重要性，尤其是在挖掘时，因为……嗯……这是一本关于挖掘的书。[808080](使用铲子挖掘时获得的经验值增加 10%)[-]"
+AL_Item_ShovelBook5Desc,"我可以熟练使用铲子，并且避免浪费！嗯哼。[808080](使用铲子挖掘时从地形块获得的产出增加 10%)[-]"
+AL_Item_ShovelBook6Desc,"根据这本杂志的描述，周围的土地富含宝贵的金和银，挖掘时留意闪光或闪烁是有好处的。嗯，也许吧。[808080](使用铲子挖掘时有小概率找到金块或银块)[-]"
+AL_Item_ShovelBook7Desc,"研究表明，你插入的次数越多，拔出来的次数也就越多，这是……呃……挖掘入门。[808080](使用铲子时攻击速度增加 10%)[-]"
 
 AL_Item_BookDakkaX4Vol1,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第一卷[-]
 AL_Item_BookDakkaX4Vol2,[(((ColourModded)))]哒咔哒咔哒咔哒咔：第二卷[-]
@@ -1060,7 +1060,7 @@ armorNomadBoots,束带靴
 armorNomadBootsDesc,把束带放在靴子上有点奇怪，但你的靴子上有两条。讨厌的人总是讨厌。
 
 armorNerdHelmet,傻瓜帽
-armorNerdHelmetDesc,这种美学是对人类的冒犯，保证你会看起来像个傻瓜。
+armorNerdHelmetDesc,这种帽子的审美是对人类的侮辱，但可以保证你看起来像个傻瓜。[808080](佩戴此头盔将阻止所有经验值的获得)[-]
 
 armorNerdOutfit,无用服装
 armorNerdOutfitDesc,这套神话般的服饰，锻造于“蠢驴之山”的火焰之中，没有任何防护功能。
@@ -1354,6 +1354,13 @@ AL_Block_DecorUncrookedCowSkull,"牛头骨"
 
 AL_Block_SmallEngine,"小型引擎"
 AL_Block_SmallEngineDesc,"车辆或发电机的常见部件。[808080]可以放置在地上以便采集。[-]"
+
+AL_Block_PictureBm1,"[(((ColourModded)))]图片（血月 #1）[-]"
+AL_Block_PictureBm2,"[(((ColourModded)))]图片（血月 #2）[-]"
+AL_Block_PictureZombies3,"[(((ColourModded)))]图片（僵尸 #3）[-]"
+
+smallEngine,"小型引擎"
+smallEngineDesc,"车辆或发电机的常见部件。[808080]可以放置在地上以便采集。[-]"
 # }}}
 
 # New Game {{{
@@ -1400,7 +1407,7 @@ AL_LK_PrepperColoured,"[(((ColourPrepper)))]末日准备者[-]"
 AL_LK_Hippy,"嬉皮士"
 AL_LK_HippyColoured,"[(((ColourHippy)))]嬉皮士[-]"
 AL_LK_HippyText,"作为公社的孩子，和平与友爱流淌在你的血液中。在末世残酷暴力的环境中，善良的天性使你的境遇比其他人更糟糕。\n\n你怀着信念和希望出发，并计划与盟友一起创造美好未来。"
-AL_LK_HippyEffects,"[(((ColourHeaderStartingSkills)))]技能:[-]\n- 10 农耕\n- 10 医学\n- 10 治疗\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n- [40d040]正能量:[-] 双倍增加附近所有盟友的社会活力增益幅度和最大值。\n- [40d040]灵巧:[-] 制造所有原始物品的速度提高 4 倍。[-]\n- [40d040]心灵探索者:[-] 可以寻找并收集迷幻蘑菇。\n- [d04040]和平主义者:[-] 战斗压力增加 100 倍，在盟友领地外环境影响增加 2 倍，在内部减半。无法伤害非丧尸化的动物，也不会被它们攻击。"
+AL_LK_HippyEffects,"[(((ColourHeaderStartingSkills)))]技能:[-]\n- 10 农业\n- 10 医学\n- 10 治疗\n\n[(((ColourHeaderSpecialEffects)))]特殊效果:[-]\n[40d040]正能量:[-] 增加2倍附近所有盟友的社交活力值增益幅度和最大值。\n[40d040]心灵探索者:[-] 可以寻找并收集迷幻蘑菇。\n[d04040]和平主义动作技能:[-] 获得 [(((ColourModded)))]和平主义[-] 动作技能，会导致巨大的战斗压力，但可以通过参与战斗来减少。\n[808080]和平主义者:[-] 战斗压力：领地外环境影响增加 2 倍，在领地内效果减半。无法伤害非丧尸化的动物，也不会被它们攻击。"
 
 AL_LK_Enigma,"一无所有"
 AL_LK_EnigmaColoured,"[(((ColourEnigma)))]一无所有[-]"
@@ -1458,9 +1465,9 @@ AL_Perk_Slayer5Desc,"每次击杀丧尸时获得 [(((ColourEffectGood)))].2[-] �
 
 AL_Perk_Inconspicuous,"隐蔽"
 AL_Perk_InconspicuousDesc,"通过敏锐的观察和练习，可以抑制在敌人面前的身体反应。通过控制呼吸和保持静止，你将消失不见。"
-AL_Perk_Inconspicuous1Desc,"保持静止 [(((ColourEffectGood)))]30 秒[-] 后，你的隐蔽逐渐提升，在再过 [(((ColourEffectGood)))]60 秒[-] 后达到隐身状态。任何移动都会取消该效果。"
-AL_Perk_Inconspicuous2Desc,"初始计时减少至 [(((ColourEffectGood)))]20 秒[-]，之后在 [(((ColourModded)))]30 秒[-] 内达到隐身状态。"
-AL_Perk_Inconspicuous3Desc,"初始计时减少至 [(((ColourEffectGood)))]10 秒[-]，之后在 [(((ColourModded)))]15 秒[-] 内达到隐身状态。"
+AL_Perk_Inconspicuous1Desc,"蹲下并保持静止不动  [(((ColourEffectGood)))]60 秒[-] 后获得隐身效果。"
+AL_Perk_Inconspicuous2Desc,"蹲下并保持静止不动  [(((ColourEffectGood)))]45 秒[-] 后获得隐身效果。"
+AL_Perk_Inconspicuous3Desc,"蹲下并保持静止不动  [(((ColourEffectGood)))]30 秒[-] 后获得隐身效果。"
 
 AL_Perk_Shiv,"蝴蝶刀法"
 AL_Perk_ShivDesc,"让我这么说吧，你已经掌握了使敌人快速流血的方法。"
@@ -1548,6 +1555,7 @@ AL_ActionSkill_Tracking,"追踪"
 AL_ActionSkill_ThrownWeapons,"投掷武器"
 AL_ActionSkill_Salvage,"拆解"
 AL_ActionSkill_Stealth,"潜行"
+AL_ActionSkill_Pacifism,"和平主义"
 # }}}
 
 # Action Skill Descriptions {{{
@@ -2094,6 +2102,14 @@ gunBowT1WoodenBowDesc,"适合狩猎和杀死丧尸。如果你急需的话，也
 modMeleeSerratedBladeDesc,"有10%的几率造成24点伤害。"
 modMeleeClubBarbedWireDesc,"有20%的几率造成24点伤害。40%的几率触发连续攻击。"
 drinkJarGrandpasAwesomeSauceDesc,"保证让你感觉超棒！"
+
+perkTechJunkie5RepulsorDesc,"废料炮塔 +10 可激活范围。"
+perkTechJunkie5RepulsorLongDesc,"废料炮塔 +10 可激活范围。"
+
+perkTechJunkie6BatonChargeDesc,"废料炮塔 +1 可激活数量。"
+perkTechJunkie6BatonChargeLongDesc,"废料炮塔 +1  可激活数量。"
+
+resourceClayLumpDesc,"黏土是一种重要资源，几乎可以在所有生态地区的土壤中采集。"
 # }}}
 
 # Buffs {{{
@@ -2590,6 +2606,7 @@ Count,"数量"
 
 # Custom Passive Effects
 WeightCapacity,"负重容量"
+CombatStressMultiplier,"战斗压力倍数"
 # }}}
 
 # Block Placeholders {{{
@@ -2653,6 +2670,7 @@ AL_LK_Yourself,你自己
 # }}}
 
 # UI Display {{{
+AL_LK_PreventsExperienceGain,"[ffff00]阻止获得经验值[-]"
 AL_UID_TitleKey_RepairDegradation,"维修损耗"
 AL_UID_TitleKey_ZInfectionIncrease,"[a3d900]感染增加[-]"
 AL_UID_TitleKey_Tier,"品质 (0 [(((ColourGrey)))]|[-][806040]|[-][804000]|[-][c06000]|[-][ff8000]|[-][ffc000]|[-][ffff00]|[-][80ff00]|[-][00ff00]|[-][00ff80]|[-][00ffff]|[-][0080ff]|[-][0000ff]|[-][4000ff]|[-][8000ff]|[-][c000ff]|[-][ff00ff]|[-][ff0090]|[-][ff0019]|[-] 65535)"
@@ -3121,6 +3139,7 @@ AL_LK_QuantityStorage_Fuel,"[(((ColourFuel)))]Fuel[-]"
 AL_LK_QuantityStorage_Beer,"[(((ColourAlcohol)))]啤酒[-]"
 AL_LK_QuantityStorage_DarkDaysLager,"[(((ColourAlcohol)))]黑暗时光拉格啤酒[-]"
 AL_LK_QuantityStorage_Shiraz,"[(((ColourRedWine)))]西拉葡萄酒[-]"
+AL_LK_QuantityStorage_Moscato,"[(((ColourWhiteWine)))]莫斯卡托白葡萄酒[-]"
 AL_LK_QuantityStorage_Coffee,"[(((ColourCoffee)))]咖啡[-]"
 AL_LK_QuantityStorage_MineralWater,"[(((ColourMineralWater)))]矿泉水[-]"
 AL_LK_QuantityStorage_BlackStrapCoffee,"[(((ColourBlackstrap)))]黑带咖啡[-]"
@@ -3134,10 +3153,11 @@ AL_LK_QuantityStorage_Trinkermeister,"[(((ColourModded)))]烈酒大师[-]"
 AL_LK_QuantityStorage_Vodka,"[(((ColourModded)))]伏特加[-]"
 AL_LK_QuantityStorage_Moonshine,"[(((ColourModded)))]私酿酒[-]"
 AL_LK_QuantityStorage_SyphiaSyrup,"[(((ColourModded)))]索菲亚汽水[-]"
-AL_LK_QuantityStorage_ColdCoffee,"[(((ColourModded)))]功夫咖啡[-]"
+AL_LK_QuantityStorage_ColdCoffee,"[(((ColourCoffee)))]功夫咖啡[-]"
 AL_LK_QuantityStorage_AwesomeSauce,"[(((ColourModded)))]祖父的美味酱[-]"
 AL_LK_QuantityStorage_LearningElixir,"[(((ColourModded)))]祖父的学习妙药[-]"
 AL_LK_QuantityStorage_ForgettingElixir,"[(((ColourModded)))]祖父的遗忘妙药[-]"
+AL_LK_QuantityStorage_Acid,"[(((ColourAcid)))]酸[-]"
 
 AL_LK_QuantityStorage_ContainerBlockFull,"[bbbbbb]已满。[-]"
 AL_LK_QuantityStorage_VehicleFuelFull,"[bbbbbb]已满。[-]"
@@ -3275,8 +3295,8 @@ AL_LK_StaminaRegenRunning,"跑步时体力恢复"
 AL_LK_FinessePenalty,"灵巧惩罚"
 AL_LK_PrimitiveArmour,"原始护甲"
 AL_LK_Bicycle,"自行车"
-AL_LK_VitalityChangeUnscaled,"[(((ColourVitality)))]未矫正的活力值变化[-]:"
-AL_LK_Unscaled,"未矫正"
+AL_LK_VitalityChangeUnscaled,"[(((ColourVitality)))]未修正的活力值变化[-]:"
+AL_LK_Unscaled,"未修正"
 AL_LK_VitalityChangeOT,"每秒活力值"
 AL_LK_VitalityPerHour,"[(((ColourVitality)))]每小时活力值[-]"
 AL_LK_HealthRegen,"[(((ColourLightCoral)))]生命值回复[-]"
@@ -3309,6 +3329,8 @@ fbPerformance,"性能"
 fbScreenEffects,"屏幕效果"
 fbInfection,"感染（50%以上）"
 fbInfectionTT,"切换首次感染的屏幕效果。此效果会显著且未知原因的增加GPU负载。"
+fbAmplifyColorEffect,"颜色效果增强"
+fbAmplifyColorEffectTT,"切换整体颜色效果，主要表现为颜色的饱和度略微增加。"
 
 BoxTruck,--------------------------------------------------------------------
 vehicleBoxTruckbody,"厢式货车车身"
@@ -3397,9 +3419,9 @@ IZYgunT3DMRSR110a2,SR-110 A2 狙击步枪
 IZYgunT4DMRM21SOCOM,M21-SOCOM 狙击步枪
 
 # 5.56
-IZYammo556mmBulletBall,5.56 子弹
-IZYammo556mmArmorpiercing,5.56 穿甲弹
-IZYammo556mmHighPower,5.56 空心弹
+IZYammo556mmBulletBall,5.56毫米子弹
+IZYammo556mmArmorpiercing,5.56毫米穿甲弹
+IZYammo556mmHighPower,5.56毫米空心弹
 IZYgunT1assaultrifleTacticalCarbineCAR15,CAR-15 XM-177 突击步枪
 IZYgunT2assaultrifleTacticalCarbineM4C,M4Ca2 突击步枪
 IZYgunT3assaultrifleTacticalCarbineSOCmk1,SOC mark.1 突击步枪
@@ -3456,3 +3478,4 @@ Concrete,"[(((ColourGrey)))]混凝土[-]"
 Steel,"[(((ColourWoodNailed)))]钢铁[-]"
 Inconel,"[(((ColourInconel)))]镍合金[-]"
 AL_EC_BlueberryBastard,"拟态丧尸"
+meleeWpnBatonT2StunBatonDesc,滋滋~滋滋！全力一擊！\n\n特殊武器，无法修理。

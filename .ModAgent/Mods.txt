@@ -34,5 +34,6 @@ DayZSounds
 Torch
 Afterlife
 Afterlife_IzayoGunTweaks
+WalkerSim
 AfterlifeRussianLocalization
 ZZZZ_CHS_LANG_Afterlife
