@@ -6,9 +6,6 @@
 	<!-- 物品 说明 -->
 	<setattribute xpath="/windows/window[@name='itemInfoPanel']/rect/rect[@name='contentInfo']/rect[@name='description']/rect/label[@name='descriptionText']" name="spacing_y">6</setattribute>
 
-
-
-
 	<!-- 技能界面 -->
 	<!-- 属性 -->
 	<setattribute xpath="/windows/window[@name='progressionWindow']/rect[@name='tabs']/rect[@name='tabsContents']/rect/rect[@name='attributesPanel']/label[@name='attributeDesc']" name="spacing_y">5</setattribute>
@@ -24,14 +21,15 @@
 	<setattribute xpath="/windows/window[@name='progressionWindow']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@name='perkBooksView']/rect[@name='detailsPane']/rect[@name='content']/grid[@name='levels']/rect/label[@name='levelDesc']" name="pos">50,-8</setattribute>
 
 	<!-- 制作 -->
-	<setattribute xpath="/windows/window[@name='progressionWindow']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@name='perksTabView']/rect[@name='mainPane']/rect[@name='perksScrollingArea']" name="spacing_y">5</setattribute>
+	<setattribute xpath="/windows/window[@name='progressionWindow']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@name='craftingTabView']/rect[@name='detailsPane']/label[@name='desc']" name="spacing_y">5</setattribute>
 
 	<!-- 特性 -->
+	<setattribute xpath="/windows/window[@name='progressionWindow']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@name='perksTabView']/rect[@name='mainPane']/rect[@name='perksScrollingArea']" name="spacing_y">5</setattribute>
 	<setattribute xpath="/windows/window[@name='progressionWindow']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@name='perksTabView']/rect[@name='detailsPane']/rect[@name='content']/label[@name='desc']" name="font_size">22</setattribute>
 	<setattribute xpath="/windows/window[@name='progressionWindow']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@name='perksTabView']/rect[@name='detailsPane']/rect[@name='content']/label[@name='desc']" name="spacing_y">5</setattribute>
 
-
-
-
-
+	<!-- 罗盘 -->
+	<!-- 本地化bugfix：中文天数和罗盘重叠 -->
+	<setattribute xpath="/windows/window[@name='windowCompass']/rect[@name='widget']//label" name="font_size">22</setattribute>
+	<setattribute xpath="/windows/window[@name='windowCompass']/rect[@name='widget']/label[2]" name="text">{daytitle}{day}</setattribute>
 </CATUI>

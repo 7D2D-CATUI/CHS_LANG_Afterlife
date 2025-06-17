@@ -15,4 +15,8 @@
 
 	<setattribute xpath="//forge_material/rect/label[@name='material']" name="pos">0,-3</setattribute>
 	<setattribute xpath="//forge_material/rect/label[@name='material']" name="font_size">14</setattribute>
+
+	<!-- 技能书 -->
+	<setattribute xpath="//al_perkbook_entry/rect/label[@name='bookLabel']" name="pos">${width / 2},-${height - 6}</setattribute>
+
 </CATUI>

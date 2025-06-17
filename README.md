@@ -1,12 +1,15 @@
 # CHS_LANG_Afterlife
+
 Afterlife Chinese Language 《劫后余生》中文汉化
 
-## 《Afterlife（劫后余生）》 
+## 《Afterlife（劫后余生）》
 
 ### 下载
-- 《Afterlife》: https://redbeardt@dev.azure.com/redbeardt/Afterlife/_git/AfterlifeV1
+
+- 《Afterlife》: <https://dev.azure.com/redbeardt/Afterlife/_git/AfterlifeV1>
 
 ### 《Afterlife》介绍
+
 Afterlife（劫后余生） 设计为一个沉浸式、硬核的生存重制模组，支持并优化了多人合作模式。
 
 以下是一些（非全部）模组特性列表：
@@ -41,8 +44,11 @@ Afterlife（劫后余生） 设计为一个沉浸式、硬核的生存重制模�
 请查看游戏内的致谢部分，了解哪些模组作者和艺术家让这个模组面世。
 
 ## Discord
-https://discord.gg/2cfHGJQhBR
+
+<https://discord.gg/2cfHGJQhBR>
 
 ## 中文汉化
+
+- NexusMods：<https://www.nexusmods.com/7daystodie/mods/6174>
 - QQ群：17258469
 - 作者：大猫
