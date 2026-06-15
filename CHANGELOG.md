@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### 2025/10/22 2.18 Update
+
+- `新增` 支持到Afterlife 2.18 版本（7DTD 1.4）；
+
 ### 2025/05/08 2.17.8.2 Update
 
 - `新增` .ModAgent白名单新增Afterlife_Hotfix_v1热修补丁支持；

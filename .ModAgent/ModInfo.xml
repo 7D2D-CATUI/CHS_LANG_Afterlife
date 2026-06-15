@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModInfo>
+	<Name value="ModAgent"/>
+	<DisplayName value="ModAgent"/>
+	<Description value="Manages mod whitelist and load order."/>
+	<Author value="redbeardt"/>
+	<Version value="0.1.0.0"/>
+	<Website value="https://discord.gg/2cfHGJQhBR"/>
+</ModInfo>

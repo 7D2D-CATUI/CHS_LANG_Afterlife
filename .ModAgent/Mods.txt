@@ -10,6 +10,7 @@ ServerTools
 Gears
 Quartz
 BoxTruck
+LittleRedSonja_Tractor
 Alter_Soundoverride
 CustomParticleLoader
 IZY_FPV_GLOVES
@@ -43,11 +44,9 @@ AfterlifeRussianLocalization
 Dyable
 WalkerSim
 AttachParticleEffectToEntityFix
-LittleRedSonja_Tractor
 Upscaling
 MPLogue_Prefabs_7D2D_V1_0
 VoltraLuxPOIPack
 7DaysSuperResolution
 VehicleFPVCamera
-Afterlife_Hotfix_v1
 ZZZZ_CHS_LANG_Afterlife
